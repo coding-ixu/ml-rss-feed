@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:mlrss="urn:ml-rss-automation" version="2.0">
+  <channel>
+    <title>Curated ML and RSS Digest</title>
+    <link>https://coding-ixu.github.io/ml-rss-feed/</link>
+    <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
+    <language>ja</language>
+    <generator>Claude Code Routine + ml-rss-automation</generator>
+    <lastBuildDate>Thu, 28 May 2026 13:54:06 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-05-24</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-24</link>
+      <guid isPermaLink="false">sha256:afafc3da62da4790c7b72e3713aa379c4caf205801088c871711ef0e8a472d16</guid>
+      <pubDate>Sun, 24 May 2026 08:00:00 +0900</pubDate>
+      <category>Other</category>
+      <description>2026-05-24 のニュース 1件（Gmail 1件 / RSS 0件）
+
+[Other]
+  📨 MIT Technology Review：軍用ARヘッドセットの最新詳細
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-24</description>
+      <mlrss:target-date>2026-05-24</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:b6338c4686e8d79a79269276cf6acedfdc498b7b93d996d7726d0aa4e037dee5" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>MIT Technology Review：軍用ARヘッドセットの最新詳細</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b6338c4686e8d79a</mlrss:link>
+          <mlrss:summary>MIT Technology Review Week in Review。軍事用拡張現実ヘッドセットの新しい詳細を報じる。同号はGoogleの今週のイベント、Colossal Biosciencesの動物再生プログラムなど、防衛・バイオ・AIの境界領域を横断する話題が並ぶ。</mlrss:summary>
+          <mlrss:pub-date>2026-05-24T12:01:50+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
+    <item>
+      <title>ML &amp; RSS Digest 2026-05-23</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-23</link>
+      <guid isPermaLink="false">sha256:22d745eb80cefed6189678f0028484757633da93702eaeccec3b39afbd255d7f</guid>
+      <pubDate>Sat, 23 May 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <category>Other</category>
+      <description>2026-05-23 のニュース 2件（Gmail 2件 / RSS 0件）
+
+[Engineering]
+  📨 Prompt Engineering for Agentic AI（Machine Learning Mastery）
+
+[Other]
+  📨 Substack The Weekender：チャットボットとアニミズム、登場人物に憧れる読み手
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-23</description>
+      <mlrss:target-date>2026-05-23</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:41df9a72751aa2a1f0aa0f70e9678a12a03e5c0908068ada7226363a85b05d04" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>Substack The Weekender：チャットボットとアニミズム、登場人物に憧れる読み手</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-41df9a72751aa2a1</mlrss:link>
+          <mlrss:summary>Substack The Weekender特別号（Mo Diggsキュレーション）。チャットボットを擬人化する現代の「アニミズム」、スーパーマーケットに現れる聖愚者像、映画スターの緩やかな消滅などをテーマにしたエッセイ集。AIとの距離感を文化・物語の側から読み解く視点を提供。</mlrss:summary>
+          <mlrss:pub-date>2026-05-23T13:03:16+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f239f337bbd42f3c82e146a9b1f4b1be883b909d00bb9968bf7a147cdde0edb9" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Prompt Engineering for Agentic AI（Machine Learning Mastery）</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f239f337bbd42f3c</mlrss:link>
+          <mlrss:summary>Machine Learning Masteryの新ガイド。AIエージェント構築に用いるツールとワークフローを整理する内容。プロンプト設計、コンテキスト管理、エージェント間プロトコルを含み、決定論的な振る舞いを引き出すためのテクニックがまとまっている。実装初心者から中級者向けの実用記事として案内されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T20:43:22+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
+    <item>
+      <title>ML &amp; RSS Digest 2026-05-22</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-22</link>
+      <guid isPermaLink="false">sha256:ea763f26d797c4b21076aa992e0a2710b66622a2ffda7327ed48f3179790847d</guid>
+      <pubDate>Fri, 22 May 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-05-22 のニュース 7件（Gmail 7件 / RSS 0件）
+
+[AI]
+  📨 OpenAI Codex が数日連続でタスク継続可能に、Qwenは35時間ラン
+
+[Engineering]
+  📨 Forward Deployed Engineer 需要急増、AI企業の採用モデルが分岐
+
+[Product]
+  📨 GoogleがAI生成広告を実験、Chrome DevToolsにエージェント向け機能
+
+[Regulation]
+  📨 中国と米国がAI対話を開始、中国側専門家は慎重ながら楽観
+
+[Research]
+  📨 The Batch：Hermes対OpenClaw、エージェントは人間業務を担えるか
+
+[Security]
+  📨 GitHub大規模サプライチェーン攻撃：Megalodonが6時間で5,718件、TeamPCPは3,800リポジトリへ侵入
+  📨 Runtime Securityとエージェント向けポリシー：クラウド防御の新定型
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-22</description>
+      <mlrss:target-date>2026-05-22</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:bae9a90efe2f822492c7564dbb7422faa9e3589df307faa9844a6b72272ed517" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>GitHub大規模サプライチェーン攻撃：Megalodonが6時間で5,718件、TeamPCPは3,800リポジトリへ侵入</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-bae9a90efe2f8224</mlrss:link>
+          <mlrss:summary>TLDR Information Security。自動化キャンペーンMegalodonが6時間で5,561リポジトリへGitHub Actions経由のmaliciousコミット5,718件を注入した。別件のTeamPCPはVS Code拡張機能の汚染で従業員端末を侵害し、内部リポジトリ約3,800へのアクセスを主張。CanaryHunterによるトークンスキャン、Kimwolf関係者の逮捕も同号で報告。OSS開発インフラの信頼境界が継続して試されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T13:12:35+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8318f736c4dc6f6175ba2e605532517c00ee0f174b3449d416bb559a16a9d5a0" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Forward Deployed Engineer 需要急増、AI企業の採用モデルが分岐</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8318f736c4dc6f61</mlrss:link>
+          <mlrss:summary>TLDRが2号連続で特集。FDE（Forward Deployed Engineer）は顧客現場でAIプロダクトを統合できる高スキル人材で、現在テックで最も需要が高いロールとされる。OpenAIやAnthropicは社外への展開を含む採用を強化する一方、Googleは社内人材で対応。GTM/採用と顧客側の導入支援が結びついた職種が標準化しつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T12:15:25+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:50fceb752bb3f0cf1750873ee3bffa0abf288883b8b9263ea0e253b8805c5ca8" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>Runtime Securityとエージェント向けポリシー：クラウド防御の新定型</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-50fceb752bb3f0cf</mlrss:link>
+          <mlrss:summary>TLDR Information Security。ランタイムセキュリティはワークロードの実挙動を捕捉し、能動的なリスク特定に有効な高精度防御データを生む技術として注目される。同号はAWS CLI創設者の話題、AIエージェント向けポリシー議論も収載。AI/エージェントが自律実行する時代のガードレール議論が業界横断で進行中。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T11:11:24+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:94a267e8607873e49aa28f9336a302a75a8af76f14847975a5d9224bd886c1d2" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>GoogleがAI生成広告を実験、Chrome DevToolsにエージェント向け機能</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-94a267e8607873e4</mlrss:link>
+          <mlrss:summary>TLDR。Googleは標準検索とAIモードの双方で、AI生成広告フォーマットの実験を開始。並行してChrome DevToolsにエージェントが扱いやすいAPI拡張が追加される動き。AI主体のWeb体験で、広告・検索結果・自動化ブラウザ操作の境界が変化していく兆候として報じられている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T10:32:34+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:61a0da220c7ad47a086d5116d6e6999a50b31251f5649314258f2c56fd079089" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>中国と米国がAI対話を開始、中国側専門家は慎重ながら楽観</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-61a0da220c7ad47a</mlrss:link>
+          <mlrss:summary>AI Safety Chinaの分析記事。米中政府間のAI対話チャネルが立ち上がり、中国側専門家は内容に慎重な楽観を示す。何が合意され何が未解決かを、中国側の論調を踏まえて整理。地政学的AI規制の文脈で、次に注視すべきトピックも示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T10:20:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5a82a6c26518f8cbd7167cb06338328fc48dc0b51b4a95096ce63d560c23dd37" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>OpenAI Codex が数日連続でタスク継続可能に、Qwenは35時間ラン</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5a82a6c26518f8cb</mlrss:link>
+          <mlrss:summary>genai.worksとtheneurondailyが報道。新しいChatGPT Codexは、ユーザー介入なしで数日単位のタスク継続実行が可能と説明される。同時期にQwenが35時間連続実行の事例を出した報告もあり、長時間自律実行が新しい評価軸として確立しつつある。ClickUpのAI関連レイオフ、Google Geminiの利用上限緩和も併報。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T09:30:39+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0215d017469514c4560ef0a01dac49474a49aaed4bd1a1ea79c220b5b56a8e44" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>The Batch：Hermes対OpenClaw、エージェントは人間業務を担えるか</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0215d017469514c4</mlrss:link>
+          <mlrss:summary>deeplearning.aiのThe Batch。HermesとOpenClawの比較、サイバーセキュリティ警鐘、対話インターフェース改善、エージェントが人間業務をどこまで代替できるかの考察を特集。Harvard大学がA評価を約20%に制限する話題も収載。教育・研究・産業のAI影響が同時多発する号。</mlrss:summary>
+          <mlrss:pub-date>2026-05-22T03:04:40+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
+  </channel>
+</rss>
