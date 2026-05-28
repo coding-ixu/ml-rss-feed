@@ -6,7 +6,174 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 28 May 2026 13:54:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 14:17:05 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-05-27</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-27</link>
+      <guid isPermaLink="false">sha256:d55c7eee0f14f75dd05959c6643365c8b387ab92253c1008f704939b07a544b6</guid>
+      <pubDate>Wed, 27 May 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Startup</category>
+      <description>2026-05-27 のニュース 20件（Gmail 20件 / RSS 0件）
+
+[AI]
+  📨 Anthropic pays SpaceX ~$1.25B/month for Colossus compute through 2029
+  📨 xAI warns employees to limit contact with Cursor staff pre-acquisition
+  📨 Sam Altman reverses AI jobs apocalypse warning: 'we were pretty wrong'
+  📨 ElevenLabs Music v2: mid-track genre transitions, multilingual, licensed data
+  📨 Google SynthID watermark expands to OpenAI, ElevenLabs, Kakao; 100B+ files
+  📨 Andrej Karpathy joins Anthropic pre-training team
+  📨 Google I/O 2026: Gemini agentic era, Antigravity 2.0, 93 parallel agents
+  📨 Musk loses $150B OpenAI lawsuit in under two hours
+  📨 Meta reassigns 7000 staff to AI orgs, lays off additional 8000
+  📨 NVIDIA Q1 FY27: $81.6B revenue, +85% YoY, Q2 guidance $91B
+  📨 Uber launches AV Lab for self-driving data collection
+
+[Engineering]
+  📨 Dropbox Nova: internal cloud platform for parallel coding agents across engineering
+  📨 Anthropic ships free security plugin for Claude Code; 30-40% fewer PR comments
+
+[Regulation]
+  📨 China extends AI talent travel restrictions to private companies
+  📨 Trump White House postpones AI executive order signing
+
+[Research]
+  📨 OpenAI reasoning model and Claude Mythos both disprove Erdős 80-year conjecture
+  📨 DeepSWE: contamination-free long-horizon software engineering benchmark, 91 repos
+  📨 FDA selects 10 AI-designed drugs for expedited Phase I pilot
+
+[Startup]
+  📨 OpenRouter raises $113M Series B at $1.3B valuation, led by CapitalG
+  📨 Billions bet on post-Google search: Exa Labs $250M, Parallel Web $100M
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-27</description>
+      <mlrss:target-date>2026-05-27</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:9289880b99d2a6f46b19bf31f475def1b101a4ca1e382d53f664d5c66ffa6efb" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>OpenAI reasoning model and Claude Mythos both disprove Erdős 80-year conjecture</mlrss:title>
+          <mlrss:link>https://openai.com/index/model-disproves-discrete-geometry-conjecture</mlrss:link>
+          <mlrss:summary>OpenAIの汎用推論モデルが1946年提唱のPaul Erdős離散幾何学の推測を反証した。フィールズ賞受賞者Tim Gowers氏ら数学者が独立検証し「精巧かつ予想外の手法」と高評価。AnthropicのClaude Mythosも独自の「シンプルな証明」を発見したと報じられており、AIの数学的推論能力が世界最高水準の問題にまで到達したことが示された。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9b5ac6b00e061279e2b7e293388dfb4508c1c0282397fc9b88370935a92b9ab0" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Anthropic pays SpaceX ~$1.25B/month for Colossus compute through 2029</mlrss:title>
+          <mlrss:link>https://davefriedman.substack.com/p/spacex-has-two-ai-compute-stories</mlrss:link>
+          <mlrss:summary>SpaceXのS-1提出書類によりAnthropicとの大型AIコンピュート契約の詳細が明らかになった。AnthropicはSpaceXのColossus・Colossus IIデータセンターを2029年5月まで月額約12.5億ドル（総額約450億ドル）で利用する契約を締結。SpaceXは地上データセンターに加え将来的な軌道上AI推論衛星という2つのコンピュート戦略を持つと報告されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:98526a36762776834b6e9c5f2f237cce378eaddf47fb32a2d2353f233c6a6409" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>xAI warns employees to limit contact with Cursor staff pre-acquisition</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-98526a3676277683</mlrss:link>
+          <mlrss:summary>xAIの顧問弁護士がxAI従業員に対し、Cursorのスタッフとのやり取りを技術的に必要な範囲のみに限定するよう通達した。買収協議中の標準的な予防措置とされるが、両チームが既に緊密な協力関係を築いた後の対応となった。xAIとCursorの買収交渉が進展していることを示唆するニュースとして受け止められている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:bfaa23a4cb64e70086933b52bd6f59a853ac56760e9d97a481d07d2318e33c71" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>China extends AI talent travel restrictions to private companies</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-bfaa23a4cb64e700</mlrss:link>
+          <mlrss:summary>中国政府が民間AI企業の創業者・主要研究者・上級幹部に対する海外渡航の政府事前承認制度を拡大した。これまで国営機関に限定されていたポリシーが民間企業にも適用されることになり、AI分野の優秀な人材の国外流出を防ぐ狙いとされる。AI覇権を巡る中国の人材囲い込み戦略が強化されつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f97843ef04746b96723fe88ed0af06dd65ed325fba681ef0268c973ec769379c" source-type="gmail" category="Startup" anchor="false">
+          <mlrss:title>OpenRouter raises $113M Series B at $1.3B valuation, led by CapitalG</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/</mlrss:link>
+          <mlrss:summary>AIゲートウェイのOpenRouterがCapitalG主導のシリーズBで1.13億ドルを調達し、評価額が1年で2倍以上の13億ドルに達した。400以上のAIモデルを統合し月間100兆トークンを処理するプラットフォームとして急成長。企業のマルチモデル戦略採用が加速する中、モデルルーティング・統合市場への注目度が高まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:27e0c0fd25549d21d6ed29e04e2ba45a8eefd61d98af71047d53ffd6c49f4533" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>DeepSWE: contamination-free long-horizon software engineering benchmark, 91 repos</mlrss:title>
+          <mlrss:link>https://deepswe.datacurve.ai/blog</mlrss:link>
+          <mlrss:summary>新しいソフトウェアエンジニアリングベンチマーク「DeepSWE」が公開された。5言語・91リポジトリをカバーし学習データ汚染を防ぐ設計で、SWE-Benchよりもコーディングエージェント間の能力差を精緻に評価できる。長期的・複雑なソフトウェアタスクへのAI対応能力を客観的に測定するための重要な評価基盤として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T13:27:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6df829f77c3b9c6f05b7d1fc1d5b25778b801eb359ce8c3feca89aa911a5e4f6" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Dropbox Nova: internal cloud platform for parallel coding agents across engineering</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6df829f77c3b9c6f</mlrss:link>
+          <mlrss:summary>Dropboxがコーディングエージェントをエンジニアリングワークフロー全体で並列実行するための社内クラウドプラットフォーム「Nova」を構築した。エンジニアが複数のエージェントを同時に走らせ、コードベース横断の複雑なタスクを処理できる仕組みを提供。AIを活用した開発自動化の大規模実践事例として業界から注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T11:31:23+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:24e393f2493d9f06960c55c11ed3904d900398ffeb2a3d743991e247562d41ef" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Anthropic ships free security plugin for Claude Code; 30-40% fewer PR comments</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-24e393f2493d9f06</mlrss:link>
+          <mlrss:summary>AnthropicがClaude Code向けに無料のセキュリティガイダンスプラグインを公開。ファイル編集時パターンマッチ・ターン終了時差分レビュー・コミット時深部チェックという3段階のセキュリティ検査を別Claudeインスタンスで実施し、社内実験ではPRへのセキュリティ指摘が30〜40%減少したと報告。チームがカスタムルールを追加できる拡張性も備えている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T10:04:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3608b9f007ba5f96e0c835494db30a2b9c49585408152f78de715b68a3ce3000" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Sam Altman reverses AI jobs apocalypse warning: 'we were pretty wrong'</mlrss:title>
+          <mlrss:link>https://www.reuters.com/world/asia-pacific/openais-altman-says-ai-unlikely-lead-jobs-apocalypse-2026-05-26/</mlrss:link>
+          <mlrss:summary>OpenAI CEOのSam AltmanがシドニーのCBA主催カンファレンスで、ChatGPT発表当初の「AIが雇用崩壊をもたらす」という経済予測は「かなり間違っていた」と発言し事実上の撤回をした。自身もSlack・メール対応をAIに委任する実験を試みたが中止したと述べた。AIの雇用・経済への影響に関する主要なAI企業幹部の見方が変化しつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-05-27T10:04:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:94314dd9cf586ba2bdb0a70caee4678c8ee2c94bcd7299350698e0202f1a26c5" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>ElevenLabs Music v2: mid-track genre transitions, multilingual, licensed data</mlrss:title>
+          <mlrss:link>https://elevenlabs.io/music</mlrss:link>
+          <mlrss:summary>ElevenLabsがAI音楽生成サービスMusic v2をリリース。楽曲途中でのジャンル遷移、高精度インペインティング、多言語サポートが追加され、ボーカル・楽器・アレンジの品質が全般的に向上した。ライセンス取得済みデータでトレーニングされており商用利用が可能。AI生成音楽の実用水準が着実に高まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T21:04:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:78fc8f93aec9d81d6a436b8989c305e88440e3b90d28b5cbf09a94dbd198fe3d" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>Trump White House postpones AI executive order signing</mlrss:title>
+          <mlrss:link>https://www.politico.com/news/2026/05/21/white-house-postpones-ai-executive-order-signing-00931904</mlrss:link>
+          <mlrss:summary>トランプ政権がフロンティアAIモデルへの任意の90日間連邦審査を含む内容のAI大統領令署名を延期した。大統領が米国のAI競争力、特に中国に対する優位性を損なうとの懸念から取りやめたとされる。今後の米国AI規制方針に不確実性が生じており、業界は法制化の動向を注視している。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T21:04:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:41cdaa5c640feef0225bfa190bd6af5c366013cd364f4502a94dd9d1b17ac2e7" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Google SynthID watermark expands to OpenAI, ElevenLabs, Kakao; 100B+ files</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-41cdaa5c640feef0</mlrss:link>
+          <mlrss:summary>Google DeepMindのAI生成コンテンツ識別技術SynthIDがOpenAI・ElevenLabs・Kakaoのプラットフォームに拡大。ChatGPT・Codex・API生成画像にも不可視の電子透かしが付与されるようになり、すでに1000億以上のファイルに同技術が適用されている。AI生成コンテンツの検出・帰属を可能にするインフラ整備が業界横断で進んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T21:04:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b253e750a12da850e075bc09df42b1cd97a48487d51442e5dfd9548c96f9bc45" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>FDA selects 10 AI-designed drugs for expedited Phase I pilot</mlrss:title>
+          <mlrss:link>https://intuitionlabs.ai/articles/fda-accelerated-ai-pathway-pilot-phase-1</mlrss:link>
+          <mlrss:summary>FDAがAIで設計された候補薬物10件を優先審査パイロットプログラムに選定した。現在200以上のAI設計薬物が臨床試験に進んでいるがFDA承認実績はまだゼロで、このパイロットにより初期審査フェーズの加速が期待される。AI活用による創薬プロセスの規制枠組み整備が前進し、実用化への重要な一歩となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T21:04:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:234a28a0eef03285d863573942491a64000d19ee7867efe034983be18b42a584" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Andrej Karpathy joins Anthropic pre-training team</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-234a28a0eef03285</mlrss:link>
+          <mlrss:summary>AI研究の第一人者Andrej Karpathy氏がAnthropicのプレトレーニングチームに加入すると発表された。OpenAIの共同創業者でTesla元AI部門長として知られる同氏は、Claudeを活用してプレトレーニング研究を加速する新たな取り組みを主導する予定。大手AIラボ間の人材獲得競争が一層激化していることを示す動向として業界から広く注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:36:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9fb732b13d4b81479bbaa19ed2ab9f5936c4c48457fa55f338fa26b3220a8406" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Google I/O 2026: Gemini agentic era, Antigravity 2.0, 93 parallel agents</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9fb732b13d4b8147</mlrss:link>
+          <mlrss:summary>GoogleがI/O 2026でGemini 3.5 Flashを新デフォルトモデルとして導入し「エージェント的Gemini時代」の開幕を宣言。24時間稼働のパーソナルAIエージェント「Gemini Spark」も発表。Antigravity 2.0デモでは93の並列サブエージェントが12時間で機能するOSを構築し話題を呼んだ。DeepMindのDemis Hassabis CEOは「AIは特異点の麓に立っている」と述べた。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:36:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4d18e23173002eb3cef6f8bc0238880a4a3c16edbdfc6ea42cd270f048a76272" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Musk loses $150B OpenAI lawsuit in under two hours</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4d18e23173002eb3</mlrss:link>
+          <mlrss:summary>オークランドの連邦陪審員がElon MuskによるOpenAIとSam Altman CEOへの総額150億ドルの訴訟を審議わずか2時間未満で棄却した。OpenAIの非営利から営利移行に不正があるとのMusk側の主張は退けられ、OpenAI IPOへの大きな法的障壁が取り除かれる結果となった。AI業界をめぐる法廷闘争に一つの節目を迎えた。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:36:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:662830cd9e58e36e7d067e3e0849e56c403fcac2dc7e5b881f5e05a8f2bd2113" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Meta reassigns 7000 staff to AI orgs, lays off additional 8000</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-662830cd9e58e36e</mlrss:link>
+          <mlrss:summary>MetaがAI組織への7000人の再配置と約8000人（全従業員の約10%）の追加レイオフを発表。Q1売上高が過去最高の563億ドルを記録したにもかかわらず、AI戦略への集中を加速するための大規模な組織再編を断行した。ビッグテック各社によるAI中心の組織転換が相次いでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:36:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:90db940444b6882538872e5ae8ba5f47346c5574ca44a22ae74fc87ed8faf0aa" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>NVIDIA Q1 FY27: $81.6B revenue, +85% YoY, Q2 guidance $91B</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-90db940444b68825</mlrss:link>
+          <mlrss:summary>NVIDIAのFY27 Q1決算は売上高813億ドル（前年比+85%）を達成し、うちデータセンター売上は752億ドルと全体の92%を占めた。Q2売上ガイダンスは910億ドルと引き続き強気の見通しを示しており、AI向けGPU需要の旺盛さが持続している。AI計算インフラへの世界的な投資拡大が業績に直結している。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:36:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:29db4e0cccd78838b8b49c3edd8575247862c6c29823e6ef83b605e0b04af78f" source-type="gmail" category="Startup" anchor="false">
+          <mlrss:title>Billions bet on post-Google search: Exa Labs $250M, Parallel Web $100M</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/05/20/ai-search-startups-are-blowing-up/</mlrss:link>
+          <mlrss:summary>Google I/OでのSearch UI刷新発表を契機にAIサーチスタートアップへの投資が急増。a16z出資のExa Labsが25億ドル評価額で2.5億ドル、元Twitter CEOのParag Agrawal氏率いるParallel Web Systemsがセコイア主導で20億ドル評価額の1億ドルを調達。Amazon・LinkedIn・Redditも独自のAI検索構築を本格化させており、検索市場の地殻変動が加速している。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:25:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3b9fb72acc2c0d80ad2936987fdb73ff3340553349f4beefc147fa6dab4a78f4" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Uber launches AV Lab for self-driving data collection</mlrss:title>
+          <mlrss:link>https://www.theverge.com/news/935204/uber-av-lab-self-driving-data-collection</mlrss:link>
+          <mlrss:summary>Uberがセンサー搭載車両によるデータ収集事業「AV Lab」を正式開始。カメラ・LiDAR・レーダーを搭載した車両をライドシェアネットワークで運用し、Wayve・WeRide・Nuro・Waabiなどのロボタクシーパートナーに走行データを無償提供する。年内に月200万マイルの収集を目標とし、自動運転開発エコシステムの強化を図る。</mlrss:summary>
+          <mlrss:pub-date>2026-05-26T16:25:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-05-24</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-24</link>
