@@ -6,7 +6,237 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Sat, 30 May 2026 22:14:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 22:10:39 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-05-31</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-31</link>
+      <guid isPermaLink="false">sha256:aeea74a37f5b0abacbdeb88a365527966216f44cd8c35bdfe871cc6f365beafe</guid>
+      <pubDate>Sun, 31 May 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-05-31 のニュース 29件（Gmail 9件 / RSS 20件）
+
+[AI]
+  📨 AI雇用影響の現実：データが示す意外な真実
+  📨 Amazonが社内AIトークン使用量ランキングを廃止、「トークンマックス」を禁止
+
+[Engineering]
+  📰 US healthcare still stupidly expensive, with pathetic outcomes, study finds
+  📰 New solar desalination breakthrough makes fresh water without toxic brine
+  📰 ChatGPT for Google Sheets Exfiltrates Workbooks
+  📰 'Backrooms' Stuns with $81M Debut
+  📰 Codex just found a "workaround" of not having sudo on my PC
+  📰 Show HN: Streambed – Stream Postgres to Iceberg on S3, Supports Postgres Wire
+  📰 Deflock hits 100k ALPRs Mapped in USA
+  📰 Meta launches Instagram, Facebook, and WhatsApp subscriptions
+  📰 The Speed of Prototyping in the Age of AI
+  📰 Creatine raises brain energy levels and slows cognitive decline: study
+  📰 Odysseus – self-hosted AI workspace
+  📰 Daily pill can double survival time for deadliest cancer, trial shows
+  📰 1-Bit Bonsai Image 4B Image Generation for Local Devices
+  📰 Restartable Sequences
+  📰 Cloudflare Turnstile requiring fingerprintable WebGL
+  📰 FROST: Fingerprinting Remotely using OPFS-based SSD Timing [pdf]
+  📰 I put a datacenter GPU in my gaming PC
+  📰 United Airlines 767 returns to Newark after Bluetooth name sparks alert
+  📰 Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
+  📰 Backpressure is all you need
+  📨 自己改善型AIエージェントフレームワーク「SIA」がGitHubで公開
+
+[Product]
+  📨 Anthropic「Code with Claude」が示すコーディングの未来
+  📨 MetaがLimitless買収ベースのAIペンダント型ウェアラブルを開発中
+  📨 MicrosoftがCopilot・Cowork・Autopilotを統合したスーパーアプリを開発中
+  📨 Google、I/O後のユーザー反発でGemini利用制限を緩和
+
+[Research]
+  📨 Google I/Oで示されたAI科学研究の新段階
+
+[Security]
+  📨 AIチャットボットが実在する人物の電話番号を漏洩
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-31</description>
+      <mlrss:target-date>2026-05-31</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:066ddec6f53070cacc9707384b2d096de0113e177af48eec104618400cd820eb" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Google I/Oで示されたAI科学研究の新段階</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-066ddec6f53070ca</mlrss:link>
+          <mlrss:summary>MIT Technology Reviewによると、Google I/OではAI駆動の科学研究が新段階に入ったことが示された。DeepMindのタンパク質構造予測AIがノーベル賞を受賞してから2年、研究者たちは仮説生成・実験設計・データ解析をAIが担う「自律型科学」を目指している。生命科学・素材・気候分野での応用が急加速しており、科学的発見のサイクルそのものが変わりつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:25a8d63a71565e26d9a90fcb90afd630e04a122a404dad90ff58c31d4193b750" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>AI雇用影響の現実：データが示す意外な真実</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-25a8d63a71565e26</mlrss:link>
+          <mlrss:summary>AIによる雇用喪失への「ヒステリー」を実際の労働市場データで検証した記事（MIT Technology Review）。部門や職種によって影響は大きく異なり、誇張されているケースも多い一方、ソフトウェアエンジニアや入門レベルの職種では採用減が現実に起きている。今後さらに顕在化する職種と、逆に需要が増す職種の見極めが求められる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ca616fb173fd9324520697f57fe6d28b61a94211287167e0bb7215a838cc49e9" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Anthropic「Code with Claude」が示すコーディングの未来</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ca616fb173fd9324</mlrss:link>
+          <mlrss:summary>AnthropicがCode with Claudeを公開し、AIへのコーディング委譲が加速している実態をMIT Technology Reviewが解説。Claude Codeなどのツール進化により、開発者が作業の大部分をAIに任せるワークフローが定着しつつある。ソフトウェアの作り方が根本から変わったとされ、ジュニアエンジニアの役割とスキル要件の再定義が急務となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d3acc9d98bec3b5fcd8fbb84a2cbd3fd6a507c2df09d606ff2a207f9f9edac1d" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>AIチャットボットが実在する人物の電話番号を漏洩</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d3acc9d98bec3b5f</mlrss:link>
+          <mlrss:summary>AIチャットボットが実在する人物の個人電話番号を出力してしまう問題が報告されている。学習データに含まれた公人の連絡先情報をモデルがそのまま再現するリスクで、従来のデータ漏洩とは異なる新たなプライバシー侵害の形態として注目されている。各AI企業は対応策の検討を急いでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6e72f030ade5516fa756c59b883336a228fe79d6950cecd0c72b35bca66cf14c" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>US healthcare still stupidly expensive, with pathetic outcomes, study finds</mlrss:title>
+          <mlrss:link>https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/</mlrss:link>
+          <mlrss:summary>Article URL: https://arstechnica.com/health/2026/05/us-healthcare-still-stupidly-expensive-with-pathetic-outcomes-study-finds/ Comments URL: https://news.ycombinator.com/item?id=48349527 Points: 16 # Comments: 9</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T20:41:10+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ceefb232df52808492976d838334a143cfd6b35b5e56002e432630d5ce6bbf13" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>New solar desalination breakthrough makes fresh water without toxic brine</mlrss:title>
+          <mlrss:link>https://www.sciencedaily.com/releases/2026/05/260530053418.htm</mlrss:link>
+          <mlrss:summary>Article URL: https://www.sciencedaily.com/releases/2026/05/260530053418.htm Comments URL: https://news.ycombinator.com/item?id=48349507 Points: 14 # Comments: 1</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T20:38:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ea9c11ad9fb67ad910f530729b149fce120e54180a248a7d058466d733e88acb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>ChatGPT for Google Sheets Exfiltrates Workbooks</mlrss:title>
+          <mlrss:link>https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration</mlrss:link>
+          <mlrss:summary>Article URL: https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration Comments URL: https://news.ycombinator.com/item?id=48349487 Points: 23 # Comments: 0</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T20:35:38+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7a8a8868dc07fc36f163b9c34ea9b09785cad5a9767fd215e78ee3d8c747d032" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>'Backrooms' Stuns with $81M Debut</mlrss:title>
+          <mlrss:link>https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/</mlrss:link>
+          <mlrss:summary>Article URL: https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/ Comments URL: https://news.ycombinator.com/item?id=48348864 Points: 98 # Comments: 13</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T19:27:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2d68a6eda7d9ecafd1cc31af71882cfb4e09d131917d94cff2283080aacbb7fd" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Codex just found a "workaround" of not having sudo on my PC</mlrss:title>
+          <mlrss:link>https://twitter.com/i/status/2060746160558543217</mlrss:link>
+          <mlrss:summary>Article URL: https://twitter.com/i/status/2060746160558543217 Comments URL: https://news.ycombinator.com/item?id=48348578 Points: 249 # Comments: 100</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T18:57:48+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:94739a23b7f94079e90ca76ef4a2cea421528103300cb60216d8f112b2b8c219" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Streambed – Stream Postgres to Iceberg on S3, Supports Postgres Wire</mlrss:title>
+          <mlrss:link>https://github.com/viggy28/streambed</mlrss:link>
+          <mlrss:summary>Article URL: https://github.com/viggy28/streambed Comments URL: https://news.ycombinator.com/item?id=48348429 Points: 38 # Comments: 1</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T18:43:05+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a3e5f101b0c5c3996408077747767b753a4d63b0a45065aa87dc0b9ae8395108" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Deflock hits 100k ALPRs Mapped in USA</mlrss:title>
+          <mlrss:link>https://deflock.org/</mlrss:link>
+          <mlrss:summary>Article URL: https://deflock.org/ Comments URL: https://news.ycombinator.com/item?id=48347370 Points: 124 # Comments: 32</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T17:04:10+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e76883b88a499b1b3034df99326c26a42ef65d2bf95b90177c808cfcbab5593a" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Meta launches Instagram, Facebook, and WhatsApp subscriptions</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/</mlrss:link>
+          <mlrss:summary>Article URL: https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/ Comments URL: https://news.ycombinator.com/item?id=48347354 Points: 74 # Comments: 107</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T17:02:23+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cb151e49a817625f3c30b1eab2c78a2df80548c75740d8b65ab389870fcac5c9" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>The Speed of Prototyping in the Age of AI</mlrss:title>
+          <mlrss:link>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</mlrss:link>
+          <mlrss:summary>Article URL: https://darylcecile.net/notes/speed-of-prototyping-age-of-ai Comments URL: https://news.ycombinator.com/item?id=48347153 Points: 88 # Comments: 51</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T16:37:34+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ba1367cedf117a60654f63ce5e14f64969eaa8cbfa0677d8a3170fe348d55de6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Creatine raises brain energy levels and slows cognitive decline: study</mlrss:title>
+          <mlrss:link>https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/</mlrss:link>
+          <mlrss:summary>Article URL: https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/ Comments URL: https://news.ycombinator.com/item?id=48346947 Points: 398 # Comments: 269</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T16:19:34+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7f23f9809bddb7d190d2aeaa797b9d8b7e3cf9f967624575cb4a516efbc9d659" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Odysseus – self-hosted AI workspace</mlrss:title>
+          <mlrss:link>https://github.com/pewdiepie-archdaemon/odysseus</mlrss:link>
+          <mlrss:summary>Article URL: https://github.com/pewdiepie-archdaemon/odysseus Comments URL: https://news.ycombinator.com/item?id=48346693 Points: 78 # Comments: 47</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T15:50:34+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4aa5820233111a4ec59d1ef1d4f8fb995a3dd66fc1128fd1572924f06db8ba20" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Daily pill can double survival time for deadliest cancer, trial shows</mlrss:title>
+          <mlrss:link>https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial</mlrss:link>
+          <mlrss:summary>Article URL: https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial Comments URL: https://news.ycombinator.com/item?id=48346629 Points: 125 # Comments: 35</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T15:43:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3b20d8ba8e1cb9e8ee531a4c51450c603c02db1dda7af82c9beaf53c83cf35a4" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>1-Bit Bonsai Image 4B Image Generation for Local Devices</mlrss:title>
+          <mlrss:link>https://prismml.com/news/bonsai-image-4b</mlrss:link>
+          <mlrss:summary>Article URL: https://prismml.com/news/bonsai-image-4b Comments URL: https://news.ycombinator.com/item?id=48346257 Points: 235 # Comments: 82</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T15:04:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d08699a0d1a32b522ba7a56de81c4196dc774d2fd4932ef5ad7eebe8de3e94cb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Restartable Sequences</mlrss:title>
+          <mlrss:link>https://justine.lol/rseq/</mlrss:link>
+          <mlrss:summary>Article URL: https://justine.lol/rseq/ Comments URL: https://news.ycombinator.com/item?id=48346019 Points: 156 # Comments: 39</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T14:38:48+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:53e0e0a23398b0b166d58c2bba71d52a2d97cf92cc5345790168006cf923c16f" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Cloudflare Turnstile requiring fingerprintable WebGL</mlrss:title>
+          <mlrss:link>https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting</mlrss:link>
+          <mlrss:summary>Article URL: https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting Comments URL: https://news.ycombinator.com/item?id=48345840 Points: 434 # Comments: 231</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T14:13:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cf3e3b7d28225879b8a338a5c8c1e1927dce40efb7937bf3047b918bb3b36427" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>FROST: Fingerprinting Remotely using OPFS-based SSD Timing [pdf]</mlrss:title>
+          <mlrss:link>https://hannesweissteiner.com/pdfs/frost.pdf</mlrss:link>
+          <mlrss:summary>Article URL: https://hannesweissteiner.com/pdfs/frost.pdf Comments URL: https://news.ycombinator.com/item?id=48345822 Points: 42 # Comments: 14</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T14:10:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6c81fc9801f25f06243ad2291d4823fb705a5f55c88e2e90efcfcb06aa1db6d8" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>I put a datacenter GPU in my gaming PC</mlrss:title>
+          <mlrss:link>https://blog.tymscar.com/posts/v100localllm/</mlrss:link>
+          <mlrss:summary>Article URL: https://blog.tymscar.com/posts/v100localllm/ Comments URL: https://news.ycombinator.com/item?id=48345694 Points: 244 # Comments: 155</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T13:53:16+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:bb1011b4c96efc932949da4a94f0e2890313ba6dbb5d7605f1b8cd36e4860ca1" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>United Airlines 767 returns to Newark after Bluetooth name sparks alert</mlrss:title>
+          <mlrss:link>https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/</mlrss:link>
+          <mlrss:summary>Article URL: https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/ Comments URL: https://news.ycombinator.com/item?id=48345248 Points: 208 # Comments: 321</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T12:41:19+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:32ff7f4064d966062d98ca433853e71f025ce1618440c3f550dc7226a2a74c41" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6</mlrss:title>
+          <mlrss:link>https://kenforthewin.github.io/atomic-editor/</mlrss:link>
+          <mlrss:summary>Article URL: https://kenforthewin.github.io/atomic-editor/ Comments URL: https://news.ycombinator.com/item?id=48345201 Points: 50 # Comments: 12</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T12:32:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b43f10ddd050df18e2aa47d6d4f479212afcd6af3c423467c8d7cd0ce4e68110" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Backpressure is all you need</mlrss:title>
+          <mlrss:link>https://www.lucasfcosta.com/blog/backpressure-is-all-you-need</mlrss:link>
+          <mlrss:summary>Article URL: https://www.lucasfcosta.com/blog/backpressure-is-all-you-need Comments URL: https://news.ycombinator.com/item?id=48345090 Points: 115 # Comments: 75</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T12:11:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3341b397c39678c804412bfa3b92d1b60baa7c3b5e2889859f2daafabfc7fd8c" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>MetaがLimitless買収ベースのAIペンダント型ウェアラブルを開発中</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/</mlrss:link>
+          <mlrss:summary>MetaがAIウェアラブル端末「ペンダント」を開発中とTechCrunchが報じた。Limitless社の買収をベースに会話記録・要約ができるAIネックレス型デバイスを計画。スマートグラスや「仕事向けウェアラブル」サブスクリプションとも連携し、身体装着型AIプラットフォームの本格構築に向けた戦略的布石とみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6130e2496c156872db28331f8c57c21a2f3d130950e8df6a475c0931da6bf9d8" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>MicrosoftがCopilot・Cowork・Autopilotを統合したスーパーアプリを開発中</mlrss:title>
+          <mlrss:link>https://tech.yahoo.com/ai/copilot/articles/exclusive-microsoft-building-super-app-171403358.html</mlrss:link>
+          <mlrss:summary>MicrosoftがGitHub Copilot・Cowork・エージェントツール「Autopilot」を統合したスーパーアプリを今夏末リリース予定と独占報道された。ExcelなどのMicrosoft製品を直接操作できるAIエージェント機能を核とし、開発者だけでなくビジネスユーザー全般を対象にした生産性プラットフォームとして展開される見込みだ。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:39cd5ed266969c635bd679588c18d75ce520412401bac6f533311a18faee0e3a" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Google、I/O後のユーザー反発でGemini利用制限を緩和</mlrss:title>
+          <mlrss:link>https://9to5google.com/2026/05/28/gemini-new-usage-limits/</mlrss:link>
+          <mlrss:summary>Google I/O発表後のユーザー批判を受け、Geminiの利用制限が緩和された（9to5Google）。失敗したリクエストはクォータにカウントされなくなり、Flash-Liteのプロンプトが無料化。さらにUltraプランユーザーのOmni生成枠が2倍に拡大された。発表された新機能の実用性を確保するための迅速な対応とみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:88ffe4ce1f6cbf11f7fe2f184b904025af6bd62528aa1c4fe73097b735902d5c" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>自己改善型AIエージェントフレームワーク「SIA」がGitHubで公開</mlrss:title>
+          <mlrss:link>https://github.com/hexo-ai/sia</mlrss:link>
+          <mlrss:summary>オープンソースのAIエージェント改善フレームワーク「SIA」がGitHubで公開された。メタエージェント・ターゲットエージェント・フィードバックエージェントの3者ループにより、任意のモデルやエージェントをベンチマーク上で自律的に改善する仕組みを持つ。自己改善型AIの実装例として研究・実験用途での活用が期待される。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:51321774b0a73e81e81a45ebeb0117477f2a7f4909384637d877b7fc7996a4bb" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Amazonが社内AIトークン使用量ランキングを廃止、「トークンマックス」を禁止</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-51321774b0a73e81</mlrss:link>
+          <mlrss:summary>Amazonが社内でのAIトークン使用量ランキングボードを廃止し、成果よりトークン数を追う「トークンマックス」行為を社員に禁じた。LLM活用の効果測定を誤った指標で評価していたとの反省から、実質的な成果重視への方針転換を示す動きとして注目されている。AI活用文化の成熟を示す事例だ。</mlrss:summary>
+          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-05-30</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-30</link>
