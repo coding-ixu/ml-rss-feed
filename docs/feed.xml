@@ -6,7 +6,104 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Tue, 02 Jun 2026 22:31:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 22:25:26 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-03</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-03</link>
+      <guid isPermaLink="false">sha256:527dbc65a081d3d2e915c19aa307a017a099db958ab43056e936eaf7644f1989</guid>
+      <pubDate>Wed, 03 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Research</category>
+      <category>Startup</category>
+      <description>2026-06-03 のニュース 10件（Gmail 7件 / RSS 3件）
+
+[AI]
+  📨 Anthropic Nears $1T Valuation + AI Agents Trade Stocks
+
+[Engineering]
+  📰 Show HN: Mnemo – 任意のLLM向けローカルファーストAIメモリレイヤー（Rust、SQLite、petgraph）
+  📰 Launch HN: Hyper (YC P26) – エージェント開発を支える「会社の脳」プラットフォーム
+  📰 Gemma 4 12B：エンコーダーフリーのユニファイドマルチモーダルモデル
+  📨 GPT-5.5 on Bedrock, Agent Security, LLM Cost Routing
+
+[Product]
+  📨 Codex Sites, Microsoft models, Anthropic cost backlash
+  📨 New Codex, Copilot, Hermes, Microsoft Build 2026 AI
+
+[Research]
+  📨 AISN #74: The Pope's Encyclical &amp; AI Betrayal Could Deter Reckless AI Use
+
+[Startup]
+  📨 AI spend reckoning, launch events, SaaS playbook dead
+  📨 Uber had enough of its Claude usage
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-03</description>
+      <mlrss:target-date>2026-06-03</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:fbc2638caa108bb63308e65bca7933d4641ff4fa2dcdaa525178ecbc6d6c1fa6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Mnemo – 任意のLLM向けローカルファーストAIメモリレイヤー（Rust、SQLite、petgraph）</mlrss:title>
+          <mlrss:link>https://github.com/zaydmulani09/mnemo</mlrss:link>
+          <mlrss:summary>MnemoはRustで書かれたローカルファーストのAIメモリシステムで、会話からエンティティと関係性を自動抽出し持続的なナレッジグラフに保存する。OllamaやOpenAI・Anthropicなどと互換性があり、クラウドへの依存なしに過去の文脈を将来のプロンプトに注入できる。SQLiteとpetgraphを使った全文検索・エンティティマッチング・グラフ探索など6段階の検索パイプラインで関連コンテキストをランク付けする設計になっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T20:32:10+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:53740a0430ebfeca2e0904a4a1ecd8902075c4147956d2c70769b011af1da0a6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Launch HN: Hyper (YC P26) – エージェント開発を支える「会社の脳」プラットフォーム</mlrss:title>
+          <mlrss:link>https://news.ycombinator.com/item?id=48387095</mlrss:link>
+          <mlrss:summary>HyperはSlack・ドキュメント・メール・カレンダーなど社内ツールの情報を統合したナレッジグラフを構築する「会社の脳」プラットフォーム（YC P26採択）。AIエージェントが断片化した情報ソースを逐一検索する代わりに、会社全体のコンテキストに直接アクセスできる環境を提供する。エンティティ・関係性・埋め込みを含む構造化ファクトとして情報を蓄積し、エージェントの実行能力とタスク精度を向上させることを目指している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T17:39:53+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5bcb663fed95a70d22c89a6a7e4162fff3300021ada45c1dff47ad9954644e2d" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Gemma 4 12B：エンコーダーフリーのユニファイドマルチモーダルモデル</mlrss:title>
+          <mlrss:link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</mlrss:link>
+          <mlrss:summary>GoogleがGemma 4 12Bを発表した。16GBのRAMを搭載した一般向けノートPCで動作するマルチモーダルモデルで、視覚・音声入力を別エンコーダーなしに直接処理するエンコーダーフリーアーキテクチャを採用している。26B MoEモデルに近いベンチマーク性能をほぼ半分のメモリフットプリントで実現し、エージェント型ワークフロー向けの推論能力も備える。Apache 2.0ライセンスでローカルデプロイ・ファインチューニングツールとともに公開されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T16:04:42+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1500372e10bd62920a1f0c9779d554d1d1f8465f76f4559b3e16f08b80aa3f25" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>AISN #74: The Pope's Encyclical &amp; AI Betrayal Could Deter Reckless AI Use</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1500372e10bd6292</mlrss:link>
+          <mlrss:summary>AIの「裏切り」リスクを開発者に認識させることで、無謀なAI開発を抑止できる可能性を示す研究が発表された。またAIモデルが80年前から未解決だった数学の難問を解いたと報告されており、AI研究の到達点として注目されている。ローマ法王レオ14世のAIに関する回勅が及ぼす規制論議への影響とともに、AI安全性を巡る多角的な視点が紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T14:35:49+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0939a442369e0dab9023b6c798f9ff187164dbd03da4b29d41d00231d1fb2a9b" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Codex Sites, Microsoft models, Anthropic cost backlash</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0939a442369e0dab</mlrss:link>
+          <mlrss:summary>OpenAIがCodex Sitesを発表した。データ分析・クリエイティブ・営業・プロダクトデザイン等6種類の役割特化型プラグインとともに、コーダー以外のユーザーもWebアプリを直接構築できる新機能。MicrosoftはBuild 2026で複数の新AIモデルを発表。一方でAnthropicへのトークンコスト高騰への反発が高まっており、企業がAI活用計画を見直す動きが広がっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T13:27:06+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0d5cb1a78adc308576cba06cd65e6c8e9dbecf477d7c00325a55f4fc6024c8d4" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>AI spend reckoning, launch events, SaaS playbook dead</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0d5cb1a78adc3085</mlrss:link>
+          <mlrss:summary>AIトークンコストの急騰によりAI活用計画の見直しや中止が相次いでいる。EntelligenceAIの調査では企業のAI支出のうち18%しか実際の価値を生み出していないと報告された。LLMによるSaaSビジネスモデルの基本前提が崩れ始めているとの指摘も広まっており、AI投資の費用対効果を巡る懐疑論が台頭している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T12:14:14+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9c4b683f17d29a9ae3f59f806d6ab182aaf909617d4a17225df36c2885e19af6" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>GPT-5.5 on Bedrock, Agent Security, LLM Cost Routing</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9c4b683f17d29a9a</mlrss:link>
+          <mlrss:summary>Amazon Web ServicesがOpenAIのGPT-5.5・GPT-5.4モデルとCodexエージェントをAmazon Bedrockプラットフォームに追加した。エンタープライズ向けAIモデル選択肢が拡大し、AWSインフラ上でOpenAIの最新モデルを直接利用できるようになった。AIエージェントのセキュリティベストプラクティスと、精度を維持しながらコストを最適化するLLMルーティング手法についても詳しく取り上げられている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T11:29:55+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1d3c10c121ee82b7d5dc8c0c4925f6e85a153b186c932f201711f49984f339a8" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>New Codex, Copilot, Hermes, Microsoft Build 2026 AI</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1d3c10c121ee82b7</mlrss:link>
+          <mlrss:summary>Microsoft Build 2026でAIアシスタント「Hermes」が発表された。GitHub CopilotとCodexの機能統合がさらに進み、Hermesはデスクトップ向けの統合AIアシスタントとして位置付けられている。Microsoftが開発者向けAIエコシステムの包括的な強化を続けており、アジェンティック開発の中心プラットフォームとしての存在感を高めている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T11:07:11+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ecc98598317bb3666b18b7a88bfe53d45e0525bc5307f5fe5985809d10b161c4" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>Uber had enough of its Claude usage</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ecc98598317bb366</mlrss:link>
+          <mlrss:summary>UberがClaude APIの利用コストと使用量に不満を抱き、Anthropic依存を見直していることが報じられた。AIトークン費用の急騰に直面する企業は増加しており、コスト対効果の再評価が業界全体に広がっている。またGitLabがAIエージェント時代への組織変革を理由に全従業員の14%を削減すると発表した。AIシフトに伴う現実的なコスト・雇用面の課題が顕在化している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-03T09:56:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9f8476a5ad57fa985529e121e5617464a3041827d5653443e2c2a3a08580ac50" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Anthropic Nears $1T Valuation + AI Agents Trade Stocks</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9f8476a5ad57fa98</mlrss:link>
+          <mlrss:summary>ウェブインフラがAIエージェント向けのAPIファースト構造に急速に再設計されており、マシン向けの新しいネットワーク層が形成されつつある。YouTubeがAIを活用したパーソナライズドコンテンツ推薦機能を拡充。一方で76%の企業がAIエージェント移行の準備が不十分との調査結果が示され、エージェントAI普及に向けた組織的課題が浮き彫りになっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-02T16:25:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-02</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-02</link>
