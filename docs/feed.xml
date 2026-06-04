@@ -6,7 +6,78 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Wed, 03 Jun 2026 22:25:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 22:21:03 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-04</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-04</link>
+      <guid isPermaLink="false">sha256:0feb678d59cfefd99443404e6631de3c8b1fac40fa753e26d41953e2e34f0ba7</guid>
+      <pubDate>Thu, 04 Jun 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <description>2026-06-04 のニュース 8件（Gmail 0件 / RSS 8件）
+
+[Engineering]
+  📰 Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed
+  📰 NSAがAnthropicのAIシステム「Mythos」をサイバー作戦に活用か——FT報道
+  📰 Anthropic、Claude活用の脆弱性自動発見・修正フレームワークをOSSで公開
+  📰 AIが自身を構築するとき：再帰的自己改善への進捗——Anthropic
+  📰 KVarN：HuaweiがLLM推論向けKVキャッシュ量子化バックエンドをOSSで公開
+  📰 AI, Ashby Engineering, and the future
+  📰 AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools
+  📰 Cost.dev：AIコーディングエージェントにリアルタイムコスト意識を組み込むツール
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-04</description>
+      <mlrss:target-date>2026-06-04</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:15b74c916757dc3fb303ec4efaaea60694c2cbdd64a02429dff79f043e72fd86" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed</mlrss:title>
+          <mlrss:link>https://github.com/schildep/verified-polygon-intersection</mlrss:link>
+          <mlrss:summary>To my knowledge, this is the first formally verified implementation of an intersection algorithm for polygons.The experience of working with AI agents on this project changed a lot with recent model releases, as I describe in the readme. Opus 4.8 is able to provide algorithm implementation with formal proof in one shot, whereas previous models required me to provide proof strategies in multiple s…</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T22:06:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:79e75575334d2fdc03fabe4d022fb52266e9c6760e2fc9d2984cb3b2b478e60c" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>NSAがAnthropicのAIシステム「Mythos」をサイバー作戦に活用か——FT報道</mlrss:title>
+          <mlrss:link>https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</mlrss:link>
+          <mlrss:summary>Financial Timesが、米国家安全保障局（NSA）がAnthropicのAIモデル「Mythos」をサイバー作戦に活用していると報道。Anthropicは複数のエンジニアをNSAに展開しているとされるが、実際の攻撃作戦の具体的証拠は限定的との指摘もある。AI政府利用における透明性と説明責任のあり方を巡り議論が起きている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T20:33:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fa578725b1efe609ce31a7406e191df70e77e521defdf011c0a96832565f65c7" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Anthropic、Claude活用の脆弱性自動発見・修正フレームワークをOSSで公開</mlrss:title>
+          <mlrss:link>https://github.com/anthropics/defending-code-reference-harness</mlrss:link>
+          <mlrss:summary>AnthropicがClaudeを活用したセキュリティ脆弱性の自律的発見・修正パイプラインをオープンソース公開した。ターゲットコードをDockerビルド後、AIエージェントが並列でクラッシュ誘発・報告・パッチ生成するまでを自動化する。C/C++のメモリ脆弱性（ASAN）向け参考実装で、gVisorサンドボックスによる隔離を採用。他の言語や検出器へのカスタマイズも想定した設計となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T20:11:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f8c23e519803f3561db1406c8bf453beb3188eccf5c9f1d8e2fd72683504b9f4" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIが自身を構築するとき：再帰的自己改善への進捗——Anthropic</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/institute/recursive-self-improvement</mlrss:link>
+          <mlrss:summary>AnthropicがAIシステムによるAI開発自体の自動化に関する報告を公開。Claude Opus 4.6は12時間超タスクを処理可能となり、Anthropicプロダクションコードの80%超をClaudeが執筆する状況に達した。AIが自律的に次世代モデルを設計・訓練する「再帰的自己改善」の到来が予想より早い可能性を示し、フロンティアAI開発の検証可能な一時停止を求める政策提言も含む。</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T16:20:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b0ae5c360f60f48c6d5282ba73af32602e0e87fdc7479925afe24ffdad4e396c" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>KVarN：HuaweiがLLM推論向けKVキャッシュ量子化バックエンドをOSSで公開</mlrss:title>
+          <mlrss:link>https://github.com/huawei-csl/KVarN</mlrss:link>
+          <mlrss:summary>HuaweiのクラウドサービスラボがvLLM用KVキャッシュ量子化ツール「KVarN」を公開した。FP16比でキャッシュ容量3〜5倍・スループット最大1.3倍を達成しつつFP16相当の精度を保つ。Hadamard回転と反復分散正規化・非対称量子化の組み合わせにより、キャリブレーション不要で既存のLLM推論パイプラインへプラグインできる設計。arXiv技術論文も同時公開された。</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T15:18:00+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6ff1977fcb46cb6410ba5586f5f6efd625a87ac175e41b6e04552bbf88fb2915" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AI, Ashby Engineering, and the future</mlrss:title>
+          <mlrss:link>https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future</mlrss:link>
+          <mlrss:summary>Points: 28 # Comments: 17</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T14:48:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8b289a99b6ccba293472f03d95c761ebf25166a0463bb3c7ba950f50b427f1b7" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools</mlrss:title>
+          <mlrss:link>https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus</mlrss:link>
+          <mlrss:summary>Points: 0 # Comments: 0</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T12:00:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:96ee11d8c14562c25ed1e76edb2e772ebc71df9f41b3e9d33e63f7cbb354fae6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Cost.dev：AIコーディングエージェントにリアルタイムコスト意識を組み込むツール</mlrss:title>
+          <mlrss:link>https://cost.dev/</mlrss:link>
+          <mlrss:summary>Infracost Devは、Claude Code・GitHub Copilot・OpenAI Codex等のAIエージェントにリアルタイムのクラウドコスト情報を統合するツール。AWS・Azure・GCPの1,000超のサービス価格をカバーし、IaC記述時にFinOpsベストプラクティスとタグコンプライアンス修正を自動適用できる。「PRレビュー前に新規コスト問題の95%を防止」との実績を持つYC W21出身スタートアップ。</mlrss:summary>
+          <mlrss:pub-date>2026-06-04T11:30:13+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-03</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-03</link>
@@ -586,113 +657,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b3dbc14e02781bdb</mlrss:link>
           <mlrss:summary>ChatGPTのDeep Researchタスク実行中に「Update」をクリックすることで追加要件を指定でき、再起動より大幅な時間短縮が可能とのヒントが紹介された。また求職活動・学習加速・業務効率化向けのプロンプトテンプレート集も掲載されており、AIを日常業務に実践的に活用するための参考情報が多数含まれている。</mlrss:summary>
           <mlrss:pub-date>2026-05-29T18:15:27+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-05-29</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-29</link>
-      <guid isPermaLink="false">sha256:dbb36555465dba9a5bb3d819deb3636d8c2702ec4d558d73e47b0d1fdc258b98</guid>
-      <pubDate>Fri, 29 May 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Tools</category>
-      <description>2026-05-29 のニュース 11件（Gmail 6件 / RSS 5件）
-
-[AI]
-  📨 Claude Opus 4.8 launches with parallel subagents and effort dial
-
-[Engineering]
-  📰 Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA
-  📰 Robinhood now lets your AI agents trade stocks
-  📰 Notes from the Mistral AI Now Summit in Paris
-  📰 Liquid AI reveals 8B-A1B MoE trained on 38T
-  📰 CAPTCHAs can still detect AI agents
-
-[Product]
-  📨 Apple reboots Siri in iOS 27: dedicated chatbot app, AI web search, Camera mode
-
-[Regulation]
-  📨 Sir Stephen Fry endorses UK Artificial Superintelligence Security Bill
-  📨 Pope Leo XIV encyclical calls for 'disarming' of AI and strictest constraints
-
-[Research]
-  📨 AI decodes 400-year-old medieval ciphers: love letters, diplomacy, medical remedies
-
-[Tools]
-  📨 Moonshot AI releases Kimi Code: terminal coding agent with video input and parallel subagents
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-29</description>
-      <mlrss:target-date>2026-05-29</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:2bb6f5e3ce53d79e749ef25137985dfee6d38e7b27506b03aa2628409711dcb7" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA</mlrss:title>
-          <mlrss:link>https://github.com/jmaczan/tiny-vllm</mlrss:link>
-          <mlrss:summary>Points: 42 # Comments: 3</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T19:38:27+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0d1c11ca8787af1020d5d0855ba39fb142e5f4395aa4e3c494aefa8746674341" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Robinhood now lets your AI agents trade stocks</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/</mlrss:link>
-          <mlrss:summary>Points: 82 # Comments: 154</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T17:46:27+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a91813edfc604b51d2d06700b6b2ced824c39708748d0a4fd0fb5ec3872f1f31" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Notes from the Mistral AI Now Summit in Paris</mlrss:title>
-          <mlrss:link>https://koenvangilst.nl/lab/mistral-ai-now-summit</mlrss:link>
-          <mlrss:summary>Points: 279 # Comments: 84</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T16:22:01+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a45f82e7041cb941aa2091dd4ef88b4885a655f65172791e297522c68c3a0811" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Liquid AI reveals 8B-A1B MoE trained on 38T</mlrss:title>
-          <mlrss:link>https://www.liquid.ai/blog/lfm2-5-8b-a1b</mlrss:link>
-          <mlrss:summary>Points: 115 # Comments: 34</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T16:19:54+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:74598929a1ecb6989c862ed65e931cf78298fb0739525d985155544312c6d884" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>CAPTCHAs can still detect AI agents</mlrss:title>
-          <mlrss:link>https://research.roundtable.ai/captchas-detect-ai/</mlrss:link>
-          <mlrss:summary>Points: 55 # Comments: 43</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T15:57:37+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1bc5733a25242497612f32bc055923ca5dad7885020868077fc171e275e3b263" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Claude Opus 4.8 launches with parallel subagents and effort dial</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/news/claude-opus-4-8</mlrss:link>
-          <mlrss:summary>AnthropicがClaude Opus 4.8をリリースした。数百の並列サブエージェントによる動的ワークフロー、新設の「エフォートダイヤル」機能、ウェイトリスト制の高速モード（従来比3倍のコスト削減）が主な特徴。エージェント的AIの基盤モデルとして最高クラスの能力を提供し、複雑な長期タスクへの対応力が大幅に強化されている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T06:54:15+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7e032cd03bae40aaf4254b86e5084a6d6cf0c204ce410e899c95fda976ffa851" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Apple reboots Siri in iOS 27: dedicated chatbot app, AI web search, Camera mode</mlrss:title>
-          <mlrss:link>https://x.com/markgurman/status/2059971244334960827</mlrss:link>
-          <mlrss:summary>AppleがWWDC（6月8日）でiOS 27に向けたSiriの全面刷新を発表する見込みとMark Gurmanが報じた。専用チャットボットアプリ、AI活用のウェブ検索、スワイプダウンクエリUI、Cameraアプリ内SiriモードなどAI機能を大幅強化。Appleが長らく後れを取っていたAIアシスタント分野での巻き返しとなる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T06:54:15+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:13dc6774e4451eac5d30e130fbee7dbc3e1b13506328c4415c0547c1f88aae6a" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>AI decodes 400-year-old medieval ciphers: love letters, diplomacy, medical remedies</mlrss:title>
-          <mlrss:link>https://www.bbc.com/future/article/20260527-plots-love-letters-and-diplomacy-the-medieval-secrets-being-revealed-by-ai</mlrss:link>
-          <mlrss:summary>AIが400年以上解読されなかった中世の暗号文書を解読した。恋愛書簡、外交書簡、医学的処方が含まれており、歴史研究に新たな可能性を開いた。前日のエルデシュ予想反証に続き、AIによる長年の未解決問題・未解読資料への有効性を示す事例が相次いでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T06:54:15+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f6ff677ee2496cf4855283540632b4d9acbd5ef7ae5b0d8559abd1818b2adfc7" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>Moonshot AI releases Kimi Code: terminal coding agent with video input and parallel subagents</mlrss:title>
-          <mlrss:link>https://github.com/MoonshotAI/kimi-code</mlrss:link>
-          <mlrss:summary>中国のMoonshot AIがターミナル型コーディングエージェント「Kimi Code」をオープンソース公開した。ビデオ入力、MCPセットアップ、並列サブエージェントをサポートし、複雑なコーディングタスクへの対応力を持つ。Claude CodeやGitHub Copilotと競合する中国発の有力なコーディングエージェントとして注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T06:54:15+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a09edb425adec596a36f22a37fdc11cc2f50ebf5bb2b1e148ece10b7d708c8b0" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>Sir Stephen Fry endorses UK Artificial Superintelligence Security Bill</mlrss:title>
-          <mlrss:link>https://ukbill.controlai.com</mlrss:link>
-          <mlrss:summary>英国の著名俳優・作家サー・スティーブン・フライが、ControlAIの人工超知能（ASI）禁止法案を支持すると声明を発表した。同法案はASIの英国内での開発・展開を禁止し、企業幹部への刑事責任と国際条約の追求を求める内容。100名超の議員が支持し、すでに2名の私議員法案候補者が支持者であると報告されている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T03:21:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:86c89c95ac2155bb356495bcd50e8c45582aefaaab3200c1a9fe47e1cd5dfd47" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>Pope Leo XIV encyclical calls for 'disarming' of AI and strictest constraints</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-86c89c95ac2155bb</mlrss:link>
-          <mlrss:summary>ローマ法王レオ14世がAIに関する回勅（エンシクリカル）を発表し、AI技術の「武装解除」と「最も厳格な制約」を求めた。核エネルギーとの類比でAIの潜在的危険性を強調したものとみられ、ControlAIのASI安全キャンペーンへの宗教的支持の一つとして位置付けられている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T03:21:42+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
