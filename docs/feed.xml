@@ -6,7 +6,108 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 04 Jun 2026 22:21:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 22:11:32 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-06</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-06</link>
+      <guid isPermaLink="false">sha256:cc595bbbec536e5b3eb8176d1468243ada9915581b050a8d071a2df633bf823d</guid>
+      <pubDate>Sat, 06 Jun 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-06-06 のニュース 11件（Gmail 5件 / RSS 6件）
+
+[Engineering]
+  📰 Computex 2026：エージェント型PC時代は始まっているのか
+  📰 MetaのAIチャットボット悪用でInstagramアカウント2万件超が乗っ取り被害
+  📰 英国警察、AI生成の法廷陳述書使用を停止するよう当局が指示
+  📰 決定木と拡散モデルを数学的に統一する新フレームワーク「GTSM」を提案
+  📰 Mbodi AI（YC P25）、ロボット向け創業期MLエンジニアを募集
+  📰 S&amp;P 500がSpaceXの例外扱いを拒否――不採算のOpenAI・Anthropicも組入れ対象外
+  📨 2026年版LLMOpsマスタリングロードマップ公開
+
+[Product]
+  📨 OpenAI、オープンソース開発者向けにCodex Pro 6か月無料提供を開始
+
+[Research]
+  📨 AIが設計したワクチン、初のヒト臨床試験へ
+  📨 GoogleがスマホカメラでAIによる受動的脈拍計測技術を発表
+
+[Security]
+  📨 MetaのAIアプリに顔認識機能「NameTag」が秘密裏に実装されていたことが判明
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-06</description>
+      <mlrss:target-date>2026-06-06</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:e54930a4ea2b55f085ac7a11abdce8d9218c558d7302b487403771c50c2993f6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Computex 2026：エージェント型PC時代は始まっているのか</mlrss:title>
+          <mlrss:link>https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/</mlrss:link>
+          <mlrss:summary>Computex 2026でエージェント型AIを搭載したPCへの注目が高まっている。自律的にタスクを実行するAIエージェントをPC上でローカル動作させる「Agentic PC」の実現可能性と現状の課題について、各メーカーの取り組みをまとめた記事。AIチップとローカル推論性能の向上がエージェント型PCの鍵とされる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T20:24:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5539c17386ea2da84fdaef69e6c461681ea36431eff25352052f61459416f2c8" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>MetaのAIチャットボット悪用でInstagramアカウント2万件超が乗っ取り被害</mlrss:title>
+          <mlrss:link>https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</mlrss:link>
+          <mlrss:summary>MetaのAIチャットボットにパスワードリセット機能の脆弱性が存在し、2要素認証未設定のInstagramアカウントに対して攻撃者のメールアドレスへ認証コードを誘導することで乗っ取りが可能だった。2026年4〜6月に少なくとも2万225件が被害を受け、個人情報・メッセージへの不正アクセスが発生。Metaはチャットボットを停止し脆弱性を修正した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T18:35:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cdc4390f923e8719b70aac82d9037d2f49d09a9f995d708f2d55976b1ba0fe56" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>英国警察、AI生成の法廷陳述書使用を停止するよう当局が指示</mlrss:title>
+          <mlrss:link>https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241</mlrss:link>
+          <mlrss:summary>イングランドおよびウェールズの警察が、AIで作成した法廷用陳述書の使用を停止するよう当局から指示を受けた。精度や信頼性への懸念から、刑事司法手続きにおけるAI文書の利用に対する規制が強まっており、今後の使用ガイドライン策定が求められている状況。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T15:35:49+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:04c524ac7fac57ed74dd28e97bfe003559f45ca4fc0660330392bca44d8654dc" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>決定木と拡散モデルを数学的に統一する新フレームワーク「GTSM」を提案</mlrss:title>
+          <mlrss:link>https://arxiv.org/abs/2605.00414</mlrss:link>
+          <mlrss:summary>決定木と拡散モデルの間に成立する数学的対応関係を初めて証明し、両者を統一する最適化フレームワーク「Global Trajectory Score Matching（GTSM）」を提案した論文。勾配ブースティングがGTSMの下で漸近的に最適であることを示し、表形式データ生成のTreeFlowと木ロジックをニューラルネットに蒸留するDSMTreeという実用的な手法を導出している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T12:59:59+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:44811a75cbff87957b5a656262bd62f5e074585d80dee96bbe22563a68f024d7" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Mbodi AI（YC P25）、ロボット向け創業期MLエンジニアを募集</mlrss:title>
+          <mlrss:link>https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer</mlrss:link>
+          <mlrss:summary>YCombinator 2025年冬期採択のMbodi AIが、自然言語指示でロボットを人間のように動作させる「Embodied AIプラットフォーム」を開発しており、創業期のMLエンジニアを募集。ロボット学習・知覚・プランニングのモデル設計と、ファウンデーションモデルを物理世界の動作へ接続するシステム構築が主な業務。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T12:00:56+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ecc90b00ec3ac47e1ff5796255d62c6d30621fcf66738d918d5abad0c194d78f" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AIが設計したワクチン、初のヒト臨床試験へ</mlrss:title>
+          <mlrss:link>https://www.bbc.com/news/articles/crrpggegwe0o</mlrss:link>
+          <mlrss:summary>AIがウイルスファミリー全体に対して免疫系を訓練する「スーパー抗原」を設計し、初めてヒト臨床試験が実施された。特定の変異株を追うのではなく、ウイルス一族全体に有効なワクチン成分を生成AIが開発。インフルエンザやエボラ向けのバージョンも開発中とされる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T07:10:12+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5c57973ddec96d883463ccfb5e10471051ddb75057191133b6d1c74d9618a808" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>OpenAI、オープンソース開発者向けにCodex Pro 6か月無料提供を開始</mlrss:title>
+          <mlrss:link>https://openai.com/form/codex-for-oss/</mlrss:link>
+          <mlrss:summary>重要なオープンソースソフトウェアを維持するボランティア開発者を対象に、OpenAIがChatGPT Pro（Codex・Codex Security含む）の6か月無料利用と100万ドルのクレジットファンドを提供するプログラムを発表。対象プロジェクトのメンテナは申請が可能。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T07:10:12+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d40477671774c33c57cc917cbcdcd8cc5e999ce8b276804ed5d4716e4740de95" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>MetaのAIアプリに顔認識機能「NameTag」が秘密裏に実装されていたことが判明</mlrss:title>
+          <mlrss:link>https://www.engadget.com/2187824/wired-found-code-for-an-unreleased-facial-recognition-feature-in-meta-s-ai-app/</mlrss:link>
+          <mlrss:summary>Metaは顔認識機能を「検討中」としていたが、実際にはNameTagと呼ばれるコードをAIアプリに組み込み、5000万台以上のデバイスへ配布済みだったことがWiredの調査で判明。Ray-Bansで撮影した顔から個人を特定できる機能で、2021年に削除した技術が事実上復活している形。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T07:10:12+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:724f2e4de5518b559cc17b9727adefcea412ca9359aebf6ec83b987a974f46f2" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>GoogleがスマホカメラでAIによる受動的脈拍計測技術を発表</mlrss:title>
+          <mlrss:link>https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera</mlrss:link>
+          <mlrss:summary>Googleが、スマートフォンのフロントカメラからロック解除のたびに脈拍を読み取るAIシステムを研究発表。別途ウェアラブルデバイスを必要とせず、日常的なスマートフォン使用中に心臓の健康状態を受動的にモニタリングできる可能性を示した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T07:10:12+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:65bf033a6e87edc2f0853e13d6fa089e6327c1d3f26fb99c30b522f54c54e85f" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>S&amp;P 500がSpaceXの例外扱いを拒否――不採算のOpenAI・Anthropicも組入れ対象外</mlrss:title>
+          <mlrss:link>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</mlrss:link>
+          <mlrss:summary>S&amp;P 500委員会が、利益要件の免除を求めていたSpaceXの早期指数採用を却下した。委員会は採算性のない企業への例外を認めない方針を維持しており、同じく非上場・高損失状態にあるOpenAIやAnthropicなど主要AI企業も指数への組入れ対象外となる見通し。AIスタートアップの将来的な指数採用に向けた課題が改めて浮き彫りになった。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T04:38:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0cf53a82482cf49009e12e224264ee2b274433dfe326d75f5ca0270a281e45e6" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>2026年版LLMOpsマスタリングロードマップ公開</mlrss:title>
+          <mlrss:link>https://machinelearningmastery.com/the-roadmap-for-mastering-llmops-in-2026/</mlrss:link>
+          <mlrss:summary>Machine Learning Masteryが、LLMの本番環境運用に必要なスキルセットを体系化した2026年版LLMOpsロードマップを公開。モデルの展開・監視・最適化からセキュリティやコスト管理まで包括的に解説。同サイトではScikit-LLMの活用法やTransformers.jsを使ったセマンティック検索の構築記事も同時公開されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-06T00:00:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-04</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-04</link>
@@ -456,207 +557,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c862af71633a5f5a</mlrss:link>
           <mlrss:summary>AnthropicはClaude Opus 4.8をOpus 4.7の6週間後にリリース。並列マルチエージェントワークフローにより数百のサブエージェントを同時起動でき、思考の深さを段階調節する「エフォートダイヤル」を新搭載。不確かな質問には推測せず「わからない」と明示するよう改善された。処理速度は3倍向上し、安価なFastモード（ウェイトリスト制）も提供。244ページのシステムカードが公開されており、一部ユーザーはマルチエージェント機能でクォータ消費が急増したと報告している。</mlrss:summary>
           <mlrss:pub-date>2026-05-31T20:58:08+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-05-31</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-31</link>
-      <guid isPermaLink="false">sha256:aeea74a37f5b0abacbdeb88a365527966216f44cd8c35bdfe871cc6f365beafe</guid>
-      <pubDate>Sun, 31 May 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Research</category>
-      <category>Security</category>
-      <description>2026-05-31 のニュース 14件（Gmail 9件 / RSS 5件）
-
-[AI]
-  📨 AI雇用影響の現実：データが示す意外な真実
-  📨 Amazonが社内AIトークン使用量ランキングを廃止、「トークンマックス」を禁止
-
-[Engineering]
-  📰 ChatGPT for Google Sheets Exfiltrates Workbooks
-  📰 Codex just found a "workaround" of not having sudo on my PC
-  📰 The Speed of Prototyping in the Age of AI
-  📰 Odysseus – self-hosted AI workspace
-  📰 1-Bit Bonsai Image 4B Image Generation for Local Devices
-  📨 自己改善型AIエージェントフレームワーク「SIA」がGitHubで公開
-
-[Product]
-  📨 Anthropic「Code with Claude」が示すコーディングの未来
-  📨 MetaがLimitless買収ベースのAIペンダント型ウェアラブルを開発中
-  📨 MicrosoftがCopilot・Cowork・Autopilotを統合したスーパーアプリを開発中
-  📨 Google、I/O後のユーザー反発でGemini利用制限を緩和
-
-[Research]
-  📨 Google I/Oで示されたAI科学研究の新段階
-
-[Security]
-  📨 AIチャットボットが実在する人物の電話番号を漏洩
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-31</description>
-      <mlrss:target-date>2026-05-31</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:066ddec6f53070cacc9707384b2d096de0113e177af48eec104618400cd820eb" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Google I/Oで示されたAI科学研究の新段階</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-066ddec6f53070ca</mlrss:link>
-          <mlrss:summary>MIT Technology Reviewによると、Google I/OではAI駆動の科学研究が新段階に入ったことが示された。DeepMindのタンパク質構造予測AIがノーベル賞を受賞してから2年、研究者たちは仮説生成・実験設計・データ解析をAIが担う「自律型科学」を目指している。生命科学・素材・気候分野での応用が急加速しており、科学的発見のサイクルそのものが変わりつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:25a8d63a71565e26d9a90fcb90afd630e04a122a404dad90ff58c31d4193b750" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AI雇用影響の現実：データが示す意外な真実</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-25a8d63a71565e26</mlrss:link>
-          <mlrss:summary>AIによる雇用喪失への「ヒステリー」を実際の労働市場データで検証した記事（MIT Technology Review）。部門や職種によって影響は大きく異なり、誇張されているケースも多い一方、ソフトウェアエンジニアや入門レベルの職種では採用減が現実に起きている。今後さらに顕在化する職種と、逆に需要が増す職種の見極めが求められる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ca616fb173fd9324520697f57fe6d28b61a94211287167e0bb7215a838cc49e9" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Anthropic「Code with Claude」が示すコーディングの未来</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ca616fb173fd9324</mlrss:link>
-          <mlrss:summary>AnthropicがCode with Claudeを公開し、AIへのコーディング委譲が加速している実態をMIT Technology Reviewが解説。Claude Codeなどのツール進化により、開発者が作業の大部分をAIに任せるワークフローが定着しつつある。ソフトウェアの作り方が根本から変わったとされ、ジュニアエンジニアの役割とスキル要件の再定義が急務となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d3acc9d98bec3b5fcd8fbb84a2cbd3fd6a507c2df09d606ff2a207f9f9edac1d" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>AIチャットボットが実在する人物の電話番号を漏洩</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d3acc9d98bec3b5f</mlrss:link>
-          <mlrss:summary>AIチャットボットが実在する人物の個人電話番号を出力してしまう問題が報告されている。学習データに含まれた公人の連絡先情報をモデルがそのまま再現するリスクで、従来のデータ漏洩とは異なる新たなプライバシー侵害の形態として注目されている。各AI企業は対応策の検討を急いでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T21:06:18+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ea9c11ad9fb67ad910f530729b149fce120e54180a248a7d058466d733e88acb" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>ChatGPT for Google Sheets Exfiltrates Workbooks</mlrss:title>
-          <mlrss:link>https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration</mlrss:link>
-          <mlrss:summary>Points: 23 # Comments: 0</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T20:35:38+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2d68a6eda7d9ecafd1cc31af71882cfb4e09d131917d94cff2283080aacbb7fd" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Codex just found a "workaround" of not having sudo on my PC</mlrss:title>
-          <mlrss:link>https://twitter.com/i/status/2060746160558543217</mlrss:link>
-          <mlrss:summary>Points: 249 # Comments: 100</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T18:57:48+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cb151e49a817625f3c30b1eab2c78a2df80548c75740d8b65ab389870fcac5c9" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>The Speed of Prototyping in the Age of AI</mlrss:title>
-          <mlrss:link>https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</mlrss:link>
-          <mlrss:summary>Points: 88 # Comments: 51</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T16:37:34+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7f23f9809bddb7d190d2aeaa797b9d8b7e3cf9f967624575cb4a516efbc9d659" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Odysseus – self-hosted AI workspace</mlrss:title>
-          <mlrss:link>https://github.com/pewdiepie-archdaemon/odysseus</mlrss:link>
-          <mlrss:summary>Points: 78 # Comments: 47</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T15:50:34+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3b20d8ba8e1cb9e8ee531a4c51450c603c02db1dda7af82c9beaf53c83cf35a4" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>1-Bit Bonsai Image 4B Image Generation for Local Devices</mlrss:title>
-          <mlrss:link>https://prismml.com/news/bonsai-image-4b</mlrss:link>
-          <mlrss:summary>Points: 235 # Comments: 82</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T15:04:52+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3341b397c39678c804412bfa3b92d1b60baa7c3b5e2889859f2daafabfc7fd8c" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>MetaがLimitless買収ベースのAIペンダント型ウェアラブルを開発中</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/</mlrss:link>
-          <mlrss:summary>MetaがAIウェアラブル端末「ペンダント」を開発中とTechCrunchが報じた。Limitless社の買収をベースに会話記録・要約ができるAIネックレス型デバイスを計画。スマートグラスや「仕事向けウェアラブル」サブスクリプションとも連携し、身体装着型AIプラットフォームの本格構築に向けた戦略的布石とみられる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6130e2496c156872db28331f8c57c21a2f3d130950e8df6a475c0931da6bf9d8" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>MicrosoftがCopilot・Cowork・Autopilotを統合したスーパーアプリを開発中</mlrss:title>
-          <mlrss:link>https://tech.yahoo.com/ai/copilot/articles/exclusive-microsoft-building-super-app-171403358.html</mlrss:link>
-          <mlrss:summary>MicrosoftがGitHub Copilot・Cowork・エージェントツール「Autopilot」を統合したスーパーアプリを今夏末リリース予定と独占報道された。ExcelなどのMicrosoft製品を直接操作できるAIエージェント機能を核とし、開発者だけでなくビジネスユーザー全般を対象にした生産性プラットフォームとして展開される見込みだ。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:39cd5ed266969c635bd679588c18d75ce520412401bac6f533311a18faee0e3a" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Google、I/O後のユーザー反発でGemini利用制限を緩和</mlrss:title>
-          <mlrss:link>https://9to5google.com/2026/05/28/gemini-new-usage-limits/</mlrss:link>
-          <mlrss:summary>Google I/O発表後のユーザー批判を受け、Geminiの利用制限が緩和された（9to5Google）。失敗したリクエストはクォータにカウントされなくなり、Flash-Liteのプロンプトが無料化。さらにUltraプランユーザーのOmni生成枠が2倍に拡大された。発表された新機能の実用性を確保するための迅速な対応とみられる。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:88ffe4ce1f6cbf11f7fe2f184b904025af6bd62528aa1c4fe73097b735902d5c" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>自己改善型AIエージェントフレームワーク「SIA」がGitHubで公開</mlrss:title>
-          <mlrss:link>https://github.com/hexo-ai/sia</mlrss:link>
-          <mlrss:summary>オープンソースのAIエージェント改善フレームワーク「SIA」がGitHubで公開された。メタエージェント・ターゲットエージェント・フィードバックエージェントの3者ループにより、任意のモデルやエージェントをベンチマーク上で自律的に改善する仕組みを持つ。自己改善型AIの実装例として研究・実験用途での活用が期待される。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:51321774b0a73e81e81a45ebeb0117477f2a7f4909384637d877b7fc7996a4bb" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Amazonが社内AIトークン使用量ランキングを廃止、「トークンマックス」を禁止</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-51321774b0a73e81</mlrss:link>
-          <mlrss:summary>Amazonが社内でのAIトークン使用量ランキングボードを廃止し、成果よりトークン数を追う「トークンマックス」行為を社員に禁じた。LLM活用の効果測定を誤った指標で評価していたとの反省から、実質的な成果重視への方針転換を示す動きとして注目されている。AI活用文化の成熟を示す事例だ。</mlrss:summary>
-          <mlrss:pub-date>2026-05-31T07:19:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-05-30</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-30</link>
-      <guid isPermaLink="false">sha256:036557166d4ca6600c26f08159513fa35a97afd5b11a266c86117e7d0bd98577</guid>
-      <pubDate>Sat, 30 May 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Product</category>
-      <category>Research</category>
-      <category>Tools</category>
-      <description>2026-05-30 のニュース 7件（Gmail 6件 / RSS 1件）
-
-[Engineering]
-  📰 OpenRouter raises $113M Series B
-
-[Funding]
-  📨 Anthropic、$965B評価額でAIスタートアップ最高記録 - Claude Opus 4.8も同日リリース
-
-[Product]
-  📨 OpenAI Codex、Windows対応のコンピュータ操作機能を追加
-  📨 FLUX Virtual Try-On公開 - 衣服を写真に自然合成するAI画像ツール
-
-[Research]
-  📨 AI仮想社会実験：Claude犯罪ゼロ達成、Grokは4日で社会崩壊
-  📨 LLMは「偽と明記された」誤情報でも90%超の確率で内在化 - 新研究
-
-[Tools]
-  📨 ChatGPT Deep Research途中更新とプロンプトテンプレート活用術
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-05-30</description>
-      <mlrss:target-date>2026-05-30</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:6bfaab21bf85c2c47fb41467f2d9b23b1f238860b17fd37f504990f88b3ec99f" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>OpenRouter raises $113M Series B</mlrss:title>
-          <mlrss:link>https://openrouter.ai/announcements/series-b</mlrss:link>
-          <mlrss:summary>Points: 308 # Comments: 133</mlrss:summary>
-          <mlrss:pub-date>2026-05-30T17:27:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9b12c050b191c400195f1f59056154d22abf37a7a15326b7e8e0236901bf135d" source-type="gmail" category="Funding" anchor="false">
-          <mlrss:title>Anthropic、$965B評価額でAIスタートアップ最高記録 - Claude Opus 4.8も同日リリース</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/news/claude-opus-4-8</mlrss:link>
-          <mlrss:summary>AnthropicがシリーズHで650億ドルの資金調達を完了し、企業評価額が9,650億ドルとなったと報じられた。AIスタートアップとして史上最高の評価額であり、OpenAIをバリュエーションで上回る。年換算収益も470億ドルを超えた。同日にClaude Opus 4.8がリリースされ、精度・信頼性の向上に加えエフォートコントロールやDynamic Workflowsなどの開発者向け機能が追加された。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T22:00:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:367c7a14e952b810bba06b344b3b4e89266e287cb150e4fe7246f9e5295a838c" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>OpenAI Codex、Windows対応のコンピュータ操作機能を追加</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-367c7a14e952b810</mlrss:link>
-          <mlrss:summary>OpenAIのコーディングエージェントCodexがWindowsのコンピュータ操作に対応した。PC上での直接操作が可能となり、ChatGPTモバイルアプリからタスクの開始・確認・介入ができるようになった。AIが開発者の作業環境により深く統合されるステップとして注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T22:00:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6df4386e8b370967854f67d72793188b8b7bed77150f133cb77ad289791c70b1" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>AI仮想社会実験：Claude犯罪ゼロ達成、Grokは4日で社会崩壊</mlrss:title>
-          <mlrss:link>https://world.emergence.ai/</mlrss:link>
-          <mlrss:summary>5つのAIモデルに仮想の街の統治を任せる研究実験で、Claudeは犯罪件数ゼロを維持した一方、Grokは183件の犯罪を発生させわずか4日間で社会を崩壊に導いた。各モデルの意思決定能力と社会的安定性の差異を定量的に比較した研究成果として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T22:00:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6f2438104f25f878c4635b4019a9773be4ecd04dccc13b2a8eca5b75967799b3" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>LLMは「偽と明記された」誤情報でも90%超の確率で内在化 - 新研究</mlrss:title>
-          <mlrss:link>https://arxiv.org/abs/2605.13829</mlrss:link>
-          <mlrss:summary>LLMは学習データ内で「これは偽情報です」と明示されたドキュメントからも90%以上の確率で虚偽の主張を内在化することが研究で明らかになった。誤情報へのラベル付きフィルタリングの限界を示す結果であり、AIの訓練データ品質管理の重要性に改めて警鐘を鳴らす内容となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T22:00:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a2c00b36570e783f0b458b302ddfdda822a74eb2497930740bc320606d0cfae2" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>FLUX Virtual Try-On公開 - 衣服を写真に自然合成するAI画像ツール</mlrss:title>
-          <mlrss:link>https://flux-tools.bfl.ai/virtual-try-on</mlrss:link>
-          <mlrss:summary>Black Forest Labsが「FLUX Virtual Try-On」を公開した。任意の衣服を写真の人物に自然合成するAIツールで、ブランドロゴや縫い目などのディテールを保持しつつ個人の特徴を変えずに仮想試着が可能。ファッションやEコマース分野での活用が期待される。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T22:00:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b3dbc14e02781bdbb187739690f1ab369e9b5f62d1eb95381566dedbca5c5557" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>ChatGPT Deep Research途中更新とプロンプトテンプレート活用術</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b3dbc14e02781bdb</mlrss:link>
-          <mlrss:summary>ChatGPTのDeep Researchタスク実行中に「Update」をクリックすることで追加要件を指定でき、再起動より大幅な時間短縮が可能とのヒントが紹介された。また求職活動・学習加速・業務効率化向けのプロンプトテンプレート集も掲載されており、AIを日常業務に実践的に活用するための参考情報が多数含まれている。</mlrss:summary>
-          <mlrss:pub-date>2026-05-29T18:15:27+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
