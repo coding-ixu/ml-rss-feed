@@ -6,7 +6,114 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Tue, 09 Jun 2026 14:13:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 22:18:24 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-09</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-09</link>
+      <guid isPermaLink="false">sha256:27c8fd345ac6106e02d8c07721198036ab09b9d28f80e144a13d6ef9d82e2026</guid>
+      <pubDate>Tue, 09 Jun 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-06-09 のニュース 11件（Gmail 7件 / RSS 4件）
+
+[Engineering]
+  📰 Anthropicのモデル命名体系を外挿してみたら
+  📰 Claude DesktopがチャットのみでもWindows起動ごとに1.8GB Hyper-V VMを生成する問題
+  📰 Apache Burr：信頼性の高いAIエージェントを構築するPythonフレームワーク
+  📨 Xiaomi MiMo-V2.5-Pro-UltraSpeed：8GPUで毎秒1,000トークンを達成
+
+[Funding]
+  📨 OpenAI・Anthropic、相次いでIPO向けS-1をSECに機密提出
+  📨 xAIがAnthropicとGoogleにGPU計算資源を貸し出す異例の契約を締結
+
+[Product]
+  📨 AppleがiOS開発者にGemini・Claudeを開放、1行のコードで切り替え可能に
+
+[Regulation]
+  📨 「AIは核戦争を起こさない、だが極超音速AIが意思決定時間を数分に圧縮する」
+
+[Research]
+  📨 AI導入後のPR増加は中央値8%止まり——エンジニアリング速度への影響調査
+  📨 AnthropicがAIエージェントの生物学研究を公開、バイオテック企業も4億ドルで買収
+
+[Security]
+  📰 わずか€0.02の振込でバンキングAIエージェントを乗っ取れる脆弱性——Bunqの事例
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-09</description>
+      <mlrss:target-date>2026-06-09</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:52948ad65f134009b6660e277e14e8ef6ab5b66f532a38f14cc7e31a53e4386c" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Anthropicのモデル命名体系を外挿してみたら</mlrss:title>
+          <mlrss:link>https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated</mlrss:link>
+          <mlrss:summary>AnthropicがHaiku・Sonnet・Opus・Fable・Mythosと詩的・物語的な名称を進化させてきた命名規則を風刺的に外挿したエッセイ。「Cinematic Universe（Director's Cut）」など架空のモデル名を創作し、コスト膨張・機能過剰・ブランド肥大といったAI業界の傾向をユーモラスに批評する。HNで227ポイントを獲得した人気投稿。</mlrss:summary>
+          <mlrss:pub-date>2026-06-10T18:45:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:daa322df1167323515e23a7a7aace5fb7d205bc376eda9f96869daf9da18bbfa" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Claude DesktopがチャットのみでもWindows起動ごとに1.8GB Hyper-V VMを生成する問題</mlrss:title>
+          <mlrss:link>https://github.com/anthropics/claude-code/issues/29045</mlrss:link>
+          <mlrss:summary>Windows 11でClaude Desktopを起動すると、Cowork/エージェント機能を使わなくても毎回1.8GBのHyper-V仮想マシンが無条件に立ち上がる不具合がGitHubで報告された。16GBシステムではアイドル時にRAM使用率が75%に達し動作に支障をきたす。セッションファイル削除では解消せず、VirtualMachinePlatformを無効化するとCowork機能も失われる。279ポイント・192コメントと大きな反響を呼んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-10T17:11:56+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a7a68912c25a5f5c854701957467775a095253962441c6f46652a477761592a2" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Apache Burr：信頼性の高いAIエージェントを構築するPythonフレームワーク</mlrss:title>
+          <mlrss:link>https://burr.apache.org/</mlrss:link>
+          <mlrss:summary>Apache Software Foundationがインキュベーション中のAIエージェント構築フレームワーク「Apache Burr」がHNで注目を集めた。DSL不要のPython APIで、チャットボットから複雑なマルチエージェントシステムまで対応。組み込みUIによるデバッグ・可視化、自動状態永続化、ヒューマン・イン・ザ・ループのワークフロー対応など、本番環境に必要な機能を揃えベンダーロックインを避ける設計を採用している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-10T15:01:06+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:59479753b93a43422e0cd3e87b0f9694d177c1ebbbda9709325d0f464d522871" source-type="rss" category="Security" anchor="false">
+          <mlrss:title>わずか€0.02の振込でバンキングAIエージェントを乗っ取れる脆弱性——Bunqの事例</mlrss:title>
+          <mlrss:link>https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/</mlrss:link>
+          <mlrss:summary>オランダのフィンテックBunqのAIアシスタントで発見された間接プロンプトインジェクション脆弱性の事例報告。攻撃者が振込の説明欄に悪意ある命令を仕込み少額を送金するだけで、被害者のAIアシスタントがその命令を実行し高度なフィッシング攻撃が成立した。未信頼データをコンテキストに混入させない設計、出力の制約、ランタイム行動モニタリングの多層防御が解決策として示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-10T13:39:11+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6528cf3e45d6034ddfae3c74a3b637a2f2412a28ccba7abec555741ba0519338" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>OpenAI・Anthropic、相次いでIPO向けS-1をSECに機密提出</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html</mlrss:link>
+          <mlrss:summary>OpenAIとAnthropicがほぼ同時期にSECへの機密IPO書類（S-1）を提出した。OpenAIの評価額は約8,520億ドルでGoldman Sachs・Morgan Stanleyが主幹事。Anthropicは約9,650億ドルの評価額でJPMorganも加わった3社体制。両社ともIPO時期は未定とするが最短で今秋の株式公開が報じられている。Perplexityも2028年のIPO計画を明らかにしており、AI業界最大級の上場が相次いで実現する見通し。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T22:53:50+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0117cdf12dcf078c0e2f7d101dd01f3c50b59684da7a1d41de521cf2c1da2f5c" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>xAIがAnthropicとGoogleにGPU計算資源を貸し出す異例の契約を締結</mlrss:title>
+          <mlrss:link>https://martinalderson.com/posts/xais-new-rental-business/</mlrss:link>
+          <mlrss:summary>Elon MuskのxAIが、競合のAnthropicとGoogleに大規模なGPU計算資源を貸し出す異例の契約を締結した。90日解約条項付きで、18か月継続すればxAIは全設備投資を回収できる試算。AI用インフラの確保競争が激化するなか、ライバルへの計算資源提供がIPO前の安定収益源となる。一方、Starlink幹部がGrok開発チームのリーダーシップを掌握するなどxAI内部の組織再編も進んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T22:53:50+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0e640ece9a7affa9466e363012bb350242768c93a9d0b46c807fd401e2fbf112" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>Xiaomi MiMo-V2.5-Pro-UltraSpeed：8GPUで毎秒1,000トークンを達成</mlrss:title>
+          <mlrss:link>https://decrypt.co/370449/xiaomi-mimo-ultraspeed-ai-model-faster-chatgpt-claude</mlrss:link>
+          <mlrss:summary>XiaomiとTileRTが共同開発した1兆パラメータモデル「MiMo-V2.5-Pro-UltraSpeed」が、汎用8GPU構成で毎秒1,000トークンのスループットを達成した。FP4量子化とDFlash投機的デコーディングにより、ChatGPTやClaudeを上回る推論速度を実現。6月9〜23日の限定API試験では通常の3倍の料金で利用可能で、今後のモデル速度競争に新たな基準を打ち立てた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T22:53:50+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f402b750d0aa862988110d0abfbe1a516c13ffba654836638db4a40d4bd9ca60" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>「AIは核戦争を起こさない、だが極超音速AIが意思決定時間を数分に圧縮する」</mlrss:title>
+          <mlrss:link>https://aifrontiersmedia.substack.com/p/ai-will-not-start-a-nuclear-war-but</mlrss:link>
+          <mlrss:summary>Peter W. Singerが、LLMがシミュレーションで核攻撃を95%の確率で選択するとした研究に反論する分析を公開した。AIが自律的に核戦争を開始するリスクより、AI搭載の極超音速兵器（ロシアのAvangard、中国のDF-27等）が核の意思決定時間を15〜30分から数分に圧縮する「時間圧縮」こそ現実的な脅威だと論じる。2026年イラン・米戦争でのAI活用の実態も引用している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T22:02:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ce005d802de2d03f84b4ed392d01597a21a7e331e5273b06d23f7853b0c9e86a" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AI導入後のPR増加は中央値8%止まり——エンジニアリング速度への影響調査</mlrss:title>
+          <mlrss:link>https://newsletter.getdx.com/p/the-current-impact-of-ai-on-engineering</mlrss:link>
+          <mlrss:summary>AI活用がエンジニアのPR（プルリクエスト）数に与える影響を分析した調査で、中央値は約8%増にとどまることが判明した。一部では10〜15%増の組織もあるが、コーディング作業はエンジニア業務の一部に過ぎず、コードレビュー・設計・テスト・調整といった周辺作業が引き続きボトルネックになるため、全体的な開発速度の向上幅は限定的との結論。AIは局所的な高速化よりプロセス全体の見直しと組み合わせて初めて効果を発揮する。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T20:13:54+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:12e24a3cf80feb801651b04c084da5d9bf7165cd2af43e8063a443f8630c34ea" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>AppleがiOS開発者にGemini・Claudeを開放、1行のコードで切り替え可能に</mlrss:title>
+          <mlrss:link>https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/</mlrss:link>
+          <mlrss:summary>AppleがWWDC26でiOSアプリへのGoogle Gemini・Anthropic Claudeの直接統合を開放した。AppleのCore AIフレームワーク経由でコード1行の切り替えが可能で、GeminiはXcodeのエージェント型コーディングアシスタントとしても追加された。Google AI Studio経由でGemini APIキーが無料提供される。Apple IntelligenceのフルSiri AI体験はiPhone Air・iPhone 17 Pro以上が必要で、旧世代端末には機能制限がある。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T18:30:52+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:556c20d78d0b74948043c369c33887c63394260ff7d954eeaa638ad281c31e33" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AnthropicがAIエージェントの生物学研究を公開、バイオテック企業も4億ドルで買収</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/research/agents-in-biology</mlrss:link>
+          <mlrss:summary>AnthropicがAIエージェントによる生物学データ作業の研究成果を公開した。同一クエリで結果件数が106→15→5件と揺らぐ問題を決定論的ツールで解消し、正答率99.7%を達成。安価なモデルが高コストモデルを上回る結果も示された。Anthropicは同時期にバイオテック企業を約4億ドルで買収し、生命科学特化版Claudeを発表するなど、AI×生物学を次の注力分野として鮮明にしている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-09T18:30:52+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-08</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-08</link>
@@ -317,174 +424,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-025b85d25260b154</mlrss:link>
           <mlrss:summary>30名を超えるカナダの下院議員・上院議員が、超知能は人類絶滅のリスクを孕むと認め、その開発を禁じる国際的な取り決めをカナダが主導して交渉するよう求める声明を出した。フロンティアAIの安全性を巡る政治的圧力が各国で強まっていることを示す動きとして注目される。</mlrss:summary>
           <mlrss:pub-date>2026-06-04T19:39:39+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-04</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-04</link>
-      <guid isPermaLink="false">sha256:0feb678d59cfefd99443404e6631de3c8b1fac40fa753e26d41953e2e34f0ba7</guid>
-      <pubDate>Thu, 04 Jun 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <description>2026-06-04 のニュース 8件（Gmail 0件 / RSS 8件）
-
-[Engineering]
-  📰 Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed
-  📰 NSAがAnthropicのAIシステム「Mythos」をサイバー作戦に活用か——FT報道
-  📰 Anthropic、Claude活用の脆弱性自動発見・修正フレームワークをOSSで公開
-  📰 AIが自身を構築するとき：再帰的自己改善への進捗——Anthropic
-  📰 KVarN：HuaweiがLLM推論向けKVキャッシュ量子化バックエンドをOSSで公開
-  📰 AI, Ashby Engineering, and the future
-  📰 AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools
-  📰 Cost.dev：AIコーディングエージェントにリアルタイムコスト意識を組み込むツール
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-04</description>
-      <mlrss:target-date>2026-06-04</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:15b74c916757dc3fb303ec4efaaea60694c2cbdd64a02429dff79f043e72fd86" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed</mlrss:title>
-          <mlrss:link>https://github.com/schildep/verified-polygon-intersection</mlrss:link>
-          <mlrss:summary>To my knowledge, this is the first formally verified implementation of an intersection algorithm for polygons.The experience of working with AI agents on this project changed a lot with recent model releases, as I describe in the readme. Opus 4.8 is able to provide algorithm implementation with formal proof in one shot, whereas previous models required me to provide proof strategies in multiple s…</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T22:06:18+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:79e75575334d2fdc03fabe4d022fb52266e9c6760e2fc9d2984cb3b2b478e60c" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>NSAがAnthropicのAIシステム「Mythos」をサイバー作戦に活用か——FT報道</mlrss:title>
-          <mlrss:link>https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</mlrss:link>
-          <mlrss:summary>Financial Timesが、米国家安全保障局（NSA）がAnthropicのAIモデル「Mythos」をサイバー作戦に活用していると報道。Anthropicは複数のエンジニアをNSAに展開しているとされるが、実際の攻撃作戦の具体的証拠は限定的との指摘もある。AI政府利用における透明性と説明責任のあり方を巡り議論が起きている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T20:33:02+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fa578725b1efe609ce31a7406e191df70e77e521defdf011c0a96832565f65c7" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Anthropic、Claude活用の脆弱性自動発見・修正フレームワークをOSSで公開</mlrss:title>
-          <mlrss:link>https://github.com/anthropics/defending-code-reference-harness</mlrss:link>
-          <mlrss:summary>AnthropicがClaudeを活用したセキュリティ脆弱性の自律的発見・修正パイプラインをオープンソース公開した。ターゲットコードをDockerビルド後、AIエージェントが並列でクラッシュ誘発・報告・パッチ生成するまでを自動化する。C/C++のメモリ脆弱性（ASAN）向け参考実装で、gVisorサンドボックスによる隔離を採用。他の言語や検出器へのカスタマイズも想定した設計となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T20:11:20+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f8c23e519803f3561db1406c8bf453beb3188eccf5c9f1d8e2fd72683504b9f4" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AIが自身を構築するとき：再帰的自己改善への進捗——Anthropic</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/institute/recursive-self-improvement</mlrss:link>
-          <mlrss:summary>AnthropicがAIシステムによるAI開発自体の自動化に関する報告を公開。Claude Opus 4.6は12時間超タスクを処理可能となり、Anthropicプロダクションコードの80%超をClaudeが執筆する状況に達した。AIが自律的に次世代モデルを設計・訓練する「再帰的自己改善」の到来が予想より早い可能性を示し、フロンティアAI開発の検証可能な一時停止を求める政策提言も含む。</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T16:20:17+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b0ae5c360f60f48c6d5282ba73af32602e0e87fdc7479925afe24ffdad4e396c" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>KVarN：HuaweiがLLM推論向けKVキャッシュ量子化バックエンドをOSSで公開</mlrss:title>
-          <mlrss:link>https://github.com/huawei-csl/KVarN</mlrss:link>
-          <mlrss:summary>HuaweiのクラウドサービスラボがvLLM用KVキャッシュ量子化ツール「KVarN」を公開した。FP16比でキャッシュ容量3〜5倍・スループット最大1.3倍を達成しつつFP16相当の精度を保つ。Hadamard回転と反復分散正規化・非対称量子化の組み合わせにより、キャリブレーション不要で既存のLLM推論パイプラインへプラグインできる設計。arXiv技術論文も同時公開された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T15:18:00+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6ff1977fcb46cb6410ba5586f5f6efd625a87ac175e41b6e04552bbf88fb2915" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AI, Ashby Engineering, and the future</mlrss:title>
-          <mlrss:link>https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future</mlrss:link>
-          <mlrss:summary>Points: 28 # Comments: 17</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T14:48:44+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:8b289a99b6ccba293472f03d95c761ebf25166a0463bb3c7ba950f50b427f1b7" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools</mlrss:title>
-          <mlrss:link>https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus</mlrss:link>
-          <mlrss:summary>Points: 0 # Comments: 0</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T12:00:29+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:96ee11d8c14562c25ed1e76edb2e772ebc71df9f41b3e9d33e63f7cbb354fae6" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Cost.dev：AIコーディングエージェントにリアルタイムコスト意識を組み込むツール</mlrss:title>
-          <mlrss:link>https://cost.dev/</mlrss:link>
-          <mlrss:summary>Infracost Devは、Claude Code・GitHub Copilot・OpenAI Codex等のAIエージェントにリアルタイムのクラウドコスト情報を統合するツール。AWS・Azure・GCPの1,000超のサービス価格をカバーし、IaC記述時にFinOpsベストプラクティスとタグコンプライアンス修正を自動適用できる。「PRレビュー前に新規コスト問題の95%を防止」との実績を持つYC W21出身スタートアップ。</mlrss:summary>
-          <mlrss:pub-date>2026-06-04T11:30:13+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-03</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-03</link>
-      <guid isPermaLink="false">sha256:527dbc65a081d3d2e915c19aa307a017a099db958ab43056e936eaf7644f1989</guid>
-      <pubDate>Wed, 03 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Research</category>
-      <category>Startup</category>
-      <description>2026-06-03 のニュース 10件（Gmail 7件 / RSS 3件）
-
-[AI]
-  📨 Anthropic Nears $1T Valuation + AI Agents Trade Stocks
-
-[Engineering]
-  📰 Show HN: Mnemo – 任意のLLM向けローカルファーストAIメモリレイヤー（Rust、SQLite、petgraph）
-  📰 Launch HN: Hyper (YC P26) – エージェント開発を支える「会社の脳」プラットフォーム
-  📰 Gemma 4 12B：エンコーダーフリーのユニファイドマルチモーダルモデル
-  📨 GPT-5.5 on Bedrock, Agent Security, LLM Cost Routing
-
-[Product]
-  📨 Codex Sites, Microsoft models, Anthropic cost backlash
-  📨 New Codex, Copilot, Hermes, Microsoft Build 2026 AI
-
-[Research]
-  📨 AISN #74: The Pope's Encyclical &amp; AI Betrayal Could Deter Reckless AI Use
-
-[Startup]
-  📨 AI spend reckoning, launch events, SaaS playbook dead
-  📨 Uber had enough of its Claude usage
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-03</description>
-      <mlrss:target-date>2026-06-03</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:fbc2638caa108bb63308e65bca7933d4641ff4fa2dcdaa525178ecbc6d6c1fa6" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Show HN: Mnemo – 任意のLLM向けローカルファーストAIメモリレイヤー（Rust、SQLite、petgraph）</mlrss:title>
-          <mlrss:link>https://github.com/zaydmulani09/mnemo</mlrss:link>
-          <mlrss:summary>MnemoはRustで書かれたローカルファーストのAIメモリシステムで、会話からエンティティと関係性を自動抽出し持続的なナレッジグラフに保存する。OllamaやOpenAI・Anthropicなどと互換性があり、クラウドへの依存なしに過去の文脈を将来のプロンプトに注入できる。SQLiteとpetgraphを使った全文検索・エンティティマッチング・グラフ探索など6段階の検索パイプラインで関連コンテキストをランク付けする設計になっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T20:32:10+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:53740a0430ebfeca2e0904a4a1ecd8902075c4147956d2c70769b011af1da0a6" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Launch HN: Hyper (YC P26) – エージェント開発を支える「会社の脳」プラットフォーム</mlrss:title>
-          <mlrss:link>https://news.ycombinator.com/item?id=48387095</mlrss:link>
-          <mlrss:summary>HyperはSlack・ドキュメント・メール・カレンダーなど社内ツールの情報を統合したナレッジグラフを構築する「会社の脳」プラットフォーム（YC P26採択）。AIエージェントが断片化した情報ソースを逐一検索する代わりに、会社全体のコンテキストに直接アクセスできる環境を提供する。エンティティ・関係性・埋め込みを含む構造化ファクトとして情報を蓄積し、エージェントの実行能力とタスク精度を向上させることを目指している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T17:39:53+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:5bcb663fed95a70d22c89a6a7e4162fff3300021ada45c1dff47ad9954644e2d" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Gemma 4 12B：エンコーダーフリーのユニファイドマルチモーダルモデル</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</mlrss:link>
-          <mlrss:summary>GoogleがGemma 4 12Bを発表した。16GBのRAMを搭載した一般向けノートPCで動作するマルチモーダルモデルで、視覚・音声入力を別エンコーダーなしに直接処理するエンコーダーフリーアーキテクチャを採用している。26B MoEモデルに近いベンチマーク性能をほぼ半分のメモリフットプリントで実現し、エージェント型ワークフロー向けの推論能力も備える。Apache 2.0ライセンスでローカルデプロイ・ファインチューニングツールとともに公開されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T16:04:42+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1500372e10bd62920a1f0c9779d554d1d1f8465f76f4559b3e16f08b80aa3f25" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>AISN #74: The Pope's Encyclical &amp; AI Betrayal Could Deter Reckless AI Use</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1500372e10bd6292</mlrss:link>
-          <mlrss:summary>AIの「裏切り」リスクを開発者に認識させることで、無謀なAI開発を抑止できる可能性を示す研究が発表された。またAIモデルが80年前から未解決だった数学の難問を解いたと報告されており、AI研究の到達点として注目されている。ローマ法王レオ14世のAIに関する回勅が及ぼす規制論議への影響とともに、AI安全性を巡る多角的な視点が紹介されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T14:35:49+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0939a442369e0dab9023b6c798f9ff187164dbd03da4b29d41d00231d1fb2a9b" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Codex Sites, Microsoft models, Anthropic cost backlash</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0939a442369e0dab</mlrss:link>
-          <mlrss:summary>OpenAIがCodex Sitesを発表した。データ分析・クリエイティブ・営業・プロダクトデザイン等6種類の役割特化型プラグインとともに、コーダー以外のユーザーもWebアプリを直接構築できる新機能。MicrosoftはBuild 2026で複数の新AIモデルを発表。一方でAnthropicへのトークンコスト高騰への反発が高まっており、企業がAI活用計画を見直す動きが広がっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T13:27:06+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0d5cb1a78adc308576cba06cd65e6c8e9dbecf477d7c00325a55f4fc6024c8d4" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>AI spend reckoning, launch events, SaaS playbook dead</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0d5cb1a78adc3085</mlrss:link>
-          <mlrss:summary>AIトークンコストの急騰によりAI活用計画の見直しや中止が相次いでいる。EntelligenceAIの調査では企業のAI支出のうち18%しか実際の価値を生み出していないと報告された。LLMによるSaaSビジネスモデルの基本前提が崩れ始めているとの指摘も広まっており、AI投資の費用対効果を巡る懐疑論が台頭している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T12:14:14+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9c4b683f17d29a9ae3f59f806d6ab182aaf909617d4a17225df36c2885e19af6" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>GPT-5.5 on Bedrock, Agent Security, LLM Cost Routing</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9c4b683f17d29a9a</mlrss:link>
-          <mlrss:summary>Amazon Web ServicesがOpenAIのGPT-5.5・GPT-5.4モデルとCodexエージェントをAmazon Bedrockプラットフォームに追加した。エンタープライズ向けAIモデル選択肢が拡大し、AWSインフラ上でOpenAIの最新モデルを直接利用できるようになった。AIエージェントのセキュリティベストプラクティスと、精度を維持しながらコストを最適化するLLMルーティング手法についても詳しく取り上げられている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T11:29:55+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1d3c10c121ee82b7d5dc8c0c4925f6e85a153b186c932f201711f49984f339a8" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>New Codex, Copilot, Hermes, Microsoft Build 2026 AI</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1d3c10c121ee82b7</mlrss:link>
-          <mlrss:summary>Microsoft Build 2026でAIアシスタント「Hermes」が発表された。GitHub CopilotとCodexの機能統合がさらに進み、Hermesはデスクトップ向けの統合AIアシスタントとして位置付けられている。Microsoftが開発者向けAIエコシステムの包括的な強化を続けており、アジェンティック開発の中心プラットフォームとしての存在感を高めている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T11:07:11+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ecc98598317bb3666b18b7a88bfe53d45e0525bc5307f5fe5985809d10b161c4" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>Uber had enough of its Claude usage</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ecc98598317bb366</mlrss:link>
-          <mlrss:summary>UberがClaude APIの利用コストと使用量に不満を抱き、Anthropic依存を見直していることが報じられた。AIトークン費用の急騰に直面する企業は増加しており、コスト対効果の再評価が業界全体に広がっている。またGitLabがAIエージェント時代への組織変革を理由に全従業員の14%を削減すると発表した。AIシフトに伴う現実的なコスト・雇用面の課題が顕在化している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-03T09:56:45+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9f8476a5ad57fa985529e121e5617464a3041827d5653443e2c2a3a08580ac50" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Anthropic Nears $1T Valuation + AI Agents Trade Stocks</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9f8476a5ad57fa98</mlrss:link>
-          <mlrss:summary>ウェブインフラがAIエージェント向けのAPIファースト構造に急速に再設計されており、マシン向けの新しいネットワーク層が形成されつつある。YouTubeがAIを活用したパーソナライズドコンテンツ推薦機能を拡充。一方で76%の企業がAIエージェント移行の準備が不十分との調査結果が示され、エージェントAI普及に向けた組織的課題が浮き彫りになっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-02T16:25:43+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
