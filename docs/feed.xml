@@ -6,7 +6,7 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Fri, 12 Jun 2026 22:20:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 22:23:47 +0000</lastBuildDate>
     <item>
       <title>ML &amp; RSS Digest 2026-06-12</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-12</link>
@@ -14,10 +14,11 @@
       <pubDate>Fri, 12 Jun 2026 08:00:00 +0900</pubDate>
       <category>AI</category>
       <category>Engineering</category>
+      <category>Regulation</category>
       <category>Security</category>
       <category>Startup</category>
       <category>Tools</category>
-      <description>2026-06-12 のニュース 16件（Gmail 12件 / RSS 4件）
+      <description>2026-06-12 のニュース 22件（Gmail 12件 / RSS 10件）
 
 [AI]
   📨 OpenAI、OnaをAcquireしCodexを強化；AnthropicはAI監視の「秘密」ポリシーを部分撤回
@@ -28,13 +29,19 @@
   📨 AIは危険性を増している：超知性へのレースが続く中でもリスク軽視が横行
 
 [Engineering]
-  📨 Claude Fable がAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始
+  📰 破産しないための自宅AIコーディング環境構築術
+  📰 RTX 5080 + RTX 3090の2GPU構成でQwen 3.6 27B Q8が毎秒80トークン超を達成
+  📨 Claude FableがAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始
   📰 「ChatGPTにアップロードすればいいだけじゃないの？」という誤解
   📰 BitBoard（YC P25）：AIエージェントと協働できるアナリティクスワークスペース
   📰 StackScope：4万件超のインディーローンチを分析して技術スタックを可視化
   📰 AIが生成するフロントエンドの「ダサさ」を減らす実践的アプローチ
 
+[Regulation]
+  📰 AmazonCEOと米政府当局者の協議がAnthropicモデルへの規制強化の引き金に
+
 [Security]
+  📰 AIで証拠を「捏造」したとしてダービーシャー警察官が複数案件で調査対象に
   📨 ノッティンガム大学でゼロデイ攻撃・40GBデータ漏洩；GitHubがnpm自動実行を廃止
 
 [Startup]
@@ -42,12 +49,50 @@
   📨 BezosがAI製造エンジニアリングスタートアップ「Prometheus」を設立
 
 [Tools]
+  📰 LLMOpsプラットフォームTensorZero、$730万シード調達直後にリポジトリを突然アーカイブ化
+  📰 Paca：AIエージェントをスクラムの正規メンバーとして扱えるJira代替OSSツール
   📨 AI価格競争が本格化：OpenAI Codexによる業務自動化と低価格化の波
   📨 AIエージェントを本番環境に移行するためのガバナンスワークフローガイド
 
 詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-12</description>
       <mlrss:target-date>2026-06-12</mlrss:target-date>
       <mlrss:stories>
+        <mlrss:story uid-hash="sha256:1482fd4a4398221aab17385ad0721310efeb37a0fe67a5005a8c0644d6031376" source-type="rss" category="Security" anchor="false">
+          <mlrss:title>AIで証拠を「捏造」したとしてダービーシャー警察官が複数案件で調査対象に</mlrss:title>
+          <mlrss:link>https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661</mlrss:link>
+          <mlrss:summary>ダービーシャー警察の警察官が、複数の捜査案件においてAIツールを使って証拠を生成・捏造した疑いで内部調査を受けていることが明らかになった。捜査書類や証言の信頼性に関わる深刻な問題として注目される。法執行機関がAIを活用する際の透明性確保と監査体制、そして証拠の真正性を守るための法的・倫理的枠組みの整備が急務として浮き彫りになった。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T19:54:55+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1f25623ef8848ca5a316a82cefe5a240c3cdb7ab0d0b4a89b11317efb22b234f" source-type="rss" category="Regulation" anchor="false">
+          <mlrss:title>AmazonCEOと米政府当局者の協議がAnthropicモデルへの規制強化の引き金に</mlrss:title>
+          <mlrss:link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578</mlrss:link>
+          <mlrss:summary>WSJの報道によると、AmazonのCEOが米政府当局者と行った協議が、AnthropicのClaude系モデルに対する利用制限強化のきっかけになったとされる。国家安全保障上の懸念を背景に、クラウド経由でのAIモデル提供に対する政府関与が強まっている。Amazon BedrockなどのパートナーシップはAWS・Anthropicの両社にとって重要な収益源であり、規制動向が商業展開に与える影響が注視される。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T16:57:49+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:42ef563240f770784f90a8d67a837da583bf13cf83b57b6a318c3c81d2c86e4d" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>破産しないための自宅AIコーディング環境構築術</mlrss:title>
+          <mlrss:link>https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</mlrss:link>
+          <mlrss:summary>自宅でのAIコーディング費用を抑えるための3戦略を検証した記事。セルフホスティング（初期投資大・トークン単価低）、オープンソースモデルのAPI利用（バランス型）、フロンティアモデルサブスクリプション（断続利用向け）を比較。推奨はハイブリッド戦略：仕様書作成や難解な問題にはフロンティアモデルを使い、日常的なコーディング作業はオープンソースAPIで賄う。月約1,000ドルで「20人チーム相当」の開発出力を実現できるとする試算が話題を呼んだ。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T16:45:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1507f6ebd50ffddaa7912e5cb23cd8e9b257daecfb8885a049808f2d24c90753" source-type="rss" category="Tools" anchor="false">
+          <mlrss:title>LLMOpsプラットフォームTensorZero、$730万シード調達直後にリポジトリを突然アーカイブ化</mlrss:title>
+          <mlrss:link>https://github.com/tensorzero/tensorzero</mlrss:link>
+          <mlrss:summary>LLMゲートウェイ・可観測性・評価・最適化・実験を1つに統合したオープンソースLLMOpsプラットフォームTensorZeroのGitHubリポジトリが、730万ドルのシード調達発表の翌日にオーナーにより突然アーカイブ化（読み取り専用）された。同プロジェクトは世界のLLM API支出の約1%を処理し、AIスタートアップからFortune 10企業まで採用実績を持つ。商用化への移行やビジネスモデルの転換を示唆するとの見方が広まっており、オープンソース戦略の行方に注目が集まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T12:10:47+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b23e3353595b61a8d75be07e3440e5468790eacada643290ba171f035f7609a2" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>RTX 5080 + RTX 3090の2GPU構成でQwen 3.6 27B Q8が毎秒80トークン超を達成</mlrss:title>
+          <mlrss:link>https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/</mlrss:link>
+          <mlrss:summary>RTX 5080とRTX 3090を組み合わせた2GPU構成のホームサーバで、Qwen 3.6 27B（Q8量子化）のローカルLLM推論を行い毎秒80トークン超のスループットを達成した事例。コンシューマー向けGPUを活用することでAPIコストを抑えつつ、270億パラメータの大規模量子化モデルを実用速度で動かせることを実証。セットアップ手順や構成の詳細も共有され、ローカルLLM推論の民主化を示す技術的な事例として注目を集めた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T09:55:32+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:00c189e46a442a31d18454e4eadd67df867dae80828ef14306ff7f202104c90b" source-type="rss" category="Tools" anchor="false">
+          <mlrss:title>Paca：AIエージェントをスクラムの正規メンバーとして扱えるJira代替OSSツール</mlrss:title>
+          <mlrss:link>https://github.com/Paca-AI/paca</mlrss:link>
+          <mlrss:summary>Goで書かれた軽量なオープンソースプロジェクト管理ツールPacaが公開された。人間とAIエージェントを「対等なスクラムメンバー」として同一ボード上で共同管理できる設計が特徴で、スプリント計画・タスク割り当てをリアルタイムで行える。BDDシナリオの共同作成、システム設計ドキュメント生成、WASMベースのプラグインアーキテクチャ、MCP経由のエージェント統合に対応。完全無料・永続メンテナンスを宣言しており、AIを周辺ツールでなくチームの中核に位置付ける新しいプロジェクト管理の形を提示する。</mlrss:summary>
+          <mlrss:pub-date>2026-06-13T09:44:25+00:00</mlrss:pub-date>
+        </mlrss:story>
         <mlrss:story uid-hash="sha256:fb2189e85ec85d8fe656d04e1103cd89103ed4a191c183a9810d51097108b061" source-type="gmail" category="AI" anchor="true">
           <mlrss:title>OpenAI、OnaをAcquireしCodexを強化；AnthropicはAI監視の「秘密」ポリシーを部分撤回</mlrss:title>
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fb2189e85ec85d8f</mlrss:link>
@@ -73,7 +118,7 @@
           <mlrss:pub-date>2026-06-12T20:16:16+09:00</mlrss:pub-date>
         </mlrss:story>
         <mlrss:story uid-hash="sha256:687e74dfe8c47339eb4b43dc622b9a78fc3e6a403aa98a5f2275193d8d36cf02" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Claude Fable がAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始</mlrss:title>
+          <mlrss:title>Claude FableがAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始</mlrss:title>
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-687e74dfe8c47339</mlrss:link>
           <mlrss:summary>Claude Fable 5がAWS上で利用可能になったことが確認された。エンタープライズ向けクラウドネイティブな展開が本格化し、Amazon BedrockまたはAWS Marketplaceを通じた利用が可能に。既存のAWSインフラとの統合を重視する企業にとって採用障壁が下がる。またTerraformプランのポリシーコードチェック合格時の自動適用手法についても特集されている。</mlrss:summary>
           <mlrss:pub-date>2026-06-12T20:10:22+09:00</mlrss:pub-date>
@@ -506,38 +551,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2b8f7e14561be271</mlrss:link>
           <mlrss:summary>AnthropicがフロンティアAI開発について、検証可能な形での一時停止（pause）の枠組みを提唱していると報じられた。急速な能力向上と安全性確保のバランスを取るための国際的な合意形成を念頭に置く。あわせて、オンライン上の自動トラフィック（ボット）が人間を上回ったとの調査も話題となり、AIエージェント普及に伴う社会的影響への関心が高まっている。</mlrss:summary>
           <mlrss:pub-date>2026-06-07T17:45:59+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-07</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-07</link>
-      <guid isPermaLink="false">sha256:ead75b1b0d2d4cf6aae8557d71c07699d0ddce1ef9d49a76154691937c8e66d6</guid>
-      <pubDate>Sun, 07 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Research</category>
-      <description>2026-06-07 のニュース 2件（Gmail 2件 / RSS 0件）
-
-[AI]
-  📨 オンライン自動トラフィックが人間を超え57.2%に、GoogleはSpaceXから計算資源を借用
-
-[Research]
-  📨 世界初の侵襲型ブレイン・コンピュータ・インターフェイスチップ
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-07</description>
-      <mlrss:target-date>2026-06-07</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:710a81b3cb10726d7be62fedaddb9789e68a1a204c14f611bf0e5086c2a69150" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>世界初の侵襲型ブレイン・コンピュータ・インターフェイスチップ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-710a81b3cb10726d</mlrss:link>
-          <mlrss:summary>MIT Technology Reviewの週次まとめ。世界初とされる侵襲型ブレイン・コンピュータ・インターフェイス（BCI）チップの話題を取り上げる。神経信号の高解像度な読み取りを狙う技術で、医療応用と倫理的論点の双方が注目される。中小企業がAIをどう活用できるか、graduation seasonにおけるAI論調なども併せて紹介している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-07T12:06:03+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f2873adaf4e398c0b8cfd87e55a496a1478f8238a388e88e7a49adecf3dacf49" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>オンライン自動トラフィックが人間を超え57.2%に、GoogleはSpaceXから計算資源を借用</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f2873adaf4e398c0</mlrss:link>
-          <mlrss:summary>ウェブ上の自動トラフィック（ボット）が全体の57.2%に達し、人間のアクセスを上回ったとの調査が話題に。AIエージェントやクローラーの急増が背景にある。あわせてGoogleがSpaceXから計算資源を借りる動き、Anthropicの次期モデル「Oceanus」の早期リークなども報じられ、インフラと自動化の両面でAI起点の変化が加速している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-06T22:47:52+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
