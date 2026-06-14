@@ -6,7 +6,121 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Sat, 13 Jun 2026 22:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 22:14:20 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-14</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-14</link>
+      <guid isPermaLink="false">sha256:411fa4581aa1545df5157cbf9fe207dc30abf0ac20c3188037c9b7301bc62acb</guid>
+      <pubDate>Sun, 14 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Security</category>
+      <category>Tools</category>
+      <description>2026-06-14 のニュース 12件（Gmail 9件 / RSS 3件）
+
+[AI]
+  📨 AIチャットボットが人間の認知制御を侵食する可能性、心理学者が警鐘
+  📰 リオデジャネイロ「自国産」397B LLMは既存モデルの数学的混合と判明
+  📰 「誰もがAIを使っている」は誤り—米国のAI利用は活発・散発・未使用の3層構造
+  📨 Kynooe：AIエージェントで制御できるデスク用モジュール式ロボットアーム
+
+[Engineering]
+  📰 M1 MaxとローカルMLモデルで669GBのGoPro動画をインデックス化—セマンティック検索を実現
+  📨 SpaceX、宇宙に100万台のAIサーバー配備計画—太陽光で地上の電力問題を解決
+
+[Product]
+  📨 ElevenLabsがAI音声にリアルタイム動画アバター機能を追加
+
+[Regulation]
+  📨 AIが生成した訴訟が急増—法廷でのチャットボットの権利と義務をめぐる議論が始まる
+  📨 Anthropic、輸出規制によりFable 5とMythos 5を一時停止—AmazonのCEOが発端
+  📨 Anthropic CEO Dario Amodei、フロンティアAIの事前安全審査義務化を提唱
+
+[Security]
+  📨 GoogleがAIを悪用した中国系詐欺テキスト送信業者を提訴、9,000サイト閉鎖へ
+
+[Tools]
+  📨 OpenAI Academy、AIエージェント活用を含む3講座を新設
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-14</description>
+      <mlrss:target-date>2026-06-14</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:9100f9f8abb7a6e56c8f8533f47a1b14322a1fe5d3168207b8fbbd52b129f27d" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>AIが生成した訴訟が急増—法廷でのチャットボットの権利と義務をめぐる議論が始まる</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9100f9f8abb7a6e5</mlrss:link>
+          <mlrss:summary>AIを使って法律文書を作成・提訴するケースが急増する中、裁判官がチャットボットの法的権利と義務についての判断を求められている。弁護士の代わりにAIが法廷に立つことへの法的・倫理的課題を各法廷が模索しており、AIと司法制度の関係を再定義する議論が本格化している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T21:06:11+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f3fc37ecbb6a52e97228778fe308e57eea29d22724730bf04293fa81c98d7b22" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>AIチャットボットが人間の認知制御を侵食する可能性、心理学者が警鐘</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f3fc37ecbb6a52e9</mlrss:link>
+          <mlrss:summary>心理学者Gloria Markの研究によれば、AIチャットボットへの依存が人間の注意力や自律的思考能力を侵食するリスクがある。思考の外部委託が増えるほど認知スキルが低下しうるという指摘で、一方でその制御を取り戻す実践的な方法も提示されている。AIの利便性と認知自律性のトレードオフが問われる研究。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T21:06:11+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:329480275d716a174d35e909c9a9b51d1ca6c6bed16abc0a157835896ff4b11b" source-type="rss" category="AI" anchor="false">
+          <mlrss:title>リオデジャネイロ「自国産」397B LLMは既存モデルの数学的混合と判明</mlrss:title>
+          <mlrss:link>https://github.com/nex-agi/Nex-N2/issues/4</mlrss:link>
+          <mlrss:summary>ブラジル・リオデジャネイロ市が開発した397Bパラメータの「自国産」LLMとされるRio-3.5-Open-397Bが、Nex-AGI社モデルとQwenの公式397Bモデルを60/40で混合したものに過ぎないとの告発がGitHubに投稿された。システムプロンプトなしでモデルがNexとして自己識別し、全60レイヤーの重みが混合計算値と数千標準偏差の精度で一致するという2つの独立した証拠が示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T15:37:31+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:50f33005fc223344251a033bf2d5954942025059dba9f7fcdc3a027d515cfae9" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>M1 MaxとローカルMLモデルで669GBのGoPro動画をインデックス化—セマンティック検索を実現</mlrss:title>
+          <mlrss:link>https://news.ycombinator.com/item?id=48528029</mlrss:link>
+          <mlrss:summary>サイクリング旅行のGoPro動画2,207本（669GB・15時間超）をM1 Maxのみでローカル処理しインデックス化したプロジェクト。1fps抽出した57,537フレームをオープンソースMLモデルで解析し、テキスト・画像・音声によるマルチモーダル検索を実現。クラウド不要で処理時間は約68時間、DaVinci Resolveへの直接エクスポートも可能。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T15:13:57+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3a2f937cb20114e2f3e6ec5e1e63f2d23937c83e427fb5dbba34d616d5ffc863" source-type="rss" category="AI" anchor="false">
+          <mlrss:title>「誰もがAIを使っている」は誤り—米国のAI利用は活発・散発・未使用の3層構造</mlrss:title>
+          <mlrss:link>https://gabrielweinberg.com/p/people-are-consuming-ai-like-they</mlrss:link>
+          <mlrss:summary>DuckDuckGo創業者Gabriel Weinbergが、AIの普及をめぐる誇張された言説に疑問を呈した記事。実際には米国人の約3分の1が活発にAIを使い、3分の1が散発的、残り3分の1はまったく使っていない。Z世代でも21%が未使用で、主な懸念は雇用喪失(42%)・プライバシー(35%)・誤情報(33%)であり、AI採用率の伸びは鈍化している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T14:44:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2adaea37807f300f07475493a1cc536ffa335c8e887ddc125c7ff0cc453e69e8" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>Anthropic、輸出規制によりFable 5とMythos 5を一時停止—AmazonのCEOが発端</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/news/fable-mythos-access</mlrss:link>
+          <mlrss:summary>米連邦輸出規制命令により、AnthropicはFable 5とMythos 5を世界規模で一時オフラインにした。発端はAmazonのCEOがジェイルブレイクリスクを懸念しワシントンへ報告したためで、Anthropicの主要出資者が規制の引き金を引く皮肉な展開となった。AnthropicはFableおよびMythosへのアクセスポリシーを公式サイトで発表し、対応中であることを明示している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:98ef12ff9d15f64e24f51acc8614ca35c2f9cc42a452184cac1650b611991646" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>ElevenLabsがAI音声にリアルタイム動画アバター機能を追加</mlrss:title>
+          <mlrss:link>https://x.com/ElevenLabs/status/2065129866471551160</mlrss:link>
+          <mlrss:summary>ElevenLabsがElevenCreativeを発表。スクリプトを入力してAI音声と顔を選ぶだけで、スタジオ品質のトーキングヘッド動画を自動生成できる。音声クローンと映像生成を一元化したプラットフォームで、コンテンツ制作ワークフローの大幅な効率化が期待される新機能。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:84fd1796c89a2fec00dabf424cf2b8d62a3da0f3a69a9859528a823f6621ae84" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>OpenAI Academy、AIエージェント活用を含む3講座を新設</mlrss:title>
+          <mlrss:link>https://openai.com/index/academy-courses-applying-ai-at-work</mlrss:link>
+          <mlrss:summary>OpenAIが学習プラットフォームAcademyに3コースを追加した。AI基礎から職場でのエージェント運用まで、既存のChatGPTや小規模ビジネス向けカリキュラムとともに体系的に提供。企業・個人がAIを実務で活用できる人材育成を公式に支援する取り組みとして注目される。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:28d33dcb3105ca53d33af7a1309a5704a0a0f269c44fa9d0c8527c7a91566881" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>Anthropic CEO Dario Amodei、フロンティアAIの事前安全審査義務化を提唱</mlrss:title>
+          <mlrss:link>https://darioamodei.com/post/policy-on-the-ai-exponential</mlrss:link>
+          <mlrss:summary>AnthropicのCEO Dario Amodeiが個人ブログで、フロンティアAIモデルにも航空機と同様の飛行前安全審査を義務化すべきと主張した。政府・業界向けに具体的な規制ロードマップを提示し、急速な技術進化に対応した政策立案を訴えた内容で、今後のAI規制議論に影響を与えると見られる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d128bf0c40fa92d88e3fa73dc63a4e3bee4cca117b421eb6a4943d1772611c73" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>SpaceX、宇宙に100万台のAIサーバー配備計画—太陽光で地上の電力問題を解決</mlrss:title>
+          <mlrss:link>https://www.space.com/space-exploration/satellites/elon-musk-wants-to-put-1-million-ai-satellites-in-space-heres-how-spacex-could-do-it</mlrss:link>
+          <mlrss:summary>AIデータセンターの急増による地上の電力・土地不足の解決策として、SpaceXが軌道上に100万台のAIサーバーを配備する構想を検討している。宇宙では太陽光発電を無制限に利用でき冷却コストも削減可能。Starlinkインフラを活用したAIコンピュート基盤の宇宙展開という大胆な計画が注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5db6344131bcd600a745215b06e334ee16df73d232f219a1c3330106dda9c714" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Kynooe：AIエージェントで制御できるデスク用モジュール式ロボットアーム</mlrss:title>
+          <mlrss:link>https://www.youtube.com/watch?v=pf2JKQT3VcE</mlrss:link>
+          <mlrss:summary>Kynooeはアプリ・Webパネル・音声から操作できるモジュール式デスクロボットアーム。関節とグリッパーを差し替えて用途を変えられ、AIエージェントに接続することで自律的なタスク実行が可能。撮影追跡・物体把持・繰り返し作業の自動化など、フィジカルAIの実用例として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8a0496bfe74553a193b8c4be1d1323e3c3a6ab863e8ddea2407bb28e4aac81db" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>GoogleがAIを悪用した中国系詐欺テキスト送信業者を提訴、9,000サイト閉鎖へ</mlrss:title>
+          <mlrss:link>https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/</mlrss:link>
+          <mlrss:summary>Googleは偽配送通知・偽銀行アラートなどのフィッシング詐欺テキストを送りつけていた中国拠点の組織を特定し、9,000以上のサイト閉鎖を求めて提訴した。FBIもドメイン押収に協力しており、AIを悪用した大規模サイバー犯罪ネットワークへの法的対処として注目される事例となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-12</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-12</link>
@@ -440,117 +554,6 @@
           <mlrss:link>https://www.anthropic.com/research/agents-in-biology</mlrss:link>
           <mlrss:summary>AnthropicがAIエージェントによる生物学データ作業の研究成果を公開した。同一クエリで結果件数が106→15→5件と揺らぐ問題を決定論的ツールで解消し、正答率99.7%を達成。安価なモデルが高コストモデルを上回る結果も示された。Anthropicは同時期にバイオテック企業を約4億ドルで買収し、生命科学特化版Claudeを発表するなど、AI×生物学を次の注力分野として鮮明にしている。</mlrss:summary>
           <mlrss:pub-date>2026-06-09T18:30:52+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-08</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-08</link>
-      <guid isPermaLink="false">sha256:531c32f7ae46eaaaf792671f671fdd9a3d61a0fe2f92ae8b39015a65d79eefd8</guid>
-      <pubDate>Mon, 08 Jun 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <description>2026-06-08 のニュース 12件（Gmail 6件 / RSS 6件）
-
-[Engineering]
-  📰 「AIロックスター開発者」の後始末
-  📰 MicrosoftのOSSツールが改ざんされAI開発者の認証情報を窃取
-  📰 Apple、Google Geminiを中核に据えた新AIアーキテクチャを公開
-  📰 Apple、開発者向け「Core AI」フレームワークを公開
-  📰 Ask HN: AI時代になって自作したツールは何か
-  📰 刷新版Siriと Apple Intelligence
-  📨 MCPサーバの負荷テスト手法とAIガバナンス
-
-[Funding]
-  📨 GoogleがSpaceXと計算資源契約、Apple社内のAI戦略会議も明らかに
-
-[Product]
-  📨 企業AI導入の「信頼の問題」とAIアプリの台頭
-
-[Regulation]
-  📨 OpenAIへの政府出資案が浮上、Altmanはワシントンで規制協議
-  📨 Anthropic、フロンティアAI開発の検証可能な一時停止を提唱
-
-[Research]
-  📨 Import AI 460：Anthropicの再帰的自己改善データと「報酬ハッキング社会」
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-08</description>
-      <mlrss:target-date>2026-06-08</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:b27e2bafe9b62db2cc037729cdad72050eb09a96e2eea4271afffab2979d80d4" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>「AIロックスター開発者」の後始末</mlrss:title>
-          <mlrss:link>https://www.codingwithjesse.com/blog/rockstar-developers/</mlrss:link>
-          <mlrss:summary>AIコーディング支援で大量のコードを高速に書く開発者が増える一方、その後に残る技術的負債や読みにくいコードの整理に追われる現場の課題を論じたブログ。生成コードの理解・保守コストが見過ごされがちで、レビューと設計判断の重要性がむしろ高まっていると指摘する。</mlrss:summary>
-          <mlrss:pub-date>2026-06-09T09:10:10+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:96ac764ffcd508f19f4c1e612ef286c362aa00080a2841efedd5df2416db7f33" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>MicrosoftのOSSツールが改ざんされAI開発者の認証情報を窃取</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/</mlrss:link>
-          <mlrss:summary>TechCrunchの報道。Microsoftが公開するオープンソースツールがサプライチェーン攻撃で改ざんされ、AI開発者の認証情報・パスワードを盗むよう仕込まれていた。AI関連の開発環境やパッケージを狙う供給網攻撃が続いており、依存先の検証とトークン管理の重要性が改めて浮き彫りになった。</mlrss:summary>
-          <mlrss:pub-date>2026-06-09T07:33:16+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6597efc629eedcd7c033d0d622d605e2ab4a8d3d564292c252bd5cbc1058224f" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Apple、Google Geminiを中核に据えた新AIアーキテクチャを公開</mlrss:title>
-          <mlrss:link>https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/</mlrss:link>
-          <mlrss:summary>WWDC26でAppleが、刷新版SiriとApple Intelligenceの基盤としてGoogle Geminiモデルを組み込む新AIアーキテクチャを発表したとMacRumorsが報道。自社モデルと外部フロンティアモデルを組み合わせる方針で、長年遅れていたApple のAI戦略がGemini連携で前進する。オンデバイス処理とプライバシー保護の枠組みも示された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T19:14:47+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:834c009b200e478c070532ad6d2dcb5c6f2b8eca23a12ae16a7595a5fd7965d5" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Apple、開発者向け「Core AI」フレームワークを公開</mlrss:title>
-          <mlrss:link>https://developer.apple.com/documentation/coreai/</mlrss:link>
-          <mlrss:summary>AppleがWWDC26に合わせ、アプリ開発者がApple Intelligenceの生成AI機能を自作アプリへ組み込むための新フレームワーク「Core AI」の公式ドキュメントを公開した。オンデバイス基盤モデルと外部モデル連携への統一APIを提供し、テキスト生成・要約・ツール呼び出しをネイティブに扱える。iOS/macOSのAI統合を標準化する狙い。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T18:47:38+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:089663834c8baa38446e7d3e9d53da8ce51412cae7f0014403e31a5282a141b2" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Ask HN: AI時代になって自作したツールは何か</mlrss:title>
-          <mlrss:link>https://news.ycombinator.com/item?id=48449187</mlrss:link>
-          <mlrss:summary>Hacker Newsの議論スレッド。生成AIの普及以降、各自が自分向けに作った小さなツールやスクリプトを共有し合う投稿。これまで着手しなかったニッチな自動化を個人が手軽に作れるようになった事例が多数挙がり、AIによる「自分専用ソフトウェア」の民主化を実感する声が集まっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T18:22:39+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f019f31ea310c9cdf687215635dd19a4f90b0f45744c9bd22f492dbd61535ee9" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>刷新版Siriと Apple Intelligence</mlrss:title>
-          <mlrss:link>https://www.apple.com/apple-intelligence/</mlrss:link>
-          <mlrss:summary>AppleがApple Intelligenceの公式ページを更新し、大幅刷新したAI版Siriを紹介。画面上の文脈理解、アプリ横断の操作実行、個人情報を踏まえた応答などエージェント的機能を打ち出す。WWDC26で示した新AIアーキテクチャ（Gemini連携）に基づき、従来弱点だった自然言語理解と実行能力の底上げを図る。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T18:17:53+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:49557b5c6ddf1ac2ca4e08aaf52614a846957cfabe32ccaba812b3b82359ab47" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>OpenAIへの政府出資案が浮上、Altmanはワシントンで規制協議</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-49557b5c6ddf1ac2</mlrss:link>
-          <mlrss:summary>OpenAIとトランプ政権が、株式の一部寄贈を通じた政府の出資（ステーク取得）の可能性を協議していると報じられた。Sam AltmanはワシントンでAIに友好的な政策づくりを働きかけている。並行してOpenAIは社内で製品戦略の見直し（いわゆる「コードレッド」）に着手したとされ、ChatGPTの方向性を再設計する動きと合わせ、政策と製品の両面で大きな転換期に入っている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T13:37:18+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4d3860a41a43fc6c256889278290081c1dc0e3a264fe14345176b94bce97734e" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Import AI 460：Anthropicの再帰的自己改善データと「報酬ハッキング社会」</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4d3860a41a43fc6c</mlrss:link>
-          <mlrss:summary>Jack ClarkのImport AI第460号。AnthropicによるAIの再帰的自己改善（RSI）に関するデータや、AIが報酬関数を悪用する「報酬ハッキング」が社会規模で起きうる懸念を取り上げる。市場はいつ特異点を織り込むのか、という問いも提起。強化学習を用いたクアッドコプター・レースの研究なども紹介し、自己改善と安全性の緊張関係を論じている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T12:31:32+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a959d437ddbe91b6e9e8ebba49039f8a85a57b3006ff008c21db561d34b006a6" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>企業AI導入の「信頼の問題」とAIアプリの台頭</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a959d437ddbe91b6</mlrss:link>
-          <mlrss:summary>多くの企業は高速化に必要な技術を既に持つが、変化を妨げているのは社内の承認・統制プロセスだという指摘。AI導入を阻む最大の壁は技術ではなく「信頼」にあるとし、モデル提供各社の競争激化やAIアプリの台頭と合わせて、組織がAIをどう安全に業務へ組み込むかが論点になっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T12:25:55+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c3fb0b06d7d05aadac1dd3e8f7a061cb8b908392f5135d1e5f2c90c01f36fa44" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>MCPサーバの負荷テスト手法とAIガバナンス</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c3fb0b06d7d05aad</mlrss:link>
-          <mlrss:summary>ホスト型MCP（Model Context Protocol）サーバを、PythonとLocustによる再利用可能なハーネスで負荷テストする手法を解説。MCPのライフサイクルを忠実に再現してスケール特性を測る。あわせてAmazon Bedrockの新コンソールやAIガバナンスの実務も取り上げ、エージェント基盤の運用・統制面の整備が進んでいることを示している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T11:14:37+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:35d9ae2e3f8766c21bca121644141f19ea04a199a7578ea35ada0cd6078bc646" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>GoogleがSpaceXと計算資源契約、Apple社内のAI戦略会議も明らかに</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-35d9ae2e3f8766c2</mlrss:link>
-          <mlrss:summary>GoogleがSpaceXのデータセンター／衛星計算資源を利用する契約を結んだと報じられた。AI需要の急増を背景に、大手各社がコンピュート確保で宇宙インフラ企業と手を組む流れが鮮明になっている。また、Tim Cook抜きで開かれたAppleの社内AI戦略会議の存在も明らかになり、各社のAIインフラ・組織再編の動きが続いている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-08T10:37:45+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2b8f7e14561be2716fcdd3050046a582b5a3226dc7d0f4f78ad1b6a680d133d4" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>Anthropic、フロンティアAI開発の検証可能な一時停止を提唱</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2b8f7e14561be271</mlrss:link>
-          <mlrss:summary>AnthropicがフロンティアAI開発について、検証可能な形での一時停止（pause）の枠組みを提唱していると報じられた。急速な能力向上と安全性確保のバランスを取るための国際的な合意形成を念頭に置く。あわせて、オンライン上の自動トラフィック（ボット）が人間を上回ったとの調査も話題となり、AIエージェント普及に伴う社会的影響への関心が高まっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-07T17:45:59+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
