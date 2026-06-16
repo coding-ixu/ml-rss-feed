@@ -6,40 +6,118 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Mon, 15 Jun 2026 22:17:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 22:12:24 +0000</lastBuildDate>
     <item>
       <title>ML &amp; RSS Digest 2026-06-15</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-15</link>
       <guid isPermaLink="false">sha256:df50912916c81389d6204faad7d2bfb1fcfd4b9fd481d20f94ba36d2eb929bcd</guid>
       <pubDate>Mon, 15 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
       <category>Engineering</category>
-      <description>2026-06-15 のニュース 3件（Gmail 0件 / RSS 3件）
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Startup</category>
+      <description>2026-06-15 のニュース 12件（Gmail 10件 / RSS 2件）
+
+[AI]
+  📨 GLM-5.2とKimi K2.7 Code — 中国発AIモデルの最新動向
+  📨 サトヤ・ナデラ「トークン資本」論 — 少数AIモデルが全産業を空洞化するリスクを警告
 
 [Engineering]
-  📰 GrassDx：写真とZIPコードで芝生の病気を即時診断するAIツール
-  📰 自宅サーバーにAI開発プラットフォームを構築—OpenCodeとGitOpsで安全な自動化を実現
-  📰 ローカルLLMはClaude/GPTの代替になるか—HN開発者コミュニティの実態調査
+  📰 GPT-NL — オランダが1350万ユーロで構築する主権AI言語モデル
+  📰 AIはすでにノンフィクション書籍を殺したか — ChatGPT後に売上80%減
+  📨 Xiaomi MiMo-V2.5-Pro-UltraSpeed — 1兆パラメータモデルが毎秒1000トークン推論を達成
+
+[Product]
+  📨 Apple iOS 27ベータにSiri向けサードパーティAI拡張システムを密かに実装
+
+[Regulation]
+  📨 AnthropicのFable 5/Mythos 5、米政府の輸出規制指令で全ユーザー向け提供停止
+  📨 OpenAI、42州の司法長官から召喚状 — ChatGPTの安全性・データ・広告慣行を調査
+
+[Research]
+  📨 Sequent設立 — 「アライメントは軌道に乗っていない」、新AI安全性研究機関が1億ドル超を調達へ
+  📨 FrontierCode — 次世代コーディングエージェント向け高難度ベンチマーク公開
+  📨 AARRI-Bench — AIエージェントの研究インターン能力を評価する新ベンチマーク
+
+[Startup]
+  📨 Zuckerbergが140億ドルで建設したMeta AI「Muse Spark」、株価低迷で商業化に課題
 
 詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-15</description>
       <mlrss:target-date>2026-06-15</mlrss:target-date>
       <mlrss:stories>
-        <mlrss:story uid-hash="sha256:2ace5ad4ae5bebf2ba6ba8682be48429fc59bb9afa75da7aaadf1ccbcecd5fcd" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>GrassDx：写真とZIPコードで芝生の病気を即時診断するAIツール</mlrss:title>
-          <mlrss:link>https://grassdx.com/</mlrss:link>
-          <mlrss:summary>獣医師がキャリア転換して開発した無料AIサービス。芝生の写真を最大4枚アップロードし郵便番号を入力するだけで、47種以上の病気・害虫・栄養不足などを即時特定し、地域・草種に応じた対処法を提案する。DIY向け製品リンクから専門業者紹介まで段階的な解決策を提供する。農業・緑化分野でAIが専門知識を民主化する一例として注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-15T17:56:00+00:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:ec1a1322c17e0d6c07f2b1da7befc63445a7ac2a9205c9946d3497ec9e26f62b" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>GPT-NL — オランダが1350万ユーロで構築する主権AI言語モデル</mlrss:title>
+          <mlrss:link>https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/</mlrss:link>
+          <mlrss:summary>TNO・SURF・オランダ法科学研究所が政府から1350万ユーロの公的資金を得て、完全欧州管理の国産大規模言語モデル「GPT-NL」を開発。技術・データ・ガバナンスのすべてをEU管理下に置く「主権AI」設計を採用し、スクラッチから構築。コンテンツ制作者との公正な価値分配、プライバシー・知的財産の保護を掲げた責任ある技術革新として、AIの国家主権を巡る議論において注目される事例となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T17:54:02+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:89ab44617a73aaa49b9850570e9900c7e6236d0dc6ccee2a3d5fda5cf5758b75" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>自宅サーバーにAI開発プラットフォームを構築—OpenCodeとGitOpsで安全な自動化を実現</mlrss:title>
-          <mlrss:link>https://rsgm.dev/post/ai-dev-platform/</mlrss:link>
-          <mlrss:summary>ベンダー非依存のAIコーディングプラットフォームOpenCodeを活用し、自宅サーバーの保守作業を自動化した事例。DockerコンテナのアップデートやKubernetes設定管理などの繰り返し作業をAIが担い、変更はGitOpsパイプラインを通じた手動PRレビューで安全性を担保する。AIが提案したインフラ変更をコードレビュー後にデプロイするフローにより、どのデバイスからでもリモートで安全にホームラボを管理できる体制を構築した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-15T15:09:40+00:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:8bb99474df09cabb0ff721be526206923b5d7562f9983bdf81bf649592729f9d" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIはすでにノンフィクション書籍を殺したか — ChatGPT後に売上80%減</mlrss:title>
+          <mlrss:link>https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/</mlrss:link>
+          <mlrss:summary>ティム・フェリスがChatGPT登場の2022年以降、自身の書籍売上が80%減少したというデータを公表。セルフヘルプ系ノンフィクション全体でも業界で26%の市場縮小が進んでいると指摘。ただしLLMが代替できない「深く個人的な物語と変革を促す体験」を持つコンテンツは生き残るとし、大量読者を追うのではなく1000人の熱狂的読者を育てることが出版の今後の戦略と提言した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T17:11:05+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:a7100681dc99395d4924d43e840042876be96d401fc2f664de513615345b5dfc" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>ローカルLLMはClaude/GPTの代替になるか—HN開発者コミュニティの実態調査</mlrss:title>
-          <mlrss:link>https://news.ycombinator.com/item?id=48542100</mlrss:link>
-          <mlrss:summary>519票を集めたAsk HNスレッド。日常のコーディング作業をローカルモデルに完全移行した開発者が続々回答し、Qwen 3.6 35B-A3BやQwen 3.6 27Bが最も人気。RTX 3090やM4 Max（48GB+）などで運用し、プライバシー保護とコスト削減が主なメリット。ただしフロンティアモデルとの能力差は「12〜18ヶ月分」との評価が多く、自律タスクより監督下でのペアプログラミング向きとする意見が多数。初期投資2,000ドル以上が必要なため専門家より趣味開発者向けとされる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-15T14:46:53+00:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:f596d11a7974f9e4686f9e07d8327062caca63763b65ba3b413eb4bb5e8495af" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>AnthropicのFable 5/Mythos 5、米政府の輸出規制指令で全ユーザー向け提供停止</mlrss:title>
+          <mlrss:link>https://beincrypto.com/anthropic-white-house-fable-mythos-5-access/</mlrss:link>
+          <mlrss:summary>AnthropicはFable 5とMythos 5を全ユーザー向けに無効化した。Amazon CEOアンディ・ジャシーと米当局の会談を受け、トランプ政権が外国向けアクセス停止を命じたもの。Amazon研究者がFable 5を悪用してサイバー攻撃支援情報を取得できることを発見し、ホワイトハウスが修正か削除を要求。Anthropicは脆弱性は比較的基本的なものと主張しつつも対応。共同創業者トム・ブラウンを含むスタッフがDCに向かい復旧交渉中。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T13:38:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e2388577eb5c1914c6996aef6eb7d46db2129b8d3305a78b81632c25c0103ad8" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>GLM-5.2とKimi K2.7 Code — 中国発AIモデルの最新動向</mlrss:title>
+          <mlrss:link>https://huggingface.co/moonshotai/Kimi-K2.7-Code</mlrss:link>
+          <mlrss:summary>Z.aiのGLM-5.2がGLMコーディングプランユーザー向けに公開。1Mコンテキスト対応で長期タスクに強く、MITライセンスでオープンソース化予定。一方Moonshotが1兆パラメータMoEモデルKimi K2.7 Codeをリリース。長期コーディングタスクの完遂率とトークン効率が前バージョン比で向上し、Kimi Code CLIとの組み合わせを推奨。両モデルともOpenAI互換APIを提供しており、輸出規制下でも中国勢のモデル開発が加速している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T13:38:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:61ed8768f7459278ccfd16379e4dcbe54af2c938eb283aa8dbc3abef3c17eae8" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Apple iOS 27ベータにSiri向けサードパーティAI拡張システムを密かに実装</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-61ed8768f7459278</mlrss:link>
+          <mlrss:summary>iOS 27ベータにOpenAI・Anthropicなど主要AIプロバイダーをSiriに統合する「Extensions」システムが発見された。設定画面とApp Store専用セクションが実装済みだがバックエンドで無効化されている。Appleは主要AIプロバイダーと権限付与について協議していたとみられるが、WWDCでの公式発表は見送った。将来的なサードパーティAIとの統合に向けた布石と分析されており、Siriの抜本的強化に向けた動きが続いている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T13:38:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:39234cd7b897b52c2a53b6b49eabffbabcedea1f2b1fd134c95a30c0fcf468a5" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Sequent設立 — 「アライメントは軌道に乗っていない」、新AI安全性研究機関が1億ドル超を調達へ</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-39234cd7b897b52c</mlrss:link>
+          <mlrss:summary>英国AI安全機構アライメントチームとTimaeusの研究者らが非営利研究機関Sequentを設立。超知能AIの開発前にアライメントの準備が整わない可能性があるとし、「理想的な世界では超知能の構築前に安全性の理論的証明を持つべきだが、現実はそこに遠く及ばない」と表明。初期1億〜1.5億ドルを調達し、2年以内に40〜80人体制を目指す。スケーラブル・オーバーサイト、学習理論、ゲーム理論など複数の研究方向を並行して探索する計画。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T11:30:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:55a7717126ef17d2814fe4b868757237e5e332ecf14caf5a8b80d0ce2a819f97" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>FrontierCode — 次世代コーディングエージェント向け高難度ベンチマーク公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-55a7717126ef17d2</mlrss:link>
+          <mlrss:summary>DevinのメーカーCognitionがコーディングエージェント向けベンチマーク「FrontierCode」を公開。20人のOSS開発者がタスクあたり40時間超を費やして構築した150タスクで構成。最高難度ダイヤモンドはClaude Opus 4.8が13.4%、GPT-5.5が6.3%とスコアが低く、今後数年間の進捗測定に耐えうる設計を実現。コードの正確性・品質・スタイル適合・スコープ規律をLLMと自動テストで総合評価する実用的なベンチマーク。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T11:30:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:af85b386653de476d40bdca932a06739dcdc268b86049a8388b18b87ec453a65" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Xiaomi MiMo-V2.5-Pro-UltraSpeed — 1兆パラメータモデルが毎秒1000トークン推論を達成</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-af85b386653de476</mlrss:link>
+          <mlrss:summary>小米（Xiaomi）がMiMo-V2.5-Pro-UltraSpeedを公開。1兆パラメータの大規模モデルながら毎秒1000トークンの推論速度を実現した。FP4量子化、DFlash（ブロックレベル並列予測による投機的デコード）、TileAI製ランタイムとの共設計を採用し、特殊ハードウェア不要な8GPU汎用サーバーで動作。輸出規制でNVIDIA最新GPUを入手しにくい環境下で、中国企業がソフトウェア・アーキテクチャで効率を追求した成果として注目される。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T11:30:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:eec01043a7aa69e5a919d1fb5feceb8598305843006e74a7d85610b534f038c6" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>AARRI-Bench — AIエージェントの研究インターン能力を評価する新ベンチマーク</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-eec01043a7aa69e5</mlrss:link>
+          <mlrss:summary>西安交通大学らがLLMエージェントの研究補助能力を評価するARRR-Bench（Act As a Real Research Intern）を発表。論文の捏造データ検出、ハイパーパラメータ調整の行き詰まり認識、研究倫理違反拒否など実践的な82タスクで構成。最高スコアはClaude Opus 4.7（MiniSwE-Agentハーネス使用）の68.3%で、現時点でもAIエージェントが科学的補助作業に実用的に活用できる段階にあることを示した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T11:30:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1543541863e5050dcf3a0298471ab9069ff2d5b55e40bca13c446527ca13630b" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>OpenAI、42州の司法長官から召喚状 — ChatGPTの安全性・データ・広告慣行を調査</mlrss:title>
+          <mlrss:link>https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general</mlrss:link>
+          <mlrss:summary>ニューヨーク州司法長官が42州連合を代表してOpenAIに召喚状を発行。ChatGPTの広告慣行、ユーザーエンゲージメント手法、消費者・医療データの取り扱い、未成年・高齢者への対応、AIの迎合（sycophancy）を調査対象とする。OpenAIがIPO申請書を機密提出した直後のタイミングで発行され、株式公開リスク要因として浮上。6月初めのフロリダ州のCEOサム・アルトマン個人名指し訴訟に続く法的措置。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T10:03:25+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1a5f74b18b182e78c84515d4835f0c01142c169f61d526a984330167867eb681" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>サトヤ・ナデラ「トークン資本」論 — 少数AIモデルが全産業を空洞化するリスクを警告</mlrss:title>
+          <mlrss:link>https://businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6</mlrss:link>
+          <mlrss:summary>Microsoftのサトヤ・ナデラCEOがXで「全産業を空洞化するAIの未来には社会的な許諾がない」と警告。企業が自社データと学習成果を継続的にフィードバックする「トークン資本」こそが本当の競争優位と主張し、グローバリゼーションが産業を空洞化した過去を引き合いに出した。Snowflake・BoxのCEOも同様の懸念を示す中、モデルを保有するMicrosoft自身のトップが名指しで警鐘を鳴らした点で注目された。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T09:52:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cd61eefdb6ddea7cf14ff1d02ffa49b5f6ec0e55ee06ce459b7d6e977b23ae06" source-type="gmail" category="Startup" anchor="false">
+          <mlrss:title>Zuckerbergが140億ドルで建設したMeta AI「Muse Spark」、株価低迷で商業化に課題</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html</mlrss:link>
+          <mlrss:summary>MetaがScale AIの約半分を約143億ドルで取得しAlexandr WangをCTOに迎えて建設したAI「Muse Spark」がリリースされた。Facebook・Instagram・Ray-Ban眼鏡への統合を目指すが、開発者からの評価は芳しくなく、Meta株は過去1年で18%下落（メガキャップ最悪）。売上の98%を占める広告事業に依存する中、AI投資収益を示す「AI最優先製品」の実現が急務となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-15T09:52:43+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
