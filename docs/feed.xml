@@ -6,7 +6,76 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 18 Jun 2026 22:11:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 22:48:21 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-18</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-18</link>
+      <guid isPermaLink="false">sha256:061b5d562ba8485833387f1c1bc454ecf7581f0c789b0d5a98accfef7fbe4908</guid>
+      <pubDate>Thu, 18 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Security</category>
+      <description>2026-06-18 のニュース 6件（Gmail 6件 / RSS 0件）
+
+[AI]
+  📨 ChatGPTのシェアが初の50%割れ、Geminiなどへ利用が分散
+
+[Engineering]
+  📨 エージェンティック・コーディングの分業：人間が計画、AIが実行
+
+[Product]
+  📨 Midjourney Medical：60秒の全身スキャンでMRI代替を狙う
+
+[Regulation]
+  📨 ワシントンがAI企業への政府出資（エクイティ）を志向、Amazonは世界モデルを発表
+  📨 Anthropic、「Fable」停止を受けフランスに支援要請、規制当局と協議継続
+
+[Security]
+  📨 セキュリティ：OpenBSD認証バイパス、FortiBleedが3万件、Peter Thiel関連データ漏洩
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-18</description>
+      <mlrss:target-date>2026-06-18</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:042d5d44689acae67378fb39d1956158feb68ce411ebc64503a57fad372f1775" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>ChatGPTのシェアが初の50%割れ、Geminiなどへ利用が分散</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-042d5d44689acae6</mlrss:link>
+          <mlrss:summary>ChatGPTのアシスタント市場シェアが初めて50%を下回ったと報じられた。ユーザーがGoogleのGeminiをはじめとする他のアシスタントへ移行しているのが背景。あわせてVercelのエージェント機能「eve」、ReplitがClaudeと連携する動きなども取り上げられ、対話型AIの主導権争いが多極化しつつあることを示している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T13:34:05+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f5b2777aac1a2f37cd9f725f6ed0bc7e48bb2114b6cad716467cb6eb06031b29" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>セキュリティ：OpenBSD認証バイパス、FortiBleedが3万件、Peter Thiel関連データ漏洩</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f5b2777aac1a2f37</mlrss:link>
+          <mlrss:summary>TLDR Information Security。OpenBSDのsppp(4)サブシステムでPAP認証バイパスの脆弱性が報告された。Fortinet製品の「FortiBleed」が約3万件に影響、Peter Thiel関連とされるデータ漏洩なども取り上げる。インフラ機器と著名人関連データの双方を狙う攻撃が続いており、パッチ適用と露出管理の重要性が改めて示された。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T13:33:33+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1efe2f7707c6f3068bc26729ba2d2592bb000ed2b2a78e5169e3d2bb6285e4eb" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>エージェンティック・コーディングの分業：人間が計画、AIが実行</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1efe2f7707c6f306</mlrss:link>
+          <mlrss:summary>エージェント型コーディングでは、計画・意思決定の大半を人間が担い、技術的な実装をAIが処理するという明確な分業が成立しつつあるとの分析。AIネイティブなスタートアップの作り方や、対話量を増やす開発スタイルの利点も取り上げ、開発者の役割が「書く人」から「判断する人」へ移行している流れを論じている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T11:15:54+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1888a55b9e830f8a7d62798a5487e9bbcaeb93878da774200a0b275e0bb58ebd" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>ワシントンがAI企業への政府出資（エクイティ）を志向、Amazonは世界モデルを発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1888a55b9e830f8a</mlrss:link>
+          <mlrss:summary>米政府が主要AI企業への出資（エクイティ取得）を志向しているとの報道。国家戦略としてAIインフラへ関与を強める流れの一環とされる。あわせてAmazonの世界モデル（world models）、Snapのスマートグラス、AIによるメール処理などの話題も取り上げられ、政府・大手の双方でAIの実装と関与が加速している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T11:06:51+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1052e7e2c72d3572414669addfcc36320eae3e1a8eafb3ab74a9c2d8b1d235b0" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>Anthropic、「Fable」停止を受けフランスに支援要請、規制当局と協議継続</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1052e7e2c72d3572</mlrss:link>
+          <mlrss:summary>米政府の輸出規制指示でモデル「Fable」が停止された問題を受け、Anthropicがフランスの協力を求める動きを見せていると報じられた。米当局はElonのデータセンターを「規制するには重要すぎる」と位置づけたとされ、規制と国家安全保障を巡る綱引きが続く。OpenAIがGeminiの共同リードを引き抜いた話題、AccentureがHRにAIエージェント管理を求める話なども併報。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T10:03:31+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f585638acd5a773573b5c07ba75d47d70f7a87db8ec541a8abec64e56a901604" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Midjourney Medical：60秒の全身スキャンでMRI代替を狙う</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f585638acd5a7735</mlrss:link>
+          <mlrss:summary>AI NewsがMidjourneyの医療向け新製品を報じた。プールのような装置が約60秒で全身をスキャンし、従来のMRIに代わる手軽な画像診断を目指すという。画像生成で知られる同社が医療画像へ進出する形で、AIによるヘルスケア・診断分野の拡大を象徴する動きとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T04:23:05+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-17</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-17</link>
@@ -94,6 +163,79 @@
           <mlrss:link>https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding</mlrss:link>
           <mlrss:summary>Z.aiが744億パラメータのMoEモデルGLM-5.2をリリース。100万トークンのコンテキストウィンドウとエージェント型コーディングに特化し、フロントエンドコーディング評価でClaude Opus 4.8を上回りオープンウエイトモデル最強の評価を得た。DeepSeek Sparse AttentionとIndexShareを用いた推論設計を採用。MITライセンスで公開、API料金は入力$1.4/出力$4.4 per Mトークン。</mlrss:summary>
           <mlrss:pub-date>2026-06-17T14:37:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-16</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-16</link>
+      <guid isPermaLink="false">sha256:2fa39fc4f8ea77646310b56a7c760fcefbfe1248b4a00aed9d38f2359c6c5c0e</guid>
+      <pubDate>Tue, 16 Jun 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Security</category>
+      <description>2026-06-16 のニュース 7件（Gmail 7件 / RSS 0件）
+
+[Engineering]
+  📨 AIコストは「スケールへの課税」——利用拡大とともに重くなる費用構造
+  📨 AI時代の開発規律：個々の行ではなくシステム全体を管理する
+
+[Product]
+  📨 Meta、検索を会話化する「AI Mode」を投入、Sakanaは自律研究者を発表
+  📨 Apple、iOS 27 betaにSiriのChatGPT／Claude切替を実装か
+
+[Regulation]
+  📨 Anthropic、ワシントンに連日働きかけ、エージェント禁止方針を再び撤回
+  📨 EU AI Act ニュースレター#104：科学パネルと助言フォーラムが始動
+
+[Security]
+  📨 セキュリティ：欧州評議会がハッキング被害、M365 Copilotで情報漏洩
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-16</description>
+      <mlrss:target-date>2026-06-16</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:6f88c0b1aae9b3f11f7c44dc4ec8370d3125a74173f7d0a8382c2602fc633caa" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Meta、検索を会話化する「AI Mode」を投入、Sakanaは自律研究者を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6f88c0b1aae9b3f1</mlrss:link>
+          <mlrss:summary>Facebookの新しい「AI Mode」が、通常の検索バーを公開データを掘り下げて回答する対話型ツールへと変える。あわせて開発支援の「Factory 2.0」、Sakana AIの自律研究エージェントなども取り上げられ、検索・開発・研究の各領域でAIによる自動化と対話化が同時に進んでいることを示している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T13:28:42+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a32fd7b5f5869c5ca7de6b55961b48e2f22826bcb0498609fc91488c615237c9" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>セキュリティ：欧州評議会がハッキング被害、M365 Copilotで情報漏洩</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a32fd7b5f5869c5c</mlrss:link>
+          <mlrss:summary>TLDR Information Security。ランサムウェア集団ShinyHuntersが欧州評議会への侵入を主張。Microsoft 365 CopilotでのデータリークやReCAPTCHA回避に手のジェスチャーを使う手口なども取り上げる。AIアシスタントを介した情報漏洩の経路が新たなリスク面として浮上していることを示している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T13:11:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8107cde9d4b613a9ed31b929a2923581a80cb0ca1e091ef40a00bc617eff6c0d" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>AIコストは「スケールへの課税」——利用拡大とともに重くなる費用構造</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8107cde9d4b613a9</mlrss:link>
+          <mlrss:summary>Gradient Flowの分析。AIの利用料金は使えば使うほど膨らむ「スケールへの課税」のような構造を持ち、トークン課金が事業のスケールに比例してコスト負担を増やすと指摘する。費用対効果を保つには、モデル選択・キャッシュ・ルーティングなどの最適化と、価値に見合った価格設計が不可欠だと論じている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T13:02:04+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3f2fd36f15955f847356fed2d0b9433a9893ffd94a02b0e569b7dd417dba62e3" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>AI時代の開発規律：個々の行ではなくシステム全体を管理する</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3f2fd36f15955f84</mlrss:link>
+          <mlrss:summary>AIによりコード生成が高速かつ使い捨て可能になったことで、開発の関心が「個々の行を磨くこと」から「システム全体を管理すること」へ移行しているとの論考。生成コードを前提とした設計規律やコンポーネント管理の重要性が増し、レビューやアーキテクチャ判断が生産性の鍵になると指摘している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T11:26:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b42f2ae46f6b62c7a37b930f844e43e49b72ad533278c971d40b227aafc55d34" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Apple、iOS 27 betaにSiriのChatGPT／Claude切替を実装か</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b42f2ae46f6b62c7</mlrss:link>
+          <mlrss:summary>iOS 27のベータに、SiriのバックエンドをChatGPTとClaudeで切り替える機能がひそかに実装されているとの観測が報じられた。Appleが複数の外部フロンティアモデルをユーザーが選べる形で組み込む方向性を示唆する。あわせて、Googleの生成AIがスパムSMS生成に悪用された事例なども取り上げられている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T11:07:03+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c926c1b5e459c99cb2c87aa9bde3bbd93460ab334dd5d4f0a3b9eaa246239c62" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>Anthropic、ワシントンに連日働きかけ、エージェント禁止方針を再び撤回</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c926c1b5e459c99c</mlrss:link>
+          <mlrss:summary>Anthropicが「Fable／Mythos」の輸出規制停止を巡り、ワシントンへ連日働きかけていると報じられた。同社はエージェント関連の利用禁止方針を再び撤回したとされ、規制対応と製品方針の調整が続く。あるユーザーがトークン消費を巡って提訴した件、GPT-5.6のリリース日と価格が示された件なども併せて取り上げられている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T09:30:38+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:25b7d5ae22360cbbbb0cce402ead53c0485ed01ec727c140110612999c1c740b" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>EU AI Act ニュースレター#104：科学パネルと助言フォーラムが始動</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-25b7d5ae22360cbb</mlrss:link>
+          <mlrss:summary>欧州委員会がEU AI Actの科学パネルと助言フォーラムを設置し、専門家が着任した。AI生成コンテンツの表示（ラベリング）に関する行動規範も公表され、アイルランドが議長国としての優先課題を提示。EUのAI規制が制度の実装・運用フェーズへ進みつつあることを示す動きとして注目される。</mlrss:summary>
+          <mlrss:pub-date>2026-06-16T07:00:14+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
