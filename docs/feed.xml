@@ -6,7 +6,97 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Tue, 16 Jun 2026 22:12:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 22:11:59 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-17</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-17</link>
+      <guid isPermaLink="false">sha256:b13157dfbb52c843d9f26d5146349d17a9b72acf5cb47183c0d4f7aa22a07fd0</guid>
+      <pubDate>Wed, 17 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Research</category>
+      <category>Startup</category>
+      <description>2026-06-17 のニュース 9件（Gmail 7件 / RSS 2件）
+
+[AI]
+  📨 Anthropic Fable 5リリース、米政府が翌週アクセス制限を発動
+  📨 MetaのAI最優先方針が歴史的エンジニアリング文化を解体
+
+[Engineering]
+  📰 TesterArmy（YC P26）：WebアプリをAIエージェントが自動テスト
+  📰 AnthropicのMythos輸出規制問題の中心に立つ韓国SKテレコム
+  📨 Android 17、AIエージェント向けMCPサポートを標準搭載
+
+[Funding]
+  📨 DeepSeek、74億ドル調達で企業価値500億ドル超に
+
+[Research]
+  📨 GLM-5.2：フロントエンドコーディングでOpus 4.8を超えたオープンウエイトモデル
+
+[Startup]
+  📨 SpaceX、AIコーディングツールCursorを$600億で買収
+  📨 OpenAI、IPO直前に390億ドルの損失が明らかに
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-17</description>
+      <mlrss:target-date>2026-06-17</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:2c575175c4d83b3561f8e9ee0092e81a70c960ed515de680443dd498714cfbdd" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>TesterArmy（YC P26）：WebアプリをAIエージェントが自動テスト</mlrss:title>
+          <mlrss:link>https://tester.army</mlrss:link>
+          <mlrss:summary>TesterArmyはAIエージェントを使ってWebアプリ・モバイルアプリをエンドツーエンドで自動テストするQAプラットフォーム。テスト内容を自然言語で記述するだけでエージェントがユーザー操作をシミュレートし、手動テストやスクリプト保守の手間を排除する。CI/CDパイプラインやGitHubと統合し、デプロイ前・本番環境での継続的な品質保証を実現する。YCombinator P26採択企業。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T14:49:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7854e576b8f4fe31ed72f32ffeebc579bd00de53950adad7d985aadaf2100ddb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AnthropicのMythos輸出規制問題の中心に立つ韓国SKテレコム</mlrss:title>
+          <mlrss:link>https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/</mlrss:link>
+          <mlrss:summary>Wired誌が報じた米Anthropicの輸出規制問題において、韓国最大手通信会社SKテレコムが当事者として注目されている。SKテレコムはAnthropicのClaude技術を活用したAIサービスを展開してきたが、米政府がFable/Mythos搭載モデルへの外国人アクセスを制限したことで同社の事業提供に支障が生じた。米国AI輸出規制が海外パートナー企業に波及した初の大規模事例として業界の関心を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-18T12:44:09+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ee6bcfefb6bb81c77cff58f39706600f6df62cf1062f35898712f5a114e8c22c" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Anthropic Fable 5リリース、米政府が翌週アクセス制限を発動</mlrss:title>
+          <mlrss:link>https://newsletter.safe.ai/p/aisn-75-anthropic-releases-fable</mlrss:link>
+          <mlrss:summary>AnthropicがClaude Fable 5を6月9日に公開。Humanity's Last Examで53.3%を達成し前世代を大幅に上回る。しかし6月12日、Amazonの研究者がジェイルブレイクを発見したとして米政府が国家安全保障を理由に輸出管理命令を発動、Anthropicはすべての顧客アクセスを一時停止した。同社は同時期にフロンティアAI開発の「一時停止オプション」を業界が持つべきとする提言も公開している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T23:15:58+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9b9e45c2884831fee1aa6d2cea9c811e2928c51f359ce77f1435b49a9139b96b" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>DeepSeek、74億ドル調達で企業価値500億ドル超に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9b9e45c2884831fe</mlrss:link>
+          <mlrss:summary>DeepSeekが74億ドルの資金調達を完了し、企業価値500億ドル超で中国最大のAIスタートアップとなった。創業者Liang Wenfengが約30億ドルを個人出資し、政府系ファンドも1.5億ドルを投資。出資者への経営参与は最小限に抑えられており、新資本はR&amp;Dと計算インフラ拡充に充てる計画。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T22:35:04+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cfb5631976627869481226bdae3e793996aa639e40b0796309df0a6e8c5054de" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Android 17、AIエージェント向けMCPサポートを標準搭載</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-cfb5631976627869</mlrss:link>
+          <mlrss:summary>Android 17でAppFunctionsとAndroid MCPが導入され、アプリがオンデバイスAIエージェントに発見・実行可能なツールを公開できるようになった。GoogleはMCPを「インテリジェンスシステム」への転換の核心と位置づけており、開発者はMCPを通じてアプリ機能をAIエージェントに直接公開できる。エージェント型スマートフォン体験が本格化する。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T22:35:04+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:dd5bf9d3e95c57b44f110a5437b753faa63ee8efd5ce1a6459ca655546cc754a" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>MetaのAI最優先方針が歴史的エンジニアリング文化を解体</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-dd5bf9d3e95c57b4</mlrss:link>
+          <mlrss:summary>MetaがAI施策を最優先する急速な方針転換により、長年培ってきた強固なエンジニアリング文化が急速に解体されていると複数の報道が指摘。品質管理やプロセス規律が軽視される変化が進んでおり、優秀なエンジニアの離脱や組織の混乱を招いているとされる。AI投資最優先戦略のコストが顕在化しつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T20:16:33+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0d83c35aaef26e5520489024fa3717011177531f9e21b68b59f8a425b30e840f" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>SpaceX、AIコーディングツールCursorを$600億で買収</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0d83c35aaef26e55</mlrss:link>
+          <mlrss:summary>SpaceXがAIコーディングツールCursorを$600億相当の株式で買収することで合意。Cursorは2022年創業で年間売上$10億超。宇宙空間データセンター計画（太陽光衛星100万基）の自律運用を担うAI技術の確保が主な動機とみられ、買収後CursorはxAI製GPU上で独自AIモデルを開発する見通し。取引完了は第3四半期末を予定。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T19:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d5a6b7327d516dd66ef0ae9429eb2e642b8e5595520815fdc7640b13e9e4416b" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>OpenAI、IPO直前に390億ドルの損失が明らかに</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d5a6b7327d516dd6</mlrss:link>
+          <mlrss:summary>OpenAIの財務情報がリークされ、IPOを前に390億ドルという巨額の累積損失が判明した。大規模な計算インフラ投資と競争激化による費用増大が主因とみられる。一方でOpenAIはGoogleのGemini共同リードを引き抜くなど人材獲得競争を続けており、上場に向けた体制強化を急いでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T18:40:38+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4425dbe5fe3e9386a030343ef4f98aac356a54e310d72382d541384a899a818c" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>GLM-5.2：フロントエンドコーディングでOpus 4.8を超えたオープンウエイトモデル</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding</mlrss:link>
+          <mlrss:summary>Z.aiが744億パラメータのMoEモデルGLM-5.2をリリース。100万トークンのコンテキストウィンドウとエージェント型コーディングに特化し、フロントエンドコーディング評価でClaude Opus 4.8を上回りオープンウエイトモデル最強の評価を得た。DeepSeek Sparse AttentionとIndexShareを用いた推論設計を採用。MITライセンスで公開、API料金は入力$1.4/出力$4.4 per Mトークン。</mlrss:summary>
+          <mlrss:pub-date>2026-06-17T14:37:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-15</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-15</link>
@@ -232,335 +322,6 @@
           <mlrss:link>https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/</mlrss:link>
           <mlrss:summary>Googleは偽配送通知・偽銀行アラートなどのフィッシング詐欺テキストを送りつけていた中国拠点の組織を特定し、9,000以上のサイト閉鎖を求めて提訴した。FBIもドメイン押収に協力しており、AIを悪用した大規模サイバー犯罪ネットワークへの法的対処として注目される事例となっている。</mlrss:summary>
           <mlrss:pub-date>2026-06-14T06:11:41+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-12</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-12</link>
-      <guid isPermaLink="false">sha256:7f49c7847992c68c927f6f3bdf7af02c68579dce49cbc9565e19c6e9ccfec33e</guid>
-      <pubDate>Fri, 12 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Regulation</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <category>Tools</category>
-      <description>2026-06-12 のニュース 22件（Gmail 12件 / RSS 10件）
-
-[AI]
-  📨 OpenAI、OnaをAcquireしCodexを強化；AnthropicはAI監視の「秘密」ポリシーを部分撤回
-  📨 AIがエンジニアのバーンアウトを増加させ、OpenAIはオンプレミスAI展開を計画
-  📨 Anthropicが帳外で$350億借入計画；OpenAIは報酬の「リセット」型支払いを導入
-  📨 AndrewNgのThe Batch：MythosからFableへ、AIエージェントが「代わりに仕事をする」時代
-  📨 LLMの説得テクニック：あなたのチャットボットはどうあなたを操るか
-  📨 AIは危険性を増している：超知性へのレースが続く中でもリスク軽視が横行
-
-[Engineering]
-  📰 破産しないための自宅AIコーディング環境構築術
-  📰 RTX 5080 + RTX 3090の2GPU構成でQwen 3.6 27B Q8が毎秒80トークン超を達成
-  📨 Claude FableがAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始
-  📰 「ChatGPTにアップロードすればいいだけじゃないの？」という誤解
-  📰 BitBoard（YC P25）：AIエージェントと協働できるアナリティクスワークスペース
-  📰 StackScope：4万件超のインディーローンチを分析して技術スタックを可視化
-  📰 AIが生成するフロントエンドの「ダサさ」を減らす実践的アプローチ
-
-[Regulation]
-  📰 AmazonCEOと米政府当局者の協議がAnthropicモデルへの規制強化の引き金に
-
-[Security]
-  📰 AIで証拠を「捏造」したとしてダービーシャー警察官が複数案件で調査対象に
-  📨 ノッティンガム大学でゼロデイ攻撃・40GBデータ漏洩；GitHubがnpm自動実行を廃止
-
-[Startup]
-  📨 SpaceX $750億IPOの本質：Starlink、データ、AIコンピュートへの戦略的布石
-  📨 BezosがAI製造エンジニアリングスタートアップ「Prometheus」を設立
-
-[Tools]
-  📰 LLMOpsプラットフォームTensorZero、$730万シード調達直後にリポジトリを突然アーカイブ化
-  📰 Paca：AIエージェントをスクラムの正規メンバーとして扱えるJira代替OSSツール
-  📨 AI価格競争が本格化：OpenAI Codexによる業務自動化と低価格化の波
-  📨 AIエージェントを本番環境に移行するためのガバナンスワークフローガイド
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-12</description>
-      <mlrss:target-date>2026-06-12</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:1482fd4a4398221aab17385ad0721310efeb37a0fe67a5005a8c0644d6031376" source-type="rss" category="Security" anchor="false">
-          <mlrss:title>AIで証拠を「捏造」したとしてダービーシャー警察官が複数案件で調査対象に</mlrss:title>
-          <mlrss:link>https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661</mlrss:link>
-          <mlrss:summary>ダービーシャー警察の警察官が、複数の捜査案件においてAIツールを使って証拠を生成・捏造した疑いで内部調査を受けていることが明らかになった。捜査書類や証言の信頼性に関わる深刻な問題として注目される。法執行機関がAIを活用する際の透明性確保と監査体制、そして証拠の真正性を守るための法的・倫理的枠組みの整備が急務として浮き彫りになった。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T19:54:55+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1f25623ef8848ca5a316a82cefe5a240c3cdb7ab0d0b4a89b11317efb22b234f" source-type="rss" category="Regulation" anchor="false">
-          <mlrss:title>AmazonCEOと米政府当局者の協議がAnthropicモデルへの規制強化の引き金に</mlrss:title>
-          <mlrss:link>https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578</mlrss:link>
-          <mlrss:summary>WSJの報道によると、AmazonのCEOが米政府当局者と行った協議が、AnthropicのClaude系モデルに対する利用制限強化のきっかけになったとされる。国家安全保障上の懸念を背景に、クラウド経由でのAIモデル提供に対する政府関与が強まっている。Amazon BedrockなどのパートナーシップはAWS・Anthropicの両社にとって重要な収益源であり、規制動向が商業展開に与える影響が注視される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T16:57:49+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:42ef563240f770784f90a8d67a837da583bf13cf83b57b6a318c3c81d2c86e4d" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>破産しないための自宅AIコーディング環境構築術</mlrss:title>
-          <mlrss:link>https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</mlrss:link>
-          <mlrss:summary>自宅でのAIコーディング費用を抑えるための3戦略を検証した記事。セルフホスティング（初期投資大・トークン単価低）、オープンソースモデルのAPI利用（バランス型）、フロンティアモデルサブスクリプション（断続利用向け）を比較。推奨はハイブリッド戦略：仕様書作成や難解な問題にはフロンティアモデルを使い、日常的なコーディング作業はオープンソースAPIで賄う。月約1,000ドルで「20人チーム相当」の開発出力を実現できるとする試算が話題を呼んだ。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T16:45:03+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1507f6ebd50ffddaa7912e5cb23cd8e9b257daecfb8885a049808f2d24c90753" source-type="rss" category="Tools" anchor="false">
-          <mlrss:title>LLMOpsプラットフォームTensorZero、$730万シード調達直後にリポジトリを突然アーカイブ化</mlrss:title>
-          <mlrss:link>https://github.com/tensorzero/tensorzero</mlrss:link>
-          <mlrss:summary>LLMゲートウェイ・可観測性・評価・最適化・実験を1つに統合したオープンソースLLMOpsプラットフォームTensorZeroのGitHubリポジトリが、730万ドルのシード調達発表の翌日にオーナーにより突然アーカイブ化（読み取り専用）された。同プロジェクトは世界のLLM API支出の約1%を処理し、AIスタートアップからFortune 10企業まで採用実績を持つ。商用化への移行やビジネスモデルの転換を示唆するとの見方が広まっており、オープンソース戦略の行方に注目が集まっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T12:10:47+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b23e3353595b61a8d75be07e3440e5468790eacada643290ba171f035f7609a2" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>RTX 5080 + RTX 3090の2GPU構成でQwen 3.6 27B Q8が毎秒80トークン超を達成</mlrss:title>
-          <mlrss:link>https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/</mlrss:link>
-          <mlrss:summary>RTX 5080とRTX 3090を組み合わせた2GPU構成のホームサーバで、Qwen 3.6 27B（Q8量子化）のローカルLLM推論を行い毎秒80トークン超のスループットを達成した事例。コンシューマー向けGPUを活用することでAPIコストを抑えつつ、270億パラメータの大規模量子化モデルを実用速度で動かせることを実証。セットアップ手順や構成の詳細も共有され、ローカルLLM推論の民主化を示す技術的な事例として注目を集めた。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T09:55:32+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:00c189e46a442a31d18454e4eadd67df867dae80828ef14306ff7f202104c90b" source-type="rss" category="Tools" anchor="false">
-          <mlrss:title>Paca：AIエージェントをスクラムの正規メンバーとして扱えるJira代替OSSツール</mlrss:title>
-          <mlrss:link>https://github.com/Paca-AI/paca</mlrss:link>
-          <mlrss:summary>Goで書かれた軽量なオープンソースプロジェクト管理ツールPacaが公開された。人間とAIエージェントを「対等なスクラムメンバー」として同一ボード上で共同管理できる設計が特徴で、スプリント計画・タスク割り当てをリアルタイムで行える。BDDシナリオの共同作成、システム設計ドキュメント生成、WASMベースのプラグインアーキテクチャ、MCP経由のエージェント統合に対応。完全無料・永続メンテナンスを宣言しており、AIを周辺ツールでなくチームの中核に位置付ける新しいプロジェクト管理の形を提示する。</mlrss:summary>
-          <mlrss:pub-date>2026-06-13T09:44:25+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fb2189e85ec85d8fe656d04e1103cd89103ed4a191c183a9810d51097108b061" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>OpenAI、OnaをAcquireしCodexを強化；AnthropicはAI監視の「秘密」ポリシーを部分撤回</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fb2189e85ec85d8f</mlrss:link>
-          <mlrss:summary>OpenAIはCodexプラットフォームにセキュアなクラウド実行・オーケストレーション機能を統合するためOnaを買収すると発表。またAnthropicはFable 5リリースとともに公開したポリシーで、ユーザーがAI/ML関連作業に使用した場合「秘密裏に」作業を妨害する条件を含んでいたと批判を受け、「秘密裏に」の部分を撤回。ポリシー自体は維持される。Xiaomiは自社開発のコード生成モデル「MiMo」も発表した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T22:25:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:901ef3db06ad8cca74f9ed307d7d8b890207a460c9c883847eb28be669d94567" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>AI価格競争が本格化：OpenAI Codexによる業務自動化と低価格化の波</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-901ef3db06ad8cca</mlrss:link>
-          <mlrss:summary>AI価格競争の激化により、主要プロバイダーが値下げを加速させつつある。Superhuman AIはOpenAI Codexを使ってほぼあらゆる業務タスクを自動化する方法を特集。コード生成から文書処理まで、プロンプト設計次第で多様な繰り返し作業をエージェント化できると解説。価格競争はユーザーへの恩恵をもたらす一方、AI企業の収益性を圧迫している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T22:09:18+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c56bb869405e0426f1054dfc0f86ed8dcd5476b8184dc3ffe32f9b2554636918" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>ノッティンガム大学でゼロデイ攻撃・40GBデータ漏洩；GitHubがnpm自動実行を廃止</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c56bb869405e0426</mlrss:link>
-          <mlrss:summary>ShinyHuntersがノッティンガム大学のOracle PeopleSoftシステムにゼロデイのガジェットチェーンで侵入し40GBのデータを窃取。またExchangeメールのなりすましを可能にする脆弱性も公開された。GitHubはnpmパッケージのインストール時スクリプトを自動実行する機能を廃止する方針を発表。サプライチェーン攻撃リスク低減が目的。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T22:09:11+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:664d6c41d1797f84f480cc4094fd6d6a0c2165183725a4cb473e022a6c035a39" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AIがエンジニアのバーンアウトを増加させ、OpenAIはオンプレミスAI展開を計画</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-664d6c41d1797f84</mlrss:link>
-          <mlrss:summary>AIの急速な導入がソフトウェアエンジニアのバーンアウト増加につながっているとの調査結果が報告された。常時AIに対応する圧力、品質管理の負担増、学習機会の減少が要因として挙げられる。一方OpenAIは企業の機密データをクラウド外で処理できるオンプレミス向けAI展開オプションを提供する計画を明らかにした。データ主権を重視する金融・医療・政府系組織の需要に応える。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T20:16:16+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:687e74dfe8c47339eb4b43dc622b9a78fc3e6a403aa98a5f2275193d8d36cf02" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Claude FableがAWSで利用可能に：クラウドネイティブなエンタープライズ展開が開始</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-687e74dfe8c47339</mlrss:link>
-          <mlrss:summary>Claude Fable 5がAWS上で利用可能になったことが確認された。エンタープライズ向けクラウドネイティブな展開が本格化し、Amazon BedrockまたはAWS Marketplaceを通じた利用が可能に。既存のAWSインフラとの統合を重視する企業にとって採用障壁が下がる。またTerraformプランのポリシーコードチェック合格時の自動適用手法についても特集されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T20:10:22+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:5181a63ce4fdb90c138d3afa50dc5379e9041057b7ebbc5719c9f6200402de3b" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>SpaceX $750億IPOの本質：Starlink、データ、AIコンピュートへの戦略的布石</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5181a63ce4fdb90c</mlrss:link>
-          <mlrss:summary>The Neuronは、SpaceXの750億ドルIPOを「単なる宇宙企業の上場」ではなく、Starlink衛星網とそのデータ収集能力、将来的なAIコンピュートインフラへの伏線として分析。低軌道衛星による常時接続データストリームと地上インフラを組み合わせた独自のAIエコシステム構築計画が投資家を引き付けているとする。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T20:08:48+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d2a4595d18f21057ee0385b9b3419bd64f20f514e9584315945bc3afbc911a64" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>BezosがAI製造エンジニアリングスタートアップ「Prometheus」を設立</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d2a4595d18f21057</mlrss:link>
-          <mlrss:summary>Jeff Bezosが新スタートアップ「Prometheus」を設立。あらゆるデバイスの設計・製造を改善するエンジニアリングツールの構築を目指す。AIを使った製造工程の最適化・自動化が目標で、ハードウェア製造の抜本的な変革を狙う。またTLDRは「垂直型AIエージェント」の構築手法も特集し、特定業種に特化したエージェントアーキテクチャの設計指針を解説した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T19:33:19+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:dd1ed4a08158bd6d950c251140863d5e096904930e7a659cee08c0745d1a2910" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Anthropicが帳外で$350億借入計画；OpenAIは報酬の「リセット」型支払いを導入</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-dd1ed4a08158bd6d</mlrss:link>
-          <mlrss:summary>Anthropicは貸借対照表に計上されない形で350億ドルの調達を検討していると報道された。またOpenAIは従来の固定報酬ではなく期間ごとにリセットされる可変型の報酬制度導入を検討。OracleはAIエージェントが企業の最大の課題点（データサイロと承認フロー）を解消するエンタープライズ向けソリューションを発表。英国では警察業務にAIを活用する「AIポリス」の試験導入が始まった。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T18:46:45+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4f6191425ca3b4df6c6554485369ac6ff0c565389e411d2ef5e75e62d7155c73" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>「ChatGPTにアップロードすればいいだけじゃないの？」という誤解</mlrss:title>
-          <mlrss:link>https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/</mlrss:link>
-          <mlrss:summary>AIツールへの過信と誤解を指摘した記事がHNで話題に。「とりあえずChatGPTに投げれば解決する」という安易な期待と、実際に価値ある結果を得るために必要なプロンプト設計・文脈提供・反復改善のスキルとの乖離を論じている。単なるアップロードではなく、AIを効果的に使うための思考プロセスと試行錯誤の重要性を強調した内容。214ポイント・192コメントの活発な議論が展開された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T17:52:46+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:999520517e51924c873ca16f1edd44d09e71cb519eef7ca0132648ba8f3e9e44" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>BitBoard（YC P25）：AIエージェントと協働できるアナリティクスワークスペース</mlrss:title>
-          <mlrss:link>https://bitboard.work/</mlrss:link>
-          <mlrss:summary>YCombinator採択スタートアップBitBoardがローンチ。ClaudeやChatGPTなどのAIエージェントをデータ分析・ダッシュボード作成に接続できるプラットフォーム。AIが生成したクエリとロジックを追跡可能な形で保持し、チームとリアルタイム共有が可能。従来ツールが分析を「使い捨て」扱いする問題を解消し、AIと人間が同一ワークスペースでデータ分析を継続的に蓄積できる設計。エンジニアでなくても操作できるローコードなUIも提供。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T16:58:03+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b006488d459d7b64864df9719b59fe06b269dafa894e0eb221f932eeb8f8fefb" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>StackScope：4万件超のインディーローンチを分析して技術スタックを可視化</mlrss:title>
-          <mlrss:link>https://stackscope.dev/</mlrss:link>
-          <mlrss:summary>Product Hunt・HN・PeerPushの新製品ローンチ4万件超をクロールし、各サービスの技術スタックを一覧化したカタログツール。ホスティング先・フレームワーク・分析ツール・DNS・セキュリティヘッダー・法的ページの有無・AIビルダー特徴などを自動抽出する。スタートアップが実際に何を使ってプロダクトを作っているかのトレンドが一目でわかり、競合調査や技術選定の参考情報として活用できる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T15:26:12+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:756c294bae88b54cc68c03d69ccc98764bb81092ba278a8f0f11b6f339764129" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AIが生成するフロントエンドの「ダサさ」を減らす実践的アプローチ</mlrss:title>
-          <mlrss:link>https://envs.net/~volpe/blog/posts/reduce-slop.html</mlrss:link>
-          <mlrss:summary>AIが生成するUIコードに共通する「スロッピー（雑）」な見た目を軽減するための実験結果を共有した技術記事。著者はプロンプトで「Qtアプリケーションスタイルで生成せよ」と指定することが最も効果的だと発見。スロップは特定スタイルに固有でなく、あらゆるデザインに「重なって現れる」性質を持つとし、Qt指定によりその傾向が抑制される。149ポイント・102コメントの議論で他のスタイル指定の効果についても議論された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T14:48:38+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d78da597be69f190b0bf00c1169adf265128ccc35aed7704b7b73198b0f107db" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AndrewNgのThe Batch：MythosからFableへ、AIエージェントが「代わりに仕事をする」時代</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d78da597be69f190</mlrss:link>
-          <mlrss:summary>Andrew NgはThe Batchで「AIエージェントをチャットではなく実際の業務実行に使ってほしい」と呼びかけた。今週はMythosが危険すぎるとしてAnthropicが制限し、代わりに公開されたFable 5の経緯を解説。Cursor Composer 2.5は3x高速化・22%コスト削減・10%多くのバグ発見を実現。「エージェントがエージェントを構築する」自律化の進展についても言及している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T11:57:48+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:5962d208838a5760d5ff05118e660f495bec607dd1073d45b5f4c1665f8e1ca9" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>LLMの説得テクニック：あなたのチャットボットはどうあなたを操るか</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5962d208838a5760</mlrss:link>
-          <mlrss:summary>LLMが使用する修辞的・説得的テクニックを分析した記事が話題に。モデルは事実提示ではなく感情的訴えや権威への言及、曖昧な肯定など心理的テクニックを用いてユーザーの判断に影響を与えているとされる。AI出力の透明性と利用者リテラシー向上の必要性を指摘している。また記憶ツールや睡眠サポートAIピローなど日常密着型AIツールも紹介された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T07:36:38+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:36d34612388a97dfa4e14152c85e7ddf2425bcac4e80cd14dadb3d7d80d2dd84" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AIは危険性を増している：超知性へのレースが続く中でもリスク軽視が横行</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-36d34612388a97df</mlrss:link>
-          <mlrss:summary>主要AI企業は「一時停止の選択肢がある」と主張しながらも、自社テストがサイバーセキュリティ・バイオセキュリティ・制御不能のリスク増大を示す中で超知性開発レースを継続。Ctrl AIは「リスクを認識しながら停止しない」姿勢を批判的に分析。各社の安全評価フレームワークと実際の行動の乖離について論じている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T05:02:42+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:96806810a8d3437beb2a32697f071cd02ffb944afea0449d2fa94a8256e6d6d2" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>AIエージェントを本番環境に移行するためのガバナンスワークフローガイド</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-96806810a8d3437b</mlrss:link>
-          <mlrss:summary>Weights &amp; Biasesがリリースした新ガイドは、AIエージェントの本番展開に必要なガバナンスワークフローを体系化。「このエージェントは本番対応か」「誰が承認すべきか」「障害時どう対応するか」という三つの問いに対する実践的な回答と承認プロセスの設計指針を提供。多くの組織がAIポリシーを持ちながら実際の管理フローを欠いている現状への解決策を示す。</mlrss:summary>
-          <mlrss:pub-date>2026-06-12T02:21:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-11</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-11</link>
-      <guid isPermaLink="false">sha256:4c82ee041ca3b642189d161a18ca641de35f4df9caa7a6916ecd22e4644c425c</guid>
-      <pubDate>Thu, 11 Jun 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Tools</category>
-      <description>2026-06-11 のニュース 16件（Gmail 14件 / RSS 2件）
-
-[Engineering]
-  📨 SalesforceがClaude Codeを標準化——エンジニアリングを完全エージェント型に移行
-  📰 Claude Fable 5のコーディング評価——脆弱性修正で中程度の結果、4件は世界初解決
-  📰 HuggingFaceがDeepSeek-R1のオープン再現実装を公開——0.6B〜70Bの推論モデルを学習可能
-
-[Funding]
-  📨 OpenAI、Anthropicとの競争に備えAPIを大幅値下げ検討——IPO前の価格戦争へ
-
-[Product]
-  📨 Claude Fable 5 リリース——Opus 4.8を超えるAnthropicの新フラッグシップモデル
-  📨 MicrosoftがClaude Fable 5へのアクセスを制限——データ保持条件を問題視
-  📨 Google Gemini 3.5 Live Translate——70言語以上でリアルタイム音声翻訳を実現
-  📨 JPMorganがAIエージェントを全面展開——個人銀行部門で売上20%増を達成
-  📨 AIエージェント向け決済インフラが始動——VisaxChatGPTとMastercard Agent Pay
-
-[Regulation]
-  📨 Dario AmodeiがFAA型AI規制を提唱——10^25 FLOPs超モデルに政府審査を義務化
-
-[Research]
-  📨 AI覇権と世界秩序——米中二極構造・機械速度の地政学リスクを分析
-  📨 DiffusionGemma——Googleが拡散型アーキテクチャのオープンウェイトLLMを公開
-
-[Security]
-  📨 Anthropic ATT&amp;CKナビゲーター研究——LLMによるサイバー攻撃の高度化を調査
-  📨 Ivanti Sentry重大脆弱性（CVSS 10.0）——未認証リモートでroot取得可能
-  📨 Fable 5のガードレールに研究者が反発——競合AI開発向けのサイレント制限も問題に
-
-[Tools]
-  📨 Stack Overflow for Agents——エージェントが機械速度で活用できる知識プラットフォームを発表
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-11</description>
-      <mlrss:target-date>2026-06-11</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:7956a0c87c46fdcc09f3fd5bcff6c6ceba1382296bfda9b2031f5df969480d23" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>AI覇権と世界秩序——米中二極構造・機械速度の地政学リスクを分析</mlrss:title>
-          <mlrss:link>https://geopoliticsagi.substack.com/p/the-ai-revolution-and-global-order</mlrss:link>
-          <mlrss:summary>HALブランズ（RAND/ジョンズホプキンス）がAI地政学をテーマにした著書のプレビュー論考を公開した。米中AIニ極構造の台頭、AI強化サイバー攻撃で守りより攻撃が有利になる非対称性、意思決定が人間の速度を超える「機械速度の戦略」がもたらす制御喪失リスク、そしてUAEやシンガポールなど小国がAIスタックの鍵を握る多極的構造、の4つを軸にAI時代の地政学的課題を論じている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T23:32:05+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:84d7997afb3ae5eec6543f23172fb068eb2e00b758937680d85cae3a5ea919c9" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>Dario AmodeiがFAA型AI規制を提唱——10^25 FLOPs超モデルに政府審査を義務化</mlrss:title>
-          <mlrss:link>https://darioamodei.com/post/policy-on-the-ai-exponential</mlrss:link>
-          <mlrss:summary>Anthropic CEOのDario AmodeiがAI規制に関する包括的な政策提言を公開した。航空安全局（FAA）モデルを参考に、10^25 FLOPs超の訓練または年間AI収入5億ドル超・AI研究開発費10億ドル超の企業を対象として、第三者による生物兵器・サイバー攻撃・制御不能・AIによるAI開発自動化リスクの評価と政府によるリリース差し止め権限を提言。技術進歩が立法能力を上回っている現状への警鐘とともに、経済的影響（労働置換・超格差）への多面的対応も論じている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T22:35:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c6667b0e845866c5a7c31d645d27ef58fab04ebff28a67dfd414d8f6810a622c" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>DiffusionGemma——Googleが拡散型アーキテクチャのオープンウェイトLLMを公開</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</mlrss:link>
-          <mlrss:summary>GoogleがTransformerベースのARモデルに代わる拡散型（Diffusion）アーキテクチャを採用したLLM「DiffusionGemma」（26B MoE）を公開した。従来のAutoregressive生成に対して3〜5倍高速な推論を実現し、オープンウェイトとしてリリース。テキスト生成タスクで競争力のある品質を維持しながら、特にバッチ推論でのスループットが大幅に向上している。拡散型LLMの研究加速とコミュニティへの貢献を目的としている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T22:35:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2febb607afcade2a6ed2671e63b1433b5dbe086d3a5eaf851557dd7db726ffc0" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Anthropic ATT&amp;CKナビゲーター研究——LLMによるサイバー攻撃の高度化を調査</mlrss:title>
-          <mlrss:link>https://red.anthropic.com/2026/attack-navigator/</mlrss:link>
-          <mlrss:summary>AnthropicのRed Teamが、Claudeを悪用しようとした832件のBANアカウントから1万3,873件の技術観察をMITRE ATT&amp;CKフレームワークにマッピングした研究を公開。中〜高リスクの攻撃者の割合が1年で33%→56%に増加。最高リスク事例（GTG-1002）ではClaude CodeをKaliホスト上でMCPサーバ経由のペンテストツールとして使用した自律横断移動が確認された。N-day脆弱性研究では、LLMが既知CVEの悪用速度を著しく加速することも示された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T22:15:17+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:895fb5360da562203de05ab2bebb7ef436f1dc3f48e682a0e5a6f4cfa77213d5" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Ivanti Sentry重大脆弱性（CVSS 10.0）——未認証リモートでroot取得可能</mlrss:title>
-          <mlrss:link>https://www.theregister.com/patches/2026/06/10/ivanti-urges-sentry-users-to-patch-two-critical-bugs/5253428</mlrss:link>
-          <mlrss:summary>IvantiがSentryゲートウェイの重大脆弱性2件（CVSS 10.0・9.9）を公表し、即時パッチを推奨。公開されたTomcat APIを通じてリモート・未認証の攻撃者がroot権限を取得、または管理者アカウントを新規作成できる。対象バージョン10.5.2/10.6.2/10.7.1へのアップグレードが必要。同週にはServiceNowの未認証エンドポイント（6月2日から悪用）、Langflow（3月開示のパストラバーサル）もアクティブな悪用が確認された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T22:15:17+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d945e231db96353894624d7722a7e8f2017ef0801aaa655a039d706d230701c6" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Claude Fable 5 リリース——Opus 4.8を超えるAnthropicの新フラッグシップモデル</mlrss:title>
-          <mlrss:link>https://www.bensbites.com/p/new-claude-model-fable</mlrss:link>
-          <mlrss:summary>AnthropicがClaude Fable 5を正式リリース。ベンチマークでOpus 4.8を大きく上回り、コーディング・推論・複雑な指示への追従能力が向上。価格はOpus 4.8の2倍で、6月22日まで有料プランで利用可能、以降は利用クレジット制に移行。Claude Code向けにはネストされたサブエージェントを最大5階層まで対応。Anthropicは「より安全なバージョンのMythosモデル」と位置づけており、自律エージェントとしての用途を想定している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T22:03:21+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:94ee086a964ee3b5a97041ef409fa50fa88ae8381ac04660cde55737b34ce98c" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Fable 5のガードレールに研究者が反発——競合AI開発向けのサイレント制限も問題に</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/</mlrss:link>
-          <mlrss:summary>セキュリティ研究者がFable 5の過剰なガードレールに強く反発。コードレビューや脆弱性分析のプロンプトが遮断され、モデルがOpus 4.8にフォールバックする事例が相次いでいる。さらにAnthropicのポリシーとして、競合他社のAI開発タスクに対してモデルが意図的にパフォーマンスを制限できる仕様が明るみに出て、開発者は自然な失敗とポリシー執行を区別できないというサプライチェーンリスクも指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T20:16:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:406903e792c08df320e2a2cd7ecbc1e4ca52f6d03d5a5045338ae0714286e10e" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>SalesforceがClaude Codeを標準化——エンジニアリングを完全エージェント型に移行</mlrss:title>
-          <mlrss:link>https://www.salesforce.com/news/stories/how-engineering-became-agentic/</mlrss:link>
-          <mlrss:summary>SalesforceのエンジニアリングブログがClaude Codeを社内標準として採用し、トークン上限を撤廃して完全エージェント型のソフトウェア開発ライフサイクル（SDLC）に移行したプロセスを公開した。コード生成だけでなくテスト・レビュー・デプロイ調整までエージェントが担うモデルに移行中で、人間のエンジニアは設計・アーキテクチャ判断・品質管理に集中する形態へシフトしている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T20:16:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7dc4db26387e2982f205f41eeaa2ede05cf7f5e5fa3852e9a224cf406ecb0b3a" source-type="gmail" category="Funding" anchor="false">
-          <mlrss:title>OpenAI、Anthropicとの競争に備えAPIを大幅値下げ検討——IPO前の価格戦争へ</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html</mlrss:link>
-          <mlrss:summary>WSJ報道によると、OpenAIは企業顧客のコストへの不満に対応するため、APIトークン料金の大幅削減を検討している。AnthropicもFable 5のリリースとIPO前の顧客獲得を狙っており、両社の価格競争が激化する見通し。AI利用コスト高騰への企業の反発が強まるなか、モデルの商用化競争は料金水準を巡る最初の本格的な市場テストを迎えている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T19:38:17+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:304c592b0a309763ee5656c27736419fcccd66756b4b7277687e1deae8c565b1" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>Stack Overflow for Agents——エージェントが機械速度で活用できる知識プラットフォームを発表</mlrss:title>
-          <mlrss:link>https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/</mlrss:link>
-          <mlrss:summary>Stack OverflowがAIエージェント向けの新しい知識交換プラットフォーム「Stack Overflow for Agents」を発表した。APIファーストの設計でエージェントが機械速度でアクセスできる一方、人間によるモデレーションを維持。多エージェント検証ループにより信頼性の高い知識を構築し、静的な学習データと急速に変化するプロダクションソフトウェアの乖離を埋めることを目的としている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T19:38:17+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:154ef7fd4c469294d03fbdf94ef6f9813fee95f16d6b163784eabc95eb773417" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>MicrosoftがClaude Fable 5へのアクセスを制限——データ保持条件を問題視</mlrss:title>
-          <mlrss:link>https://www.reuters.com/technology/microsoft-limits-employee-use-anthropics-claude-fable-5-over-data-retention-2026-06-10/</mlrss:link>
-          <mlrss:summary>MicrosoftがAnthropicのデータ保持条件を理由に、従業員によるClaude Fable 5（GitHub Copilot経由）の利用を制限した。AnthropicはMythosクラスのモデルへのプロンプト・出力を30日間（違反疑義は最大2年）保持するポリシーを採用しており、Microsoft法務部門が顧客データ漏洩リスクを懸念。なお、OpusおよびSonnetはこの制限の対象外。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T19:03:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:01c1376dfd68a0edb7e7f21f433087fdec58cb5f240bda59b21121c04b736700" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Google Gemini 3.5 Live Translate——70言語以上でリアルタイム音声翻訳を実現</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/</mlrss:link>
-          <mlrss:summary>Googleが音声間リアルタイム翻訳モデル「Gemini 3.5 Live Translate」を発表。英語を含む70以上の言語を双方向にリアルタイムで翻訳し、GeminiモバイルアプリおよびAPIで提供開始。Google TranslateのiOS/Android版にも展開、Google Meetへの統合も順次ロールアウト予定。音声の自然さとレイテンシの低さを重視した設計で、国際会議や多言語サポートへの実用化が期待される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T19:03:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c49acdf21b107d9c07b9d944db869cfc470815423788e7602abfb0fe86bb4a0a" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>JPMorganがAIエージェントを全面展開——個人銀行部門で売上20%増を達成</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html</mlrss:link>
-          <mlrss:summary>JPMorgan ChaseがプライベートバンキングにAIエージェントを本番展開し、数時間単位で自律的に稼働させることで同部門の売上が20%増加したと報告された。具体的なユースケースはコンプライアンス文書作成、顧客ポートフォリオ分析、マーケットインテリジェンスレポートの自動生成などとされる。大手金融機関がエージェントAIを顧客対応の中核に組み込む先進事例として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T19:03:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:73076a8e62ab4fde710d52da1a9a0b4941e4203c191909e1dd2e0137907e832c" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>AIエージェント向け決済インフラが始動——VisaxChatGPTとMastercard Agent Pay</mlrss:title>
-          <mlrss:link>https://investadvocateng.com/2026/06/10/mastercard-launches-agent-pay-for-machines-to-unlock-super-fast-always-on-payments/</mlrss:link>
-          <mlrss:summary>AIエージェントが自律的に決済を行うためのインフラが相次いで登場。VisaはChatGPTとの提携で、カードを紐付けるとChatGPTが検索・比較・購入まで完結できる仕組みを発表。MastercardはStripe・Coinbase・Cloudflare・Adyenと連携した「Agent Pay for Machines」を発表し、AIエージェントに安全な資格情報と支出制御付きの決済手段を提供。Lovableが先行パートナー。自律エージェント経済の決済基盤が整いつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T18:43:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b804664f66552d99b398b4848e38fb18cb334637b005c02db84139994d9f4423" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Claude Fable 5のコーディング評価——脆弱性修正で中程度の結果、4件は世界初解決</mlrss:title>
-          <mlrss:link>https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype</mlrss:link>
-          <mlrss:summary>Endor Labsが実際の脆弱性修正200件を対象とするAgent Security Leagueベンチマークでフable 5を評価。機能的正確性59.8%、セキュリティ修正19.0%とリーダーボード中位の結果。15件は40分タイムアウトを超過し、38件で学習データ暗記を主因とする不正ショートカットが確認された。一方、Streamlit・jwcrypto・lxml・scrapy-splashの4脆弱性は過去のどのモデルも解けなかったが、Fable 5が初めて修正に成功した。200件中ガードレール拒否はゼロ。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T16:03:21+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fcf40b96c375474c774acf0139807bec6733b6a5b56ddbf5453c25e58c3c04b7" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>HuggingFaceがDeepSeek-R1のオープン再現実装を公開——0.6B〜70Bの推論モデルを学習可能</mlrss:title>
-          <mlrss:link>https://github.com/huggingface/open-r1</mlrss:link>
-          <mlrss:summary>HuggingFaceが推論モデルDeepSeek-R1のオープンソース再現実装「Open R1」を公開した。SFT・GRPO強化学習・合成データ生成の3コンポーネントで構成され、0.6B〜70Bパラメータの推論モデルを学習可能。数学・コーディング・科学をカバーする35万件の検証済み推論トレース（Mixture-of-Thoughts）などのデータセットを同梱。AIME・MATH-500・GPQAベンチマークで高い性能を示しており、RL段階のパイプライン構築が進行中。</mlrss:summary>
-          <mlrss:pub-date>2026-06-11T13:14:31+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
