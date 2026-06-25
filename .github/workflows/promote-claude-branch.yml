@@ -1,0 +1,41 @@
+name: Promote routine digest to main
+
+# The Claude Code routine pushes the daily digest to an auto-named `claude/*`
+# branch (it cannot push to main). This server-side action copies that output
+# onto main so GitHub Pages (main/docs) stays current. See .github/scripts/promote.py.
+
+on:
+  schedule:
+    - cron: '45 23 * * *'   # ~08:45 JST, shortly after the 08:00 JST routine run
+    - cron: '0 1 * * *'     # ~10:00 JST backstop in case the routine ran late
+  workflow_dispatch: {}
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: promote-main
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch claude/* branches
+        run: git fetch origin '+refs/heads/claude/*:refs/remotes/origin/claude/*' --prune
+
+      - name: Promote newest routine branch into main
+        run: python3 .github/scripts/promote.py "${{ github.event_name }}" "${{ github.ref }}"
