@@ -6,7 +6,7 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 25 Jun 2026 10:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 22:17:00 +0000</lastBuildDate>
     <item>
       <title>ML &amp; RSS Digest 2026-06-24</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-24</link>
@@ -14,139 +14,124 @@
       <pubDate>Wed, 24 Jun 2026 08:00:00 +0900</pubDate>
       <category>AI</category>
       <category>Engineering</category>
-      <category>Product</category>
-      <category>Security</category>
-      <description>2026-06-24 のニュース 17件（Gmail 12件 / RSS 5件）
+      <category>Funding</category>
+      <category>Research</category>
+      <category>Startup</category>
+      <category>Tools</category>
+      <description>2026-06-24 のニュース 14件（Gmail 10件 / RSS 4件）
 
 [AI]
-  📨 AnthropicがSlack向け「Claude Tag」を発表——AIコワーカーとしてチームに定着へ
-  📨 ByteDance「Seedance 2.5」、1プロンプトで30秒・4K動画を生成
-  📨 Mistralが「OCR 4」を発表——170言語対応・速度4倍の文書構造抽出ツール
-  📨 Meta、従業員AI追跡「Model Capability Initiative」でデータが全社員に流出し停止
-  📰 大手AIラボが哲学者を採用——倫理・価値整合・AIリスクの専門知識に需要
-  📰 NSA、Anthropicとの紛争で「Mythos」へのアクセスを喪失と報道
-  📨 GPT-5が3年間未解決の科学実験パズルを解明——CursorはGitHub代替へ
-  📨 Anthropic対ホワイトハウスの緊張続く——Shazeer氏がOpenAI入り、Nadella論文も発表
-  📨 Alibaba「HappyHorse 1.1」が動画生成AIのグローバルランキング2位に浮上
+  📰 OpenAI、IPOを来年以降に先送りする方向で検討
+  📰 YCombinator出資のBesimple AIが音声AI担当の戦略リードを採用
+  📰 AIモデルの政治的偏向を比較分析——各モデルの立ち位置を可視化
+  📨 AIインファレンス販売の価格ジレンマ：コストプラスからバリューベース価格へ
+  📨 AIエージェント製品の過剰期待と現実のギャップ——絞り込みと徹底的な品質が生存条件
+  📨 Databricks共同創業者がエージェント時代のオープンAI基盤「Omnigent・Lakebase」を発表
 
 [Engineering]
-  📨 SpaceX「Starfall」を初打ち上げ——軌道経由の超高速貨物配送を目指す新型カプセル
-  📰 OpenAI、Broadcom製カスタム推論チップ「Jalapeño」を初公開
-  📰 Gemini 3.5 FlashにPC操作機能を統合——ブラウザ・デスクトップ・モバイルを横断制御
-  📰 RubyLLM：主要AIプロバイダを統合するRubyフレームワーク、HNで300点超
+  📨 Elden RingのゲームAI設計——スタック型ゴール管理で複雑な行動を単純な仕組みで実現
+  📨 AIエージェント開発の隠れた技術的負債：ハーネスコードの設計と将来の陳腐化リスク
 
-[Product]
-  📨 AIスマートグラスが299ドルで登場——Trumpの量子コンピュータ2028年期限とNvidiaロボット安全ラボ
-  📨 Meta、Zuckerberg直指示で予測市場アプリ「Arena」を開発中——Polymarket対抗へ
+[Funding]
+  📨 AIインファレンス企業Groqが6.5億ドルを調達、NVIDIAからチップ技術ライセンスも取得
 
-[Security]
-  📨 間接プロンプトインジェクション攻撃の根本原因はAIのロール認識欠如と分析
-  📨 OpenAI「Daybreak」が脆弱性修正まで自動化——GPT-5.5-Cyberの本格展開も
+[Research]
+  📨 Stripe・Anthropic・OpenAIが呼吸器感染症撲滅を目指す5億ドル非営利団体設立を支援
+
+[Startup]
+  📨 AIエージェントのみで運営するスタートアップPolsiaが年収1,000万ドルを達成
+
+[Tools]
+  📰 AI統合型OSS知識管理ツール「OpenKnowledge」——ObsidianやNotionのオープンソース代替
+  📨 WebMCPがAIエージェントとWeb統合の新たな標準となる可能性
+  📨 Lambda MicroVM——AIエージェントのサンドボックス実行に最適な高速・安全VM基盤
 
 詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-24</description>
       <mlrss:target-date>2026-06-24</mlrss:target-date>
       <mlrss:stories>
-        <mlrss:story uid-hash="sha256:8dc189bff034cb7333e7edbd17c8ceb94cad4d7325495a58d0be988b6b7fce8d" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AnthropicがSlack向け「Claude Tag」を発表——AIコワーカーとしてチームに定着へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8dc189bff034cb73</mlrss:link>
-          <mlrss:summary>Anthropicは「Claude Tag」を発表した。Slack上でチームがClaudeにタスクを割り当て、ツールやコードベースに接続し、チャンネルをまたいでコンテキストを保持させる機能で、既存のClaude Slackアプリを置き換える。Anthropic社内では製品チームのコード生成・分析・サポート・デバッグに活用されており、エンタープライズおよびチームプランへ展開中。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T22:26:21+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:9a1e8193dc74609e8fac6068da272bc1432e0dbf22abf347c37737535134778c" source-type="rss" category="AI" anchor="false">
+          <mlrss:title>OpenAI、IPOを来年以降に先送りする方向で検討</mlrss:title>
+          <mlrss:link>https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html</mlrss:link>
+          <mlrss:summary>OpenAIは2026年中のIPOを見送り、2027年以降に延期する方向で検討していると報じられた。AI業界最大手の上場計画をめぐる動向として市場から注目されており、評価額の安定や規制環境の整備を待つ戦略的判断とみられる。直近の資金調達ラウンドで数百億ドル規模の評価を得ており、上場の必要性は短期的には低いとの見方もある。</mlrss:summary>
+          <mlrss:pub-date>2026-06-25T20:36:05+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:8cf1a153f862441878eee6cad2edc2f0a83426e714eff0538c6535177a3d1a3a" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>ByteDance「Seedance 2.5」、1プロンプトで30秒・4K動画を生成</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8cf1a153f8624418</mlrss:link>
-          <mlrss:summary>ByteDanceの新しい動画生成AIモデル「Seedance 2.5」は、単一プロンプトから30秒・4K品質の動画を生成できる。画像・動画・音声クリップを最大50点まで参照素材として指定でき、参照数が多いほど出力の制御精度が向上する。まず翌月に中国でリリース予定で、他国向けのリリース時期は未発表。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T22:26:21+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:6cec060e695c108abc1caa029696984a8eedf524e57185e07e4a2fa0209e457f" source-type="rss" category="AI" anchor="false">
+          <mlrss:title>YCombinator出資のBesimple AIが音声AI担当の戦略リードを採用</mlrss:title>
+          <mlrss:link>https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data</mlrss:link>
+          <mlrss:summary>YCombinatorのP25バッチ参加の音声AIスタートアップBesimple AIが、音声データ担当の戦略プロジェクトリードを募集している。音声認識・生成AIの実用化に取り組む初期段階のスタートアップで、技術と事業推進の両面でリードできる人材を求めている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-25T17:00:00+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:892928e60d45e78be432d7258a6d67709d38538a2e07539c711242b033ec273a" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Mistralが「OCR 4」を発表——170言語対応・速度4倍の文書構造抽出ツール</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-892928e60d45e78b</mlrss:link>
-          <mlrss:summary>Mistralは文書インテリジェンスツール「OCR 4」をリリースした。バウンディングボックス・ブロック分類・インライン信頼スコア付きの構造化コンテンツ抽出に対応し、170言語をサポート。既存システムと比べて速度4倍・高精度を達成し、単一コンテナでの自己ホストが可能。エンタープライズ検索や構造化データパイプラインへの組み込みを想定。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T22:26:21+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:1dc100fa552788a61c9cc83d4b5b0ce219f83cf2e15423988fb6eebac50d32bd" source-type="rss" category="Tools" anchor="false">
+          <mlrss:title>AI統合型OSS知識管理ツール「OpenKnowledge」——ObsidianやNotionのオープンソース代替</mlrss:title>
+          <mlrss:link>https://github.com/inkeep/open-knowledge</mlrss:link>
+          <mlrss:summary>Inkeepチームが公開したOpenKnowledgeは、Claude・Codex・Cursorと直接統合するWYSIWYGマークダウンエディタのオープンソースツール。MacOSアプリおよびCLIとして提供され、完全無料・ローカル動作。チーム間でのマークダウンファイル共有をGoogleドキュメントに近い使い勝手で実現することを目指しており、Obsidianの代替として開発された。</mlrss:summary>
+          <mlrss:pub-date>2026-06-25T16:04:46+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:c8c935649f0b376f0cd1a0291724ed964630e9874047889a41ecc9536ae99254" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>間接プロンプトインジェクション攻撃の根本原因はAIのロール認識欠如と分析</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c8c935649f0b376f</mlrss:link>
-          <mlrss:summary>LLMへの間接プロンプトインジェクション攻撃は、モデルが「ロール」を本質的に区別できないことに起因するという深層分析が発表された。すべての入力が同一チャンネルを通過するため、自身の思考と外部テキストを区別できず、システムプロンプトによる防御が根本から崩れる可能性がある。Gray Swanの研究者がAI安全ベンチマーク開発の最前線を紹介した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T22:26:21+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:1ac2bb57d713c24b607e70b5002e78226cfcbc1deb9c3a51dabdf2b1bfbc8559" source-type="rss" category="AI" anchor="false">
+          <mlrss:title>AIモデルの政治的偏向を比較分析——各モデルの立ち位置を可視化</mlrss:title>
+          <mlrss:link>https://trakkr.ai/bias</mlrss:link>
+          <mlrss:summary>Trakkrが公開したレポートは、主要AIモデルが政治的質問に対してどのような偏向を示すかを定量的に分析・可視化した結果を示す。モデルごとに異なる政治的傾向が確認されており、AIシステムの透明性やバイアス問題への関心が高まる中で、客観的な比較評価の重要性を示す事例として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-25T13:08:31+00:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:51cd6c523b0103e4be00301410bff4cb6ffc76c18406e4762e104da242d869d4" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>OpenAI「Daybreak」が脆弱性修正まで自動化——GPT-5.5-Cyberの本格展開も</mlrss:title>
+        <mlrss:story uid-hash="sha256:cf3cb0635422748765963d7ab405b8f21a55431788b5690878922503f0f987b6" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>WebMCPがAIエージェントとWeb統合の新たな標準となる可能性</mlrss:title>
+          <mlrss:link>https://www.kdnuggets.com/heres-why-webmcp-is-exciting</mlrss:link>
+          <mlrss:summary>WebMCPはModel Context Protocol（MCP）のWeb版として、AIエージェントがブラウザ上からWebコンテンツやAPIと標準プロトコルで直接通信できる仕組みを提供する。従来のスクレイピングや個別API連携より効率的で、エージェントがWebサービスを活用できる範囲を大幅に広げる可能性を持ち、MCPエコシステムの重要な拡張として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T23:00:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7dd6eed30d910dafad5c0673fc534dcb4bc8d4a2159a847680aa09ba5419bfc4" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>AIインファレンス販売の価格ジレンマ：コストプラスからバリューベース価格へ</mlrss:title>
+          <mlrss:link>https://tomtunguz.com/so-you-want-to-sell-inference/</mlrss:link>
+          <mlrss:summary>AIインファレンスを販売する企業はゼロマージンのコストプラス型価格設定に苦しんでいる。成果に基づくバリューベース価格への転換が利益率改善の鍵となり、モデルルーティング・推論キャッシュ・知識蒸留を活用したコスト最適化で競合に対する優位性を構築できる。推論市場が成熟するにつれ、価格戦略の巧拙が企業の生死を分ける差別化要因になると分析されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8b4bc3da7484b7795211f69c6d1a8eac11e1bb39539e6d07711d628e160e6cb4" source-type="gmail" category="Startup" anchor="false">
+          <mlrss:title>AIエージェントのみで運営するスタートアップPolsiaが年収1,000万ドルを達成</mlrss:title>
+          <mlrss:link>https://mondaymorning.substack.com/p/companies-that-build-companies</mlrss:link>
+          <mlrss:summary>従業員の代わりにAIエージェントだけを持つスタートアップPolsiaが年収1,000万ドルを達成し、「会社を作る会社」モデルの実現可能性を示した。YCombinator出資のThomasなど同様の企業が台頭しており、大多数が失敗する中でも少数の成功事例がShopify型の大きなリターンをもたらす可能性が指摘されている。AIエージェントが人間雇用を代替する未来の先行事例として注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:73d592e4810ac8487390daf1077df8502bc97953030c352c05d17c2ea3c356a4" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>AIエージェント製品の過剰期待と現実のギャップ——絞り込みと徹底的な品質が生存条件</mlrss:title>
+          <mlrss:link>https://tremendous.blog/2026/06/23/ai-agent-hype-meets-reality-the-product-doesnt-work-and-churn-is-coming/</mlrss:link>
+          <mlrss:summary>AIエージェント製品の誇大広告と実態の乖離が深刻化しており、万能な「スーパーエージェント」より用途を極限まで絞り込んだ製品が生き残る。実環境で十分にテストされていないAIは顧客離れ（チャーン）を急速に加速させ、成長の持続を困難にする。品質より速度を優先した結果、精度の低い大量のAI出力が市場に溢れ信頼失墜のリスクが高まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e7ae4329ec76b4beef4b69afc3bdfcffa9392c3056b49bbaf0970602e65ed07d" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>Lambda MicroVM——AIエージェントのサンドボックス実行に最適な高速・安全VM基盤</mlrss:title>
+          <mlrss:link>https://theburningmonk.com/2026/06/what-you-need-to-know-about-lambda-microvms/</mlrss:link>
+          <mlrss:summary>Lambda MicroVMはVMレベルの分離と高速起動・ステートフルなセッション維持を両立する仮想化技術。AIが生成したコードの安全実行、インタラクティブAIノートブック、エージェントサンドボックス、脆弱性スキャナーなどに適しており、アイドル時は自動サスペンドしてトラフィック到着時に自動再開する垂直スケーリングも内蔵している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:51cd6c523b0103e4be00301410bff4cb6ffc76c18406e4762e104da242d869d4" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Elden RingのゲームAI設計——スタック型ゴール管理で複雑な行動を単純な仕組みで実現</mlrss:title>
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-51cd6c523b0103e4</mlrss:link>
-          <mlrss:summary>OpenAIは脆弱性の発見から修正まで自動化するセキュリティプラットフォーム「Daybreak」の機能拡張を発表した。「Codex Security」プラグインによる高速脆弱性発見、およびサイバーセキュリティ特化型「GPT-5.5-Cyber」の本格リリースが含まれる。バグ発見にとどまらずパッチ適用まで支援する方向に進化しており、セキュリティ組織の自動化を大幅に推進する。</mlrss:summary>
+          <mlrss:summary>Elden RingのゲームAIはシンプルなスタック型ゴール管理システムを採用し、コンテキストやランダム性に応じて動的かつ階層的な状態遷移を実現している。ビヘイビアツリーなど複雑なAIフレームワークとは対照的に、単純な構造で豊かな行動パターンを生み出すアプローチとして設計の参考例として注目を集めた技術解説。</mlrss:summary>
           <mlrss:pub-date>2026-06-24T20:33:56+09:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:f5539bd5e2f53c7f6330cf4aff17f306577b654cd9923c6038c45a1685105b4f" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>AIスマートグラスが299ドルで登場——Trumpの量子コンピュータ2028年期限とNvidiaロボット安全ラボ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f5539bd5e2f53c7f</mlrss:link>
-          <mlrss:summary>AI機能搭載スマートグラスが299ドルというコンシューマー価格で登場し、ウェアラブルAI時代の到来を示している。トランプ政権は量子コンピュータの実用化を2028年までに実現するよう求める政策指令を打ち出した。NvidiaはヒューマノイドロボットのAI安全テストラボを設立し、規制認証前の設計検証体制を整備した。</mlrss:summary>
+        <mlrss:story uid-hash="sha256:fc04840e8733a9611ab03ad08fb127c24aaf0b2f4a5a468bcedf30c224c744af" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>AIエージェント開発の隠れた技術的負債：ハーネスコードの設計と将来の陳腐化リスク</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fc04840e8733a961</mlrss:link>
+          <mlrss:summary>AIエージェント製品の開発ではモデルと環境をつなぐ「ハーネスコード」に大量の技術的負債が積み上がる。モデル性能の向上に伴いハーネスの多くが不要になるため、本番ハーネス（安全動作のための制約重視）とトレーニングハーネス（探索・学習重視）を目的別に設計・分離するアーキテクチャが重要だと指摘されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T20:33:56+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:594c56e0c19d44be4fef55d794f00ae341d007be9f8b6c94a62f70b96eb0b619" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>AIインファレンス企業Groqが6.5億ドルを調達、NVIDIAからチップ技術ライセンスも取得</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-594c56e0c19d44be</mlrss:link>
+          <mlrss:summary>AIインファレンスクラウドを運営するGroqはNVIDIAのチップ技術ライセンス取得後に6億5,000万ドルの資金調達を完了した。急増するAI推論需要に対応するインフラ拡充を目的としており、NVIDIA依存を抑えた独自のLPUアーキテクチャで高速推論市場での地位固めを図る。AI推論市場への投資家の注目が引き続き高いことが示された。</mlrss:summary>
           <mlrss:pub-date>2026-06-24T20:06:34+09:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:ebdcfc52503ff7a8adaaa6c4ecda1044c69b0de1365e4f32c42a461bc6135eb8" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>SpaceX「Starfall」を初打ち上げ——軌道経由の超高速貨物配送を目指す新型カプセル</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ebdcfc52503ff7a8</mlrss:link>
-          <mlrss:summary>SpaceXはFalcon 9ロケットで円盤型の新型再突入カプセル「Starfall」を打ち上げた。軌道上を経由した点対点・超高速貨物配送および商業宇宙製造の支援を目的とし、Falcon 9・Starship双方への搭載に対応する量産設計。FAA環境評価によると重要物資の迅速輸送手段となる可能性があり、SpaceXの収益源多様化にもつながる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T19:32:57+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:f454f46c4385a539f0416ed128b9a68c7eebf187fe56e42782556efc4b0a1837" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Stripe・Anthropic・OpenAIが呼吸器感染症撲滅を目指す5億ドル非営利団体設立を支援</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f454f46c4385a539</mlrss:link>
+          <mlrss:summary>決済大手StripeはAnthropicとOpenAIと連携し、風邪・インフルエンザなど呼吸器感染症の予防根絶を目的とした5億ドル規模の非営利団体の設立を支援する。AIと生物医学研究を組み合わせた新たなワクチン・治療法の開発加速が狙いで、テクノロジー企業が公衆衛生分野の大型社会課題にも本格的に投資する事例として注目される。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T17:00:00+09:00</mlrss:pub-date>
         </mlrss:story>
-        <mlrss:story uid-hash="sha256:4db70f31afc9696514500a4faa46ddc2bd467ffc5d5e9838fcd886ba31bf162c" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Meta、従業員AI追跡「Model Capability Initiative」でデータが全社員に流出し停止</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4db70f31afc96965</mlrss:link>
-          <mlrss:summary>MetaはAIトレーニング用に従業員のキーストロークやマウス操作を収集する「Model Capability Initiative」を一時停止した。個人会話・人事評価・音声文字起こしが全社員に閲覧可能な状態になっていたことが原因で、Metaは「不正アクセスの証拠はない」としているが社内プライバシーへの影響は深刻。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T19:32:57+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4a78741dbd3a8c7693dc8a39ce038295927933a808a5717b5ab5082c6e45cefb" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Meta、Zuckerberg直指示で予測市場アプリ「Arena」を開発中——Polymarket対抗へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4a78741dbd3a8c76</mlrss:link>
-          <mlrss:summary>マーク・ザッカーバーグCEOはMetaの小規模チームに対してPolymarket・Kalshi類似の予測市場スマホアプリ開発を直接指示した。「Arena」という開発コード名で既存Metaアプリとは独立し、当初はポイント制（実金銭なし）で運営するが将来の実金利用も排除しない。ソーシャルメディア大手が予測市場に参入するインパクトが注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T19:32:57+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:39d7870a99ea28a6826d2da503e7587d730a642804ebce4c840131d5ba876589" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>OpenAI、Broadcom製カスタム推論チップ「Jalapeño」を初公開</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</mlrss:link>
-          <mlrss:summary>OpenAIはBroadcomとの共同開発による初の独自推論プロセッサ「Jalapeño」を発表した。現世代の最先端GPUと比べて電力効率が大幅に優れると初期テストで示されており、NvidiaのGPUへの依存を減らしながらAI推論のコスト効率を向上させることが狙い。AI企業による独自シリコン開発競争が加速している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T17:47:00+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:39e097edbb2abd94a8381cbb24ec2cf6b153c36b3fcda1d718be6172853c8e37" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Gemini 3.5 FlashにPC操作機能を統合——ブラウザ・デスクトップ・モバイルを横断制御</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</mlrss:link>
-          <mlrss:summary>GoogleはAIモデル「Gemini 3.5 Flash」にPC操作（Computer Use）機能をネイティブツールとして統合した。ブラウザ・デスクトップ・モバイルを横断して「見る・推論する・操作する」エージェント構築が可能になり、ソフトウェアテストや業務自動化を想定。敵対的トレーニングによる安全策と機密操作向けオプションガードも整備。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T17:21:34+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f49e23bf7a78eed5afc775ed127387a672da295fa18629f2c7412d8bac00eb40" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>大手AIラボが哲学者を採用——倫理・価値整合・AIリスクの専門知識に需要</mlrss:title>
-          <mlrss:link>https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers</mlrss:link>
-          <mlrss:summary>OpenAI・Anthropic・DeepMindなど大手AIラボが倫理学・分析哲学・認識論の専門家を相次いで採用している。AIの安全性・価値整合・意思決定の透明性などの問いが技術的問題を超えて哲学的問題に直面しており、専門知識の需要が急増。AI開発の前線が工学から人文科学にまたがるものになりつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T16:40:13+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:401eb7c6dc9594a2f57ccf92b45287d365ac01184266e05b0b4a35c22e6bffe2" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>RubyLLM：主要AIプロバイダを統合するRubyフレームワーク、HNで300点超</mlrss:title>
-          <mlrss:link>https://rubyllm.com/</mlrss:link>
-          <mlrss:summary>RubyLLMはOpenAI・Claude・Gemini・Ollamaなど主要AIプロバイダを統一インターフェースで扱えるRubyフレームワーク。チャット・画像認識・音声文字起こし・画像生成・エンベディング・エージェントなど幅広い機能をサポートし、複数クライアントを個別管理する手間を省く。Hacker Newsで312点を獲得し注目を集めた。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T14:41:41+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d6e41d92c57139bb3d61911b1e52cb597af27d9f21aa1111fba7bd7d92fb89e2" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>NSA、Anthropicとの紛争で「Mythos」へのアクセスを喪失と報道</mlrss:title>
-          <mlrss:link>https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html</mlrss:link>
-          <mlrss:summary>AnthropicとホワイトハウスのAI規制をめぐる対立の余波で、米国家安全保障局（NSA）がAnthropicのサイバーセキュリティ特化AIモデル「Mythos」へのアクセスを失ったとニューヨーク・タイムズが報じた。同等の機能を持つOpenAIの「GPT-5.5-Cyber」は規制なく展開されており、政権との関係が各AIラボの展開可否に影響していることを示す。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T11:45:47+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7d4927c52093c6355aeda8d42c2b58afa929a17254b54adbf95fe8c728ca2782" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>GPT-5が3年間未解決の科学実験パズルを解明——CursorはGitHub代替へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7d4927c52093c635</mlrss:link>
-          <mlrss:summary>OpenAIのGPT-5が研究者たちが3年間解決できなかったラボ実験上の謎を解明したと報告され、AIの科学的推論能力への注目が高まった。また、AIコーディングツールCursorがGitHubの開発者向け機能の一部を置き換えつつあるとの分析も示された。手首装着型Geminiコーチなど新しいAIウェアラブルの動向も紹介。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T07:40:52+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:34b89c02ac7038f378c24140d7dfac2d14b22e242ae5e4a662793b3b9f395ca7" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Anthropic対ホワイトハウスの緊張続く——Shazeer氏がOpenAI入り、Nadella論文も発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-34b89c02ac7038f3</mlrss:link>
-          <mlrss:summary>AnthropicとホワイトハウスのAI規制をめぐる対立が続いており、NSAが同社サイバーモデル「Mythos」へのアクセスを失ったと報じられる状況が続く。一方、Google DeepMind共同創業者のノアム・シェイザー氏がOpenAIに参加したとも伝えられ、業界の人材流動が加速。MicrosoftのサティアNadella CEOはAIの変革的インパクトについて大型エッセイを発表した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T01:29:14+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9e8ef7f61d9b267c2c16163a6ee9e19957e31f541e2e1a1626640e96bdaa5668" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Alibaba「HappyHorse 1.1」が動画生成AIのグローバルランキング2位に浮上</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9e8ef7f61d9b267c</mlrss:link>
-          <mlrss:summary>AlibabaのAI動画生成モデル「HappyHorse 1.1」がグローバルランキングで2位に上昇し、OpenAIのSoraとByteDanceのSeedanceが後退した。テキスト・画像・被写体からの動画生成など商用ニーズを網羅し、Alibaba Cloud Model StudioでAPIとして提供中。リリース後2週間は40%割引を実施しており、エンタープライズ向け動画AIの競争が激化している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T00:40:26+09:00</mlrss:pub-date>
+        <mlrss:story uid-hash="sha256:c71004e23147fc60093524cfe8e400c738e549dbe02435ce5d94450758faa6e1" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Databricks共同創業者がエージェント時代のオープンAI基盤「Omnigent・Lakebase」を発表</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/databricks</mlrss:link>
+          <mlrss:summary>Databricks共同創業者のMatei ZahariaとReynold Xinが2026 Data+AI Summitで、エージェント向けオーケストレーション基盤Omnigent、エージェント時代のデータベースLakebase、長期エージェントタスク向けLTAPを発表した。レイクハウスを超えたフルAIオペレーティングシステムへの進化と、フロンティアエコシステムのオープン化が競争力の鍵という見解を示した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-24T10:00:00+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
@@ -462,117 +447,6 @@
           <mlrss:link>https://machinelearningmastery.com/ai-agent-tool-design-what-works-and-what-doesnt/</mlrss:link>
           <mlrss:summary>Machine Learning Masteryの解説記事。AIエージェントが活用するツールの設計原則を実践的にまとめた内容で、ツールの粒度・命名・入出力形式・エラーハンドリングなど、エージェントが「正しくツールを選んで使える」ようにするための設計判断を論じる。単一責任原則の徹底、曖昧さを排した引数定義、エラーメッセージの明確化などが主要ポイント。実際のエージェント開発における試行錯誤から蒸留した知見として参考度が高い。</mlrss:summary>
           <mlrss:pub-date>2026-06-20T01:00:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-19</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-19</link>
-      <guid isPermaLink="false">sha256:4951b7b49c6f82cf17c4709f4db1b23b95d67b96da40b03434b50994a0ee0fcf</guid>
-      <pubDate>Fri, 19 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Tools</category>
-      <description>2026-06-19 のニュース 12件（Gmail 12件 / RSS 0件）
-
-[AI]
-  📨 OpenAI、来週GPT-5.6をリリース予定――コンテキストウィンドウを150万トークンに拡大
-  📨 Perplexity、エージェント向け自己改善型メモリシステム「Brain」を発表
-  📨 GLM-5.2、オープンウェイトモデルとして初めてフロンティア水準に到達とコミュニティが評価
-  📨 Poolside、コーディングエージェント向けMoEモデル「Laguna M.1」をApache 2.0で公開
-  📨 Nvidia、Mamba-Transformerハイブリッドのオープンウェイトモデル「Nemotron 3 Ultra」を公開
-  📨 Claude Fable 5、安全フィルタによりサードパーティのベンチマーク評価が困難に
-
-[Product]
-  📨 Midjourney、60秒で完了する全身超音波スキャナーを開発――医療ハードウェア市場に参入
-
-[Regulation]
-  📨 米政府、AnthropicのFable 5・Mythos 5を輸出規制――欧州でAI主権論議が加速
-  📨 OpenAI・Google等の大手AIラボ5社、米商務省によるモデル公開前審査に同意
-
-[Research]
-  📨 OpenAI o3 Deep Research、小児希少疾患の未解決症例376件中18件に新診断を達成
-
-[Tools]
-  📨 Claude Codeにアーティファクト共有機能を追加――コーディングセッションをチームでリアルタイム共有
-  📨 OpenAI Codex、作業を示範するだけでエージェントが自動記録・再実行する「Record &amp; Replay」機能を追加
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-19</description>
-      <mlrss:target-date>2026-06-19</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:bd74e3cb13900df630e6deb664dd8819b6661e3595da92a8cac9efde86b014d8" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>OpenAI、来週GPT-5.6をリリース予定――コンテキストウィンドウを150万トークンに拡大</mlrss:title>
-          <mlrss:link>https://www.testingcatalog.com/openai-prepares-gpt-5-6-models-for-the-upcoming-release/</mlrss:link>
-          <mlrss:summary>OpenAIはMiniおよびProバリアントを含む可能性があるGPT-5.6を来週リリースする予定。主な強化点は150万トークンへのコンテキストウィンドウ拡大、長期コーディング性能の向上、Codexの応答速度改善。価格競争力を高めてAnthropicに対抗する狙いがあるとみられる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T22:27:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b1e3bb99d2b5a14256e720b93ffc0f86b49db95f581acb663884e4e6b5a9265a" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>Claude Codeにアーティファクト共有機能を追加――コーディングセッションをチームでリアルタイム共有</mlrss:title>
-          <mlrss:link>https://claude.com/blog/artifacts-in-claude-code</mlrss:link>
-          <mlrss:summary>AnthropicはClaude Codeに「Artifacts」機能を追加した。コーディングセッション全体（コード・ツール・チャット）からインタラクティブなページを自動生成し、プライベートリンクでチームと共有できる。ページはセッション継続中もリアルタイムで更新され、バージョン履歴やプライバシー制御機能も備える。現在TeamおよびEnterpriseプランのベータ版として提供中。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T22:27:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3ae35198483107d6cb123a2f322faf5bb68e6e2b57df0383b54eebd8dc9a3b59" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Perplexity、エージェント向け自己改善型メモリシステム「Brain」を発表</mlrss:title>
-          <mlrss:link>https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents</mlrss:link>
-          <mlrss:summary>Perplexityが発表した「Brain」は、タスク・プロジェクト・意思決定・ファイル・情報源にまたがる持続的なコンテキストグラフを構築するエージェント向けメモリシステム。エージェントがゼロから始めるのではなく関連コンテキストを引き継いで作業できるため、回答精度の向上とタスクコストの削減を実現するとしている。長期エージェントの実用化を後押しする技術として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T22:27:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:de0d740c9acaace91d64fbd8ec4efc570432df62912b87ec61422dec01192d45" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>米政府、AnthropicのFable 5・Mythos 5を輸出規制――欧州でAI主権論議が加速</mlrss:title>
-          <mlrss:link>https://aifrontiersmedia.substack.com/p/what-export-controls-on-anthropics</mlrss:link>
-          <mlrss:summary>トランプ政権は2026年6月12日、AnthropicにFable 5およびMythos 5（最上位モデル2種）への非米国籍者のアクセスを停止するよう命じた。公開直後の措置でヨーロッパ各国の政治家・産業界から強い反発を招き、AI主権確保を求める声が高まっている。欧州ではAleph AlphaとCohereの合併など独自路線強化の動きも進んでいる。Anthropicは政府との対立を背景に圧力を受けた可能性が指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T22:03:07+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a2cfe88981c8cdaf057d7a5744c1a0595eea9decf50f73251c9efb372104e8a3" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Midjourney、60秒で完了する全身超音波スキャナーを開発――医療ハードウェア市場に参入</mlrss:title>
-          <mlrss:link>https://www.engadget.com/2196998/midjourney-full-body-ultrasonic-scanner/</mlrss:link>
-          <mlrss:summary>AI画像生成企業のMidjourneyが、60秒以内に全身をスキャンできる超音波医療機器「Midjourney Scanner」を開発中であることを発表した。通常60〜90分かかるMRIに対し大幅に短時間で3Dボディマップを生成する。同社はこの機器を設置するスパの建設も進めており、AI企業が医療ハードウェア分野に本格参入する動きとして注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T19:33:14+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:123eb8494cb0387b2eb0408850ab3d74658900a995440943009d929183452ba2" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>OpenAI・Google等の大手AIラボ5社、米商務省によるモデル公開前審査に同意</mlrss:title>
-          <mlrss:link>https://www.tomshardware.com/tech-industry/artificial-intelligence/google-microsoft-and-xai-agree-to-let-us-govenment-test-ai-models-before-public-release</mlrss:link>
-          <mlrss:summary>Google、Microsoft、xAI、OpenAI、Anthropicの全大手米国AIラボが、商務省のAI標準イノベーションセンター（CAISI）によるリリース前のモデル審査に同意した。現状は任意だが、AnthropicのMythosモデルが政府要請で公開停止になった件を受け義務化の議論が進んでいる。ホワイトハウスはジェイルブレーク不可能なモデルを基準に求めているが、研究者らは現在の技術では保証できないと指摘している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T18:31:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:096b2c5f77724f253d40bf41f1bda1ae10508e27a415c4e4ce24c7ebebf80b76" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>GLM-5.2、オープンウェイトモデルとして初めてフロンティア水準に到達とコミュニティが評価</mlrss:title>
-          <mlrss:link>https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe</mlrss:link>
-          <mlrss:summary>ZhipuのGLM-5.2はコミュニティから「フロンティア水準に近い初のオープンウェイトモデル」として広く評価された。Jeremy HowardはClaude Opus 4.8やGPT-5.5と同等以上と評し、Artificial AnalysisのAA-Briefcaseでも近いスコアを記録。独自の「IndexShare」機構により100万トークン推論コストを削減し、MIT licenseでHugging Face・llama.cpp・Unslothでのローカル実行にも対応する。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T14:53:54+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:e5a52b62df03bca5e795400f4e4cdca725c233cca7521f1b849d3b5cd30db0d3" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>OpenAI Codex、作業を示範するだけでエージェントが自動記録・再実行する「Record &amp; Replay」機能を追加</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-e5a52b62df03bca5</mlrss:link>
-          <mlrss:summary>OpenAIはCodexに「Record &amp; Replay」機能を追加した。ユーザーがMac上で一度作業をデモするだけで、エージェントがワークフローを記録・保存し後から自動再実行できる。現時点ではmacOS限定でOpenAIのComputer Use機能が必要。同日、CursorもSlack絵文字・GitHubトリガーに対応した/automateコマンドを発表しており、「示範による教示」の実用化が急速に進んでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T14:53:54+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:469397ffbb15263b4018b6dab23a07edf1f099393e2bf7551674c130b849fd1e" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>OpenAI o3 Deep Research、小児希少疾患の未解決症例376件中18件に新診断を達成</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-469397ffbb15263b</mlrss:link>
-          <mlrss:summary>OpenAIがBoston Children's HospitalおよびHarvardとの共同研究をNEJM AIに発表。o3 Deep Researchを使い、従来の方法では診断できなかった小児希少疾患症例376件を再検討した結果、18件に新たな診断が得られた。同日OpenAIはGPT-5.5 Instantが医療分野の質問において最前線の推論モデルと同等水準に達したとも発表しており、医療AIの実用化が加速している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T14:53:54+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:16499921eb3573a4c32823bd380a91b8fb91a368c80cc7014296c41fc8ab8337" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Poolside、コーディングエージェント向けMoEモデル「Laguna M.1」をApache 2.0で公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-16499921eb3573a4</mlrss:link>
-          <mlrss:summary>Poolside AIが225Bパラメータ（アクティブ23B）、256エキスパート、256Kコンテキストのスパースキー・オブ・エキスパート（MoE）モデル「Laguna M.1」をApache 2.0ライセンスで公開した。長期タスクへの対応と推論・ツール使用のインターリーブを設計思想とし、Apple Silicon M3 Max 128GBで3bit MLX量子化版が約26トークン/秒で動作する。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T14:53:54+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:8c2e226e99be85738cfc684a3f14909384e4c8f0dc318f603c9b141f3f70daa6" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Nvidia、Mamba-Transformerハイブリッドのオープンウェイトモデル「Nemotron 3 Ultra」を公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8c2e226e99be8573</mlrss:link>
-          <mlrss:summary>Nvidiaは5500億パラメータ（アクティブ550億）のMamba-Transformerハイブリッドモデル「Nemotron 3 Ultra」をOpenMDW-1.1ライセンスで公開した。重み・訓練データ・コードをオープン公開し、約183トークン/秒の高速推論を実現。Artificial AnalysisのIntelligence Indexで米国製オープンウェイトモデル最高スコアを記録したが、中国のGLM-5.2には及ばなかった。Perplexity ProおよびAPI（入力$0.60/出力$2.60 per Mトークン）でも利用可能。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T12:05:52+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0b38026c5305e0e80bf9918af1742cabb9aee5fbb60bb02cf34f30f88dab4ae6" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Claude Fable 5、安全フィルタによりサードパーティのベンチマーク評価が困難に</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0b38026c5305e0e8</mlrss:link>
-          <mlrss:summary>AnthropicのClaude Fable 5はプロンプト送信前にClassifierでスクリーニングし、サイバーセキュリティ・生物学・AI研究関連のプロンプトをブロックまたはClaude Opus 4.8へルーティングする。Artificial AnalysisはIntelligence Indexの約8%でフォールバックを記録し、Vals AIはバイオ・サイバーセキュリティ問題でほぼ100%の拒否率を報告した。30日間データ保持ポリシーへの同意要件もあり、ARC Prize Foundationなど一部評価機関は評価を辞退している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-19T12:05:52+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
