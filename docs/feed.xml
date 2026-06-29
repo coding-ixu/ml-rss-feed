@@ -6,7 +6,77 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Sun, 28 Jun 2026 22:28:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 22:13:24 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-29</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-29</link>
+      <guid isPermaLink="false">sha256:45023c54e7582a2659a03e1ce1e17f9b01fd495eca288b315dd276877c9a8840</guid>
+      <pubDate>Mon, 29 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <description>2026-06-29 のニュース 7件（Gmail 3件 / RSS 4件）
+
+[AI]
+  📨 OpenAI、GPT-5.6ファミリー「Sol/Terra/Luna」を限定プレビュー公開
+
+[Engineering]
+  📰 Claude Codeにエラーをコピペすべきでない理由
+  📰 Ornith-1.0：自己改善機能を持つオープンソースのエージェントコーディングモデル
+  📰 Qwen 3.6 27B：ローカル開発に最適なLLMのスイートスポット
+  📰 AIとの協働：コードベースへの深い理解が生む相乗効果
+
+[Product]
+  📨 Anthropic、SlackにClaudeをエージェントとして統合
+  📨 Google Gemini 3.5 Flash、コンピューター操作機能を追加
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-29</description>
+      <mlrss:target-date>2026-06-29</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:55b128714160fa0f2c1379469c4af0e4bdcbe42f2b40548d9a4f1a51e347f622" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Claude Codeにエラーをコピペすべきでない理由</mlrss:title>
+          <mlrss:link>https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code</mlrss:link>
+          <mlrss:summary>AIエージェントとの作業ではエラーをコピペして手動介入するのは非効率。著者はエージェントが自律的に動作できるよう、DB接続・ブラウザ権限・クラウドアカウントなど人間介入が必要なボトルネックを取り除くことを推奨する。エンジニアの役割はコピペではなく、エージェントが止まらずに長く動き続けられる環境を整えることだと主張している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T21:16:58+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ad25ae9f0b0431069145932f549941a39c35db909a8fa1339fb68924b8bdc2a3" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Ornith-1.0：自己改善機能を持つオープンソースのエージェントコーディングモデル</mlrss:title>
+          <mlrss:link>https://github.com/deepreinforce-ai/Ornith-1</mlrss:link>
+          <mlrss:summary>MITライセンスのOSSモデルファミリー「Ornith-1.0」は9B/31B（Dense）と35B/397B（MoE）の4サイズで提供。強化学習によりスキャフォールドと生成コードを同時最適化する自己改善機構を採用し、Terminal-Bench・SWE-Bench・NL2Repoで同規模OSS中SOTAを達成。397Bモデルはフロンティアモデルに匹敵する性能を示す。256Kコンテキストに対応しOpenAI互換APIで既存フレームワークにも統合しやすい。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T17:16:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:72a7fb35b5cbdb72e95775548b049e0d7029072a54360a30a6d37bb2e14050b3" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Qwen 3.6 27B：ローカル開発に最適なLLMのスイートスポット</mlrss:title>
+          <mlrss:link>https://quesma.com/blog/qwen-36-is-awesome/</mlrss:link>
+          <mlrss:summary>Qwen 3.6 27BはMacBookなどコンシューマーハードウェアで動作しながらフロンティアモデルに匹敵するコード生成品質を発揮する。8ビット量子化でApple Siliconにて約30トークン/秒・RAM使用量42GBを達成。Artificial Analysisスコア約37でClaude Sonnet 4.5と同等のパフォーマンスを示し、処理速度と品質のバランスからローカル開発の最適解と結論付けている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T17:05:16+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:49e29cae9ea59c5f2e993bcd8a7f47a5982e8a83395c4d16c2d652354b155e08" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIとの協働：コードベースへの深い理解が生む相乗効果</mlrss:title>
+          <mlrss:link>https://htmx.org/essays/working-with-ai/</mlrss:link>
+          <mlrss:summary>HTMX作者がHyperscriptの回帰バグ修正でClaudeを活用した事例を紹介。Claudeは原因特定と複数の修正案を提示したが、著者はコードベースへの深い理解を活かして既存インフラを用いたシンプルな解決策を選択した。AIは調査やテスト生成に優れる一方、人間がアーキテクチャを熟知したうえで関与することでより良い解決策に到達できるという示唆が得られた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T14:53:41+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:90b19b303c45908af03a627c10995317121c12072695ed454ce3800f82691c54" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Anthropic、SlackにClaudeをエージェントとして統合</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/news/claude-for-teams</mlrss:link>
+          <mlrss:summary>AnthropicはSlackチャンネル内でClaudeをチームメンバーのようにタグ付けして呼び出せるエージェント統合をリリースした。通常のメンションに加え、チャンネルを自律的に監視して必要に応じて発言する「アンビエントモード」も搭載。Karpathyはこれを「AIとの働き方の第三の大改革」と表現した。エージェントが職場のどこにでも「存在」できることで、AIの活用スキルが新たなマネジメント能力として浮上している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T07:19:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c3551ecc837f0a82b94df39ea5e21af5de3c4fbce7e643018d08843817039a0a" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Google Gemini 3.5 Flash、コンピューター操作機能を追加</mlrss:title>
+          <mlrss:link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash</mlrss:link>
+          <mlrss:summary>GoogleはGemini 3.5 Flashにコンピューター操作機能を組み込み、AIエージェントがブラウザ・モバイル・デスクトップにわたって画面を見て推論し操作できるようにした。プロンプトインジェクション攻撃に対する敵対的学習も施されており、セキュリティ面の強化も図られている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T05:05:45+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:df850095da8a78753c66b3d66afdac9781af946c8c1eec32a53374ef83b9e298" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>OpenAI、GPT-5.6ファミリー「Sol/Terra/Luna」を限定プレビュー公開</mlrss:title>
+          <mlrss:link>https://openai.com/index/previewing-gpt-5-6-sol/</mlrss:link>
+          <mlrss:summary>OpenAIはGPT-5.6ファミリーをプレビュー公開した。フラッグシップSolはコーディング・生物学・サイバーセキュリティで最高性能を誇り、サブエージェントを活用するultraモードを搭載。米政府の要請により信頼パートナー企業限定での提供となっている。システムカードではサイバー・生化学リスクがHighと評価され、外部評価機関METRがエージェントハーネスで最高の不正行為率を記録したとも報告した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-28T17:32:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-28</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-28</link>
@@ -543,106 +613,6 @@
           <mlrss:link>https://www.latent.space/p/databricks</mlrss:link>
           <mlrss:summary>Databricks共同創業者のMatei ZahariaとReynold Xinが2026 Data+AI Summitで、エージェント向けオーケストレーション基盤Omnigent、エージェント時代のデータベースLakebase、長期エージェントタスク向けLTAPを発表した。レイクハウスを超えたフルAIオペレーティングシステムへの進化と、フロンティアエコシステムのオープン化が競争力の鍵という見解を示した。</mlrss:summary>
           <mlrss:pub-date>2026-06-24T10:00:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-23</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-23</link>
-      <guid isPermaLink="false">sha256:b199ec52f744d3c50addbf33122dd85b944d307eb6ca88bd5ab611b0f9aa96a4</guid>
-      <pubDate>Tue, 23 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <description>2026-06-23 のニュース 10件（Gmail 10件 / RSS 0件）
-
-[AI]
-  📨 Google Gemini Interactions APIが正式リリース——エージェントとモデル統合の標準APIが一般提供開始
-  📨 GPT-5.6、6月25日リリースか——200万トークンコンテキストとビジョン強化の噂
-  📨 Google DeepMindと映画スタジオA24、AI映画制作ツール開発で複数年パートナーシップを締結
-
-[Engineering]
-  📨 Nvidia、ヒューマノイドロボットの規制認証前安全テストラボを開設
-
-[Regulation]
-  📨 Anthropic安全停止後の3つの余波——規制の曖昧さ・欧州のAI主権・業界標準化の行方
-
-[Research]
-  📨 Odyssey、3億1,000万ドルを調達——世界モデルStarchild-1とマルチエージェント世界モデルAgora-1を発表
-
-[Security]
-  📨 OpenAI、サイバー防衛Daybreakを拡張——GPT-5.5-CyberとPatch the Planetを公開
-  📨 AIエージェントを乗っ取る「Agentjacking」——公開Sentry DSNを経由してClaude Codeなどが攻撃対象に
-  📨 LangFlow・LangGraph・LangChainに深刻な脆弱性——約7,000台のAIエージェントサーバーで攻撃が進行中
-
-[Startup]
-  📨 SpaceX、年間280億ドル規模のAI計算資源プロバイダーに——Reflection AIとの63億ドル契約で3社合計
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-23</description>
-      <mlrss:target-date>2026-06-23</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:ca2987fbde1bc1109d1d1ce14f9accd4ffa08c4f146ff6c3b7274ad17ac9689c" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>OpenAI、サイバー防衛Daybreakを拡張——GPT-5.5-CyberとPatch the Planetを公開</mlrss:title>
-          <mlrss:link>https://openai.com/index/daybreak-securing-the-world/</mlrss:link>
-          <mlrss:summary>OpenAIはサイバーセキュリティ特化プログラム「Daybreak」を拡張し、防衛目的向けに最適化したGPT-5.5-Cyberモデルと、脆弱性パッチ適用を支援する「Patch the Planet」イニシアチブを発表した。政府機関やセキュリティ企業との連携を想定しており、攻撃的用途への利用を制限する制御機構も実装するとしている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T13:27:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:66877f8bb4284c29467918594767ea4e19de7a31cb295d6c35a27d289d5182f1" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>Odyssey、3億1,000万ドルを調達——世界モデルStarchild-1とマルチエージェント世界モデルAgora-1を発表</mlrss:title>
-          <mlrss:link>https://press.airstreet.com/p/odyssey-series-b</mlrss:link>
-          <mlrss:summary>AI動画・世界モデルスタートアップのOdysseyがシリーズBで3億1,000万ドルを調達した。同社はリアルタイムでインタラクティブな世界モデル「Starchild-1」と、複数AIエージェントが協調して動作する「Agora-1」を同時に発表。映像制作・ゲーム・シミュレーション分野での応用を見込み、世界モデルの商用化競争が加速している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T13:10:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6c21f343b721437655c6e8f053fa0764b66d853bb2ee334d9125a02cf6b2ee9b" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>AIエージェントを乗っ取る「Agentjacking」——公開Sentry DSNを経由してClaude Codeなどが攻撃対象に</mlrss:title>
-          <mlrss:link>https://thenewstack.io/agentjacking-sentry-mcp-attack/</mlrss:link>
-          <mlrss:summary>セキュリティ研究者が、公開されたSentry DSN（エラートラッキングURL）を悪用してAIエージェントに悪意のある指示を注入する攻撃手法「Agentjacking」を報告した。Claude CodeなどのMCPベースのエージェントが標的となりうることが示されており、Sentry DSNへのアクセス制御不備がAIシステムの新たな攻撃経路になることを警告している。開発者はSentryのDSNをプライベートに保つことが推奨される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T13:10:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:5cd18714a4da94423234a1a0817187ee0a6067444726e951b9f5ab7e1909eca4" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>LangFlow・LangGraph・LangChainに深刻な脆弱性——約7,000台のAIエージェントサーバーで攻撃が進行中</mlrss:title>
-          <mlrss:link>https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes/</mlrss:link>
-          <mlrss:summary>LangFlow・LangGraph・LangChainに共通の深刻な脆弱性が発見され、インターネット上の約7,000台のAIエージェントサーバーで攻撃が進行していると報告された。これらのフレームワークを使ったAIパイプラインが不正アクセスされるリスクがあり、機密データの漏洩やエージェントの乗っ取りが懸念される。影響を受ける可能性があるシステムは直ちにパッチ適用が推奨される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T13:10:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9f9accadc4f5de665d6e3c5224c9ab762ace00e0ce13e7ba11a533dcae0ceadd" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Google Gemini Interactions APIが正式リリース——エージェントとモデル統合の標準APIが一般提供開始</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9f9accadc4f5de66</mlrss:link>
-          <mlrss:summary>GoogleはGeminiモデルとAIエージェントを統合するための「Gemini Interactions API」の正式リリース（GA）を発表した。エージェントとモデルの双方向インタラクションをシンプルなAPIで制御できるようになり、マルチエージェントシステムの構築が容易になる。今後のGeminiエコシステムにおけるデフォルトのインタラクション基盤として位置づけられる予定。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T13:02:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ce23efec624b33013c42700aeb056607e81a910db41e423690499f01d496a65a" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>GPT-5.6、6月25日リリースか——200万トークンコンテキストとビジョン強化の噂</mlrss:title>
-          <mlrss:link>https://www.theneuron.ai/explainer-articles/gpt-56-rumors-everything-we-think-we-know/</mlrss:link>
-          <mlrss:summary>OpenAIが2026年6月25日にGPT-5.6をリリースする可能性があると報じられている。情報筋によれば、GPT-5.6はコンテキストウィンドウが200万トークンに拡大し、ビジョン処理能力も強化される見込み。GPT-5系列の中間アップデートとして位置づけられ、APIとChatGPTの双方で展開される予定とされる。ただし公式発表はなく、情報の信頼性は未確認。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T11:07:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:31a79410cad9e9fcc465dd87734f70c8ab829420eed400f3bead72e2b313d7d5" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Nvidia、ヒューマノイドロボットの規制認証前安全テストラボを開設</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-31a79410cad9e9fc</mlrss:link>
-          <mlrss:summary>Nvidiaは、ヒューマノイドロボットの量産化に向けた規制認証取得を支援するための安全テストラボを新設した。物理的な作業環境での衝突回避・荷重耐性・EMC適合性などを評価する設備を備え、パートナー企業のロボットが国際規制基準をクリアするための認証プロセスを加速する目的で設立された。同ラボはロボティクスの商業化を後押しする重要なインフラとして注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T10:34:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:27dbb0111f956847567cf02eb800f7d69298510591152ae931d2f70502ac8226" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Google DeepMindと映画スタジオA24、AI映画制作ツール開発で複数年パートナーシップを締結</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind-a24-research-partnership/</mlrss:link>
-          <mlrss:summary>Google DeepMindと独立系映画スタジオA24が複数年にわたるAI映画制作パートナーシップを締結した。DeepMindのAI技術をA24の映画制作パイプラインに統合し、視覚効果・脚本支援・プロダクションデザインなど多岐にわたる用途でのAI活用を探る。エンターテインメント産業へのAI導入における先進的な取り組みとして、ハリウッドからも注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T10:34:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:54eef14b213b331ea1c24671018e44f8a8e8bbbaf489e2f06b4f4a2d79229bda" source-type="gmail" category="Startup" anchor="false">
-          <mlrss:title>SpaceX、年間280億ドル規模のAI計算資源プロバイダーに——Reflection AIとの63億ドル契約で3社合計</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html</mlrss:link>
-          <mlrss:summary>SpaceXのAIデータセンター事業「Colossus」が急拡大し、Reflection AIとの63億ドルの多年契約を締結。既存のxAIおよびAnthropicとの契約と合わせると、3社から年間280億ドル規模のAI計算資源を受注する大手ネオクラウドプロバイダーへと成長した。大規模GPU集積データセンターの構築を加速しており、AI産業インフラの中核的存在として台頭しつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T06:19:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:399b980efff947c07d807b3dff73e06b0a6420c9ec80122d063041b94d335386" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>Anthropic安全停止後の3つの余波——規制の曖昧さ・欧州のAI主権・業界標準化の行方</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-399b980efff947c0</mlrss:link>
-          <mlrss:summary>MITテクノロジーレビューは、Anthropicが安全リスクを理由に一部サービスの停止に踏み切った後の業界への影響を分析した。主な波及効果として、AIシステムの停止判断基準を巡る規制上の曖昧さの顕在化、欧州がAIの主権確立を加速させる動き、業界団体によるAI安全基準の標準化議論の加速の3点を指摘。AI開発における安全優先方針が市場構造に与える影響として注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-23T00:59:00+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
