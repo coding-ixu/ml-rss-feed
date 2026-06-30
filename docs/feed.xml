@@ -6,7 +6,278 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Mon, 29 Jun 2026 22:13:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 22:19:31 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-06-30</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-30</link>
+      <guid isPermaLink="false">sha256:488af3dbc4b6c414cb6c7d916105d6048b13bd882f87e5de622ca2bd876d5280</guid>
+      <pubDate>Tue, 30 Jun 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Tools</category>
+      <description>2026-06-30 のニュース 34件（Gmail 30件 / RSS 4件）
+
+[AI]
+  📨 AIライティングの5つの心得
+  📨 Qwen 3.6 27B、ローカルAI開発に「ちょうどいい」と評判のオープンモデル
+  📨 AIが「時間単価」を終わらせるか、コンサル業界が成果報酬型へ移行
+  📨 Claude、Microsoft Foundryで一般提供開始
+  📨 AI時代の「評価しにくさ」は設計の欠陥、検証こそが新たなボトルネックに
+  📨 Amazon、Anthropicのトークン課金移行を機にAIモデルの代替先を検討か
+  📨 アニメ制作にAI活用、映画製作費を最大9割削減との報告
+  📨 X、AIエージェント向けに投稿データを有料開放するMCPサーバーを公開
+  📨 Meta、学習データ汚染を懸念しClaude CodeとCodexの社内利用を制限
+  📨 Google、計算資源不足からMetaへのGemini提供を制限か
+  📨 「Claude 5 Fable」と噂される新型『Mythos』クラスモデルを早期検証、セキュリティ分野で厳格なガードレールも
+
+[Engineering]
+  📰 Anthropic、新モデル「Claude Sonnet 5」をリリース
+  📰 Anthropic、研究者向けAIワークベンチ「Claude Science」をベータ公開
+  📰 13歳が開発したアリの巣コロニー管理アプリ「Formicarium」がHacker Newsで話題に
+  📰 「Claude Codeがリクエストにステガノグラフィ的な痕跡を埋め込んでいる」とのブログ投稿がHacker Newsで議論に
+  📨 DeepSeek、推論を最大85%高速化するフレームワーク「DSpark」をオープンソース化
+  📨 「計算資源の不足はエンジニアリングで解決できる」ElevenLabs、GPU1台あたりの処理ユーザー数を70倍に
+  📨 CUDAカーネルの内部動作を徹底解説、GPUプログラミングの基礎を学ぶ
+  📨 半導体の未来を支える4億ドルの機械、ASMLが次世代EUV露光装置を発表
+
+[Product]
+  📨 Google、Geminiの「パーソナライズ画像生成」機能を米国で無料開放
+
+[Regulation]
+  📨 米中のAI覇権競争、「AIの魂」をめぐる3つのモデル
+  📨 カリフォルニア州、全州機関でClaudeを半額利用できる契約をAnthropicと締結
+  📨 ホワイトハウス、Anthropic CEOダリオ・アモデイ氏への不満が表面化
+
+[Research]
+  📨 元GoogleのAI責任者に聞く、乱雑なデータをAIエージェントに使わせる方法
+  📨 AIエージェントは「同僚」ではない、誤った擬人化が招くリスク
+  📨 Meta、外科手術なしで脳活動から文章を読み取るAI「Brain2Qwerty」を発表
+  📨 AIはソフトウェアエンジニアを代替していない、という実証分析
+  📨 チャットボットの特定の挙動が「妄想的思考」を助長する可能性、新研究で指摘
+
+[Security]
+  📨 AnthropicのClaudeコミュニティプラグイン、リポジトリ乗っ取りの脆弱性が露見
+  📨 一見無害なGitHubリポジトリがAIコーディングエージェントを騙してマルウェアを実行
+
+[Tools]
+  📨 Cognition、複数モデルを使い分けるコーディングエージェント「Devin Fusion」を発表
+  📨 Cursor、コーディングエージェントをスマホから操作できるiOSアプリをベータ公開
+  📨 OpenAI、コーディングツール「Codex」専用のハードウェアキーボード「Codex Micro」を披露
+  📨 HackerRankのオープンソースAI採用選考ツール、同じ履歴書で採点が90点・74点・88点・83点とばらつく
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-30</description>
+      <mlrss:target-date>2026-06-30</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:516c10dc571fac55256a4be180ac291da2595195e1b3cd55fbfd8e1b5184b9be" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Anthropic、新モデル「Claude Sonnet 5」をリリース</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/news/claude-sonnet-5</mlrss:link>
+          <mlrss:summary>Anthropicは新モデル「Claude Sonnet 5」を発表した。Free/Proプランのデフォルトモデルとなり、全プランで利用可能。前世代のSonnet 4.6から推論・ツール利用・コーディング・知識作業の性能が大幅に向上し、Opus 4.8に迫る性能をより低コストで実現したという。複数ステップの推論を明示的な指示なしでこなせるようになり、幻覚やお追従、不整合な挙動の発生率も低下した。サイバーセキュリティ関連タスクは意図的に訓練対象から除外され、エクスプロイト開発のテストでは成功率0%だった。API価格は導入価格で入力100万トークンあたり2ドル・出力10ドル（2026年8月31日まで）、その後は3ドル・15ドルになる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T17:59:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9c7ebeec24faf15d4376b8ba160165e6a58970178ec0c7d957f04c0d74523a2f" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Anthropic、研究者向けAIワークベンチ「Claude Science」をベータ公開</mlrss:title>
+          <mlrss:link>https://claude.com/product/claude-science</mlrss:link>
+          <mlrss:summary>Anthropicは科学研究向けのAIワークベンチ「Claude Science」のベータ版をmacOS・Linux向けに公開した。タンパク質構造やゲノムトラックなど科学データをネイティブ表示し、解析コードや実行環境、対話ログを含む成果物の全履歴を保持して再現性を担保する。引用の誤りや図表の不整合を検出するファクトチェック機能、研究室機器や60以上の科学データベースとの連携も備える。ゲノミクスや構造生物学、ケモインフォマティクス向けの事前設定ツールも用意し、MITやUCSFの研究者からは従来困難だった解析が可能になったとの声が出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T17:07:41+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6b8320e3f4383a2f12ff1174f5b14bc3c0647eaf5c6a1be20b5a8b9ec7881e52" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>13歳が開発したアリの巣コロニー管理アプリ「Formicarium」がHacker Newsで話題に</mlrss:title>
+          <mlrss:link>https://formicarium.es</mlrss:link>
+          <mlrss:summary>Hacker NewsのShow HNに投稿された「Formicarium」は、13歳の開発者がAIツールの支援を受けながら自作したアリ(蟻)飼育管理用Webアプリ。コロニーを登録して個体数の推移をグラフで確認できるほか、幼虫の発育記録や給餌履歴の管理、世話のリマインダー通知機能を備える。種データベースの自動補完や、スペイン語・英語・フランス語・ドイツ語・イタリア語の多言語対応もあり、サインアップなしで基本機能を試せる。投稿者である保護者がサーバーへのデプロイを手伝ったという。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T16:48:47+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ebb8078d7412b113212b0be8483a8b0b684b9f4de7fa2cf01aa7c1d2eda7c2cd" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「Claude Codeがリクエストにステガノグラフィ的な痕跡を埋め込んでいる」とのブログ投稿がHacker Newsで議論に</mlrss:title>
+          <mlrss:link>https://thereallo.dev/blog/claude-code-prompt-steganography</mlrss:link>
+          <mlrss:summary>あるブログ記事が、Claude Codeの生成するリクエストに人間には気づきにくい何らかのステガノグラフィ的なマーキング（隠れた識別情報）が含まれている可能性を指摘し、Hacker Newsで1000件超のポイントと約300件のコメントを集める大きな議論となった。当該記事はアクセスできず本文を取得できなかったため、技術的根拠の詳細は本稿執筆時点で確認できていない。Anthropic側からの公式な説明や反応も未確認であり、事実関係については続報を待つ必要がある。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T15:44:24+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:409faf4aa41a26e83b669fd0d53b6b14ada07d9452b118abfbef5ec410fb4c63" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>AIライティングの5つの心得</mlrss:title>
+          <mlrss:link>https://www.aipolicyperspectives.com/p/5-rules-of-ai-writing</mlrss:link>
+          <mlrss:summary>AI政策専門メディア「AI Policy Perspectives」が、AIに文章を書かせてよい場面を判断するための5つの原則を提示した。発覚を前提に考える、ゴーストライターに頼む感覚で適否を問うなど具体的な指針を示し、AI生成と疑われ受賞を取り消された短編小説や、創作の発想にAIを使ったとノーベル賞作家オルガ・トカルチュク氏が公言した例を取り上げている。AI能力の拡大に伴い「人間らしさ」の境界がどこにあるかという議論を呼んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T14:07:49+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4aee324ddd35a359281fb5945db069bd2f4370bd3459ac4de61a0b58cb9bc5b5" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>Cognition、複数モデルを使い分けるコーディングエージェント「Devin Fusion」を発表</mlrss:title>
+          <mlrss:link>https://cognition.com/blog/devin-fusion</mlrss:link>
+          <mlrss:summary>Cognition社が、フロンティアモデルと低コストモデルを動的に使い分けてコストを抑えるコーディングエージェントの仕組み「Devin Fusion」を発表した。メインエージェントと補助エージェント（サイドキック）からなる二重構成でモデルのルーティングを行い、FrontierCodeベンチマークでコストを35%削減、Fable 5との統合ではさらに41%まで削減できるという。性能を維持しながら推論コストを最適化する狙いがある。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:28:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6368f90d8eff15caf69a785c6e0bf43a761b0c9b1ea27a635f45f70033b38bb2" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Google、Geminiの「パーソナライズ画像生成」機能を米国で無料開放</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/</mlrss:link>
+          <mlrss:summary>GoogleはGeminiアプリ内のNano Banana技術を用いたパーソナライズ画像生成機能を、対象となる米国ユーザー全員に無料開放した。「Personal Intelligence」と呼ばれるオプトイン機能で、明示的な指示なしにユーザーの好みに合わせた画像を生成する。あわせて、デイリーブリーフ機能、刷新されたUI、動画生成モデルGemini Omni、パーソナルAIエージェント「Gemini Spark」など今後のアップデートも予告された。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:28:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2851f64b206c056c24cdea15913709587ed6601434359fdedf96ff329b35d2b1" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>Cursor、コーディングエージェントをスマホから操作できるiOSアプリをベータ公開</mlrss:title>
+          <mlrss:link>https://cursor.com/blog/ios-mobile-app</mlrss:link>
+          <mlrss:summary>AIコーディングツールのCursorが、iOSアプリの公開ベータ版をリリースした。スマートフォンからクラウド上または手元のコーディングエージェントを起動・操作でき、Live Activitiesで進捗通知を受け取りながらプルリクエストのレビュー・マージまで行える。外出先でのインシデント対応や顧客対応など、デスクから離れた状況での開発ワークフローを想定している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:28:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fb36d66f0721dd893681288b3244462227cdb1952472f97aea5119f6e1b8dc53" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>DeepSeek、推論を最大85%高速化するフレームワーク「DSpark」をオープンソース化</mlrss:title>
+          <mlrss:link>https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85</mlrss:link>
+          <mlrss:summary>DeepSeekは、モデルの出力結果を変えずにLLMのテキスト生成を高速化するフレームワーク「DSpark」をオープンソース公開した。軽量モデルが先回りして続きを予測し、本体モデルがその予測のうち採用可能な部分を高速に検証する投機的デコーディング方式で、予測精度が高いほど高速化し、外れた場合の検証コストも抑える設計。既にDeepSeek-V4-Flash/V4-Proへ実装され、改良されたドラフト生成とより賢い検証スケジューリングにより、Qwen3-4Bにおいて既存手法Eagle3比で30.9%、DFlash比で16.3%の採用長改善を主張しており、vLLMプロジェクトでも単一GPUでの投機的デコーディング経路として統合が進んでいるという。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:28:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d06f212911b82fa36151d6b9d27b34960f8ac61adc427d075d3d1ea0fbd13d8e" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>AnthropicのClaudeコミュニティプラグイン、リポジトリ乗っ取りの脆弱性が露見</mlrss:title>
+          <mlrss:link>https://johnstawinski.com/2026/06/18/repo-jacking-anthropics-claude-community-plugins-and-the-shas-that-saved-them/</mlrss:link>
+          <mlrss:summary>セキュリティ研究者が、Anthropic公式のClaudeプラグインマーケットプレイス一覧から、削除・改名されたGitHubアカウントを指す「宙ぶらりん」のエントリを発見し、実在プラグインの悪意ある複製を作成して検証した。プラグインインストール画面の「ホームページを開く」操作が、警告なしに攻撃者の管理するリポジトリへ誘導されることを確認。ただしマーケットプレイスはコミットSHAでソースを固定しているため、複製リポジトリのSHA不一致により攻撃は阻止された。研究者は、SHAを自動更新するボットのPRが悪用される可能性を懸念点として指摘している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:11:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f441932b1f8574e26e9d8f34fff36c931651beee8bedc371d516ecabc0d23ddf" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>一見無害なGitHubリポジトリがAIコーディングエージェントを騙してマルウェアを実行</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f441932b1f8574e2</mlrss:link>
+          <mlrss:summary>Mozillaの研究チーム0DINが、Claude Codeのようなコーディングエージェントが一見クリーンなGitHubリポジトリをクローンした際、通常のエラー復旧動作の一環として悪意あるコマンドを自動実行してしまう手口を実証した。コマンドはDNSのTXTレコードから攻撃者制御の値を取得しリバースシェルとして実行され、開発環境の環境変数やAPIキー、ローカル設定にアクセスされる。リポジトリ内に明らかに不審なコードは存在しない点が特徴で、0DINはセットアップコマンドの実行経路の開示や、未信頼リポジトリのサンドボックス化、人間による承認を防御策として推奨している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:11:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1b65eb70a34999ffb4047d61a9366cd399a8533b2b33d546d5fed4b86f556ba5" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>「計算資源の不足はエンジニアリングで解決できる」ElevenLabs、GPU1台あたりの処理ユーザー数を70倍に</mlrss:title>
+          <mlrss:link>https://press.airstreet.com/p/angelos-perivolaropoulos-elevenlabs</mlrss:link>
+          <mlrss:summary>音声AI企業ElevenLabsのAngelos Perivolaropoulos氏がRAAISの講演で、音声推論ワークロードのGPU効率をGPU1台あたり1ユーザーから70ユーザーへと引き上げた手法を説明した。連続バッチ処理（15ユーザーへ）、FP8量子化（20）、投機的デコーディング・マルチトークン予測（28）、蒸留によるFP8 KVキャッシュ圧縮（70）と、標準的な工学的手法の積み重ねで実現したという。DeepSeekのマルチヘッド潜在アテンションやQwenの線形アテンション、NVIDIAの状態空間モデル層などアーキテクチャ面の工夫を加えれば140ユーザーまで到達可能とも述べ、現在のトークン価格は実コストの10〜40倍程度補助されているが、いずれ最適化によってこの差は縮まると予測した。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:07:16+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ad19efa4834e951a30c64bd948cbaa205463dbbaf1cb426f140669ac55c5cda3" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>米中のAI覇権競争、「AIの魂」をめぐる3つのモデル</mlrss:title>
+          <mlrss:link>https://aifrontiersmedia.substack.com/p/three-models-of-sino-american-competition</mlrss:link>
+          <mlrss:summary>ハドソン研究所のBill Drexel氏が、米国のAI政策論議が「技術的優位による独走」という単一の見方に偏りすぎていると指摘する論考を発表した。米中のAI競争がもたらす影響として、(1)技術的独走（中国がフロンティア研究で米国に肉薄しており実現可能性は低いとする）、(2)価値観の組み込み（中国の「社会主義core values」のような国家的価値観の明示的実装と、Anthropicの「Constitutional AI」のような米国の比較的受動的な対応）、(3)核軍縮条約に類する新たな国際的な統治枠組みの3モデルを提示。価値観主導のAI政策を進めるため、米国に大統領諮問機関や議会委員会の設置を提言している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:02:06+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8e8dadcbc02827c3dfe36ff5f40081a23aa9586227650c3f964dc3d65377c6a0" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>元GoogleのAI責任者に聞く、乱雑なデータをAIエージェントに使わせる方法</mlrss:title>
+          <mlrss:link>https://gradientflow.substack.com/p/i-talked-to-googles-former-ai-head</mlrss:link>
+          <mlrss:summary>Gradient FlowがLovelace社CEOで元Google Cloud AI責任者のAndrew Moore氏にインタビューした。同社の「Elemental」は、表・PDF・ニュース・画像といった乱雑な企業データを、AIエージェントが推論時に参照できる「コンテキストグラフ」へ自動変換するプラットフォーム。コンテキストウィンドウの拡大や単純なベクトル検索型RAGに頼らず、データ取り込み・エンティティ解決・グラフ構築・エージェント向けツール提供の4段階パイプラインで処理する。数百万ノード規模に対応する近似的・確率的なグラフ検索手法や、企業内グラフを公開データで補完する姉妹製品YottaGraphについても語られた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T13:01:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:59e23e3b97dd81a1efce630fc111ebb7854b6086fe2e94109ec6d2da3fe04aaa" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AIエージェントは「同僚」ではない、誤った擬人化が招くリスク</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/</mlrss:link>
+          <mlrss:summary>MIT Technology Reviewが、ボストン大学のEmma Wiles氏によるマネージャー1261人を対象にした調査を報じた。AIエージェントを名前や肩書き付きの「同僚」「AI従業員」として扱う場合、単なるチャットボットとして扱う場合に比べ、出力の誤りを見逃す割合が18%増え、疑わしい出力でも自己判断せずエスカレーションする割合が44%高まったという。回答企業の23%は既に組織図にAIエージェントを記載している。ノーベル賞経済学者ダロン・アセモグル氏は、エージェントが人間の能力を拡張するものではなく代替するものとして誤って宣伝されている点を批判。Microsoft、OpenAI、Anthropic、Googleがいずれもエージェント管理ツールを「デジタル同僚」として売り出している現状に警鐘を鳴らしている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T12:03:40+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:31d2c0fd301843bc7f07bbe9af64f8014e5b3867e0f44464714dbdecd30c9339" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>CUDAカーネルの内部動作を徹底解説、GPUプログラミングの基礎を学ぶ</mlrss:title>
+          <mlrss:link>https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/</mlrss:link>
+          <mlrss:summary>GPU上で2つのベクトルを加算する単純なCUDAプログラムが、nvccでコンパイルされ実行されるまでの過程を解説する技術記事が公開された。CPUがGPUとどう通信し、メモリを管理し、pushbufferやQueue Meta Data（QMD）といった仕組みを通じてカーネル実行をトリガーするか、さらにGPUのワープがどのようにスケジューリングされ並列計算のためにメモリアクセスが最適化されるかを詳しく説明している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T11:13:42+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1fa5028820ea4bfc7cc37f2857905673a705d4ce1bed321f31cf72c24395cd1e" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Qwen 3.6 27B、ローカルAI開発に「ちょうどいい」と評判のオープンモデル</mlrss:title>
+          <mlrss:link>https://quesma.com/blog/qwen-36-is-awesome/</mlrss:link>
+          <mlrss:summary>Alibabaのオープンウェイトモデル「Qwen 3.6 27B」を評価したブログ記事が話題になっている。フロンティアモデルには及ばないものの、創作や実務タスクで従来のローカルモデルを上回る性能を発揮し、llama.cppなどを用いてローカル環境やカスタム用途で扱いやすい「ちょうど良いサイズ」のモデルだと評価されている。パラメータ規模と実用性能のバランスの良さから、開発時のローカル検証用途で重宝されているという。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T11:13:42+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8407404fa556f5be5934f470d364d8328d4ef00eb39223d69180932929106fce" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>AIが「時間単価」を終わらせるか、コンサル業界が成果報酬型へ移行</mlrss:title>
+          <mlrss:link>https://www.businessinsider.com/consulting-industry-pricing-outcome-based-ai-risk-2026-6</mlrss:link>
+          <mlrss:summary>Wall Street JournalやBusiness Insiderの報道によると、AIによって業務が高速化し時間で計測しにくくなったことを受け、コンサルティング業界が時間単価制から脱却しつつある。Deloitteは2035年までに労働時間ベースのコンサル業務が大きく縮小し得るとの試算を社内で示したという。McKinseyは既に世界の手数料収入の3割以上が成果連動型になっており、各社が固定報酬制や成果報酬制など時間単価に代わる課金モデルを試行している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T11:06:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:485b6893aa995dd2495498d5540af36f06e6900c767f776826a7637a25cde9a2" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>Meta、外科手術なしで脳活動から文章を読み取るAI「Brain2Qwerty」を発表</mlrss:title>
+          <mlrss:link>https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/</mlrss:link>
+          <mlrss:summary>Metaが非侵襲な脳活動計測技術を使い、リアルタイムに文章をデコードするAI研究「Brain2Qwerty v2」を発表した。9人の被験者がタイピングする際の脳磁図（MEG）データ約2万2000文を学習に用い、単語正解率は61%（従来の非侵襲手法は8%）まで向上したという。v1・v2の学習コードとv1データセットがHugging Face上で公開されており、手術を伴わないコミュニケーション支援技術として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T11:06:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c0b94debf439095434529a93dc68f1a12cdf49490d89e31ad1eb5a097e945594" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Claude、Microsoft Foundryで一般提供開始</mlrss:title>
+          <mlrss:link>https://claude.com/blog/claude-in-microsoft-foundry</mlrss:link>
+          <mlrss:summary>AnthropicのClaude Opus 4.8およびHaiku 4.5が、Microsoft Azure AI Foundry上で一般提供（GA）された。Azureの認証・課金・ガバナンス機能と統合され、プロンプトキャッシュや拡張思考（extended thinking）といった機能にも対応する。これにより企業はAzureのエンタープライズ基盤上でClaudeモデルを正式に利用できる選択肢を得ることになり、MicrosoftとAnthropicの提携関係が一段と深まったことを示す動きとなった。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T11:06:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8033f814eb0043b47ea014a8399532e34f902fc83724cd93d0e3d13b13634134" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>OpenAI、コーディングツール「Codex」専用のハードウェアキーボード「Codex Micro」を披露</mlrss:title>
+          <mlrss:link>https://www.theverge.com/ai-artificial-intelligence/959269/heres-a-photo-of-openais-codex-hardware</mlrss:link>
+          <mlrss:summary>OpenAIが「AI Engineer World Fair」のイベントで、コーディング支援ツール「Codex」の利用に特化したハードウェアキーボード「Codex Micro」を披露した。アクセサリーメーカーのWork Louderとの提携により開発されたデバイスで、AIコーディングエージェントの利用を物理的な入力デバイスの面から最適化しようとする試みとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T10:34:37+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:685ae98179536546c7a6a4c9cc31e1215a76e281adf03aca35431d73ab201b53" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>AI時代の「評価しにくさ」は設計の欠陥、検証こそが新たなボトルネックに</mlrss:title>
+          <mlrss:link>https://hamel.dev/blog/posts/eval-smell/</mlrss:link>
+          <mlrss:summary>「評価が難しい」というのは問題そのものの性質ではなく、製品設計上の欠陥のサインだと論じるエッセイが公開された。良いプロダクト設計は本来、作業を小さく採点可能な単位に分解するはずだとし、AIが生成する作業量が増えるほど、これまで人間が作業の過程で自然に行っていた検証作業こそが、コンテンツの生成そのものよりも重要なボトルネックになりつつあると指摘している。AI活用製品の設計思想に一石を投じる内容となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T10:34:37+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:da01309308fb002e08bd41fcea8978af3768cbf928bfb17a5edd9e42f01704e4" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Amazon、Anthropicのトークン課金移行を機にAIモデルの代替先を検討か</mlrss:title>
+          <mlrss:link>https://www.neowin.net/news/amazon-may-use-openai-and-nova-models-after-anthropic-reportedly-raises-costs/</mlrss:link>
+          <mlrss:summary>The Informationの報道によると、AmazonはAIコストを抑えるためOpenAIのモデルや自社開発の「Nova」モデルを試験的に利用している。背景には、来年からAnthropicとの契約がコンピュート時間課金からトークン課金へ切り替わり、Amazonの負担が増す可能性があることがある。Claudeは現在Amazonのショッピングアシスタントやコーディングツール「Kiro」、業務アシスタント「Quick」に使われている。Amazonはコスト増加の報道を否定している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T09:54:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ddc52a5bc2095007b722ed8fbaca17efeaffac95daace42d63ff2ea2405ccdab" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>カリフォルニア州、全州機関でClaudeを半額利用できる契約をAnthropicと締結</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/</mlrss:link>
+          <mlrss:summary>カリフォルニア州のニューサム知事は、州内の全行政機関がClaudeを通常の半額で利用できるようAnthropicと契約を結んだ。対象は州職員約23万人で、市・郡にも同様の割引が適用される。全州機関向けに承認された初のAIツールとなり、専用ポータルと研修プログラムを通じて提供される。Claudeは既に州のDMV（自動車管理局）やメディケイド部門で利用されており、行政分野でのAI導入を一段と後押しする動きとなる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T09:54:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fd2a73075f0608cb5a2f865a6810dfbf591c7e9ccf532cd8f9ea3b9b225fd11f" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>アニメ制作にAI活用、映画製作費を最大9割削減との報告</mlrss:title>
+          <mlrss:link>https://www.bloomberg.com/news/newsletters/2026-06-28/animation-s-ai-reckoning-filmmakers-say-they-can-make-movies-for-90-less</mlrss:link>
+          <mlrss:summary>Bloombergの報道によると、AIツールの活用により少人数のチームが従来より最大9割安いコストでアニメ映画を制作できるようになっているという。9人のチームが手掛けたあるアニメ長編作品は1分あたり約8000ドルで制作され、通常の低予算アニメの2〜3分の1程度に抑えられた。業界調査では、米国の映画・テレビ業界の雇用55万人のうち約10万人分が年内にAIの影響を受けるとされ、中割・3DモデラーやVFXアーティストが特に影響を受けやすいとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T09:54:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:967c73f33656d3c72c6345c2264f115b72b8ff7c5c9fbc0516b0c6e96f3312b6" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>X、AIエージェント向けに投稿データを有料開放するMCPサーバーを公開</mlrss:title>
+          <mlrss:link>https://docs.x.com/tools/mcp</mlrss:link>
+          <mlrss:summary>旧Twitterの X が、Model Context Protocol（MCP）に対応したホスト型サーバーを公開した。GrokやCursorなどのAIエージェントが、ローカルインストール不要でXの投稿データにリアルタイムでアクセスできるようになり、投稿の読み取り1件あたり約0.5セントを課金する仕組みになっている。AIエージェント経由のデータ利用そのものを収益源とする新たなビジネスモデルとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T09:54:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:927dd410796b1bf0a2e513d5efeb29082ba8767b25d54811ba41ac7031403837" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Meta、学習データ汚染を懸念しClaude CodeとCodexの社内利用を制限</mlrss:title>
+          <mlrss:link>https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/</mlrss:link>
+          <mlrss:summary>Metaが社内エンジニアに対し、競合のコーディングAIであるClaude CodeとOpenAIのCodexの利用を制限するよう指示したと報じられた。競合モデルの出力をMeta社員が日常的に利用すると、その出力がMeta自社モデルの学習データに混入し、品質への悪影響や競合モデルの利用規約違反につながりかねないとの懸念が背景にあるとされる。AI開発企業同士の競争が、社内ツール選定という形にまで波及している事例として報じられた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-30T09:54:17+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4b9ab31b84b43604fcee46f69876834447e07faf92cd24ae55806c77a9deacd2" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Google、計算資源不足からMetaへのGemini提供を制限か</mlrss:title>
+          <mlrss:link>https://www.reuters.com/business/google-limits-metas-use-its-gemini-ai-models-ft-reports-2026-06-28</mlrss:link>
+          <mlrss:summary>Financial Times発のロイター報道によると、Googleは2026年3月時点でMetaが求めるGeminiモデルの計算資源を全量供給できず、Metaのプロジェクトに遅延が生じ、社内でトークン利用の配分制限が行われたという。Metaのような大手テック企業であっても他社AIモデルへの計算資源アクセスが保証されないことを示す事例であり、AI業界全体での計算資源不足が現実の課題となっていることを浮き彫りにした。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T20:12:22+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ada535965971edfe2ddc087fc6ddf046de05f27cd1c76a13f06c2dfacba8bf09" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>「Claude 5 Fable」と噂される新型『Mythos』クラスモデルを早期検証、セキュリティ分野で厳格なガードレールも</mlrss:title>
+          <mlrss:link>https://oneusefulthing.substack.com/p/what-it-feels-like-to-work-with-mythos</mlrss:link>
+          <mlrss:summary>AI研究者のEthan Mollick氏（One Useful Thing）が、初の「Mythosクラス」モデルとされる「Claude 5 Fable」の早期アクセス版を試用したレビューを公開した。同モデルを巡ってはソフトウェアセキュリティ分野での性能が話題になっているが、Mollick氏はより広い用途で検証し、特にセキュリティ関連タスクにおいて顕著に厳格なガードレールが設定されている点を指摘している。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T18:59:09+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:656e5433f0d526ebc088cbd13e3fde5e44cfd486db8506199323af5971fe2a9e" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AIはソフトウェアエンジニアを代替していない、という実証分析</mlrss:title>
+          <mlrss:link>https://aisnakeoil.substack.com/p/why-ai-hasnt-replaced-software-engineers</mlrss:link>
+          <mlrss:summary>AI批評で知られるSayash Kapoor氏（ニュースレター「AI Snake Oil」）が、ソフトウェアエンジニアリングを事例として、AIがエンジニア職を代替しているという主張を裏付ける実証的な証拠は乏しいと論じる記事を公開した。AIによる雇用喪失を煽る言説が広がる一方、現場のデータや実態を見るとそうした主張は誇張されているとし、AIの労働市場への影響を冷静に評価する必要性を訴えている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T18:59:09+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:354aa64bb896cc3c998b4760537b82ff5c4e6962658d19964fda294fa855aaf4" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>HackerRankのオープンソースAI採用選考ツール、同じ履歴書で採点が90点・74点・88点・83点とばらつく</mlrss:title>
+          <mlrss:link>https://danunparsed.substack.com/p/hackerrank-open-source-ats</mlrss:link>
+          <mlrss:summary>HackerRankがオープンソース公開したAI採用選考ツール（応募者追跡システム）を使って同じ履歴書を繰り返し採点したところ、90点・74点・88点・83点と結果が大きくばらついたとブロガーのDan Kinsky氏が報告した。同一の入力に対して出力が安定しないというLLMベースの評価ツールに共通する課題が、採用という重要な意思決定の場面で顕在化した事例として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T18:59:09+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:93e0dd172376e57ac322607cbdbc232f60bb6b50e12bcf1bdce6ce3a15ac7642" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>半導体の未来を支える4億ドルの機械、ASMLが次世代EUV露光装置を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-93e0dd172376e57a</mlrss:link>
+          <mlrss:summary>最先端のEUV露光装置を独占的に製造するASMLが、より短い波長の光を用いて半導体の微細化をさらに進める新型装置を発表した。1台あたり約8億ドルとされる装置で、同社は昨年だけで50台を販売し400億ドルの売上を計上したという。AI向け先端半導体の生産能力を左右する基盤技術であり、今回の新型機により同社は競合他社との技術的な差をさらに広げる狙いがあるとみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T16:03:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:18249cd3253520f0fa7e81d14638d925b9b953b4e5b899bcfd482f90d55ea7eb" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>ホワイトハウス、Anthropic CEOダリオ・アモデイ氏への不満が表面化</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-18249cd3253520f0</mlrss:link>
+          <mlrss:summary>Wired誌の報道によると、トランプ政権関係者は、AnthropicのCEOダリオ・アモデイ氏と直接コミュニケーションを取らなくなって以降、政権とAnthropicの関係がむしろ改善したと述べているという。背景には、これまでに政権とアモデイ氏の間でAI規制などを巡り2度の公の対立があったことがあるとされる。AI企業のトップと政権との関係性が、AI政策の行方にも影響しうることを示す事例として報じられた。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T16:03:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fd4c629ad32dbb5723066121c802876b872c86c51ebbfa1117c068769780075d" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>チャットボットの特定の挙動が「妄想的思考」を助長する可能性、新研究で指摘</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fd4c629ad32dbb57</mlrss:link>
+          <mlrss:summary>Wall Street Journalが報じた新たな研究により、チャットボットとの対話に見られる特定の挙動パターンが、一部ユーザーの「妄想的な思考のスパイラル」を悪化させる要因となり得ることが指摘された。チャットボットがそうした妄想を新たに生み出しているのか、それとも利用者が元々持っていた傾向を増幅しているだけなのかは、研究時点ではまだ明確に解明されていないという。</mlrss:summary>
+          <mlrss:pub-date>2026-06-29T16:03:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-29</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-29</link>
@@ -485,134 +756,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ce867675d08aba04</mlrss:link>
           <mlrss:summary>AnthropicがAlibaba関連のオペレーターによる大規模な知識蒸留攻撃を告発した。約2万5000の不正アカウントと2880万回のAPIコールを通じてClaude APIにアクセスし、Qwenクラスのモデルに能力を転写したと主張。AI能力の組織的な流出が安全保障・執行上の課題として表面化した。</mlrss:summary>
           <mlrss:pub-date>2026-06-25T02:14:08+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-24</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-24</link>
-      <guid isPermaLink="false">sha256:20b3e083ab5225b3373570cbfd9636947c9351f5a1f34402814f3ae520e9aab1</guid>
-      <pubDate>Wed, 24 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Research</category>
-      <category>Startup</category>
-      <category>Tools</category>
-      <description>2026-06-24 のニュース 14件（Gmail 10件 / RSS 4件）
-
-[AI]
-  📰 OpenAI、IPOを来年以降に先送りする方向で検討
-  📰 YCombinator出資のBesimple AIが音声AI担当の戦略リードを採用
-  📰 AIモデルの政治的偏向を比較分析——各モデルの立ち位置を可視化
-  📨 AIインファレンス販売の価格ジレンマ：コストプラスからバリューベース価格へ
-  📨 AIエージェント製品の過剰期待と現実のギャップ——絞り込みと徹底的な品質が生存条件
-  📨 Databricks共同創業者がエージェント時代のオープンAI基盤「Omnigent・Lakebase」を発表
-
-[Engineering]
-  📨 Elden RingのゲームAI設計——スタック型ゴール管理で複雑な行動を単純な仕組みで実現
-  📨 AIエージェント開発の隠れた技術的負債：ハーネスコードの設計と将来の陳腐化リスク
-
-[Funding]
-  📨 AIインファレンス企業Groqが6.5億ドルを調達、NVIDIAからチップ技術ライセンスも取得
-
-[Research]
-  📨 Stripe・Anthropic・OpenAIが呼吸器感染症撲滅を目指す5億ドル非営利団体設立を支援
-
-[Startup]
-  📨 AIエージェントのみで運営するスタートアップPolsiaが年収1,000万ドルを達成
-
-[Tools]
-  📰 AI統合型OSS知識管理ツール「OpenKnowledge」——ObsidianやNotionのオープンソース代替
-  📨 WebMCPがAIエージェントとWeb統合の新たな標準となる可能性
-  📨 Lambda MicroVM——AIエージェントのサンドボックス実行に最適な高速・安全VM基盤
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-24</description>
-      <mlrss:target-date>2026-06-24</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:9a1e8193dc74609e8fac6068da272bc1432e0dbf22abf347c37737535134778c" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>OpenAI、IPOを来年以降に先送りする方向で検討</mlrss:title>
-          <mlrss:link>https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html</mlrss:link>
-          <mlrss:summary>OpenAIは2026年中のIPOを見送り、2027年以降に延期する方向で検討していると報じられた。AI業界最大手の上場計画をめぐる動向として市場から注目されており、評価額の安定や規制環境の整備を待つ戦略的判断とみられる。直近の資金調達ラウンドで数百億ドル規模の評価を得ており、上場の必要性は短期的には低いとの見方もある。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T20:36:05+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6cec060e695c108abc1caa029696984a8eedf524e57185e07e4a2fa0209e457f" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>YCombinator出資のBesimple AIが音声AI担当の戦略リードを採用</mlrss:title>
-          <mlrss:link>https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data</mlrss:link>
-          <mlrss:summary>YCombinatorのP25バッチ参加の音声AIスタートアップBesimple AIが、音声データ担当の戦略プロジェクトリードを募集している。音声認識・生成AIの実用化に取り組む初期段階のスタートアップで、技術と事業推進の両面でリードできる人材を求めている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T17:00:00+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1dc100fa552788a61c9cc83d4b5b0ce219f83cf2e15423988fb6eebac50d32bd" source-type="rss" category="Tools" anchor="false">
-          <mlrss:title>AI統合型OSS知識管理ツール「OpenKnowledge」——ObsidianやNotionのオープンソース代替</mlrss:title>
-          <mlrss:link>https://github.com/inkeep/open-knowledge</mlrss:link>
-          <mlrss:summary>Inkeepチームが公開したOpenKnowledgeは、Claude・Codex・Cursorと直接統合するWYSIWYGマークダウンエディタのオープンソースツール。MacOSアプリおよびCLIとして提供され、完全無料・ローカル動作。チーム間でのマークダウンファイル共有をGoogleドキュメントに近い使い勝手で実現することを目指しており、Obsidianの代替として開発された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T16:04:46+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1ac2bb57d713c24b607e70b5002e78226cfcbc1deb9c3a51dabdf2b1bfbc8559" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>AIモデルの政治的偏向を比較分析——各モデルの立ち位置を可視化</mlrss:title>
-          <mlrss:link>https://trakkr.ai/bias</mlrss:link>
-          <mlrss:summary>Trakkrが公開したレポートは、主要AIモデルが政治的質問に対してどのような偏向を示すかを定量的に分析・可視化した結果を示す。モデルごとに異なる政治的傾向が確認されており、AIシステムの透明性やバイアス問題への関心が高まる中で、客観的な比較評価の重要性を示す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T13:08:31+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cf3cb0635422748765963d7ab405b8f21a55431788b5690878922503f0f987b6" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>WebMCPがAIエージェントとWeb統合の新たな標準となる可能性</mlrss:title>
-          <mlrss:link>https://www.kdnuggets.com/heres-why-webmcp-is-exciting</mlrss:link>
-          <mlrss:summary>WebMCPはModel Context Protocol（MCP）のWeb版として、AIエージェントがブラウザ上からWebコンテンツやAPIと標準プロトコルで直接通信できる仕組みを提供する。従来のスクレイピングや個別API連携より効率的で、エージェントがWebサービスを活用できる範囲を大幅に広げる可能性を持ち、MCPエコシステムの重要な拡張として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T23:00:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7dd6eed30d910dafad5c0673fc534dcb4bc8d4a2159a847680aa09ba5419bfc4" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>AIインファレンス販売の価格ジレンマ：コストプラスからバリューベース価格へ</mlrss:title>
-          <mlrss:link>https://tomtunguz.com/so-you-want-to-sell-inference/</mlrss:link>
-          <mlrss:summary>AIインファレンスを販売する企業はゼロマージンのコストプラス型価格設定に苦しんでいる。成果に基づくバリューベース価格への転換が利益率改善の鍵となり、モデルルーティング・推論キャッシュ・知識蒸留を活用したコスト最適化で競合に対する優位性を構築できる。推論市場が成熟するにつれ、価格戦略の巧拙が企業の生死を分ける差別化要因になると分析されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:8b4bc3da7484b7795211f69c6d1a8eac11e1bb39539e6d07711d628e160e6cb4" source-type="gmail" category="Startup" anchor="false">
-          <mlrss:title>AIエージェントのみで運営するスタートアップPolsiaが年収1,000万ドルを達成</mlrss:title>
-          <mlrss:link>https://mondaymorning.substack.com/p/companies-that-build-companies</mlrss:link>
-          <mlrss:summary>従業員の代わりにAIエージェントだけを持つスタートアップPolsiaが年収1,000万ドルを達成し、「会社を作る会社」モデルの実現可能性を示した。YCombinator出資のThomasなど同様の企業が台頭しており、大多数が失敗する中でも少数の成功事例がShopify型の大きなリターンをもたらす可能性が指摘されている。AIエージェントが人間雇用を代替する未来の先行事例として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:73d592e4810ac8487390daf1077df8502bc97953030c352c05d17c2ea3c356a4" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>AIエージェント製品の過剰期待と現実のギャップ——絞り込みと徹底的な品質が生存条件</mlrss:title>
-          <mlrss:link>https://tremendous.blog/2026/06/23/ai-agent-hype-meets-reality-the-product-doesnt-work-and-churn-is-coming/</mlrss:link>
-          <mlrss:summary>AIエージェント製品の誇大広告と実態の乖離が深刻化しており、万能な「スーパーエージェント」より用途を極限まで絞り込んだ製品が生き残る。実環境で十分にテストされていないAIは顧客離れ（チャーン）を急速に加速させ、成長の持続を困難にする。品質より速度を優先した結果、精度の低い大量のAI出力が市場に溢れ信頼失墜のリスクが高まっている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:e7ae4329ec76b4beef4b69afc3bdfcffa9392c3056b49bbaf0970602e65ed07d" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>Lambda MicroVM——AIエージェントのサンドボックス実行に最適な高速・安全VM基盤</mlrss:title>
-          <mlrss:link>https://theburningmonk.com/2026/06/what-you-need-to-know-about-lambda-microvms/</mlrss:link>
-          <mlrss:summary>Lambda MicroVMはVMレベルの分離と高速起動・ステートフルなセッション維持を両立する仮想化技術。AIが生成したコードの安全実行、インタラクティブAIノートブック、エージェントサンドボックス、脆弱性スキャナーなどに適しており、アイドル時は自動サスペンドしてトラフィック到着時に自動再開する垂直スケーリングも内蔵している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T21:14:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:51cd6c523b0103e4be00301410bff4cb6ffc76c18406e4762e104da242d869d4" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Elden RingのゲームAI設計——スタック型ゴール管理で複雑な行動を単純な仕組みで実現</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-51cd6c523b0103e4</mlrss:link>
-          <mlrss:summary>Elden RingのゲームAIはシンプルなスタック型ゴール管理システムを採用し、コンテキストやランダム性に応じて動的かつ階層的な状態遷移を実現している。ビヘイビアツリーなど複雑なAIフレームワークとは対照的に、単純な構造で豊かな行動パターンを生み出すアプローチとして設計の参考例として注目を集めた技術解説。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T20:33:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fc04840e8733a9611ab03ad08fb127c24aaf0b2f4a5a468bcedf30c224c744af" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>AIエージェント開発の隠れた技術的負債：ハーネスコードの設計と将来の陳腐化リスク</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fc04840e8733a961</mlrss:link>
-          <mlrss:summary>AIエージェント製品の開発ではモデルと環境をつなぐ「ハーネスコード」に大量の技術的負債が積み上がる。モデル性能の向上に伴いハーネスの多くが不要になるため、本番ハーネス（安全動作のための制約重視）とトレーニングハーネス（探索・学習重視）を目的別に設計・分離するアーキテクチャが重要だと指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T20:33:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:594c56e0c19d44be4fef55d794f00ae341d007be9f8b6c94a62f70b96eb0b619" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>AIインファレンス企業Groqが6.5億ドルを調達、NVIDIAからチップ技術ライセンスも取得</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-594c56e0c19d44be</mlrss:link>
-          <mlrss:summary>AIインファレンスクラウドを運営するGroqはNVIDIAのチップ技術ライセンス取得後に6億5,000万ドルの資金調達を完了した。急増するAI推論需要に対応するインフラ拡充を目的としており、NVIDIA依存を抑えた独自のLPUアーキテクチャで高速推論市場での地位固めを図る。AI推論市場への投資家の注目が引き続き高いことが示された。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T20:06:34+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f454f46c4385a539f0416ed128b9a68c7eebf187fe56e42782556efc4b0a1837" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Stripe・Anthropic・OpenAIが呼吸器感染症撲滅を目指す5億ドル非営利団体設立を支援</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f454f46c4385a539</mlrss:link>
-          <mlrss:summary>決済大手StripeはAnthropicとOpenAIと連携し、風邪・インフルエンザなど呼吸器感染症の予防根絶を目的とした5億ドル規模の非営利団体の設立を支援する。AIと生物医学研究を組み合わせた新たなワクチン・治療法の開発加速が狙いで、テクノロジー企業が公衆衛生分野の大型社会課題にも本格的に投資する事例として注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T17:00:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c71004e23147fc60093524cfe8e400c738e549dbe02435ce5d94450758faa6e1" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Databricks共同創業者がエージェント時代のオープンAI基盤「Omnigent・Lakebase」を発表</mlrss:title>
-          <mlrss:link>https://www.latent.space/p/databricks</mlrss:link>
-          <mlrss:summary>Databricks共同創業者のMatei ZahariaとReynold Xinが2026 Data+AI Summitで、エージェント向けオーケストレーション基盤Omnigent、エージェント時代のデータベースLakebase、長期エージェントタスク向けLTAPを発表した。レイクハウスを超えたフルAIオペレーティングシステムへの進化と、フロンティアエコシステムのオープン化が競争力の鍵という見解を示した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-24T10:00:00+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
