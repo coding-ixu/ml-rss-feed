@@ -6,7 +6,113 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Tue, 30 Jun 2026 22:19:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:13:26 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-07-01</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-01</link>
+      <guid isPermaLink="false">sha256:8d77ba32a3eacadb5945241cbfdc1870960250c5ffe6bf697ce57dc6e9565b1d</guid>
+      <pubDate>Wed, 01 Jul 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Startup</category>
+      <description>2026-07-01 のニュース 10件（Gmail 10件 / RSS 0件）
+
+[AI]
+  📨 Anthropic、Claude Sonnet 5を発表
+
+[Engineering]
+  📨 「ソフトウェア工場」構想が加速、AIエンジニアズ・ワールズ・フェアで話題に
+
+[Funding]
+  📨 AI推論専用チップのEtched、評価額50億ドルでステルスを解除
+
+[Product]
+  📨 Google、高速・低コストの新画像/動画生成モデルを投入
+
+[Regulation]
+  📨 Claude Fable 5とMythos 5、輸出規制解除で復活
+  📨 OpenAIのGPT-5.6、米政府管理下でまず承認先のみへ提供開始
+
+[Research]
+  📨 創薬AIのGenesis Molecular、拡散モデルで実用水準の精度に到達と主張
+  📨 Anthropic、科学研究向けAIワークベンチ「Claude Science」を発表
+
+[Security]
+  📨 身元不明の研究者が未修正ゼロデイを複数公開、ChromeのV8にもサンドボックス突破の重大脆弱性
+
+[Startup]
+  📨 「AIバブル崩壊」後を見据える論考、AI採用スタートアップ共通の課題も浮き彫りに
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-01</description>
+      <mlrss:target-date>2026-07-01</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:5ae74dc3a97e0f1fb7f16006208170bff36bb562d3ad565eb93bd4cb76cafe17" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>創薬AIのGenesis Molecular、拡散モデルで実用水準の精度に到達と主張</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5ae74dc3a97e0f1f</mlrss:link>
+          <mlrss:summary>創薬分野のスタートアップGenesis Molecular AIの共同創業者Evan Feinberg氏と、Meta出身でLlamaの学習を率いたSergey Edunov氏(現CTO)が、低分子創薬向けの3D構造予測における拡散モデル研究の進展について語った。同社の主力モデル「PEARL」は実用に必要な精度のしきい値を安定的に超えられるようになったとし、これまで長らく期待外れだった機械学習による創薬支援が、新しいエージェント型のワークフローとともにようやく実用段階に近づきつつあるとの見方を示した。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T23:42:39+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b888815a001c9f135e6b77caff58fb417d2b12a9d21d03d956bb3853fa5e97a9" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>「ソフトウェア工場」構想が加速、AIエンジニアズ・ワールズ・フェアで話題に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b888815a001c9f13</mlrss:link>
+          <mlrss:summary>米国で開催されたAIエンジニアズ・ワールズ・フェアでは、複数のコーディングエージェントを組み合わせて開発工程全体(選別・仕様策定・実装・レビュー・検証・リリース・監視)を自動化する「ソフトウェア工場」構想が大きな話題となった。CLIツール大手Warpは新たなオーケストレーション基盤「Oz」を発表し、CEOのZach Lloyd氏は今後1年以内に主要なソフトウェア開発の多くが何らかの自動工場を運用するようになると予測した。CursorやSierraなど他社でも同様に、人間主導からエージェント主導の開発ループへの移行が進んでいるとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T23:28:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1a738aab3d82f852d52ff40b1ca940fff1e906fc24fb52abdff695bcbaf99774" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Anthropic、Claude Sonnet 5を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1a738aab3d82f852</mlrss:link>
+          <mlrss:summary>Anthropicは新型AIモデルClaude Sonnet 5を発表した。計画立案・ツール利用・コーディング・ブラウジングなどのエージェント性能を高めた中価格帯モデルで、上位モデルOpus 4.8に迫る性能を持つとされる。無料・Proプランおよびクラウードコードの既定モデルとなり、コンテキスト長は100万トークン。API料金は8月31日まで入力100万トークンあたり2ドル・出力10ドルで、以降は3ドル・15ドルに値上げ予定。前モデルSonnet 4.6より幻覚や過度な迎合的応答が少ないとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T22:26:32+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ae217560b139909e6f83bb51bd8de52255e71a90774e8e1389ca2b1150e61ae8" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>身元不明の研究者が未修正ゼロデイを複数公開、ChromeのV8にもサンドボックス突破の重大脆弱性</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ae217560b139909e</mlrss:link>
+          <mlrss:summary>「bikini」を名乗る匿名の研究者が、ベンダーへの事前通知なしにゼロデイ脆弱性の詳細をまとめたリポジトリ「exploitarium」を公開した。libssh2の認証前リモートコード実行(CVE-2026-55200)やGitea Dockerの認証バイパス(CVE-2026-20896)などが含まれ、いずれも未修正。別件では、ChromeのレンダラーサンドボックスとV8ヒープ分離を単一の脆弱性で同時に突破できる重大なV8 JITバグ「Longinus」(CVE-2026-6307)も報告されており、修正版(106.0.5249.119以降)への更新が呼びかけられている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T22:09:38+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8d786b02b2f88f2f0c5388fb62937ae97a235a1d5bd84c2934d2a38620ffc7a5" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>「AIバブル崩壊」後を見据える論考、AI採用スタートアップ共通の課題も浮き彫りに</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8d786b02b2f88f2f</mlrss:link>
+          <mlrss:summary>スタートアップ論壇では、仮に「AIクラッシュ」(評価額の調整)が起きても、発電設備やデータセンター、オープンモデル、AIを使いこなす人材といったインフラは残るとの論考が注目された。価格調整後に誰が計算資源やモデル、ツールを保有しているかが、その後の再建の行方を左右するという。一方、AIを活用した採用支援スタートアップの分野では、利用頻度の低さや乗り換えの容易さからデータの堀を築きにくいという共通の課題に、各社が同じように直面している実態も指摘された。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T21:13:39+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8fb6e8d3d95b20fab830264b4281a2777161ab4954196e21646254b1959ed1b5" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Anthropic、科学研究向けAIワークベンチ「Claude Science」を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8fb6e8d3d95b20fa</mlrss:link>
+          <mlrss:summary>Anthropicは創薬・生命科学研究者向けの新製品Claude Scienceを発表した。Claude Codeがソフトウェア開発を支援するのと同様に、高レベルの指示から研究作業を自律的に遂行できるとする。Pro/Max/Team/Enterprise向けにmacOSとLinuxでベータ提供され、60以上の科学データベースと連携し、3Dタンパク質構造やゲノムブラウザ、化学構造を表示できる。成果を生成したコードまで遡って追跡できる点も特徴で、Anthropic自身も希少疾患の創薬研究に活用するという。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T21:04:24+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0d22b04f34d660014232b9845ce9bec6942a2ae21dd8112f05137cf1d807de0e" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>Claude Fable 5とMythos 5、輸出規制解除で復活</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0d22b04f34d66001</mlrss:link>
+          <mlrss:summary>Anthropicの最上位モデルClaude Fable 5とMythos 5は、Amazonがサイバー関連の安全対策を突破する手口を発見したことを受け、6月12日から米国の輸出規制により利用停止となっていた。3週間の対策を経て新たな分類器がほぼ同種の突破を防げるようになったとして米商務省が規制を解除し、7月1日にFable 5がグローバルに復帰、Mythos 5も承認済みパートナー経由で提供拡大へ。復帰後も利用量は当面週間上限の半分に制限され、定型的なコーディング作業の一部はOpus 4.8に振り分けられる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T18:57:04+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c5054d49aae4574cd0b782041dce7bf0fe0430cf9c27cc5d77e1889e4159af5a" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Google、高速・低コストの新画像/動画生成モデルを投入</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c5054d49aae4574c</mlrss:link>
+          <mlrss:summary>Googleは高速・低コストな画像生成モデル「Nano Banana 2 Lite」と、動画生成・編集向けモデル「Gemini Omni Flash」を発表した。いずれもAI Studio、Gemini API、法人・一般向け製品を通じて利用可能になる。あわせてNotebookLMには、任意の資料から60秒の縦型解説動画を自動生成する機能も追加された。ChatGPTを擁するOpenAIやAnthropicの相次ぐ発表と同日に重なり、大手各社のAI製品競争が一段と激化した形となった。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T05:56:04+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9314250e5089527fa54dfae5b6f2a975b0c19b865496e63ba765eaed2b0bc24e" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>OpenAIのGPT-5.6、米政府管理下でまず承認先のみへ提供開始</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9314250e5089527f</mlrss:link>
+          <mlrss:summary>OpenAIは新モデル群GPT-5.6(Sol・Terra・Luna)を発表したが、米政府の要請により一般公開前にまず承認済み約20組織のみへ提供するとした。米国のフロンティアモデルとして初めて政府管理のアクセスリストの下で展開される事例となる。最上位のSolは一部ベンチマークで競合Mythosを上回るが、サイバー攻撃への悪用能力ではやや抑えられているという。AI政策専門家は、Fable 5の一時停止やGPT-5.6の制限公開を挙げ、「任意」とされる政府のフロンティアモデル審査が事実上のライセンス制になりつつあると警鐘を鳴らしている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T01:33:16+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6c3a03c5107fd6038786078aeb8e1bce2855b2cea65ab41158cb330814daa407" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>AI推論専用チップのEtched、評価額50億ドルでステルスを解除</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6c3a03c5107fd603</mlrss:link>
+          <mlrss:summary>AI推論に特化したハードウェア企業Etchedがステルスを解除した。評価額は50億ドル、受注残高は10億ドル超、これまでの累計調達額は8億ドルに達する。TSMCの4nmプロセスで量産を開始しており、最初の試作チップが一度で正常動作したという。創業者はハーバード大学中退の若手エンジニアで、NVIDIAやGoogle TPU、Broadcom出身者を含む400人超のチームを率いる。学習ではなく推論の高速化・低コスト化に特化しており、今後のAI業界の勝敗は「誰が最良のモデルを作るか」だけでなく「誰が安く速く提供できるか」で決まるとの見方を示した。</mlrss:summary>
+          <mlrss:pub-date>2026-07-01T00:02:46+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-06-30</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-30</link>
@@ -632,130 +738,6 @@
           <mlrss:link>https://machinelearningmastery.com/the-ai-agent-tech-stack-explained/</mlrss:link>
           <mlrss:summary>Machine Learning Masteryの解説記事「The AI Agent Tech Stack Explained」が公開された。エージェントの動作に必要なオーケストレーション層・ツール統合・メモリ管理・推論エンジンなど各コンポーネントを体系的に説明。LLMエージェント開発の全体像を把握するための入門〜中級者向け実践ガイドだ。</mlrss:summary>
           <mlrss:pub-date>2026-06-27T03:22:07+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-06-25</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-25</link>
-      <guid isPermaLink="false">sha256:9b46e8feb8cbace92932acf806edfda9f5ca54fd4f9feab43b95621e824baf9e</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <category>Tools</category>
-      <description>2026-06-25 のニュース 13件（Gmail 9件 / RSS 4件）
-
-[AI]
-  📰 OpenAI、次世代モデルGPT-5.6 Solをプレビュー公開
-  📨 GLM-5.2、オープンウェイトLLMの評価ランキングでトップに
-  📨 AlphaFoldのJohn Jumperら、DeepMindを離れAnthropicへ移籍
-  📨 Gemini共同主任のNoam Shazeer、GoogleからOpenAIへ転籍
-
-[Engineering]
-  📨 OpenAI × Broadcom、推論専用カスタムチップ「Jalapeño」を発表
-
-[Product]
-  📨 Anthropic、SlackネイティブAIエージェント「Claude Tag」を発表
-  📨 Google Gemini 3.5 Flash、コンピューター操作（Computer Use）機能を統合
-  📨 Google、フラッグシップモデルGemini 3.5 ProのリリースをGoogle I/O後に延期
-
-[Regulation]
-  📰 米政府がGPT-5.6の利用者審査を担う方針 — OpenAIが発表
-  📨 Anthropic CEO ダリオ・アモデイ、ホワイトハウスAI政策交渉の窓口から外れる
-
-[Security]
-  📨 Anthropic、Alibaba関連グループによる「敵対的蒸留」でAPI悪用を告発
-
-[Startup]
-  📰 Liva AI（YC S25採択）が創業期オペレーションリードを募集
-
-[Tools]
-  📰 Workweave Router — Claude・Codex・Cursor向けAIモデル自動ルーティング
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-06-25</description>
-      <mlrss:target-date>2026-06-25</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:2a7f56c3373a5d34113cf0f2422fcae924f9cf7a77c4ae54f23e08cfa272a4d5" source-type="rss" category="Regulation" anchor="false">
-          <mlrss:title>米政府がGPT-5.6の利用者審査を担う方針 — OpenAIが発表</mlrss:title>
-          <mlrss:link>https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/</mlrss:link>
-          <mlrss:summary>OpenAIが、次世代モデルGPT-5.6へのアクセスを米政府が審査・承認する枠組みを採用すると発表した。高度なAIモデルへのアクセスを政府機関が管理する試みは前例がなく、AIの安全保障・輸出管理議論と連動した動きとして注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-06-26T18:23:14+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9e55a415387874b4537f4068b0abec1e7db645ab1655dc089a9e92d24a537c25" source-type="rss" category="AI" anchor="false">
-          <mlrss:title>OpenAI、次世代モデルGPT-5.6 Solをプレビュー公開</mlrss:title>
-          <mlrss:link>https://openai.com/index/previewing-gpt-5-6-sol/</mlrss:link>
-          <mlrss:summary>OpenAIが新世代モデル「GPT-5.6 Sol」のプレビューを公開した。現行GPT-5.5 Instantよりも高度な推論・コーディング能力を持つ次世代フラッグシップとして位置づけられており、カスタムチップ「Jalapeño」と組み合わせた大規模展開が予定されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-26T17:06:55+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:72c13c98c7e65d4db9607642797360d57bced6c3a9903c228f872cc7f08b8da2" source-type="rss" category="Startup" anchor="false">
-          <mlrss:title>Liva AI（YC S25採択）が創業期オペレーションリードを募集</mlrss:title>
-          <mlrss:link>https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead</mlrss:link>
-          <mlrss:summary>Y Combinator 2025年夏バッチ採択のLiva AIが創業期オペレーションリードを募集している。YCスタートアップへの採用情報として、AI業界における人材需要の高さを示す一例。</mlrss:summary>
-          <mlrss:pub-date>2026-06-26T17:00:43+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:35986d073484046f8976ff6d27052b24b85cb9102eed9c93eeae699987f93a3b" source-type="rss" category="Tools" anchor="false">
-          <mlrss:title>Workweave Router — Claude・Codex・Cursor向けAIモデル自動ルーティング</mlrss:title>
-          <mlrss:link>https://github.com/workweave/router</mlrss:link>
-          <mlrss:summary>Claude・Codex・Cursorなど既存ツールにそのまま差し込めるプロキシ型AIルーター「Workweave Router」がHN上で公開された。プロンプトごとに最適なモデル（Claude・GPT・Gemini・DeepSeek・Llamaなど）を50ms以下で自動選択し、コストを40〜70%削減できるという。既存ツールのエンドポイントを変えるだけで利用可能。</mlrss:summary>
-          <mlrss:pub-date>2026-06-26T16:40:11+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:439151f9f1c76023ea8310e552c465dd9dc97b03c591f843828110ce7f75af31" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>OpenAI × Broadcom、推論専用カスタムチップ「Jalapeño」を発表</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</mlrss:link>
-          <mlrss:summary>OpenAIとBroadcomが共同開発したLLM推論専用カスタムチップ「Jalapeño」を発表。自社AIを活用した設計プロセスにより着想から9ヶ月でテープアウトを達成。Nvidiaと比べ推論コストを約50%削減する見込みで、Microsoftが初期バッチの40%を調達予定。ChatGPT・Codex・APIトラフィック全般に展開し、2026年末の本格稼働を目指す。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T13:38:05+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:861869b6aa793520e0e348a41820ffa32f822fcd82267938859252f8366e4a12" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>GLM-5.2、オープンウェイトLLMの評価ランキングでトップに</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-861869b6aa793520</mlrss:link>
-          <mlrss:summary>中国発オープンウェイトモデルGLM-5.2がArtificial AnalysisとAgent Arenaのオープンモデル部門で首位を獲得。ARC-AGI-2でもオープンソース最高スコア22.8%を記録した。Anthropic Opus 4.8と比較して同等品質を約2倍速・約3分の1のコストで実現するとの報告もあり、実用展開が急速に進んでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T13:11:59+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:00a4d46e56c49cad5e9c791bfe6f3732f2e1fc377102210b8318d56851cb2733" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>AlphaFoldのJohn Jumperら、DeepMindを離れAnthropicへ移籍</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-00a4d46e56c49cad</mlrss:link>
-          <mlrss:summary>2024年ノーベル化学賞受賞者でAlphaFoldを主導したGoogle DeepMindのJohn JumperがAnthropicに移籍。GeminiチームのJonas AdlerとAlexander PritzelもAnthropicへ転職した。DeepMindからのトップ研究者流出が相次ぎ、Anthropicへの人材集中が加速している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T13:06:16+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:124a076e78a14e58aad7c47bf385484fe7958af3fa0f6b6df48815d55481b0a5" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Anthropic、SlackネイティブAIエージェント「Claude Tag」を発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-124a076e78a14e58</mlrss:link>
-          <mlrss:summary>AnthropicがSlack統合のAIエージェント「Claude Tag」を発表。チームがSlack内で@メンションするだけでClaude Codeが作業を引き受け、会話コンテキストを保持しながら継続的に対応する。Ambient Modeはサポートメール内のエラーを能動的に通知するなど、自律的なワークフロー支援も担う。Team・Enterpriseプランで提供開始。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T13:04:03+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:da70525bfbd4079996fa542c4db610fead4a6d9e319199714b35f75c3f9113c3" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Google Gemini 3.5 Flash、コンピューター操作（Computer Use）機能を統合</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-da70525bfbd40799</mlrss:link>
-          <mlrss:summary>GoogleがGemini 3.5 Flashにコンピューター操作機能を追加。デスクトップ・ブラウザ・モバイル環境でクリック・スクロール・入力を自動実行するエージェントの構築が可能になった。スクリーンショットを連続処理してインターフェースを制御する軽量モデルへの実装で、GitHubまたはBrowserbase経由で試験提供されている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T11:28:40+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6334c4b266f2ead9cba8cd89f43fed612681377fb0dfba282738be0d75e54821" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Gemini共同主任のNoam Shazeer、GoogleからOpenAIへ転籍</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6334c4b266f2ead9</mlrss:link>
-          <mlrss:summary>GoogleのGeminiモデルを共同主導してきたNoam ShazeerがOpenAIに加入した。以前はCharacter.AIを共同創業するためGoogleを去った経緯があり、今回で2度目の離脱となる。主要AI研究者のOpenAIへの流出が続いており、人材獲得競争でOpenAIが優位に立っていることを示している。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T11:09:26+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:555b2995df25b87ce9980feb641d4f6fe4cc327391aab6d1ab84feb038875861" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>Anthropic CEO ダリオ・アモデイ、ホワイトハウスAI政策交渉の窓口から外れる</mlrss:title>
-          <mlrss:link>https://cryptobriefing.com/anthropic-tom-brown-white-house-ai-meetings/</mlrss:link>
-          <mlrss:summary>ホワイトハウスとのAI政策交渉でDario Amodeiとの協力が困難との声が上がり、共同創業者のTom BrownがAnthropicの技術政策交渉を引き継いだ。トランプ政権がAnthropicを国家安全保障上の懸念として扱った経緯があり、規制状況の正常化に向けた折衝が続いている。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T10:38:30+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:203ac0bdaca64dd255273fcacf9870e8a2cbd5dba2e6d272f2aa034b274e1df7" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Google、フラッグシップモデルGemini 3.5 ProのリリースをGoogle I/O後に延期</mlrss:title>
-          <mlrss:link>https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/</mlrss:link>
-          <mlrss:summary>Google I/Oで6月リリースを約束していたフラッグシップAIモデル「Gemini 3.5 Pro」が7月以降に延期された。ベンチマーク・価格ともに未公開のまま。OpenAIがGPT-5.6を同時期に投入する予定とされており、競合他社との同時リリースとなる可能性がある。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T10:01:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ce867675d08aba045986fac1fcba5276e9e08efd0768937d8c14bdfbdee7dea1" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>Anthropic、Alibaba関連グループによる「敵対的蒸留」でAPI悪用を告発</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ce867675d08aba04</mlrss:link>
-          <mlrss:summary>AnthropicがAlibaba関連のオペレーターによる大規模な知識蒸留攻撃を告発した。約2万5000の不正アカウントと2880万回のAPIコールを通じてClaude APIにアクセスし、Qwenクラスのモデルに能力を転写したと主張。AI能力の組織的な流出が安全保障・執行上の課題として表面化した。</mlrss:summary>
-          <mlrss:pub-date>2026-06-25T02:14:08+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
