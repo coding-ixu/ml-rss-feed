@@ -6,7 +6,121 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Wed, 01 Jul 2026 22:13:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 22:11:02 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-07-02</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-02</link>
+      <guid isPermaLink="false">sha256:8364727ef7a81a9ed87fb516cf4235d048e9ae17def89c4e420b8f62e361fc3c</guid>
+      <pubDate>Thu, 02 Jul 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-07-02 のニュース 12件（Gmail 9件 / RSS 3件）
+
+[AI]
+  📨 Claude Fable 5、輸出規制解除で提供再開 コーディングでは旧モデルにフォールバックも
+
+[Engineering]
+  📰 AIコーディングエージェントを「短い綱」で制御する開発手法
+  📰 claude-real-video: LLMに動画を「見せる」ためのローカル処理ツール
+  📨 AIEWF 2026、エージェント開発の作法と「人間の主導権」を巡る議論が焦点に
+  📰 AIを特許の発明者にはできないと日本の最高裁が判断
+
+[Product]
+  📨 Meta、余剰AI計算資源を外部提供するクラウド事業を計画
+  📨 1万ドル以下の汎用ロボットが相次いで登場
+  📨 xAI、ノーコードで作れる音声AIエージェントビルダーを公開
+
+[Regulation]
+  📨 OpenAI、米政権への5%株式提供を提案 政治的圧力の緩和図る
+
+[Research]
+  📨 大規模言語モデルの画一的な応答問題に挑む豪新興企業のFlintモデル
+  📨 「State of AIレポート」計算資源指数2026年版、NVIDIA優位は変わらず
+
+[Security]
+  📨 攻撃者が設定不備のAI推論エンドポイントを悪用し攻撃基盤に転用
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-02</description>
+      <mlrss:target-date>2026-07-02</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:30b06d4f67722b799311b57764aad1578dcb7a1f413a377730da0b4858ad20f5" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Meta、余剰AI計算資源を外部提供するクラウド事業を計画</mlrss:title>
+          <mlrss:link>https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392</mlrss:link>
+          <mlrss:summary>Meta Platformsは、データセンターとチップへの巨額投資で生まれた余剰AI計算能力を外部の開発者やホスティングモデル向けに販売する社内クラウド事業の立ち上げを検討していると報じられた。AWSやMicrosoft Azure、Google Cloudなど既存の大手クラウド事業者に対抗する新たな収益源を狙う動きで、AWS Bedrockのようなモデルホスティング型か、生の計算資源を売るCoreWeave型かなど複数の事業形態が検討されているという。市場はこの計画を好感し、Meta株は上昇した。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T22:35:11+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2159b3315a4b914e01404c47f86497e857de88a942a3eacbab67dab4d96f03e1" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>攻撃者が設定不備のAI推論エンドポイントを悪用し攻撃基盤に転用</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2159b3315a4b914e</mlrss:link>
+          <mlrss:summary>認証が不十分、あるいはプレースホルダーのAPIキーのまま公開されたOllamaやLiteLLMの推論エンドポイントが攻撃者に悪用され、攻撃用ツールの実行基盤として使われていることが確認された。観測された攻撃者グループは自律型のペネトレーションテストフレームワークやCodexベースのエージェントを用いて、脆弱なバックエンドの探索・武器化・リバースエンジニアリングを行っていたという。セキュリティ研究者は、AI推論サービスをインターネットに直接公開しないこと、実効性のある認証の導入、リクエスト内容の監査を呼びかけている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T22:11:35+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1a6c1ad80bcdf86a38cb8f7641032e2e887eef622b630e21637ec09b8fee8e78" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>大規模言語モデルの画一的な応答問題に挑む豪新興企業のFlintモデル</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/</mlrss:link>
+          <mlrss:summary>ChatGPTやClaude、Geminiなど主要な大規模言語モデルに「1から10までのランダムな数字を挙げて」と尋ねると多くの場合「7」が返るように、既存モデルの応答は驚くほど画一的で創造性に乏しいという指摘がある。オーストラリアの新興企業Springboardsは、自由回答形式の質問に対して主流モデルよりも多様な答えを出せるよう訓練した独自LLM「Flint」を開発した。コーディングや調査など正確性重視のタスクでは画一性が有利に働く一方、発想やプランニングの場面では多様性の欠如が課題になるとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T21:03:26+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9932ea5ca1e69c65b57a7cb487778138e934d71bc60a767f512110397f94fe89" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>OpenAI、米政権への5%株式提供を提案 政治的圧力の緩和図る</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html</mlrss:link>
+          <mlrss:summary>OpenAIは米国政府に対し、時価総額の5%相当(約426億ドル)の株式を無償で提供する案を提示したと報じられた。CEOのサム・アルトマン氏は、AIがもたらす恩恵を公共に還元する最善の方法だと説明している。この提案は、主要な米AI開発企業各社が同様に政府へ5%相当の株式を持たせる、より大きな枠組みの一部とされ、2025年初めにトランプ政権へ直接持ちかけられていたという。AI企業への政治的圧力が高まる中での対応で、規制強化を巡る駆け引きの一環とみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T19:40:07+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4521ef1bc57f58b702888b3ee0781dc847f02db6abd8312a6bdb361849d6c700" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>1万ドル以下の汎用ロボットが相次いで登場</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4521ef1bc57f58b7</mlrss:link>
+          <mlrss:summary>複数の新興企業が1万ドル以下の汎用ロボットを相次いで発表した。Nori Roboticsは1400ドル未満で卓上の高さまで届く双腕ロボットを販売し、BracketBotはホバーボード式の駆動輪を備えた車輪型マニピュレーターロボットを3000ドル未満で提供する。Weaveの「Isaac 1」は洗濯物の片付けや部屋の整頓までこなす自宅向け移動マニピュレーターで、価格は8000ドルまたは月額450ドルとしている。低価格化により家庭用ロボットの普及が現実味を帯びてきたことを示す動きといえる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T19:40:07+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:66c33ffea891655dcc4a38f1f5ed3b7c6a21b749f7fb62bbaa39136905729c1e" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIコーディングエージェントを「短い綱」で制御する開発手法</mlrss:title>
+          <mlrss:link>https://blog.okturtles.org/2026/07/short-leash-ai-method/</mlrss:link>
+          <mlrss:summary>開発者が手を離してAIエージェントに任せきりにする「放任型」の開発は、コードが脱線したり非効率で読みにくい実装になったりする問題があると筆者は指摘する。Fable 5のような高性能モデルでも、学習データの少ない分野では動作はするが効率の悪い汚いコードを生成することがあるという。そこで提案されているのが「ショートリーシュ(短い綱)」方式で、事前にタスクを調査・分解した上で、変更のたびに差分を確認し、怪しい操作は都度権限を拒否し、小さい単位でこまめにコミットする。プルリクエストは人とAIの双方でレビューし、AIによる支援を明記する「AI Disclosure」欄を設けることで、開発者がコードベースの理解と説明責任を保つべきだと主張している。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T19:11:57+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f08a2e20eadeff744e0fb83d1a2f3f29d97ca542082de56143f9300d3615d6be" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>claude-real-video: LLMに動画を「見せる」ためのローカル処理ツール</mlrss:title>
+          <mlrss:link>https://github.com/HUANGCHIHHUNGLeo/claude-real-video</mlrss:link>
+          <mlrss:summary>ChatGPTは字幕しか読めず、Claudeは動画ファイルを直接受け付けず、Geminiは一定間隔でフレームを抽出するため重要な場面を見落とすなど、既存のAIツールは動画を十分に理解できないという課題に対応するオープンソースツール。シーンチェンジ検出でフレームを抽出し、スライディングウィンドウ方式でほぼ同一のフレームを除去、Whisperによる音声書き起こしや字幕抽出も行う。クラウドにアップロードせずffmpegとPythonでローカル処理が完結し、URL(yt-dlp経由)やローカルファイルにも対応する。少数の意味のあるフレームに絞ることでトークンコストを抑えつつ、映像の実際の変化を捉えられる点が特徴。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T19:10:12+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1f96c4f0ae82bf17c068bce4976e53a971712744314d658679290e4a28d9eb18" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Claude Fable 5、輸出規制解除で提供再開 コーディングでは旧モデルにフォールバックも</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/news/redeploying-fable-5</mlrss:link>
+          <mlrss:summary>Anthropicは米政府による輸出規制で一時停止していた最上位モデル「Claude Fable 5」の提供を再開した。新たに追加されたサイバーセキュリティ分類器がリスクの高いリクエストを検知し、該当する場合はOpus 4.8にフォールバックする仕組みで、コーディングタスクの一部でも旧モデルが使われる場面が報告されている。有料ユーザーは7月7日まで週間利用枠の50%を上限にFable 5を試用可能。ベンチマーク「Remote Labor Index」では実際のフリーランス案件の16.1%をクライアントが許容する品質で完了でき、前世代の約2倍のスコアを記録した。SNSでは歓迎と皮肉が入り混じる反応が広がっている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T18:31:26+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2c909a1930a33c65418bffb40c4b969981d3effd3e8c21647c4630a7a0f5d087" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>AIEWF 2026、エージェント開発の作法と「人間の主導権」を巡る議論が焦点に</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/aiewf-daily-dispatch-agency</mlrss:link>
+          <mlrss:summary>AI Engineer World's Fairでは、AIエージェント開発を巡る複数のテーマが交錯した。Introspection社のガブリレスク氏は、エージェントがシステム自体の改善を担う「オートリサーチ」の考え方を紹介。Cursorのブルネ氏は、企業向けにソフトウェア開発全体を担う「フォワードデプロイドエンジニア」チームを年内に10倍へ拡大する計画を語った。デザインツールImpeccableのバカウス氏は、エージェントに完全な自動化を委ねず人間が最後の仕上げを担う重要性を強調するなど、自律性と人間の関与のバランスが共通の論点となった。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T15:13:49+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:86be446302a6ee6535f70031d0a591ea9c671231d8bf2f0eba52802d1b5c6168" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIを特許の発明者にはできないと日本の最高裁が判断</mlrss:title>
+          <mlrss:link>https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/</mlrss:link>
+          <mlrss:summary>日本の最高裁判所は、AIを特許出願上の発明者として記載することは認められないとの判断を示したと報じられている。現行の特許制度は発明者を自然人に限定する前提で設計されており、AIが生成した発明であってもAI自体を発明者名義にすることはできないという整理とみられる。海外でも同様に、AIを発明者とする特許出願を却下する判断が相次いでおり、生成AIの活用が広がる中で発明者の定義や権利の帰属をどう扱うかという制度的な課題が改めて浮き彫りになっている。記事原文の詳細な事実関係は未確認のため、続報の確認が望まれる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T13:43:41+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6baf3a6acafdc9c7138e729ecdb004ebb81b06cea9a4698a12615befcffa9e01" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>xAI、ノーコードで作れる音声AIエージェントビルダーを公開</mlrss:title>
+          <mlrss:link>https://x.ai/voice</mlrss:link>
+          <mlrss:summary>xAIは、電話応対を自動化する音声AIエージェントをノーコードで作成できるビルダー「Grok Voice」を公開した。注文番号のうろ覚えや会話の割り込みなど、実際の電話対応にありがちな混乱にも対応できるとされ、25以上の言語で1秒未満の応答を実現するという。カスタマーサポートや営業、予約対応など、これまで人手が必要だった電話業務を代替する用途を想定している。音声エージェント市場では他社も同様のツールを競って投入しており、競争が激しくなっている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T07:14:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2080a87273a87975c479f39757e5a8560757c0cf34a68081882f69ae9745bbef" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>「State of AIレポート」計算資源指数2026年版、NVIDIA優位は変わらず</mlrss:title>
+          <mlrss:link>https://press.airstreet.com/p/state-of-ai-compute-index-june-2026</mlrss:link>
+          <mlrss:summary>State of AI ReportとZeta Alphaが公開した2026年版計算資源指数によると、AI研究論文で言及されるチップの件数は2026年に前年比10.7%増となる見込みで、2025年の伸び鈍化は一時的な踊り場だったことが示された。NVIDIA製チップは全体の約91%を占め依然として圧倒的な存在感を保つ一方、AMDの言及数はほぼ倍増、HuaweiのAscend 910は56%増、Appleは非NVIDIA・非Google勢で最多の被引用数となった。TPUの言及は7%減少しており、論文引用は必ずしも実際の計算資源利用を正確に反映しないとの留保も示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-02T00:57:26+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-07-01</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-01</link>
