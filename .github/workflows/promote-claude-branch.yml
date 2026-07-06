@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: promote-main
@@ -39,3 +40,29 @@ jobs:
 
       - name: Promote newest routine branch into main
         run: python3 .github/scripts/promote.py "${{ github.event_name }}" "${{ github.ref }}"
+
+      # main/docs is served by the legacy Pages pipeline, which can wedge
+      # ("Deployment failed, try again later.") and freeze the public site even
+      # though main is current. Force a fresh build and wait for it, so a wedged
+      # deploy self-heals on the next promote/schedule run instead of silently
+      # stopping delivery.
+      - name: Ensure GitHub Pages published (self-heal wedged deploys)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            echo "Pages build attempt $attempt: requesting a fresh build..."
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null
+            for _ in $(seq 1 24); do
+              sleep 10
+              status=$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest" --jq '.status')
+              echo "  status=$status"
+              case "$status" in
+                built)   echo "Pages build succeeded."; exit 0 ;;
+                errored) echo "Pages build errored; retrying..."; break ;;
+              esac
+            done
+          done
+          echo "::error::GitHub Pages build did not reach 'built' after retries."
+          exit 1
