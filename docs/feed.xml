@@ -6,7 +6,128 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Fri, 10 Jul 2026 22:24:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 22:10:23 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-07-11</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-11</link>
+      <guid isPermaLink="false">sha256:b0f2f24dd9cee5b16e5b8056ecd6455827f58b74937aa04565912b6672d2aeca</guid>
+      <pubDate>Sat, 11 Jul 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Research</category>
+      <category>Tools</category>
+      <description>2026-07-11 のニュース 13件（Gmail 8件 / RSS 5件）
+
+[AI]
+  📨 「働くライターの終わり」——LLMが物書きの仕事に与える影響を問う
+  📨 OpenAIのGPT-5.6、ARC-AGI-3のライブゲームで初勝利
+
+[Engineering]
+  📰 「以前はClaudeが好きだったのに」最新モデルへの利用者の不満
+  📰 「AI 2040と知性至上主義」——楽観的なAI予測への反論
+  📰 「逆ケンタウロス」論——AIのパラドックスを読み解く鍵
+  📰 Show HN: Orbit——1万5000超の天体を追えるAR衛星トラッカー
+  📰 Show HN: Reame——使うほど高速化するCPU推論サーバー
+
+[Funding]
+  📨 ローカルLLM実行ツールのOllama、シリーズBで6500万ドル調達
+
+[Product]
+  📨 Meta、自社製AIチップ「Iris」の量産を開始へ
+  📨 UBTech、シリコン製の人型コンパニオンロボット「UWORLD U1」を量産
+
+[Research]
+  📨 AIが生成した新規分子、121人の化学者が本物と見分けられず
+
+[Tools]
+  📨 AIエージェントのツール選定を体系的に解説するガイド公開
+  📨 Google、AI活用を学べる無料認定コースを公開
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-11</description>
+      <mlrss:target-date>2026-07-11</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:8b5c80ee616a36275f42914b4cf4fcc4e2d83909fdfdf9f7542aaa087cc94bd6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「以前はClaudeが好きだったのに」最新モデルへの利用者の不満</mlrss:title>
+          <mlrss:link>https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/</mlrss:link>
+          <mlrss:summary>米メディアAndroid Authorityへの投稿で、あるユーザーがClaudeの最新モデルについて、創作やブレインストーミングなど正当な依頼まで過度に拒否するようになったと指摘している。同じプロンプトでも会話によって許可・拒否が分かれる一貫性のなさも問題視されている。明確な指示が有効な場合もあるとしつつ、背景には過去モデルを巡る当局の監視強化を受けた安全対策の強化があるとの見方を紹介し、「Claudeが扱いにくくなっている」と結論づけている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T20:21:25+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5c2fef32331d3da79285b5b182bd7656ed21228ed5cfef8ba59c3d049061297b" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「AI 2040と知性至上主義」——楽観的なAI予測への反論</mlrss:title>
+          <mlrss:link>https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html</mlrss:link>
+          <mlrss:summary>著者は「知性はすべてを解決する万能薬ではなく、一部のボトルネックを解消するに過ぎない」と主張し、AIによる急速な技術的飛躍を楽観視する見方に反論している。サプライチェーンや製造リードタイム、物理法則といった現実の制約は、ソフトウェアの進歩だけでは克服できないと指摘。中央集権的な規制を権威主義的統制として退ける一方、企業や政府の監視より個人の自律性を優先する、ローカル展開型のAI活用を支持する立場を示している。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T18:04:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:809eef476b2e32296d63d09900ed7cbbdbf8b097efc704f54495e4d43e325926" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「逆ケンタウロス」論——AIのパラドックスを読み解く鍵</mlrss:title>
+          <mlrss:link>https://pluralistic.net/2025/09/11/vulgar-thatcherism/</mlrss:link>
+          <mlrss:summary>作家コリイ・ドクトロウは、AIがもたらす相反する影響は技術そのものではなく「誰が制御しているか」という力学に起因すると論じている。人間が機械を制御する状態を「ケンタウロス」と呼ぶのに対し、経営陣に押し付けられたAIの責任だけを一方的に負わされる労働者を「逆ケンタウロス」と表現。数十人分の業務相当の説明責任を一人で負わされる編集者の例を挙げ、AI導入の裁量を持つ側は恩恵を受け、従わされる側は疲弊すると結論づけている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T17:23:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:914a8e56c2c898e12ed2a01cf8224ba150ecad15bce008dd1f0cffd4c8e9e3ff" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Orbit——1万5000超の天体を追えるAR衛星トラッカー</mlrss:title>
+          <mlrss:link>https://nagylukas.github.io/orbit.html</mlrss:link>
+          <mlrss:summary>iPhone/iPad向けアプリ「Orbit」は、カメラを空にかざすだけでISSや人工衛星、惑星、星座などをAR表示できる衛星トラッカー。CelesTrakが追跡する1万5000以上の物体を検索可能なカタログとして収録し、通過予測や軌道データも提供する。空にある物体について質問できる内蔵チャットボットも搭載しており、Hacker Newsで紹介されたShow HN投稿の一つ。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T16:39:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:289f6bd9eccbcbf98c60c98b8a4986055aab7808e3c93e36c7bb62f4b0ac18c9" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Reame——使うほど高速化するCPU推論サーバー</mlrss:title>
+          <mlrss:link>https://github.com/swellweb/reame</mlrss:link>
+          <mlrss:summary>「Reame」はllama.cppをベースにしたCPU特化型のLLM推論サーバーで、無料枠クラウドやARM機器など安価なハードウェアでの運用を想定している。リクエストをまたいでディスクベースのKVキャッシュを永続化するほか、過去の生成結果から下書きするアーカイブ機能、自己調整型の投機的デコーディング、複数ユーザーの交互バッチ処理などにより「同じ計算を二度行わない」ことを目指す。文書抽出やバッチ処理など、プライバシー重視の反復的AIワークロード向けとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T16:27:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7303ffd941f0c0b1882b4117f3a2ffa2399d4c25e4ec62667cb20230cb67f571" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>「働くライターの終わり」——LLMが物書きの仕事に与える影響を問う</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7303ffd941f0c0b1</mlrss:link>
+          <mlrss:summary>エッセイ「The end of the working writer」は、白書や商品コピー、SEO記事など商業ライティングの多くはもともと品質より量が重視されており、すでに生成AIによる代替が進んでいると指摘する。その上で、いわゆる「創造的」な文章もAIとは本質的に異なると言い切れるのか、という問いを投げかけている。生成AIの普及がライターという職業に与える影響を巡る論考として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-11T13:01:59+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:05c8f7f0619566bc3c466b8f3144a08a679fa6728507d8422ad967df2d8da949" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>AIエージェントのツール選定を体系的に解説するガイド公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-05c8f7f0619566bc</mlrss:link>
+          <mlrss:summary>Machine Learning Mastery誌が、AIエージェントに外部ツールを組み込む際の選定方法を体系的にまとめたガイド記事を公開した。あわせて、LangChainやLlamaIndexといったLLMオーケストレーションフレームワークとAPI直接呼び出しとの比較や、エージェントのメモリ戦略の選び方、ツールとサブエージェントの使い分けなど、AIエージェント開発の実践的な設計判断を扱う関連記事も紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T21:46:06+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:969358734ea426a311b737c2141263cd05ecb1de161aff88592e270025a4250d" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Meta、自社製AIチップ「Iris」の量産を開始へ</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-969358734ea426a3</mlrss:link>
+          <mlrss:summary>Metaが独自開発のAI推論チップ「Iris」の生産を9月に開始すると報じられた。BroadcomやTSMCと協業して製造するとされ、来年には計算能力を倍増させる狙いがあるという。データセンター向けAI処理でのNvidia依存を減らす動きの一環とみられ、大手ハイパースケーラーが自社チップ開発を強化する潮流の一つとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c465718f4aacde73c3f96b6d369c3f5d4aa67754021bb28bbc082a2086030d3d" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>ローカルLLM実行ツールのOllama、シリーズBで6500万ドル調達</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c465718f4aacde73</mlrss:link>
+          <mlrss:summary>Docker創業者らが手がけるOllamaが、オープンソースの大規模言語モデルをローカル環境で動かすツールについて、シリーズBラウンドで6500万ドルを調達したと発表された。利用者数はすでに900万人規模に達し、フォーチュン500企業の大半で採用されているという。エンタープライズ領域でのローカルLLM実行基盤としての存在感が高まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:20cf2c1d9aec2e490b6f532eec534df8e13aea7f4a57f30d9a57d7c0c4c2606e" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>UBTech、シリコン製の人型コンパニオンロボット「UWORLD U1」を量産</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-20cf2c1d9aec2e49</mlrss:link>
+          <mlrss:summary>中国のUBTechが、上半身のみから全身タイプまで複数構成をそろえる人型コンパニオンロボット「UWORLD U1」シリーズの量産を開始したと報じられた。シリコン製の外装を採用し、端末上で感情表現や声のトーンを処理する機能を備えるという。家庭向けロボットの実用化・量産段階への移行を示す事例として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3d728d7b373461b8add8c729d8a5b3e23921b620387711fed49af6025897dc5c" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>AIが生成した新規分子、121人の化学者が本物と見分けられず</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3d728d7b373461b8</mlrss:link>
+          <mlrss:summary>創薬を加速させる目的で開発された新しいAIモデルが、化学的に妥当な未知の分子を生成し、121人の化学者を対象にした識別テストでAI生成分子と実在の分子を大半が区別できなかったと報じられた。生成AIによる分子設計が創薬プロセスの初期段階を効率化しうる可能性を示す事例として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d51a1d16179901645d14b8677322322d16de183bdf3071906ab9bccff67be68f" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>OpenAIのGPT-5.6、ARC-AGI-3のライブゲームで初勝利</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d51a1d1617990164</mlrss:link>
+          <mlrss:summary>OpenAIの新モデルファミリー「GPT-5.6」が、抽象推論ベンチマークARC-AGI-3のライブゲーム形式評価で初めて勝利したモデル群になったと報じられた。他モデルと比較して明確な能力差が見られたとの分析もあるという。前日発表されたGPT-5.6の性能を裏付ける追加報告として、AI推論能力の進展を示す材料として取り上げられている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cf9244b71e4b2339a45030acfa75e8ed0af57b66a814675d8373e28fe9fc7dd4" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>Google、AI活用を学べる無料認定コースを公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-cf9244b71e4b2339</mlrss:link>
+          <mlrss:summary>Googleが、AIの調べ方や企画立案、プレゼン資料作成、プロンプトからのアプリ構築までを学べる無料の認定コースを公開したと報じられた。実践的な演習を通じて生成AIツールの活用スキルを身につけられる内容といい、初学者向けのAIリテラシー教育コンテンツとして紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-10T20:12:18+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-07-10</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-10</link>
@@ -1215,85 +1336,6 @@
           <mlrss:link>https://blog.cloudflare.com/content-independence-day-ai-options/</mlrss:link>
           <mlrss:summary>Cloudflareがサイト運営者向けに、AIクローラーを「検索」「エージェント代行」「モデル学習」の3用途に分けてアクセス許可を制御できる新機能を発表した。2026年9月15日以降にCloudflareへ新規登録する広告収益型サイトでは、既定で学習用・エージェント用ボットがブロックされ、検索用のみ許可される設定になるという。サイト運営者がAIによる自サイトのコンテンツ利用を事業判断として管理できるようにする狙いがある。</mlrss:summary>
           <mlrss:pub-date>2026-07-06T09:31:07+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-07-05</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-05</link>
-      <guid isPermaLink="false">sha256:abc10e2bb9a60cc86ec0b717f08e7a8933414ab9396469c8e981adb63083c2c3</guid>
-      <pubDate>Sun, 05 Jul 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <description>2026-07-05 のニュース 7件（Gmail 6件 / RSS 1件）
-
-[AI]
-  📨 Anthropic、Samsung製カスタムAIチップの生産を検討と報道
-  📨 Anthropic新モデル「Claude Sonnet 5」、Opusとの価格性能差縮小狙うも隠れたコスト増の指摘
-
-[Engineering]
-  📰 DartmouthのAI家庭教師「Phosphor」、期末試験成績を最大1.30SD向上させる効果を確認
-
-[Product]
-  📨 Tesla、社員のAIツール利用経費に週200ドルの上限、xAI製品は対象外
-
-[Regulation]
-  📨 OpenAI、トランプ政権に自社株5%相当の提供を提案と報道
-
-[Security]
-  📨 AI音声クローン詐欺、父親から1万8000ドルを窃取
-
-[Startup]
-  📨 コンサル業界、AIによる若手業務代替に危機感 ― 実際に失われるのは何か
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-05</description>
-      <mlrss:target-date>2026-07-05</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:867dc41c2dba12cf8c4c586e9e47ea1fa0f4b406d542cfb0163d11cb47d38e5a" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>DartmouthのAI家庭教師「Phosphor」、期末試験成績を最大1.30SD向上させる効果を確認</mlrss:title>
-          <mlrss:link>https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf</mlrss:link>
-          <mlrss:summary>Dartmouth大学の研究者が、LLMによる形成的評価を教材に組み込んだ学習プラットフォーム「Phosphor」の実践結果を報告した。統計学入門を履修する3クラス151人に導入したところ、教材を十分に活用した学生の期末試験成績は、事前スコアで調整した場合0.71標準偏差、非調整では1.30標準偏差向上した。任意かつ非採点の教材だったにもかかわらず、学生の90.2%が利用し、一般的な教科書の読了率を大きく上回った。記述式問題はClaude Sonnet 4.6が採点する仕組みで、AIを活用した学習ツール設計への示唆が議論されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T18:47:43+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:63a8aa0ebbb16194d603db5c9ae44bb1ff65e18e7f1de7f5924788676f69397e" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>AI音声クローン詐欺、父親から1万8000ドルを窃取</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-63a8aa0ebbb16194</mlrss:link>
-          <mlrss:summary>詐欺グループが警察官を装い、少女の幼少期の医療情報を事前に把握したうえで、AIで生成した娘の泣き声の音声クローンを使い「勾留される」と父親に信じ込ませた。父親は本物の娘に連絡が取れるまで騙されたことに気づかず、1万8000ドルを送金してしまった。生成AIによる音声クローン技術が特殊詐欺に悪用される事例として報じられている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T07:00:41+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a8fdeb91424124ae5aa71c5044b6864ab32df287bb55efbf80e711baa4bfd17c" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Anthropic、Samsung製カスタムAIチップの生産を検討と報道</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a8fdeb91424124ae</mlrss:link>
-          <mlrss:summary>Anthropicが韓国Samsungとの協議を通じて、自社設計のAIプロセッサを製造する計画を検討していると報じられた。実現すればNvidiaへの依存や半導体供給不足に備えた分散戦略となる。採用範囲や決定時期はまだ明らかになっていない。OpenAIが前週にBroadcom製の推論チップを発表したのに続く動きで、大手AI企業が相次いで独自チップ開発に乗り出している状況を映している。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T07:00:41+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f6c5279ae76d8c8608846e749b8679631e8a74d51365a3b526a9e54e4d0fa6fb" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Tesla、社員のAIツール利用経費に週200ドルの上限、xAI製品は対象外</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f6c5279ae76d8c86</mlrss:link>
-          <mlrss:summary>Teslaが7月6日から、社員が外部AIツールに使える経費を週200ドルに制限する新方針を導入する。一方でxAI製のGrokやComposerなどの製品には上限を設けない。社員は主にAnthropicのClaudeを利用しているとされ、この方針はイーロン・マスク氏が率いる競合他社への支出を抑える狙いの予算措置との見方が出ている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T07:00:41+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1a6b3ae3393c1e8e25d7b8bab2c636cc9109d5785881fc1a7662e363bb9ada4f" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>コンサル業界、AIによる若手業務代替に危機感 ― 実際に失われるのは何か</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1a6b3ae3393c1e8e</mlrss:link>
-          <mlrss:summary>Deloitteのコンサルタントらが社内集会で「自分たちの仕事は終わりだ、ロボットに置き換えられる」と懸念を示したと報じられた。専門家の見方では、AIが代替するのはコンサルタント自身ではなく、資料作成やリサーチ収集を担う若手staffの定型業務であり、単価制のピラミッド型ビジネスモデルが崩れつつあるという。一方で経営陣との人脈や社内政治力、説明責任を分担する役割はAIに置き換えられないため、今後は若手人材の育成方法が課題になると指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T04:22:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0c52de8742fb145f2faaa7c12e5e84bf9c340e805fcf59cbcc12cca935ff9232" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Anthropic新モデル「Claude Sonnet 5」、Opusとの価格性能差縮小狙うも隠れたコスト増の指摘</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0c52de8742fb145f</mlrss:link>
-          <mlrss:summary>Anthropicが投入した新モデル「Claude Sonnet 5」は、上位モデルOpusとの価格性能ギャップを縮めることを狙ったものとされる。ただし利用開始後、従来モデルより実質的な利用コストが高くなる「隠れたコスト」があるとの指摘も報じられている。詳細な価格体系や影響範囲は今後明らかになる見通し。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T04:22:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1af137ecdcd3998ea9bc60ed2593e097af9e611fece590e5d05ca25ef25b0f43" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>OpenAI、トランプ政権に自社株5%相当の提供を提案と報道</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1af137ecdcd3998e</mlrss:link>
-          <mlrss:summary>OpenAIが米トランプ政権に対し、自社株式の5%相当を提供する提案をしたと報じられた。提案の経緯や目的、政権側の対応など詳細は明らかになっておらず、未確認情報の域を出ない。AI企業と政府の関係を巡る動きとして注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-05T04:22:50+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
