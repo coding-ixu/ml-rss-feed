@@ -1,0 +1,139 @@
+name: Feed freshness watchdog
+
+# Independent dead-man's switch for the daily digest. The routine, the promote
+# action, and the Pages self-heal only guard publishing of a digest that was
+# generated; if the routine itself produces nothing (cloud outage, connector
+# auth expiry, budget kill, ...) everything stays green while the public site
+# silently goes stale. This workflow checks the LIVE URL, self-heals what it
+# can (promote + Pages rebuild), and otherwise fails loudly with an issue.
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 09:30 JST — after the ~07:10 JST routine + promote crons
+    - cron: '0 3 * * *'    # 12:00 JST backstop
+    - cron: '0 9 * * *'    # 18:00 JST backstop
+  workflow_dispatch:
+    inputs:
+      simulate_stale:
+        description: 'Test the alert path with an impossible expected date'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+  actions: write
+  pages: write
+
+concurrency:
+  group: feed-freshness-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check live feed freshness
+        id: fresh
+        env:
+          SIMULATE_STALE: ${{ inputs.simulate_stale && 'true' || 'false' }}
+        run: |
+          set +e
+          python3 .github/scripts/check_feed_freshness.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Self-heal wedged Pages deploy and re-check
+        id: heal
+        if: steps.fresh.outputs.code == '2' || steps.fresh.outputs.code == '4'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SIMULATE_STALE: ${{ inputs.simulate_stale && 'true' || 'false' }}
+        run: |
+          set -euo pipefail
+          echo "Live feed is behind main (or unreachable); forcing a Pages rebuild..."
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null || true
+          for _ in $(seq 1 24); do
+            sleep 10
+            status=$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest" --jq '.status' || echo unknown)
+            echo "  pages build status=$status"
+            [ "$status" = "built" ] && break
+          done
+          set +e
+          python3 .github/scripts/check_feed_freshness.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Trigger promote as best-effort recovery
+        if: steps.fresh.outputs.code == '3'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # If the routine parked its digest on a claude/* branch and every
+          # promote trigger was missed, one more promote run recovers it.
+          gh workflow run promote-claude-branch.yml || true
+
+      - name: Report status and manage the alert issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED: ${{ steps.fresh.outputs.expected }}
+          MAIN_LATEST: ${{ steps.fresh.outputs.main_latest }}
+          FRESH_LIVE_LATEST: ${{ steps.fresh.outputs.live_latest }}
+          FRESH_LIVE_ERROR: ${{ steps.fresh.outputs.live_error }}
+          FRESH_CODE: ${{ steps.fresh.outputs.code }}
+          HEAL_LIVE_LATEST: ${{ steps.heal.outputs.live_latest }}
+          HEAL_LIVE_ERROR: ${{ steps.heal.outputs.live_error }}
+          HEAL_CODE: ${{ steps.heal.outputs.code }}
+        run: |
+          set -euo pipefail
+          # The heal step re-checks after a Pages rebuild; when it ran, its
+          # verdict supersedes the first check. ('0' is falsy in GitHub
+          # expressions, so the fallback must happen in bash, not ${{ || }}.)
+          if [ -n "$HEAL_CODE" ]; then
+            CODE="$HEAL_CODE"; LIVE_LATEST="$HEAL_LIVE_LATEST"; LIVE_ERROR="$HEAL_LIVE_ERROR"
+          else
+            CODE="$FRESH_CODE"; LIVE_LATEST="$FRESH_LIVE_LATEST"; LIVE_ERROR="$FRESH_LIVE_ERROR"
+          fi
+          TITLE="配信停止検知: 公開フィードが最新digestを配信していません"
+
+          open_issue=$(gh issue list --label delivery-stale --state open --json number --jq '.[0].number' || echo "")
+
+          if [ "$CODE" = "0" ]; then
+            echo "Live feed is fresh (live=$LIVE_LATEST, expected=$EXPECTED)."
+            if [ -n "$open_issue" ]; then
+              gh issue close "$open_issue" --comment "配信が復旧しました（live=$LIVE_LATEST, expected=$EXPECTED）。watchdogが自動クローズします。"
+            fi
+            exit 0
+          fi
+
+          claude_branches=$(git ls-remote origin 'refs/heads/claude/*' | awk '{print $2}' | tr '\n' ' ')
+          case "$CODE" in
+            3) layer="**Routine層の障害**: main 自体が古い（main=$MAIN_LATEST < expected=$EXPECTED）。code.claude.com の Routine が実行/生成に失敗しています。Routine の実行ログを確認してください。claude/* ブランチ: ${claude_branches:-なし}（あれば promote を再トリガー済み）" ;;
+            2) layer="**Pages層の障害**: main は最新（$MAIN_LATEST）なのに公開URLが古い。Pages 再ビルドを実行しましたが復旧しませんでした。時間を置いて \`gh api -X POST repos/${GITHUB_REPOSITORY}/pages/builds\` を再実行してください。" ;;
+            *) layer="**公開URL到達不能**: feed.xml の取得に失敗（$LIVE_ERROR）。GitHub Pages の稼働状況を確認してください。" ;;
+          esac
+
+          body="watchdog が公開フィードの停止を検知しました。
+
+          | 項目 | 値 |
+          |---|---|
+          | 期待 target-date | $EXPECTED |
+          | 公開URLの最新 | ${LIVE_LATEST:-取得失敗} |
+          | main の最新 | $MAIN_LATEST |
+          | 判定 | $layer |
+
+          run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+          復旧手順の詳細: ml-rss-automation/ROUTINE_SETUP.md および過去の障害メモ参照。復旧すると次回の watchdog 実行がこの issue を自動クローズします。"
+
+          gh label create delivery-stale --description "watchdog: public feed is stale" --color d73a4a --force || true
+          if [ -n "$open_issue" ]; then
+            gh issue comment "$open_issue" --body "$body"
+          else
+            gh issue create --title "$TITLE" --label delivery-stale --body "$body"
+          fi
+          echo "::error::Public feed is stale (code=$CODE, live=${LIVE_LATEST:-n/a}, expected=$EXPECTED)"
+          exit 1
