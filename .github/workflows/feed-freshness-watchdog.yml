@@ -92,7 +92,8 @@ jobs:
           set -euo pipefail
           # The heal step re-checks after a Pages rebuild; when it ran, its
           # verdict supersedes the first check. ('0' is falsy in GitHub
-          # expressions, so the fallback must happen in bash, not ${{ || }}.)
+          # expressions, so the fallback must happen in bash, not in an
+          # expression-level or.)
           if [ -n "$HEAL_CODE" ]; then
             CODE="$HEAL_CODE"; LIVE_LATEST="$HEAL_LIVE_LATEST"; LIVE_ERROR="$HEAL_LIVE_ERROR"
           else
