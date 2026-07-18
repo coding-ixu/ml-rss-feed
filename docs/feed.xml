@@ -6,7 +6,84 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Fri, 17 Jul 2026 22:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 22:11:03 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-07-18</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-18</link>
+      <guid isPermaLink="false">sha256:f47c5460551a6508c338222cf486cb0bf5945458c289bbaedc2b2c1dfb354a7f</guid>
+      <pubDate>Sat, 18 Jul 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <description>2026-07-18 のニュース 8件（Gmail 3件 / RSS 5件）
+
+[AI]
+  📨 Databricksが評価額約1880億ドルで大型資金調達、Kimi K3は複数ベンチマークでトップ級との報道
+
+[Engineering]
+  📰 空いているMacをClaude Codeに完全に操作させるための設定ガイド
+  📰 Google DeepMindとIsomorphic Labs、AI時代のバイオレジリエンス戦略を発表
+  📰 GPT-5.6が凸最適化の30年来の未解決ギャップを埋めたとの報告がRedditで話題に
+  📰 AIがStack Overflowに与えた影響をグラフで可視化
+  📰 Fable 5とGPT-5.6 Sol、NP困難問題で「/goal」機能を比較検証
+  📨 LLM評価フレームワーク徹底比較、モデルの実力を正しく測るには
+
+[Product]
+  📨 Netflix、生成AIを年間約300作品で活用 群衆・戦闘シーンの制作を効率化
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-18</description>
+      <mlrss:target-date>2026-07-18</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:13d742dd1d71cb9f0df9688eb8d1393fee21297c009e5d3b2111c9fbc3a68e69" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>空いているMacをClaude Codeに完全に操作させるための設定ガイド</mlrss:title>
+          <mlrss:link>https://ykdojo.github.io/claude-controls-mac/</mlrss:link>
+          <mlrss:summary>個人データを含まない予備のMacを用意し、Claude CodeにSSH経由でcomputer use機能を使わせて完全に操作させるための手順を解説する記事。メインマシンで広範な権限を与える際のセキュリティリスクを避けるため、対象Macを初期化し、SSHアクセスとtmuxの永続セッションを設定してClaude Codeを導入する。Tailscaleや画面共有でスマートフォンやメインMacから遠隔操作する構成も紹介しており、Hacker Newsで148ポイント・106コメントを集めた。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T16:12:08+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5d467da359b1bc3ea84b5549bc8f2ed0109bd40838e1e1a1aa316fff90b20dc9" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Google DeepMindとIsomorphic Labs、AI時代のバイオレジリエンス戦略を発表</mlrss:title>
+          <mlrss:link>https://deepmind.google/blog/our-approach-to-bioresilience/</mlrss:link>
+          <mlrss:summary>Google DeepMindとIsomorphic Labsは、AI技術の進歩に伴うバイオセキュリティリスクに対応する共同戦略を公表した。柱は3つで、脅威モデリングやDNA配列へのSynthID電子透かしなどによるAIモデル悪用の防止、病原体検知アルゴリズムの高度化による感染症早期発見の強化、ワクチンや治療薬の開発研究者へのAIシステム提供による対応加速である。両社はすでに政府機関やバイオセキュリティ専門家と15件以上の連携を構築し、最先端AI技術が悪用されず世界の健康安全保障の強化に資する体制づくりを目指すとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T16:02:45+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ffc4ed3369c64e065ee4c3c653562c3d2fc9dab2bb6a7f00ed903806f925a02c" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Databricksが評価額約1880億ドルで大型資金調達、Kimi K3は複数ベンチマークでトップ級との報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ffc4ed3369c64e06</mlrss:link>
+          <mlrss:summary>AI業界ニュースレターの報道によると、データ分析基盤大手Databricksが評価額約1880億ドルとされる大型資金調達を実施した。同じ号では、Moonshot AIの新モデル「Kimi K3」が複数のベンチマーク機関（Artificial Analysis、Arena、ARC Prizeなど）で知能・コーディングエージェント性能ともにトップ級と評価され、中国発モデルとして初めて「Frontend Code Arena」で首位を獲得したと報じられた。また、AIモデル配信サービスOpenRouterの買収観測や、競争優位性がモデル単体からエージェント連携・記憶機能・ツール統合(MCP)へ移りつつあるとの分析も紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T13:30:21+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:38a404f62df551184e77987658294becd1d37aa6609a704440907f8d22315928" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>GPT-5.6が凸最適化の30年来の未解決ギャップを埋めたとの報告がRedditで話題に</mlrss:title>
+          <mlrss:link>https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/</mlrss:link>
+          <mlrss:summary>Reddit上で、OpenAIのGPT-5.6がプロンプトのみで凸最適化分野において30年来指摘されてきた理論的ギャップを埋めたとする投稿が大きな反響を呼んだ。r/mathで461ポイント・294コメントを集める人気投稿となっているが、記事本文の取得に失敗したため主張の検証状況や専門家による査読の有無は確認できていない。AIによる数学的発見の報告はしばしば誇張や誤解を伴うため、続報や第三者による検証を待つ必要がある。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T13:00:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1be07f74cd97f5bf7c98a101d3ce4d663154f7462396474ba8b20ae6a81d6cdb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIがStack Overflowに与えた影響をグラフで可視化</mlrss:title>
+          <mlrss:link>https://data.stackexchange.com/stackoverflow/query/1953768</mlrss:link>
+          <mlrss:summary>Stack Exchange Data Explorerのクエリ結果として、生成AI普及前後でのStack Overflow上の質問投稿数など活動量の推移を示すグラフが共有され、Hacker Newsで334ポイント・392コメントを集めるなど反響を呼んだ。ページの直接取得に失敗したため具体的な数値や分析手法の詳細は確認できていないが、AIコーディングアシスタントの普及がQ&amp;Aサイトの利用行動に及ぼす影響を示すデータとして注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T11:12:46+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:df9c46248dfa5b98ab7a6d4bd77f3aee1cb0ee0f0e6473ecb58f6066145e0b77" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Fable 5とGPT-5.6 Sol、NP困難問題で「/goal」機能を比較検証</mlrss:title>
+          <mlrss:link>https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/</mlrss:link>
+          <mlrss:summary>ファイバー網の敷設距離を最小化しながら配送拠点を接続する「KIRO」というNP困難な設計問題を用いて、Claude Fable 5とGPT-5.6 Solを比較検証した記事。両モデルとも達成基準を満たすまで反復させる粘り強さの機能「/goal」を備えるが、Claude Codeは独立した評価者を使う一方Codexはモデル自身に自己評価させるなど実装が異なる。検証の結果、Fable 5がSolより一貫して高い性能を示した一方、「/goal」機能自体は平均するとスコアをむしろ悪化させる場合があり、粘り強さの仕組みよりソルバー自体の質が重要であることが示唆された。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T11:00:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4954675e2b85e36381743d28e1ded0533d57a6ca320b7dd6919664f7c9638a5e" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Netflix、生成AIを年間約300作品で活用 群衆・戦闘シーンの制作を効率化</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4954675e2b85e363</mlrss:link>
+          <mlrss:summary>ニュースレターの報道によると、Netflixは今年、約300本の番組で生成AIを制作に活用したという。主に群衆シーンや戦闘シーンの背景を埋める用途で使われ、あるドキュメンタリーシリーズでは約17分間のAI生成映像を用いることで制作期間を従来の半分、コストも半減させたと伝えられている。同号ではこのほか、AppleがNVIDIAを抜いて時価総額世界一になったとの報道や、GoogleのノートブックAIツール「NotebookLM」が「Gemini Notebook」に改称されクラウド上でのコード実行機能などが追加されたこと、1枚のセルフィーと短い音声から本人そっくりの動画を生成する新機能なども紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T05:39:41+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cf97495984c0475a2233e84b09fa3c7baf8db8953be1a71d52553b40ece1a6f8" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>LLM評価フレームワーク徹底比較、モデルの実力を正しく測るには</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-cf97495984c0475a</mlrss:link>
+          <mlrss:summary>Machine Learning Masteryの記事は、LLM（大規模言語モデル）の性能を評価するための主要フレームワークを比較し、それぞれの得意分野や限界、実務でどう使い分けるべきかを解説している。単純な精度指標だけでは見えてこない、実運用に近いタスクでのモデル挙動を正しく測定する重要性を強調する内容。同号では他に、プロンプトインジェクションやツール誤用からエージェント型AIを守るセキュリティ手法や、ローカル環境でOllamaを使い15分でAIモデルを動かす方法なども紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-18T03:52:37+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-07-17</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-17</link>
@@ -935,123 +1012,6 @@
           <mlrss:link>https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection/</mlrss:link>
           <mlrss:summary>GitHubはコード解析ツールCodeQLの最新版で、JavaScriptおよびTypeScriptにおけるプロンプトインジェクションの検出機能を追加した。OpenAIやAnthropic、Google GenAIのSDKを利用するコードのデータフローを解析し、外部入力がAIモデルへの指示として不正に混入する経路を検出できるようにする。生成AIをアプリケーションに組み込む開発者が増える中、AI特有のセキュリティ脆弱性に対応する静的解析機能の強化として位置づけられる。</mlrss:summary>
           <mlrss:pub-date>2026-07-13T02:33:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-07-12</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-12</link>
-      <guid isPermaLink="false">sha256:a7e121c5b64a399b3b319c8790c06a26ed261d5638496f5717c4888fd3a3c7cb</guid>
-      <pubDate>Sun, 12 Jul 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <category>Other</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Tools</category>
-      <description>2026-07-12 のニュース 12件（Gmail 8件 / RSS 4件）
-
-[Engineering]
-  📰 Adaptive Recall、MCP対応AIアシスタント向け永続メモリシステムを公開
-  📰 「ワンステップの罠」——AI研究の評価手法を問うエッセイ
-  📰 Claude CodeはOpenCodeより起動時トークン消費が4.7倍という計測結果
-  📰 本番AIエージェントをGPT-5.6に移行、処理速度2.2倍・コスト27%減の報告
-
-[Other]
-  📨 Brown大学の教授、期末レポートで学生の大規模なAI不正利用を発見
-
-[Product]
-  📨 OpenAI、法人向け「ChatGPT Work」を発表しGPT-5.6を全ユーザーに公開
-  📨 Meta、Instagram向けAI画像生成機能「Muse Image」を公開後わずか数日で撤回
-
-[Regulation]
-  📨 Apple、企業秘密の窃取を主張しOpenAIを提訴
-
-[Research]
-  📨 Anthropic、Claudeが出力せずに内部で「言葉で思考」する様子を可視化する手法を発表
-
-[Security]
-  📨 AIエージェントが人の介入なしにランサムウェア攻撃を完遂した事例が報告
-  📨 AIモデルの読み取りを妨害する「フォント」が開発される
-
-[Tools]
-  📨 Microsoft、初心者向け無料AIエージェント構築講座をGitHubで公開
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-12</description>
-      <mlrss:target-date>2026-07-12</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:b8ad2591f08df76afe84281ca57cecab3d9ffa49ee88f95e9947af22925a01da" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Adaptive Recall、MCP対応AIアシスタント向け永続メモリシステムを公開</mlrss:title>
-          <mlrss:link>https://www.adaptiverecall.com/</mlrss:link>
-          <mlrss:summary>ベクトル類似検索に加え、時間的な新しさ・全文検索・知識グラフ探索を組み合わせたAI向け記憶システム「Adaptive Recall」が公開された。認知科学のACT-Rモデルを応用し、想起頻度やエンティティ間のつながり、裏付けの強さに基づいて記憶をランク付けする。記憶は固定的ではなく利用パターンに応じて信頼度が変化し、自己改善する仕組みを持つ。HTTP RESTまたはMCP経由で使えるシンプルなAPIを備え、500件までの記憶保存を無料で試せる。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T21:08:20+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6b4524e73bde96f3c8d6740a18060eaac955386a2044c94ba63155c5b53b50f3" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>「ワンステップの罠」——AI研究の評価手法を問うエッセイ</mlrss:title>
-          <mlrss:link>http://incompleteideas.net/IncIdeas/OneStepTrap.html</mlrss:link>
-          <mlrss:summary>AI研究に関するサイト IncompleteIdeas.net に掲載されたエッセイ。記事本文の取得には失敗したため詳細な主張は確認できていないが、タイトルからは、単一ステップの評価結果だけで手法やモデルの優劣を判断することの危うさ——いわゆる「ワンステップの罠」——を扱った内容と推測される。Hacker Newsでは32ポイント・6件のコメントを集めており、AI研究者の間で一定の関心を呼んでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T18:41:15+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:08bcd0b40776a1df70e3383382dd0babaa8af4bbaad75c2cab5375ec4b4c35cc" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Claude CodeはOpenCodeより起動時トークン消費が4.7倍という計測結果</mlrss:title>
-          <mlrss:link>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</mlrss:link>
-          <mlrss:summary>AI企業Systimaが、コーディングエージェント「Claude Code」と「OpenCode」のトークン消費量を、両者とAPIの間にロギングプロキシを挟んで比較検証した。単純な「OKと返すだけ」のタスクでも、Claude Codeはプロンプト到達前にシステムプロンプトやツール定義などで約33,000トークンを消費し、OpenCodeの約7,000トークンの4.7倍に達した。さらにセッション中にキャッシュトークンを書き換え直す頻度も高く、同一タスクで最大54倍のキャッシュトークンを消費するケースもあったという。一方、複数ステップのタスクではツール呼び出しの処理方式の違いにより総コストが近づく傾向も見られた。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T18:25:51+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3f425d3598dfe89d66995dd7ed85ba010e92a138e6f798c76ed3a6abff351e1a" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>本番AIエージェントをGPT-5.6に移行、処理速度2.2倍・コスト27%減の報告</mlrss:title>
-          <mlrss:link>https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6</mlrss:link>
-          <mlrss:summary>AIサービスPloyは、本番稼働中のウェブサイト生成エージェントをClaude Opus 4.8からGPT-5.6 Solに切り替え、ビルド完了時間が平均8分から3分42秒に短縮、1件あたりのコストも3.06ドルから2.22ドルへ27%減少したと報告した。出力トークン数もほぼ半減したという。移行にあたっては、Opus向けの前提が組み込まれていた評価テストの見直しや、GPT-5.6が全ツールパラメータを常に埋めてくる挙動への対応、プロンプトキャッシュ方式の違いへの対応など、複数の実装上の工夫が必要だったとしている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T17:13:07+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9b7cbd315e4aa42849a8dad8f98b78f38ba007bc1a71b991a95b71d9ff16289d" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>OpenAI、法人向け「ChatGPT Work」を発表しGPT-5.6を全ユーザーに公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9b7cbd315e4aa428</mlrss:link>
-          <mlrss:summary>OpenAIが企業・チーム向けに設計された新プラン「ChatGPT Work」を発表し、あわせて新モデル「GPT-5.6」を全ユーザー向けに公開した。ChatGPTを汎用インターフェース、Agent Modeを自律的な複数ステップ作業、ChatGPT for Workをビジネス用途、Codexをプログラミング特化のエージェントと位置づける整理が示された。ローンチ直後には運用面での不備があったこともOpenAI自身が認めているという。エージェント型AIの利用拡大に伴い、料金体系のあり方も業界内で議論の的になっている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:38:14+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:124cc798a606a9cde827d7f4bf7c7eb44c4c91f457079dee1fc9b4ed531e6f03" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>AIエージェントが人の介入なしにランサムウェア攻撃を完遂した事例が報告</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-124cc798a606a9cd</mlrss:link>
-          <mlrss:summary>セキュリティ研究者らが、AIエージェントが人間の直接的な制御を受けずに、偵察から侵入、データ持ち出しまでランサムウェア攻撃の全工程を自律的に実行した事例を報告した。これまでも攻撃の一部を自動化する事例はあったが、一連の攻撃工程を人手を介さず完遂した例として初めて確認されたという。自律型AIエージェントの能力向上が攻撃側にも及んでいることを示す事例として、セキュリティ業界で警戒が強まっており、防御側の検知手法の見直しを迫る内容として受け止められている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:38:14+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:994f17408f90757cc062646a83489c5daebb088ae37e66be5caaf58a2300023e" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Anthropic、Claudeが出力せずに内部で「言葉で思考」する様子を可視化する手法を発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-994f17408f90757c</mlrss:link>
-          <mlrss:summary>Anthropicが、Claudeが最終的な出力として表れない内部の思考過程を、言語的な表現として可視化する研究成果を発表した。モデルの推論過程を外部から解釈しやすくする「解釈可能性」研究の一環で、モデルが最終回答に至るまでにどのような中間的な検討を行っているかを把握する手がかりになるとされる。AIの意思決定過程がブラックボックス化しがちな中、透明性向上を目指す取り組みとして位置づけられている。今後の研究成果の公開状況が注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:38:14+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:16cd318ccfc21d7a59cd1b6fbf06256f7b17532d5e3a5b42164a0a5097e578c7" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>Apple、企業秘密の窃取を主張しOpenAIを提訴</mlrss:title>
-          <mlrss:link>https://www.axios.com/2026/07/10/apple-sues-openai-trade-secret-theft</mlrss:link>
-          <mlrss:summary>Appleが、元従業員が業務用ノートPCを保持したままApple社内のクラウドストレージにアクセスし、資料をOpenAIのハードウェアチームに持ち出したとして、OpenAIを企業秘密の組織的な窃取で提訴した。Appleが開発中の初のデバイス関連プロジェクトに絡む訴訟とみられる。複数のAIニュースレターが同日この訴訟を取り上げており、AI業界と大手テック企業間の緊張が高まっていることを示す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:04:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:853a4a6641ca4737a4f0cd87af65b80a91be413e201451f03e25712a4296182a" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Meta、Instagram向けAI画像生成機能「Muse Image」を公開後わずか数日で撤回</mlrss:title>
-          <mlrss:link>https://www.bbc.com/news/articles/c2dy6e8klw0o</mlrss:link>
-          <mlrss:summary>Metaが、公開Instagramアカウントをタグ付けするとその人物の写真をAIで加工画像に変換できる機能「Muse Image」を、デフォルトでオプトイン状態のまま提供したところ、SAG-AFTRAやプライバシー団体から強い反発を受け、公開からわずか数日で機能を取り下げた。本人の明示的な同意を得ずに肖像をAI加工の対象にできる設計だった点が問題視されており、AI画像生成機能を巡る同意の取り方について業界に一石を投じる事例となった。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:04:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:326bd6cd7b3725cb5207da817db5f7671c5c1d12987f9bb71d217e03959f7b68" source-type="gmail" category="Other" anchor="false">
-          <mlrss:title>Brown大学の教授、期末レポートで学生の大規模なAI不正利用を発見</mlrss:title>
-          <mlrss:link>https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat</mlrss:link>
-          <mlrss:summary>Brown大学のある教授が、持ち帰り形式の中間試験の平均点が96%と異常に高かったことを不審に思い、答案をChatGPTに解かせて照合したところ、多くの学生の解答がAIの出力と一致していることを発見した。教授はその後の期末試験を対面形式に切り替え、その結果クラスの平均点は48.6%まで下落したという。生成AIの普及が大学の評価方法や学業の公正性に突きつける課題を象徴する事例として報じられている。対面試験への回帰を検討する教育機関も出てきている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:04:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:063a3020cfe449e248a346254788933552fe18e304f3c13da1c13fb43b90d92a" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>Microsoft、初心者向け無料AIエージェント構築講座をGitHubで公開</mlrss:title>
-          <mlrss:link>https://github.com/microsoft/ai-agents-for-beginners</mlrss:link>
-          <mlrss:summary>Microsoftが、AIエージェントの構築方法をゼロから学べる無料のオンライン講座をGitHub上で公開した。12個の独立したレッスンで構成されており、順不同で学習を進められる構成になっている。プログラミング初学者でもAIエージェント開発の基礎を体系的に学べる教材として、Hacker News等でも話題になっており、実践的なコード例を交えながら段階的に理解を深められる点が評価されている。無料公開により学習のハードルが下がったと評価する声もある。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:04:28+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:03876a04b1a5e0ae6d909e314fd80dc383160cd2aecf5981d3a0b102723d27f7" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>AIモデルの読み取りを妨害する「フォント」が開発される</mlrss:title>
-          <mlrss:link>https://www.mixfont.com/ghost-font</mlrss:link>
-          <mlrss:summary>人間の目には読めるものの、AI画像認識モデルには読み取れないよう設計された特殊なフォントが公開された。文字の動きやノイズ、ダミーの文字列を組み合わせることで、強力なAIモデルであってもテキストの読み取りを撹乱する仕組みになっているという。AIによる自動読み取りや監視を回避する目的での応用が想定され、AIと人間の知覚の違いを突く敵対的手法の一例として、セキュリティ・プライバシー分野の関係者から注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-12T05:04:28+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
