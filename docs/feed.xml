@@ -6,7 +6,156 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Wed, 22 Jul 2026 22:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 22:14:05 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-07-23</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-23</link>
+      <guid isPermaLink="false">sha256:df920aba0cc0b58fbdbfb9b418f7fd5784303a0c26df8f1cb96fd7fc3530657f</guid>
+      <pubDate>Thu, 23 Jul 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <description>2026-07-23 のニュース 17件（Gmail 10件 / RSS 7件）
+
+[AI]
+  📨 Poolside AI、新モデル「Laguna S 2.1」を公開 高効率さで注目集める
+
+[Engineering]
+  📰 Show HN: Echo――複数のオープンウェイトモデルを束ね、Fable並みの性能を3分の1のコストで実現
+  📰 Show HN: claude-thermos――Claude Codeのプロンプトキャッシュを「温め続ける」ツール
+  📰 「オープンソースAIへの反対論はほとんど的外れ」とするブログ記事が議論に
+  📰 Launch HN: Screenpipe(YC S26)――画面と音声の記録をAIエージェントの「記憶」に変換
+  📰 Show HN: OneCLI――AIエージェントに認証情報を直接渡さないためのOSS版クレデンシャルゲートウェイ
+  📰 スタートアップ創業者ら、中国製オープンウェイトAIの締め出しに反対を米政権に訴え
+  📰 Show HN: Palmier Pro――AI生成機能とMCPサーバーを備えたオープンソースのmacOS向け動画編集ソフト
+
+[Funding]
+  📨 AMD、Anthropicと数十億ドル規模のAIチップ供給・出資契約を締結
+  📨 OpenAI、2030年までのインフラ投資計画を750億ドルへ拡大と報道
+  📨 TSMC、AI需要の「メガトレンド」見込みアリゾナ工場に追加1000億ドル投資
+
+[Product]
+  📨 OpenAI、企業向けAIエージェント運用サービス「Presence」を発表
+  📨 イーロン・マスク氏、AI生成の長編映画『オデュッセイア』を年内公開すると宣言
+
+[Regulation]
+  📨 米財務長官、Anthropicモデルの「蒸留」疑惑で中国AI企業への制裁を改めて警告
+
+[Research]
+  📨 米エネルギー省とArcee AI、科学計算向けオープンウェイトモデル「Genesis-Science-1」を発表
+  📨 AIコーディングエージェント、自分が書いたバグには気づきにくいとの検証結果
+  📨 MIT、専門家272人にAIリスクを調査 今後5年で最も懸念される項目を特定
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-23</description>
+      <mlrss:target-date>2026-07-23</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:7b0c7c2fc1afcaaa9fef3b81ef14be3a75def456833852d3ec34190d3bbc05b1" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>AMD、Anthropicと数十億ドル規模のAIチップ供給・出資契約を締結</mlrss:title>
+          <mlrss:link>https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus</mlrss:link>
+          <mlrss:summary>AMDとAnthropicが、数十億ドル規模のAIサーバー供給契約を締結した。Anthropicは来年前半から、AMDの新型アクセラレータ「Instinct MI450」を最大2ギガワット分購入する計画。AMDは一定の導入マイルストーン達成を条件に、Anthropicへ最大50億ドルを出資する。両社はチップ設置先のデータセンター確保でも協力するとしており、Nvidia一強とされてきたAI向け半導体市場でAMDの存在感が高まる形となった。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T22:41:40+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0d9697d5315c77f54c7602707ae495070246434b42c9b2d41735ee83c6930f2c" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>OpenAI、2030年までのインフラ投資計画を750億ドルへ拡大と報道</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/</mlrss:link>
+          <mlrss:summary>OpenAIは2030年までのインフラ投資計画を、従来より積み増して750億ドル規模とする方針だと報じられた。同社が手がける最初の大型プロジェクトは、米ジョージア州における200億ドル・3.2ギガワット規模のデータセンターだという。AI各社によるデータセンター投資競争が続く中、OpenAIも計算資源の確保に向けた投資を一段と拡大している格好だ。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T22:41:40+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:08426489b6b8956ca1998803250efb67a5fbc4e7fddedaca6db88eba30bf7a25" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>TSMC、AI需要の「メガトレンド」見込みアリゾナ工場に追加1000億ドル投資</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/07/20/tsmc-arizona-fab-capacity-ai-chip-demand.html</mlrss:link>
+          <mlrss:summary>台湾積体電路製造(TSMC)は、AI向け半導体需要の高まりを長期的な「メガトレンド」と見て、米アリゾナ州の工場建設を加速させている。同社CFOは、追加で最大1000億ドルを投じ、米国内での製造能力を積極的に拡大する方針を明らかにした。これによりアリゾナへの投資総額は2650億ドル規模に達する見込みで、AIチップ需要の急拡大が半導体大手の設備投資判断を左右している実態を示している。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T22:41:40+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2f290e07df164b23eabd016a8c8c21ac555d737b7ca2e5f8453d09a23fde1145" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>米エネルギー省とArcee AI、科学計算向けオープンウェイトモデル「Genesis-Science-1」を発表</mlrss:title>
+          <mlrss:link>https://www.arcee.ai/science-1</mlrss:link>
+          <mlrss:summary>米エネルギー省(DOE)とAIスタートアップArcee AIは、科学技術計算向けのオープンウェイトAIモデル「Genesis-Science-1(GS1)」を共同開発すると発表した。Arcee AIがモデル開発を主導し、DOEの科学者らがドメイン知識・データ・研究課題を提供する。事前学習・事後学習・評価の各段階で外部機関からの貢献も募っており、最初の貢献受付期間は8月6日に締め切られる予定。研究の再現性を保ちながら、科学計算のワークフローを高度化することを目指す。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T22:41:40+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:81fb48a52d38a037ca3b9d58d9820e96ef43bec524616dabc6c9d421b9ea958e" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>OpenAI、企業向けAIエージェント運用サービス「Presence」を発表</mlrss:title>
+          <mlrss:link>https://openai.com/index/introducing-openai-presence/</mlrss:link>
+          <mlrss:summary>OpenAIは、企業がAIエージェントを顧客対応や社内業務に展開するための新サービス「Presence」を発表した。モデルの推論能力に加え、権限管理・運用ポリシー・評価の仕組み・エスカレーションルールなどを組み合わせ、導入後も継続的にエージェントの挙動を改善できるようにする点が特徴。人手を介した監督を保ちながら、高付加価値タスクへのAI活用を進めたい企業を主な想定顧客としている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T22:05:05+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c4901efba806f030fb571d925c7c0e0ed4990338f93bda60d5dbc6a1efb49129" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>米財務長官、Anthropicモデルの「蒸留」疑惑で中国AI企業への制裁を改めて警告</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/</mlrss:link>
+          <mlrss:summary>米財務長官スコット・ベセント氏は、中国のMoonshot AIがAnthropicの「Fable」モデルを不適切に蒸留(distillation)したとのホワイトハウスの指摘を踏まえ、中国AI企業への制裁の可能性を改めて表明した。蒸留自体は大規模モデルの出力から小規模モデルを学習させる一般的な最適化手法だが、知的財産権の侵害に当たり得ると問題視されている。一方で、Moonshotの「Kimi K3」が本当に蒸留で開発されたのか疑問視する専門家もおり、Fableの一般提供開始が7月1日だった点を根拠に挙げている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T21:03:10+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e91f5bdfd59431b9a90c4cec6c0b2ecb0b7a15cc0b6efdb978b4d2cca72ddee4" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Echo――複数のオープンウェイトモデルを束ね、Fable並みの性能を3分の1のコストで実現</mlrss:title>
+          <mlrss:link>https://news.ycombinator.com/item?id=49026810</mlrss:link>
+          <mlrss:summary>個人開発者が公開した「Echo」は、単一モデルではなく複数のオープンウェイトモデル(GLM-5.2やKimi K2.7など)を組み合わせて動かすシステム。リクエストごとに、どのモデルにどれだけ計算量を割り当てるかをルーティングアルゴリズムが決定し、個々のモデル単体よりも高い性能を狙う。作者は「Anthropicの『Fable』とほぼ同等の集計結果を、推論コストは約3分の1で達成した」と主張している。ただしコメント欄では、OpenRouter FusionやSakanaの「Fugu」など既存の類似手法との違いが不明瞭であることや、ベンチマークの透明性不足を指摘する懐疑的な声も多く上がった。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T19:26:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:702c6ed825ffb0f0f53e122c486238c70e85242e13103437591377913f8a77c8" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AIコーディングエージェント、自分が書いたバグには気づきにくいとの検証結果</mlrss:title>
+          <mlrss:link>https://www.greptile.com/blog/model-inversion</mlrss:link>
+          <mlrss:summary>コードレビューツールを手がけるGreptileが、ClaudeとCodexそれぞれが書いたコード計1000件を対象に、互いのバグをどれだけ発見できるか検証した。Claudeが書いたコードのバグ発見率は、GPTが60%だったのに対しClaude自身は54%。逆にCodexが書いたコードでは、Claudeが62%発見したのに対しGPTは51%にとどまった。各モデルには固有の「くせ」があり、自分がよく犯す間違いには気づきにくい傾向があるとみられ、コードレビューは別モデルに任せることが有効だとの示唆を得た。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T18:37:17+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:afa57f203a1d911c44b3093752f72a7b5cff4400c50fd07df8a063c4bc34800d" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>イーロン・マスク氏、AI生成の長編映画『オデュッセイア』を年内公開すると宣言</mlrss:title>
+          <mlrss:link>https://www.theguardian.com/film/2026/jul/22/elon-musk-grok-imagine-historically-accurate-ai-homers-odyssey-christopher-nolan</mlrss:link>
+          <mlrss:summary>イーロン・マスク氏は、動画生成ツール「Grok Imagine」を使い、「史実に忠実でホメロスの芸術性に沿った」長編映画『オデュッセイア』を12月31日までに公開すると表明した。数十秒程度の映像しか生成できていない現行のAI動画ツールで、2時間規模の映画において人物の顔・声・ストーリーの一貫性を保てるかが最大の焦点となる。この発言は、クリストファー・ノーラン監督による同作の実写版(公開初週で2億6400万ドル超を記録)への当てこすりとも受け止められている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T18:37:17+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ba32a690964b1783fecf139a6791cc5277ecb539d0ecefd4d698c384b8e95145" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: claude-thermos――Claude Codeのプロンプトキャッシュを「温め続ける」ツール</mlrss:title>
+          <mlrss:link>https://github.com/izeigerman/claude-thermos</mlrss:link>
+          <mlrss:summary>「claude-thermos」は、Claude Codeのセッションでプロンプトキャッシュが失効するのを防ぐツール。Claudeのプロンプトキャッシュは5分で失効するが、メインエージェントがサブエージェントの完了を5分以上待つと、再開時に会話履歴全体を通常より高コストで再エンコードする必要が生じ、長時間セッションでは料金が2割程度増えることがあるという。本ツールはローカルのリバースプロキシとして動作し、メインエージェントがアイドル状態になったことを検知すると、最小限のトークンで「温めリクエスト」を定期送信してキャッシュを維持する。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T17:06:22+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:155f8755a78c8be8ced8932435653596f822d097b55af56ccbc09147c0598db9" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「オープンソースAIへの反対論はほとんど的外れ」とするブログ記事が議論に</mlrss:title>
+          <mlrss:link>https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/</mlrss:link>
+          <mlrss:summary>あるブログ記事が、オープンソース(オープンウェイト)AIに対する典型的な反対論を検証し、いずれも根拠が弱いと主張している。市販ソフトウェアも土台にオープンソース技術を使っており、AI業界だけが例外ではないと指摘。暗号技術(PGP・SSL)の規制が結局は普及を止められなかった歴史を引き合いに、規制による抑制は自国の開発者を不利にするだけで世界的な拡散は止められないと論じる。オープンソースAI開発は中国だけの動きではなく、半導体メーカーや米国のスタートアップにも推進する動機があるとし、「AIダンピング」論やプロパガンダ・バックドアへの懸念についても説得力を欠くとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T16:49:57+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e775aea813c80728a6bc085ad4a04be9989535196ac44976c11af6b50fb406fc" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Launch HN: Screenpipe(YC S26)――画面と音声の記録をAIエージェントの「記憶」に変換</mlrss:title>
+          <mlrss:link>https://news.ycombinator.com/item?id=49024620</mlrss:link>
+          <mlrss:summary>Screenpipeは、ユーザーの画面操作と音声をローカルで記録し、AIエージェントが検索可能な形で参照できるようにするツール。アプリの切り替えやクリック、入力など意味のある操作が発生するたびにスクリーンショットとOSのアクセシビリティ情報を取得し、必要に応じてOCRや音声の文字起こしを行う。データはすべてローカルのSQLiteやMP4、Markdown形式で保存され、専用APIを通じてエージェントが参照する。開発者は反復作業の自動化や業務手順の可視化を狙いとして説明する一方、常時記録によるプライバシー懸念や、MITから商用ライセンスへの変更を巡る反発もコメント欄で指摘された。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T16:48:38+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:336fcaef4eb437e2ee2a1a3778b01ef983e622bf73812430f2c2dd3f36acae15" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: OneCLI――AIエージェントに認証情報を直接渡さないためのOSS版クレデンシャルゲートウェイ</mlrss:title>
+          <mlrss:link>https://github.com/onecli/onecli</mlrss:link>
+          <mlrss:summary>OneCLIは、AIエージェントがAPIを呼び出す際に生の認証情報を直接扱わずに済むようにするオープンソースのゲートウェイ。エージェントはダミーの鍵で認証しHTTPリクエストを送るだけで、OneCLIがホストやパスのパターンに応じて暗号化保存された本物の認証情報に透過的に差し替えてから転送する。認証情報はAES-256-GCMで暗号化保存され、リクエスト処理時のみ復号される。複数エージェントへのスコープ付きアクセス、個人向けとチーム向け(Google OAuth)の2つの認証モード、Bitwardenボルト連携などにも対応し、Docker Composeで手軽に導入できるという。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T15:42:40+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c3877baa64f0fdabacd3ed3efb63f7f290c52d06f32ab85aae65b49cde3e9deb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>スタートアップ創業者ら、中国製オープンウェイトAIの締め出しに反対を米政権に訴え</mlrss:title>
+          <mlrss:link>https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992</mlrss:link>
+          <mlrss:summary>複数のスタートアップ創業者が、中国発のオープンウェイトAIモデルへのアクセスを制限しないよう米政権に求めていると報じられた。同時期、米財務省が中国AI企業への制裁を示唆するなど、政権内では中国製オープンモデルへの警戒論が強まっている。安価で高性能なオープンウェイトモデルの活用を政策的な規制で断つべきではないとする、開発者・スタートアップ側の懸念を反映した動きとみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T15:18:40+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:abcd3e832a6308b018d864ac230be68b3d2cf9902e4216b0bdbda02e531dded0" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: Palmier Pro――AI生成機能とMCPサーバーを備えたオープンソースのmacOS向け動画編集ソフト</mlrss:title>
+          <mlrss:link>https://github.com/palmier-io/palmier-pro</mlrss:link>
+          <mlrss:summary>Palmier Proは、Adobe Premiere Proを設計の参考にしてSwiftでゼロから開発された、オープンソース(GPLv3)のmacOS向け動画編集ソフト。SeedanceやKlingなどのモデルによる動画・画像生成機能を内蔵し、タイムライン上でユーザーとAIエージェントが共同編集できる点が特徴。MCPサーバーを備え、Claude Code・Codex・Cursor・Claude Desktopなど外部のAIエージェントから操作できるほか、アプリ内のエージェントチャット機能も持つ。エディタ本体は無料・オープンソースだが、AI生成機能の利用にはログインと有料サブスクリプションが必要。Y Combinator(S24)出身。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T15:11:37+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:06d39871ec635fad09edde00204029e6465be8461d0a99991a23c4c3d6c54f98" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Poolside AI、新モデル「Laguna S 2.1」を公開 高効率さで注目集める</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/poolside</mlrss:link>
+          <mlrss:summary>米AIスタートアップPoolside AIが、新モデル「Laguna S 2.1」を公開した。Thinking Machines社の最新モデルの10分の1程度の規模ながら、ベンチマークで上回る性能を示したとされ話題になっている。同社は月あたり1万〜2万件の実験を回す独自の学習基盤「Model Factory」を構築しており、事前学習から公開までを5〜8週間で回せる体制を整えているという。共同創業者のEiso Kant氏はポッドキャストで、オープンウェイト・オープンリサーチを重視する姿勢を強調した。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T14:09:14+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:278a410994ac4c9838d5b3f86e9bea158af6ca87aa86abda4023185f0558fb61" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>MIT、専門家272人にAIリスクを調査 今後5年で最も懸念される項目を特定</mlrss:title>
+          <mlrss:link>https://mitsloan.mit.edu/ideas-made-to-matter/these-are-most-urgent-ai-risks-according-to-272-experts</mlrss:link>
+          <mlrss:summary>MIT Sloanは、AI分野の専門家272人を対象に、今後5年間で最も警戒すべきAIのリスクは何かを尋ねる調査を実施した。結果はランキング形式でまとめられ、専門家の間で懸念が集中する分野が明らかになったという。個別の技術的リスクだけでなく、社会・経済への影響を含めた幅広い観点からの評価が特徴で、AI政策の優先順位付けの参考材料として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-07-23T05:24:37+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-07-22</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-22</link>
@@ -724,187 +873,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-cf97495984c0475a</mlrss:link>
           <mlrss:summary>Machine Learning Masteryの記事は、LLM（大規模言語モデル）の性能を評価するための主要フレームワークを比較し、それぞれの得意分野や限界、実務でどう使い分けるべきかを解説している。単純な精度指標だけでは見えてこない、実運用に近いタスクでのモデル挙動を正しく測定する重要性を強調する内容。同号では他に、プロンプトインジェクションやツール誤用からエージェント型AIを守るセキュリティ手法や、ローカル環境でOllamaを使い15分でAIモデルを動かす方法なども紹介されている。</mlrss:summary>
           <mlrss:pub-date>2026-07-18T03:52:37+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-07-17</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-17</link>
-      <guid isPermaLink="false">sha256:3e6a6718d47c1a60c556841bc34997b7d00920765c7039fc3c2f8119301bf134</guid>
-      <pubDate>Fri, 17 Jul 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Regulation</category>
-      <category>Security</category>
-      <description>2026-07-17 のニュース 22件（Gmail 17件 / RSS 5件）
-
-[AI]
-  📨 Google「Gemini 3.5 Pro」の投入延期が報じられ株価下落
-  📨 Moonshot AI、28兆パラメータのオープンモデル「Kimi K3」を発表
-  📨 NVIDIA、ロボット向け世界モデル「Cosmos 3 Edge」を発表し日本企業と提携拡大
-  📨 OpenAI、全二重で会話できる新音声モデル「GPT-Live」を発表
-
-[Engineering]
-  📨 Replit、AIエージェント群で運営する「自己運転する会社」を構築
-  📰 AIに違和感を抱くのは大衆だけ、押し付ける側だけが強行を続ける
-  📨 Databricks、セマンティック層やベクトル検索を追加した「Apache Spark 4.2」を発表
-  📨 JSランタイムBun、AIエージェント64体を投じてZigからRustへ11日で書き換え
-  📰 準同型暗号のままCIFAR-10推論を200msで実行するデモ
-  📰 オープンソースAIの現状レポート、性能はクローズドモデルに実質的に並ぶ
-  📰 AI監査ツールがOpenVMのzkVMで重大な暗号バグを発見
-  📰 アップル、OpenAI移籍の元従業員数十人に証拠保全の法的通知
-
-[Funding]
-  📨 AI推論企業Fireworks、評価額175億ドルで15億ドル調達
-  📨 Anthropic、今秋のIPO目指す 年換算収益は470億ドル規模
-
-[Regulation]
-  📨 習近平国家主席、上海の世界AI大会に初出席し演説
-  📨 EU、GoogleにAndroidでの競合AI開放と検索データ共有を命令
-  📨 出版社連合、Gemini訓練への著作権書籍無断使用でGoogleを提訴
-  📨 独ミュンヘン地裁、Google検索のAI Overviewによる名誉毀損に責任ありと判断
-
-[Security]
-  📨 macOSマルウェア「ClickLock Stealer」、33カ国で被害確認
-  📨 Zoom、CVSS9.8の深刻なアカウント乗っ取り脆弱性を警告
-  📨 Sharkのロボット掃除機、数百万台がリモートコード実行の脆弱性
-  📨 日本のニチレイにサイバー攻撃、KFCジャパンの物流にも影響
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-07-17</description>
-      <mlrss:target-date>2026-07-17</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:96d5802a616e6946b43dcc0ee5153352cc35c1720bf8b3d78ca555281bbb5e5c" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>習近平国家主席、上海の世界AI大会に初出席し演説</mlrss:title>
-          <mlrss:link>https://aisafetychina.substack.com/p/in-a-first-president-xi-attends-chinas</mlrss:link>
-          <mlrss:summary>中国・上海で開幕した世界人工知能大会(WAIC 2026)に習近平国家主席が初めて出席し、開幕式で演説を行った。過去は副首相や首相ら要人が代表してきたが、主席本人の出席はAIが国家的最優先課題に格上げされたことを示す。演説では中国はオープンソースAIで世界をリードし発展途上国とも協力すると表明し、AIを巡る安全保障論の拡大解釈に反対する姿勢も示した。会期中はフロンティアAIの安全性を議論する国際フォーラムも開催され、各国の専門家が参加した。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:57:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7b1ac140a2aa8d47d1988c16d4831d15c54bea973d99e3c390819c66361f5c63" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Google「Gemini 3.5 Pro」の投入延期が報じられ株価下落</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html</mlrss:link>
-          <mlrss:summary>Googleの次期主力モデル「Gemini 3.5 Pro」の投入が計画から数カ月遅れていると報じられ、この報道を受けてAlphabet株が下落した。特にコーディング性能の向上に時間を要しているとされ、社内のエンジニアや研究者からは競争優位を失うことへの懸念が出ている。Googleはモデルが依然パートナー企業とのテスト段階にあるとし、改良版Flashモデルなど他のリリースも並行して進めていると説明した。米政府ともモデル評価の枠組みについて協議を続けているという。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:30:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b623189900c3c0bc1cd80b90dfa5b02c60d9fc74adc5ee4e86d1d9cf9de99f56" source-type="gmail" category="Funding" anchor="false">
-          <mlrss:title>AI推論企業Fireworks、評価額175億ドルで15億ドル調達</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/07/16/fireworks-nvidia-cloud-ai-startup-value.html</mlrss:link>
-          <mlrss:summary>NVIDIAが出資するAI推論プラットフォームのFireworks AIが、15億500万ドルの資金調達により評価額175億ドルに達した。年間経常収益は10億ドルを突破し、1日あたり40兆トークンを処理しているという。安価なオープンモデルを求める企業からの需要が追い風となっており、フロンティアモデルの高額な利用料を避けたい企業がFireworksのようなインフラ企業に流れている構図が、AI業界全体でのコスト競争の激化を映し出している。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:30:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:77bd06c34b5442091dc005859dacd7fc0621a0b1c9f48f3ebc29d5212539ef68" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>Replit、AIエージェント群で運営する「自己運転する会社」を構築</mlrss:title>
-          <mlrss:link>https://replit.com/blog/self-driving-company</mlrss:link>
-          <mlrss:summary>Replitは社内でAIエージェント群を活用し、コードレビュー、障害調査、営業リサーチ、サポート対応など幅広い業務を自動化する「自己運転する会社」の仕組みを構築していると明らかにした。エージェントは人間から与えられた目標に基づき情報収集から実行、検証までを行い、判断が必要な場面では人間にエスカレーションする。結果としてエンジニアはコード量を3倍に増やしながら品質を落とさずに済んでいるという。人間は課題の選定や難しいトレードオフの判断、責任を担う役割へとシフトしつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:30:56+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4d084eda7ae90d4b5249da7decdec86179ffbfe42ae912c137eea689d991e60b" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>macOSマルウェア「ClickLock Stealer」、33カ国で被害確認</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4d084eda7ae90d4b</mlrss:link>
-          <mlrss:summary>5月末から確認されているmacOS向けマルウェア「ClickLock Stealer」が、少なくとも33カ国で被害を出しており、その半数以上が欧州に集中している。ユーザーをだましてbashコマンドを実行させ、認証情報や暗号資産、Keychainデータを窃取するスクリプトとバックドアを送り込む手口で、実行後は表示中のプロセスや通知センターを数時間にわたって停止させ、パスワード再入力を強要しつつセキュリティ警告を隠す。窃取したデータはアーカイブ化されてTelegramのボットに送信される。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:11:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fb135ab0608e663ae2f804992146f7375e69516ccb411ee2532e02af6f4a421c" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>Zoom、CVSS9.8の深刻なアカウント乗っ取り脆弱性を警告</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fb135ab0608e663a</mlrss:link>
-          <mlrss:summary>Zoomは、WindowsのデスクトップクライアントおよびSDKに深刻な脆弱性(CVSSスコア9.8)が存在すると警告した。入力値検証の不備が原因で、認証されていない遠隔の攻撃者がアカウントを乗っ取ることが可能になる。Zoomはすでに修正パッチを配布済みで、現時点でこの脆弱性が実際に悪用された痕跡は確認されていないとしている。CVSSスコアが最大値に近い深刻な脆弱性であるため、影響を受けるユーザーには早急なアップデートが推奨される。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:11:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4b3c9fab8275ee13a624d6f997747cd75fd5be1405271b66baed9b83d9e9414e" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Sharkのロボット掃除機、数百万台がリモートコード実行の脆弱性</mlrss:title>
-          <mlrss:link>https://tokay0.com/posts/millions-of-shark-vacuums-vulnerable-to-rce.html</mlrss:link>
-          <mlrss:summary>セキュリティ研究者が、インターネット接続されたSharkのロボット掃除機すべてに遠隔操作でコードを実行できる脆弱性があることを発見した。AWS IoT CoreのMQTTポリシーとデバイス証明書の設定不備を悪用し、1台から抽出した鍵でワイルドカードトピックを購読すれば、100万台以上のデバイスの通信を傍受し、数十万台に命令を送信できるという。家の間取り図やWi-Fiパスワードの平文情報、ライブカメラ映像まで流出しうる深刻な内容だが、製造元に報告済みにもかかわらず数カ月間未修正のままとなっている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:11:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cf697cbbd6515738c9aafca1db6aebc9451638fc4c1f5b9c56477d1305634c5a" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>日本のニチレイにサイバー攻撃、KFCジャパンの物流にも影響</mlrss:title>
-          <mlrss:link>https://www.theregister.com/security/2026/07/16/cyberattack-threatens-utterly-critical-infrastructure-in-japan-kfc/5272220</mlrss:link>
-          <mlrss:summary>日本のニチレイグループの物流システムがサイバー攻撃を受け、冷凍食品の出荷が滞り、冷蔵倉庫網の運用にも支障が出ている。ニチレイから食材供給を受けるKFCジャパンはオンライン注文を停止し、メニュー縮小や営業時間短縮、一部店舗の休業の可能性を警告した。攻撃者は個人データを保持するサーバーにアクセスしたとみられ、対応状況からランサムウェア被害である可能性が指摘されており、取引先への継続的なリスクも懸念されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T22:11:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6dc2fd2f58a642844240e2d410175bcbbe0dfd46b6e1382a26c942f1836e0439" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AIに違和感を抱くのは大衆だけ、押し付ける側だけが強行を続ける</mlrss:title>
-          <mlrss:link>https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us</mlrss:link>
-          <mlrss:summary>一般利用者の多くがAIに不安や違和感を抱いている一方、政府や大手テック企業はその声を顧みず導入を推し進めているとする論考。生成AIの多用は学習効果や批判的思考力を損なうとの研究結果を紹介し、AIが誤情報や質の低いコンテンツを量産し自らの出力を学習データとして取り込むことで劣化が進む懸念も指摘する。データセンターの電力消費への反発が広がる中でも、企業と政府は導入を止めていないとまとめている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T21:24:07+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cbdd6290c50a50fdaae52f56c12ffeb953be3cdf6e90e061989e029cd85dcd53" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>EU、GoogleにAndroidでの競合AI開放と検索データ共有を命令</mlrss:title>
-          <mlrss:link>https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/</mlrss:link>
-          <mlrss:summary>EUがGoogleに対し、検索データを競合他社と共有し、Android端末で競合AIアシスタントに自社と同等のアクセス権を与えるよう命じた。これにより他社のAIエージェントもGoogle検索データを利用できるようになり、Android上でのAI体験における独占的地位が崩れる可能性がある。匿名化された検索データの共有義務も課される見通しで、GoogleのAI Mode強化と時を同じくした規制強化により、欧州における巨大テック企業へのAI関連規制がさらに厳格化する流れを示している。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T21:03:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ad68d4dcb0c35d62af8d958c5329e53141f99f7bd3168570762664a875c3f8a4" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>Databricks、セマンティック層やベクトル検索を追加した「Apache Spark 4.2」を発表</mlrss:title>
-          <mlrss:link>https://www.databricks.com/blog/introducing-apache-spark-42</mlrss:link>
-          <mlrss:summary>Databricks Runtime 19 Betaで利用可能になった「Apache Spark 4.2」が発表された。ネイティブなセマンティック層として機能する「ガバナンス付きメトリックビュー」、AI検索向けのベクトル類似検索プリミティブ、Spark宣言型パイプラインによる変更データキャプチャ(CDC)対応などが新たに追加された。デフォルトで有効になるArrow最適化Python UDFやミリ秒単位のリアルタイムストリーミングも導入され、1900件超のコミットと260人以上の貢献者による大型アップデートとなっている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T20:36:21+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1166a6c73ccf286882a9fb8a7be282f089d4e544ee7205e0d27c0a0275da9ac7" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>JSランタイムBun、AIエージェント64体を投じてZigからRustへ11日で書き換え</mlrss:title>
-          <mlrss:link>https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/</mlrss:link>
-          <mlrss:summary>JavaScriptランタイムのBunが、メモリ安全性の問題が続いていたZigからRustへの大規模書き換えを実施した。Anthropicの「Claude Fable」を使い、64体のAIエージェントを投入してわずか11日間で53万5000行超のコードを移行し、1600件のコンパイルエラーを解消したという。API利用料だけで16万5000ドルを要し、59億トークンの非キャッシュ入力、6.9億トークンの出力を消費した計算だが、通常なら数カ月を要する大規模移行をAIが劇的に高速化できることを示す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T20:26:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d5bb2ae97d55d40794e93000422e236584ac5c05b24810efbe7c6b18b792d90a" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Moonshot AI、28兆パラメータのオープンモデル「Kimi K3」を発表</mlrss:title>
-          <mlrss:link>https://www.kimi.com/blog/kimi-k3</mlrss:link>
-          <mlrss:summary>Moonshot AIが2.8兆パラメータのオープンウェイトモデル「Kimi K3」を発表した。1Mトークンのコンテキスト長と新設計のアテンション機構Kimi Delta Attentionを搭載し、フロントエンドコーディングのベンチマークでClaude Fable 5を上回る首位を獲得した。価格はOpenAIやAnthropicの主要モデルより安く、Artificial Analysisの独立評価ではOpus 4.8やGPT-5.5に匹敵すると評価された。重みの完全公開は7月27日を予定しており、中国発オープンモデルが米国勢に迫る象徴的な出来事として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T20:10:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0fe7abdc7d42cff94c6db5afe28755338220a718a8dbceed67836e268d3ca621" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>NVIDIA、ロボット向け世界モデル「Cosmos 3 Edge」を発表し日本企業と提携拡大</mlrss:title>
-          <mlrss:link>https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html</mlrss:link>
-          <mlrss:summary>NVIDIAの黄仁勲CEOが東京で、ロボットや車両が物理空間をリアルタイムに認識・移動するための「世界モデル」Cosmos 3 Edgeを発表した。Jetson Thorボード上でオンデバイス動作し、クラウド接続なしで推論できる。富士通、日立、ソニー、安川電機など日本の大手10社が採用を表明したほか、2万7500基のRubin GPUを投じる新工場計画も発表された。NVIDIAはチップ供給だけでなく、物理AIのモデル層でも主導権を握る戦略を進めている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T18:33:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2be274196503b6861b85bda34174570b9aba0af208e86b89c268e6e2c47b4da7" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>出版社連合、Gemini訓練への著作権書籍無断使用でGoogleを提訴</mlrss:title>
-          <mlrss:link>https://www.theguardian.com/books/2026/jul/14/publishers-sue-google-gemini-ai-training</mlrss:link>
-          <mlrss:summary>Hachette、Cengage、Elsevierなどの出版社と作家スコット・トゥローらが、GoogleがGemini訓練のために著作権のある書籍を無断使用したとしてニューヨーク州南部地区連邦裁判所に集団訴訟を提起した。訴状では、Google Booksへの提供時は検索用の短い抜粋表示のみが想定されていたのに、Google Playにアップロードされた書籍も含めて無断でAI訓練に使用し、著作権情報を削除・改ざんして隠蔽したと主張している。Google社内文書には最大1000億ドル規模の罰金リスクが記載されていたとも報じられた。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T18:33:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:394e6f92c510ebeae00561975f0ecce3fe9280e51428f3174b9aa9e77b38bfaa" source-type="gmail" category="Funding" anchor="false">
-          <mlrss:title>Anthropic、今秋のIPO目指す 年換算収益は470億ドル規模</mlrss:title>
-          <mlrss:link>https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html</mlrss:link>
-          <mlrss:summary>Anthropicが、OpenAIやDeepSeekに先駆けて今秋に株式上場(IPO)を目指していると報じられた。年換算収益はおよそ470億ドルに達しているとされる。同時期には、AI安全性を評価するFuture of Life Instituteの2026年夏季指数でAnthropicが評価対象ラボの中で最高評価(C+)を獲得したとも報じられており、収益成長と安全性への取り組みの両面で業界の注目を集めている。上場が実現すれば主要AIラボとして初の本格的な公開市場デビューとなる可能性がある。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T18:33:35+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c53a4a81797f7241820e891243890967beb33d3dfd63ea8c3af7f01302fbb9c9" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>準同型暗号のままCIFAR-10推論を200msで実行するデモ</mlrss:title>
-          <mlrss:link>https://sofar.belfortlabs.cloud/</mlrss:link>
-          <mlrss:summary>画像を復号せずに暗号化した状態のまま推論できる完全準同型暗号（FHE）技術を使い、定番の画像分類データセットCIFAR-10に対する推論をおよそ200ミリ秒で完了させるデモプロジェクト。プライバシーを保ったままクラウド上でAI推論を行う手法として関心を集めており、FHEの実用化に向けた高速化の一例として紹介されている。詳細な実装や計測環境についてはプロジェクトページで公開されている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T16:29:52+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ec097e42379141a98a88605c139622a0e530ef8e9eaf57768510f9a42b371e2e" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>オープンソースAIの現状レポート、性能はクローズドモデルに実質的に並ぶ</mlrss:title>
-          <mlrss:link>https://stateofopensource.ai/</mlrss:link>
-          <mlrss:summary>Mozillaによる2026年版レポートによると、オープンウェイトモデルはコーディングや指示追従性能でクローズドモデルとの差をこの2年で8%から3.3%まで縮め、推論コストも36カ月で50分の1に低下した。開発者の79%が利用するが本番投入は51%にとどまり、ボトルネックはモデル性能よりインフラ費用や運用体制にあると分析。70以上の国がオープンソース優先の調達方針を掲げるなど地政学的な広がりも見られ、今後の焦点はエージェント基盤層の主導権争いに移るとしている。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T14:31:10+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:86f31cc4d6ee1ce60c9415b79b8e7568e0b62a53c0c4540b2792feecbf905631" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>AI監査ツールがOpenVMのzkVMで重大な暗号バグを発見</mlrss:title>
-          <mlrss:link>https://blog.zksecurity.xyz/posts/openvm-bugs/</mlrss:link>
-          <mlrss:summary>zkao(セキュリティ監査に特化したAIツール)が、OpenVMのペアリング検証ライブラリに深刻な脆弱性(CVE-2026-46669)を発見した。スケーリング係数が正しい部分体に属するかの検証が抜けており、悪意ある証明者が不正なペアリング等式を偽造して検証を通過できる欠陥だった。KZGやGroth16などの証明方式やイーサリアムのecPairing処理の安全性に関わる問題で、OpenVM 1.6.0で修正済み。単純なLLMではzkVMの複雑さを扱えないため、学術文献との突き合わせを組み込んだ専用の解析手法が使われた。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T14:21:35+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f344aa0ce7a22a041598a7ed6b37b35481fd1d88d47cf9637d33a602c07af344" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>アップル、OpenAI移籍の元従業員数十人に証拠保全の法的通知</mlrss:title>
-          <mlrss:link>https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/</mlrss:link>
-          <mlrss:summary>アップルが、営業秘密の不正利用を巡りOpenAIを提訴した訴訟に関連して、OpenAIに移籍した元従業員およそ40人に証拠保全を求める法的通知を送付したと報じられた。通知は関連する文書や通信記録の保全と、アップル側弁護士との面談を求める内容。訴訟ではハードウェア設計や製品開発に関する機密情報が組織的に持ち出された疑いがあるとされ、400人超の元アップル従業員がOpenAIに在籍しているとも指摘されている。OpenAI側は主張の根拠となる証拠は把握していないとして疑惑を否定している。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T12:02:39+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7589a0679b0358935a843f3fed600ecd86d9ac17af44bbaa7cabd8ca06d7449c" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>独ミュンヘン地裁、Google検索のAI Overviewによる名誉毀損に責任ありと判断</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7589a0679b035893</mlrss:link>
-          <mlrss:summary>ドイツ・ミュンヘン地方裁判所は、Google検索のAI Overview機能が生成した虚偽の名誉毀損的な内容についてGoogleに責任があるとの判断を下した。出版社名と「詐欺」という語で検索した際、AI Overviewが事実に反して「詐欺的商法で知られる」との要約を表示したことが問題視された。裁判所はAI Overviewの生成文を独自の新たな言明とみなし、Googleが単なる情報仲介者ではなく発信者として責任を負うと認定し、仮処分と訴訟費用の8割負担を命じた。Googleは控訴する方針で、検索エンジンのAI生成物に対する法的責任のあり方を占う先例となる。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T11:59:48+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f72f500ac613003cd1064245457b48e22faf663c8048000bb0e3925802a60191" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>OpenAI、全二重で会話できる新音声モデル「GPT-Live」を発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f72f500ac613003c</mlrss:link>
-          <mlrss:summary>OpenAIが新しい音声モデル「GPT-Live-1」と軽量版「GPT-Live-1 mini」を発表し、ChatGPTの音声機能を刷新した。従来のAdvanced Voice Modeと異なり、音声の送受信を同時に処理する全二重方式を採用し、複雑な質問は裏側でGPT-5.5に処理を委譲しながら会話を続けられる。ベンチマークでは大学院レベルの科学問題正答率が旧モデルの45.3%から84.2%に向上し、人間による評価でも高い支持を得た。iOS、Android、ChatGPT.comで即日提供が始まり、有料プランでは標準機能となる。</mlrss:summary>
-          <mlrss:pub-date>2026-07-17T11:59:48+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
