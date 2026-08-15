@@ -6,7 +6,108 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Fri, 14 Aug 2026 22:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 22:11:35 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-08-15</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-15</link>
+      <guid isPermaLink="false">sha256:7394a62cc0441f25ebe8a5318f5962c21a47cdeac6178a52c7caf40e2dd9907f</guid>
+      <pubDate>Sat, 15 Aug 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Research</category>
+      <description>2026-08-15 のニュース 11件（Gmail 6件 / RSS 5件）
+
+[AI]
+  📨 Apple、アリババの支援で中国市場向け独自AIモデルを開発
+
+[Engineering]
+  📰 AI創薬の現在地と今後の展望を総括するNatureのレビュー論文
+  📰 AIは数学者より賢いのではなく「記憶力」で勝っている
+  📰 BDDライブラリ「Yadda」がv3.0.0でAIエージェント時代に対応
+  📰 codexによる自動リサーチでカーネルを232倍高速化した記録
+  📰 AIエージェントとの協働は「コーディング」より「マネジメント」に近い
+  📨 OpenAI、GPT-5.6のコスト最適化に関するビルダー向けガイドを公開
+
+[Product]
+  📨 Microsoft、Copilotの4機能を8月18日に終了へ
+  📨 Geminiで生成画像・動画の可視透かしを非表示にする設定が追加
+
+[Research]
+  📨 Anthropic、45体のエージェントが互いを査読する実験を公開
+  📨 Harmonic CEO、証明をコンピュータが検証する時代の到来を主張
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-15</description>
+      <mlrss:target-date>2026-08-15</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:4370979d8a6a43cba36bdc4e9f411004ed9de65d5710701183ff2a779a244743" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AI創薬の現在地と今後の展望を総括するNatureのレビュー論文</mlrss:title>
+          <mlrss:link>https://www.nature.com/articles/s41573-026-01496-2</mlrss:link>
+          <mlrss:summary>Nature Reviews Drug Discovery誌に掲載されたレビュー論文で、AIを活用した創薬の現状と課題を総括している。分子設計や標的探索へのAI応用がどこまで進み、どこに限界があるのかを整理したうえで、実用化に向けて解決すべき技術的・規制的なハードルを展望している。Hacker Newsでも創薬分野の専門家を中心に議論を呼んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T19:12:53+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4defb8dbe30693490067c83dc2298567bf428287c30bd3b5736c8175fac003c5" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIは数学者より賢いのではなく「記憶力」で勝っている</mlrss:title>
+          <mlrss:link>https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians</mlrss:link>
+          <mlrss:summary>AIが数学で高い性能を示す理由は、優れた推論力ではなく人間よりはるかに大きい作業記憶にあると論じる記事。数学は推論過程を明示的な記号に変換しやすいため、AIは大量の制約や中間式、過去の結論を同時に保持できるコンテキストウィンドウを外部ノートのように使って解ける。著者はAIをアインシュタイン型の独創性ではなく、フォン・ノイマン型の速度と情報処理力の機械的拡張だと位置づけている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T18:13:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fd25b2b4842f0223c699f74deb56329f18441b57b3cd58475d48d8a6a7ffd0f5" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>BDDライブラリ「Yadda」がv3.0.0でAIエージェント時代に対応</mlrss:title>
+          <mlrss:link>http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html</mlrss:link>
+          <mlrss:summary>JavaScript向けBDD（振る舞い駆動開発）ライブラリYaddaがバージョン3.0.0をリリースした。ブラウザ対応を廃止しNode専業とし、CasperJSやBowerなど旧式の依存を削除、テストをnode:testに移行してTypeScript定義も追加した。開発の大部分をClaudeがほぼ人手を介さずに完了させたとされる。著者は、実行可能な仕様書がコーディングエージェントやレビュアーへの文脈として機能し、AI時代にBDDの価値がむしろ高まると論じている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T13:43:46+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:592d9842f6a0ff6a8d4fba86bd9e652a11fd1eda779041dccf583be9cb69cb10" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>codexによる自動リサーチでカーネルを232倍高速化した記録</mlrss:title>
+          <mlrss:link>https://sankalp.bearblog.dev/autoresearch/</mlrss:link>
+          <mlrss:summary>OpenAIのコーディングエージェントcodexを使い、GPUカーネルの最適化を自動的に反復探索させることで処理速度を232倍に高速化したという実践記録。AIエージェントに候補実装を大量に生成・計測・比較させる「自動リサーチ」的な手法を用いており、人手でのチューニングでは到達しにくい最適化を短時間で見つけられた点を報告している。Hacker Newsでも高い関心を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T11:00:02+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:70518b0632fd538b746fd23bd93022d6d89040a38e1772802fcc84d1b5266f13" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AIエージェントとの協働は「コーディング」より「マネジメント」に近い</mlrss:title>
+          <mlrss:link>https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/</mlrss:link>
+          <mlrss:summary>AIコーディングエージェントとの協働は、同じ入力から同じ結果が返る従来のプログラミングと異なり、結果の予測しづらさゆえに人と人の間のリーダーシップに近いと論じる記事。的確な指示を出すだけでなく、背景や意図を共有し、期待する品質基準を伝え、想定外の出力にも柔軟に対応する必要がある。著者は、これは新しいスキルではなく、既存のマネジメント手法をAIという新しい対象に応用しているだけだと指摘する。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T10:39:41+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:dc4eea3e07dddac42cfba09e5562914b8642ad62c6357e10f2d0028712db0800" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Microsoft、Copilotの4機能を8月18日に終了へ</mlrss:title>
+          <mlrss:link>https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app</mlrss:link>
+          <mlrss:summary>MicrosoftはMicrosoft 365 Copilotアプリから、グループチャット、AIポッドキャスト、Labs、Deep Researchの4機能を2026年8月18日に廃止すると発表した。同時に、これまで別々だった仕事用と個人用のCopilotアプリを1つに統合する。マスコットキャラクターの「Mico」も姿を消す予定で、Copilot製品ラインの簡素化を進める動きとみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:38fd1506e26a9cc0a2b7e90287d29ea13511ac2cf67d2f57cdf81543079e835b" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Geminiで生成画像・動画の可視透かしを非表示にする設定が追加</mlrss:title>
+          <mlrss:link>https://x.com/GeminiApp/status/2088277477672255830</mlrss:link>
+          <mlrss:summary>Google Geminiアプリに、生成した画像・動画・音声トラックの可視透かしを1つの設定でオフにできる機能が追加された。ただし目に見えない電子透かし「SynthID」と来歴情報「C2PA」メタデータはオフにしても引き続き埋め込まれたままとなり、生成物であることを示す情報自体は消えない仕組みになっている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:07c68ef71d3d87abe9bf56e853ffbdd8bc7e6a539fa436ea2c9348892fc34585" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Apple、アリババの支援で中国市場向け独自AIモデルを開発</mlrss:title>
+          <mlrss:link>https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/</mlrss:link>
+          <mlrss:summary>ReutersはAppleが中国市場向けにアリババの技術支援を受けて独自のAIモデルを訓練したと報じた。これまで中国のiPhoneに搭載されるAI機能は他社モデルに依存していたが、Apple自社開発のモデルに切り替える形となり、中国当局の承認も得られているという。中国特有の規制環境に対応する動きとみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8f8f9db4c1e0f8fba39170d01d91e79f8cc011966510ea4687b7277c6a6afb58" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>OpenAI、GPT-5.6のコスト最適化に関するビルダー向けガイドを公開</mlrss:title>
+          <mlrss:link>https://openai.com/index/builders-guide-to-gpt-5-6/</mlrss:link>
+          <mlrss:summary>OpenAIは開発者向けに、GPT-5.6を使ったコスト削減の手法をまとめた「ビルダーズガイド」を公開した。小規模モデルに長く推論させることでコストを抑えつつ精度を維持する手法を、ベンチマーク数値とともに解説しており、実際にAPIコストを削減したスタートアップの事例も紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8b8087de7445673bcdb9e5818b9b696f84b3ce9d5b0c294117bc43e4c716d017" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>Anthropic、45体のエージェントが互いを査読する実験を公開</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/research/multiagent-systems</mlrss:link>
+          <mlrss:summary>Anthropicのレッドチームが、45体のAIエージェントにそれぞれ独立した実行環境を与え、互いの成果を査読させる実験を行った研究を公開した。エージェント同士のピアレビューによって何が機能し、どこで問題が生じるかを検証する内容で、マルチエージェントシステムの安全性評価に関する知見をまとめている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3e070abe9d82c117e0bd66ee41bcf6e1d3bf40c7212adabe5bb325fb9f79df3b" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>Harmonic CEO、証明をコンピュータが検証する時代の到来を主張</mlrss:title>
+          <mlrss:link>https://youtube.com/watch?v=HSxytYCWVow</mlrss:link>
+          <mlrss:summary>数学特化AI企業Harmonicの最高経営責任者は、人間による論文査読が限界を迎えつつあると指摘し、コンピュータが検証可能な形式で書かれた数学的証明への移行が解決策になると述べた。動画では「数学的超知能」に至る道筋について、形式検証の重要性を中心に議論している。</mlrss:summary>
+          <mlrss:pub-date>2026-08-15T06:13:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-08-14</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-14</link>
@@ -827,115 +928,6 @@
           <mlrss:link>https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html</mlrss:link>
           <mlrss:summary>米特許商標庁(USPTO)の公報に、フランスのMistral AIによる特許『Code Implemented Tool Calls(コードで実装されたツール呼び出し)』(特許番号US 12,670,045 B1)が掲載された。出願は2026年3月、請求項は20件。内容は、大規模言語モデルがツール呼び出しをコードブロックとして生成し、サーバー側がそのコードをサンドボックス環境で実行、ツール呼び出しが保留になった時点で処理を一時停止してクライアントに送信し、実行結果を受け取って処理を再開・完了するという方式に関するもの。LLMが生成コードを介して外部ツールとの連携を制御する手法を対象としている。</mlrss:summary>
           <mlrss:pub-date>2026-08-10T13:29:12+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-08-09</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-09</link>
-      <guid isPermaLink="false">sha256:0ea9b6452b148926f6df6a41b27d37257b273f7788814cbe777f1ab698afd034</guid>
-      <pubDate>Sun, 09 Aug 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Other</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <category>Tools</category>
-      <description>2026-08-09 のニュース 10件（Gmail 8件 / RSS 2件）
-
-[AI]
-  📨 Alibaba、パラメータ2.4兆の新モデル「Qwen3.8-Max」を発表、重みの公開も予定
-
-[Engineering]
-  📰 「コモンズの悲劇」のAI版
-  📰 エージェント型開発環境「OpenChamber」公開
-
-[Other]
-  📨 Google DeepMindでトップ交代、CEOのデミス・ハサビス氏とチーフサイエンティストのジェフ・ディーン氏が退任
-
-[Product]
-  📨 Rokuに初の「オールAI」テレビチャンネル、番組もCMもAI生成
-
-[Regulation]
-  📨 米国による中国製AIモデルの禁止措置、シリコンバレーの働きかけで当面見送りに
-
-[Research]
-  📨 スタンフォードとArc Institute、AIで細菌標的ウイルスを設計し16株が実際に機能
-
-[Security]
-  📨 OpenAI、新モデル「Astra」を最高レベルのサイバーリスクと判定し開発を減速
-
-[Startup]
-  📨 SpaceXとTesla、AIチップ・ロボット生産用に世界最大級の建屋をヒューストン近郊に建設
-
-[Tools]
-  📨 Anthropic、Claude Codeの「Auto Mode」を開発者保護のためデフォルト化
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-09</description>
-      <mlrss:target-date>2026-08-09</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:9817598ff66e9cd48cd4e9ada65197192df7b4b94d58e76179178e8c79c8fd22" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>「コモンズの悲劇」のAI版</mlrss:title>
-          <mlrss:link>https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition</mlrss:link>
-          <mlrss:summary>The Economist(英国面)に掲載された論考。ウェブ上のコンテンツやデータといった共有資源を、AI企業やAIエージェントが個々には合理的な形で大量に利用・収奪していくと、長期的にはその共有資源自体が痩せ細ってしまうという「コモンズの悲劇」を、AI時代に当てはめて論じた記事とみられる。記事本体は購読制のため詳細は未確認だが、AIの急速な普及が公共財としてのインターネットに及ぼす影響という論点を扱っている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T19:43:52+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:45541b926357ec8f7d4fd293db288b34f436c38e3dbdda232b5cee1df07cd153" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>エージェント型開発環境「OpenChamber」公開</mlrss:title>
-          <mlrss:link>https://openchamber.dev/</mlrss:link>
-          <mlrss:summary>デスクトップ・ブラウザ・モバイル・VS Codeなど複数プラットフォームに対応した、エージェント型のAI支援コーディング環境「OpenChamber」が公開された。セッションごとに目標を設定して複数ターンにわたる自律的な作業を継続させたり、複数のAIモデルに同時にタスクを実行させたりできるほか、変更内容の詳細な確認機能やGitHub連携も備える。作業データはローカル環境に保持しつつ、暗号化されたリレー接続で安全にリモートアクセスできる点も特徴で、開発時のコンテキストスイッチを減らすことを狙っている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T17:27:16+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1ce1194c10f8ce08e1551231498027caf06e267b61698c8bd3848ac1cb617ec2" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>OpenAI、新モデル「Astra」を最高レベルのサイバーリスクと判定し開発を減速</mlrss:title>
-          <mlrss:link>https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/</mlrss:link>
-          <mlrss:summary>OpenAIの社内テストで、新モデル「Astra」が単独でゼロデイ脆弱性を突くコードを書ける水準のサイバーリスクを持つ可能性を排除できないと判明した。同社はこのリスクを最高レベルと位置づけ、十分な安全対策が整うまで開発ペースを落とすと説明している。自律的なエージェントが意図せずハッキング的な挙動を示した経緯も背景にあるとされる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:38:40+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:8b981aca70e4b51bc2f913e0caa2b1d0dfba5bcbf4290c8566ad876c37e759c0" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>スタンフォードとArc Institute、AIで細菌標的ウイルスを設計し16株が実際に機能</mlrss:title>
-          <mlrss:link>https://www.science.org/doi/10.1126/science.aec2657</mlrss:link>
-          <mlrss:summary>スタンフォード大学とArc Instituteの研究チームが、AIを使って細菌を標的とする人工ウイルス（バクテリオファージ）を約70万種設計し、実験室での検証の結果16株が実際に機能することを確認した。ジョンズ・ホプキンス大学の専門家は、こうした技術をどう管理・統制すべきかのルールがまだ存在しないと指摘しており、バイオセキュリティ上の課題が浮き彫りになっている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:38:40+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c1c76dc1c4170600e03982f9cec448b87fa3f2de22c2ae16f3f9c9ba60c01db2" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Rokuに初の「オールAI」テレビチャンネル、番組もCMもAI生成</mlrss:title>
-          <mlrss:link>https://cordcuttersnews.com/roku-adds-4-new-free-channels-to-roku-tvs-roku-players-in-august-2026/</mlrss:link>
-          <mlrss:summary>Fairground AIが運営するチャンネルがRoku上で開始し、AI生成の映像コンテンツを24時間放送する。コマーシャル枠もAI生成の広告で構成されているのが特徴。創業者は、SNSのフィードにあふれる粗製濫造コンテンツとは一線を画す作品を目指すとしている。テレビ配信におけるAI生成コンテンツの活用事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:38:40+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d230c36a9a7d7b8b240fbb88a6e44c42e6c5b405a538b88f32751685cac16a0f" source-type="gmail" category="Startup" anchor="false">
-          <mlrss:title>SpaceXとTesla、AIチップ・ロボット生産用に世界最大級の建屋をヒューストン近郊に建設</mlrss:title>
-          <mlrss:link>https://x.com/SpaceX/status/2085366782269817116</mlrss:link>
-          <mlrss:summary>SpaceXとTeslaが、ヒューストン近郊に延べ床面積約1億平方フィートの巨大な建屋を建設する計画を明らかにした。現在の最大記録の5倍の規模になるとされる。第一期工事だけで約168億ドル、雇用3000人規模となる見込みで、Optimusロボットや自動運転車「Cybercab」向けのチップ生産拠点になるという。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:38:40+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f74ed00b0bc8f6a401ebc96180c5f78b839886248223bd586e7937d4828c80dc" source-type="gmail" category="Other" anchor="true">
-          <mlrss:title>Google DeepMindでトップ交代、CEOのデミス・ハサビス氏とチーフサイエンティストのジェフ・ディーン氏が退任</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f74ed00b0bc8f6a4</mlrss:link>
-          <mlrss:summary>Google DeepMindで経営陣の刷新が報じられた。CEOのデミス・ハサビス氏とチーフサイエンティストのジェフ・ディーン氏がそれぞれ退任するという。関連報道では、DeepMindから人材が流出している背景についても取り上げられている。AI開発競争の最前線に立つ組織のトップ交代であり、今後の研究体制や製品開発への影響が注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:15:12+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f4b4fd164e32bf791407a0be7127d833580e5f161bece323e7e0c68c004f5496" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>Anthropic、Claude Codeの「Auto Mode」を開発者保護のためデフォルト化</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f4b4fd164e32bf79</mlrss:link>
-          <mlrss:summary>Anthropicは、コーディング支援ツール「Claude Code」の「Auto Mode」を新たにデフォルト設定にしたと発表した。開発者を保護する目的があるとされ、エージェント的な自律実行の安全性を高める狙いがあるとみられる。詳細な仕様変更の範囲までは公表されていないが、AIコーディングツールの安全対策強化の流れの一環と位置づけられる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:15:12+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f3ac258b4e18ee8f5866a7e0355b1f978af40fdb27362fec7223201b6353ce76" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Alibaba、パラメータ2.4兆の新モデル「Qwen3.8-Max」を発表、重みの公開も予定</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f3ac258b4e18ee8f</mlrss:link>
-          <mlrss:summary>Alibabaが、パラメータ数2.4兆規模の新モデル「Qwen3.8-Max」をリリースした。同社は将来的にモデルの重みをオープンにする計画も示している。関連情報として、Qwen3.8-Maxは推論により多くのトークンを使う傾向があり、その分コストも増える可能性がある点も指摘されている。大規模モデル開発競争が続く中での新展開となる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:15:12+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6e5eed815d7e71cb501bd3568f11c8d99f33508def7504364e067abe4b2bd526" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>米国による中国製AIモデルの禁止措置、シリコンバレーの働きかけで当面見送りに</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6e5eed815d7e71cb</mlrss:link>
-          <mlrss:summary>米国内で検討されていた中国製AIモデルの利用制限・禁止措置について、シリコンバレー企業側の働きかけによって当面は導入が見送られる状況になっていると報じられた。AI分野における米中の規制・競争バランスを巡る動きの一つで、今後の規制動向がどう展開するか引き続き注目される。</mlrss:summary>
-          <mlrss:pub-date>2026-08-09T04:15:12+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
