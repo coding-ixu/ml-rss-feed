@@ -6,7 +6,135 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 22:11:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 22:12:08 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-08-25</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-25</link>
+      <guid isPermaLink="false">sha256:42f7ca1e4140a7ebd3296eddec71198cd9a3ba10f0be55f82aba9b89e59265cc</guid>
+      <pubDate>Tue, 25 Aug 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Research</category>
+      <category>Tools</category>
+      <description>2026-08-25 のニュース 14件（Gmail 12件 / RSS 2件）
+
+[AI]
+  📨 OpenAI、GPT-5.6 Sol APIを値下げ　入力20%・出力33%減
+  📨 正体不明の強力AIモデル「Ox Alpha」がOpenRouterに出現
+
+[Engineering]
+  📨 実務で通用するAIエージェント構築の9原則、業界の知見が収斂
+  📨 SpaceXAI、NVIDIA新型CPU「Vera」でエージェント処理を高速化
+  📨 NVIDIA推論特化型チップ「Groq 3 LPX」が量産開始
+  📰 YCスタートアップClara、AI医師の普及に向けグロースエンジニアを募集
+  📰 Raspberry Pi＋ローカルQwenモデルで作る完全オフラインの車載AIアシスタント「CarWatch」
+
+[Funding]
+  📨 Hugging Face、130億ドル規模での売却検討が報道
+
+[Product]
+  📨 教室でのAI活用、信号機方式など米私立高校の試み
+  📨 Meta、月額200ドル規模のAIエージェント「Hatch」を近く投入か
+
+[Research]
+  📨 上海のロボット「カーニバル」取材、中国のヒューマノイド戦略
+  📨 Andrew Ng氏、AIエンジニアリングに焦点を当てDeepLearning.AIを再始動
+  📨 ヒューマノイドロボットが100m走でウサイン・ボルトの記録を更新
+
+[Tools]
+  📨 AnthropicのMCPコネクタ向けエンタープライズ認証が一般提供開始
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-25</description>
+      <mlrss:target-date>2026-08-25</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:58121387eaef60e2ac768cc69018cc80c0089e38aa8b39b55554fa0ffefa676c" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>実務で通用するAIエージェント構築の9原則、業界の知見が収斂</mlrss:title>
+          <mlrss:link>https://gradientflow.substack.com/p/i-keep-hearing-the-same-advice-about</mlrss:link>
+          <mlrss:summary>実運用でAIエージェントを開発する複数のチームが、独立に似た設計方針へ収斂しつつあると指摘する記事が公開された。重要な制約はプロンプトではなくコードで担保する、エージェントには必要最小限の自律性しか与えない、多エージェント構成は小規模に保ち反論役を置く、ツール数を絞り込むなど、9つの実践的な原則が紹介されている。完璧な一発成功より、エラーからの回復力を重視する設計思想が共通点として挙げられている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T22:01:59+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:85113075542f6d5b07c14a71f2e81d563cd64e48216388adfc3d278af6f377f7" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>教室でのAI活用、信号機方式など米私立高校の試み</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/</mlrss:link>
+          <mlrss:summary>米コネチカット州の私立高校Cheshire Academyでは、教員に特定のAIツールを強制せず、一般的な活用方法を研修する方針を取っている。ある教員は、課題ごとにAI利用の可否を信号機の色で示す「トラフィックライト方式」を独自に導入した。ChatGPTのような汎用チャットボットに加え、教育者向け専用プラットフォームMagicSchoolなども併用されており、現場発の試行錯誤が進んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T21:13:59+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c8e558027f49074ca04db1da03ab9c3f200e811f2ee9c1ace6268a3f98ebcc8f" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>上海のロボット「カーニバル」取材、中国のヒューマノイド戦略</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/</mlrss:link>
+          <mlrss:summary>中国・上海郊外で開催されたロボット「カーニバル」では、二足歩行のヒューマノイドが酔拳を披露したり宙返りで観客を沸かせたりする様子が報告された。昨年世界で出荷された二足歩行ロボット1万3000台超のうち、約9割を中国製が占めるとされ、中国はこうした催しを通じてロボットを日常に浸透させる戦略を進めている。一方で実用面でのヒューマノイドの進歩は依然緩やかだと指摘されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T21:13:59+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:63cd1fc5314369b6e3bcdd38a4ca01310df2da88b17023ffd50a512cc7e7180a" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>SpaceXAI、NVIDIA新型CPU「Vera」でエージェント処理を高速化</mlrss:title>
+          <mlrss:link>https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale</mlrss:link>
+          <mlrss:summary>イーロン・マスク率いるSpaceXAIは、AIエージェントの処理を高速化するNVIDIAの新型CPU「Vera」を、チャットボットGrokのエージェント基盤に採用する。GPUがモデルの「思考」を担うのに対し、Veraはコード実行やツール呼び出しなど周辺処理を担うCPUで、従来のx86チップより最大1.8倍高速とされる。SpaceXAIはVera Rubinプラットフォームでデータセンターを拡張するほか、初のAI衛星「Starmind」にも同アーキテクチャを搭載し、軌道上でのAI処理を計画している。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T19:41:56+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2fa542a9cb53ef86b26205db3cb10b8e6f930696aba996b2e46ef4e91d9f3917" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Meta、月額200ドル規模のAIエージェント「Hatch」を近く投入か</mlrss:title>
+          <mlrss:link>https://stocktwits.com/news-articles/markets/equity/meta-reportedly-set-to-roll-out-hatch-ai-agent-platform-and-new-watermelon-model-in-monetization-push/cZYKx4SRJFY</mlrss:link>
+          <mlrss:summary>Metaが、ユーザーに代わってタスクをこなす消費者向けAIエージェント「Hatch」を数週間以内に投入すると報じられた。上位プランは月額200ドル程度になる見込みで、OpenAIやAnthropicの最上位プランと同水準になる。10月には新たな基幹モデル「Watermelon」の投入も予定されているという。無料サービスで拡大してきたMetaが、AI分野では高額課金モデルへ舵を切る動きとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T19:41:56+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1a6420dbfc08339f0d60b862b53a290f82e7f46e8322a370898d628c6ab76e8b" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>NVIDIA推論特化型チップ「Groq 3 LPX」が量産開始</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1a6420dbfc08339f</mlrss:link>
+          <mlrss:summary>NVIDIAの推論特化型チップ「Groq 3 LPX」が本格生産を開始した。Samsungファウンドリが製造を担い、Artificial Analysisの計測ではGemma 4 31Bモデルで毎秒3,431トークンという高い出力速度を記録している。AIインフラの拡大に伴い、味の素も半導体向け素材ABFフィルムの供給をAI・ハイエンド用途に優先する方針を顧客に通知するなど、周辺のサプライチェーンにも影響が広がっている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T19:35:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f5a4c74d9f20a0139fb7d9cb52ba073c0c73169af72d42b3478d945815eaf0dc" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>AnthropicのMCPコネクタ向けエンタープライズ認証が一般提供開始</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f5a4c74d9f20a013</mlrss:link>
+          <mlrss:summary>Anthropicは、Claudeが外部ツールと接続するためのMCPコネクタ向けに、組織単位で認証を一元管理できる「エンタープライズ管理認証」機能を一般提供した。これまでベータ提供だった機能で、Asana・Notion・Slackなど主要サービスについて、組織メンバーが個別にOAuth認証を行う必要がなくなる。管理者側で認証を一元的に統制できるようになり、企業でのAIエージェント導入を後押しする狙いがある。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T19:35:42+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fd94bdf912141c754a13b043dc2754eb2ee3cfbec034874cb3832b58414756a6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>YCスタートアップClara、AI医師の普及に向けグロースエンジニアを募集</mlrss:title>
+          <mlrss:link>https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer</mlrss:link>
+          <mlrss:summary>Y Combinator出身のスタートアップClaraは、人間の医療者が全ての医療判断を確認・承認する体制のもとで運用される「自律型AIプライマリケア医」を開発している。同社は患者獲得・継続利用の仕組みを一手に担う創業メンバー級のグロースエンジニア職を募集しており、ランディングページやSEO、広告連携、オンボーディング設計、メール・SMSなどのライフサイクル施策まで幅広く手掛ける役割となる。AIによる医療アクセス拡大を、プロダクトだけでなく成長基盤の面から支える動きとして紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T17:28:52+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5453b74785e88ee2f21f79d90dc3d7b3284f0e14a89863e368fb0b0a5aa16888" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Raspberry Pi＋ローカルQwenモデルで作る完全オフラインの車載AIアシスタント「CarWatch」</mlrss:title>
+          <mlrss:link>https://github.com/ThinkOffApp/CarWatch</mlrss:link>
+          <mlrss:summary>個人開発者が、Raspberry Pi 5上でQwenの350億パラメータモデルをローカル実行し、完全オフラインで動く車載AIアシスタント「CarWatch」を公開した。OBD/DoIP経由でエンジン回転数や冷却水温などの車両データを取得できるほか、745ページに及ぶ車両マニュアルをRAGで参照して質問に回答する機能や、ドライブレコーダー映像の取得にも対応する。ネット接続がなくても機能を落として動作し続ける設計や、常時音声待受、自動アップデートなど、オフライン前提の作り込みが特徴として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T15:20:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:32ee8ea6df776999584c6ecbdc352684a6ec379533b2c67ab7347840c438531a" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>Andrew Ng氏、AIエンジニアリングに焦点を当てDeepLearning.AIを再始動</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering</mlrss:link>
+          <mlrss:summary>Google Brain共同創業者のAndrew Ng氏が、自身が創業したDeepLearning.AIを「AIエンジニアリング」領域に注力する形で再始動させた。1万件超の求人分析や専門家への聞き取りをもとに、AIアプリケーションの構築・運用、ソフトウェア工学の基礎、コーディングエージェントの活用、プロダクト視点の4つを重要スキルとして挙げている。AIエンジニアという職種に限らず、幅広い開発者に求められる素養として位置づけている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T11:50:57+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:711686439d0488ac9e1332eb00080e461f6f9785016ad7876f964b616f8ba864" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>OpenAI、GPT-5.6 Sol APIを値下げ　入力20%・出力33%減</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-711686439d0488ac</mlrss:link>
+          <mlrss:summary>OpenAIはAPI向けモデル「GPT-5.6 Sol」の価格を、入力トークンで20%、出力トークンで33%引き下げた。新価格は入力100万トークンあたり4ドル、出力同20ドルで、少なくとも11月下旬まで適用される。コーディング関連ベンチマークでも高いコスト対効果を示しているとされ、競合他社に対する価格面での牽制になっているとの見方が出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T07:35:04+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6bff134fc666fec483bf24f680167f82ad55a6b1b92f90de9c717f864038d083" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>正体不明の強力AIモデル「Ox Alpha」がOpenRouterに出現</mlrss:title>
+          <mlrss:link>https://siliconangle.com/2026/08/23/nobody-knows-who-built-ai-coding-model-ox-alpha-or-where-the-code-goes/</mlrss:link>
+          <mlrss:summary>OpenRouter上に、開発元不明のまま公開された高性能コーディング向けAIモデル「Ox Alpha」が話題となっている。どのAI企業も自社モデルだと名乗り出ておらず、モデルのフィンガープリント調査ではZ.aiの「GLM-5.3」系に近いとの指摘が出ている。すでに数十億トークン規模の実コードがこのモデルを通じて処理されたとみられ、出自が不明なまま広く使われている状況に注目が集まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T04:56:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:62f604589e63ec99f0326747d18b1bc6d39a9a14fc7a9c0f4c1a47f6b00ecb9d" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>ヒューマノイドロボットが100m走でウサイン・ボルトの記録を更新</mlrss:title>
+          <mlrss:link>https://apnews.com/article/china-humanoid-robot-games-us-86cb8e310843151a77057e4cb764b4e2</mlrss:link>
+          <mlrss:summary>World Humanoid Robot Gamesにおいて、ヒューマノイドロボットが100メートル走を9.39秒で走破し、ウサイン・ボルト選手の2009年の世界記録9.58秒を上回った。別の種目では立ち幅跳びで2.88メートルを記録し、人間の世界記録2.45メートルを大きく超えた。ロボットの運動能力が急速に人間の限界に迫りつつあることを示す象徴的な出来事として報じられている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T04:56:09+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:50bbb7e4c62d21db226f550ab25299d124ed18b0cea59202916de4f57d2ec9e9" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Hugging Face、130億ドル規模での売却検討が報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-50bbb7e4c62d21db</mlrss:link>
+          <mlrss:summary>モデル共有プラットフォームのHugging Faceが、130億ドル規模での売却に向けて関心を集めていると報じられた。OpenAIの1220億ドル規模の資金調達など、AIモデルそのものを開発する企業に資金が集まりがちな中、モデルを共有・改良するインフラ層への投資関心も広がっていることを示す事例として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-25T01:40:38+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-08-24</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-24</link>
@@ -853,157 +981,6 @@
           <mlrss:link>https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/</mlrss:link>
           <mlrss:summary>セキュリティ企業Varonisの調査で、Microsoft Copilotに繰り返しガードレールについて質問を重ねたところ、拒否応答のたびにわずかずつ情報が漏れ、最終的に同意確認を回避できる未公開の設定項目が特定されたことが分かった。Microsoftは既にこの問題を修正済みという。AIアシスタント自身への執拗な質問攻めによって内部の安全機構が段階的に暴かれてしまうという、生成AI特有のセキュリティリスクを示す事例として報じられている。</mlrss:summary>
           <mlrss:pub-date>2026-08-19T21:22:17+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-08-19</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-19</link>
-      <guid isPermaLink="false">sha256:60fa8797666381bf9243bdb44928c0f9ca1718fa4212f7549e3587d69e6f87a9</guid>
-      <pubDate>Wed, 19 Aug 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Other</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <description>2026-08-19 のニュース 16件（Gmail 14件 / RSS 2件）
-
-[AI]
-  📨 中国Z.aiが新モデル「GLM-5.3」をAPI公開、価格据え置きで性能向上
-  📨 Qwen3.8-27B、Clineのローカルモデルランキングで1位に
-
-[Engineering]
-  📨 Cerebras、新チップ「CS-4」を発表しNvidiaに対抗
-  📰 OpenRouterがStripeに参加、AIモデル市場を統合
-  📰 テレンス・タオ氏、AI時代の数学のあり方を論考
-
-[Funding]
-  📨 Etchedが7億ドル調達、評価額210億ドルでJane Streetに初出荷
-
-[Other]
-  📨 Google、破産した米スピリット航空のデータを1000万ドルで購入
-  📨 メモリ価格高騰「RAMageddon」— DDR5が過去最安値の10倍に
-
-[Product]
-  📨 ClaudeがGmail送信・Google Drive管理に直接対応
-  📨 OpenAI、10代向けChatGPTをグローバル展開
-
-[Regulation]
-  📨 中国、Nvidia H200チップの輸入制限を緩和
-  📨 Anthropic、Claudeの生成文章に電子透かしを導入
-
-[Research]
-  📨 AIの再帰的自己改善、実現はまだ先か——新研究が示唆
-  📨 Claude、自律的タンパク質設計で27%のヒット率を達成
-
-[Security]
-  📨 OpenAI、サイバーリスクを理由にフロンティアモデルの強化学習を一時停止
-
-[Startup]
-  📨 Anthropicが第2四半期に黒字化、収益でOpenAIを初めて上回る
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-19</description>
-      <mlrss:target-date>2026-08-19</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:3243f28ea43a6971ab5d643fb6a1621125044f345b18628b9854c6cc5d5ae7dd" source-type="gmail" category="Security" anchor="true">
-          <mlrss:title>OpenAI、サイバーリスクを理由にフロンティアモデルの強化学習を一時停止</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3243f28ea43a6971</mlrss:link>
-          <mlrss:summary>OpenAIは、新モデル「Astra」がサイバーセキュリティ関連のリスク基準で「重要」レベルに達したとして、最大規模のフロンティア強化学習(RL)の実行を2週間一時停止すると発表した。Sam Altman氏は近い将来のリリースは予定通りとしつつ、先のリリースには影響しうると説明。Greg Brockman氏は安全性への確信が今後の開発ペースを左右すると述べ、監視体制の強化やセキュリティテストの拡充も進めている。Anthropicの慎重な姿勢との対比としても注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T22:41:21+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:39998faf33b9cca00c1e25a6f1f98a04f5d4549f66895f81e2944718e992f25a" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>中国、Nvidia H200チップの輸入制限を緩和</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-39998faf33b9cca0</mlrss:link>
-          <mlrss:summary>中国政府がNvidia製AIチップ「H200」の輸入制限を緩和し、ByteDanceやTencentなど大手テック企業が計約1万個を受領したと報じられた。今後も同規模の出荷が続く見通しで、当局は企業に対しチップの大部分を香港に保管するよう指示しているという。AI開発競争の激化を背景に、中国企業による計算資源確保の動きが着実に進んでいることを示す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T21:03:26+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a5882cafd8f305d6e753b7d1266349a9570ed821b258131925594445f0ed3a1c" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>AIの再帰的自己改善、実現はまだ先か——新研究が示唆</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a5882cafd8f305d6</mlrss:link>
-          <mlrss:summary>AI業界では「AIが人間の監督をほとんど必要とせずに自らを改善していく」という将来像がしばしば語られるが、新たな研究はその実現がまだ先であることを示唆している。研究者らは、明確な正解のない自由形式のAI研究、すなわち独創的なブレークスルーに必要な判断力や創造性を要するタスクを、現状のAIエージェントがまだこなせないことを確認した。自由形式の研究がどれほど自己改善の鍵を握るかが今後の焦点となる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T21:03:26+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0c4e603ede27d9610a5e185225def70de3bba291ddb0c0b482573db6e124aa8d" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>Anthropicが第2四半期に黒字化、収益でOpenAIを初めて上回る</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0c4e603ede27d961</mlrss:link>
-          <mlrss:summary>Anthropicの第2四半期収益が116億ドルに達し、OpenAIの67億ドルを上回った。フロンティアAIラボとして初めて黒字化を達成したとも報じられている。年換算収益は650億ドル規模に達したとの報道もあり、前年末の7倍超のペースだという。9〜10月にも予定される大型IPOを前に、Dario Amodei氏ら共同創業者に追加の議決権を持つ株式を付与する計画も進んでおり、投資家との協議も本格化している。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:35:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1b8e62606c22a42bb6435ac856acd0287419c1fc72087f371677ec5c3aaf5d34" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Cerebras、新チップ「CS-4」を発表しNvidiaに対抗</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1b8e62606c22a42b</mlrss:link>
-          <mlrss:summary>Cerebrasが新世代AIアクセラレータ「CS-4」を発表した。従来モデルの約2倍の速度と大幅な電力効率向上を実現し、GPT-5.6 Solクラスのモデルで毎秒約1300トークンの推論速度を達成したとされる。少数の顧客向けにサンプル出荷が始まっており、本格展開は第3四半期を予定。Nvidia製システムに対する速度優位性を強調しており、AIデータセンター向けハードウェア市場での競争激化が見込まれる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:35:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:32f9533351a8a6851b26394e805b2cfd8195574fe10899181162c154f849d8ef" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>中国Z.aiが新モデル「GLM-5.3」をAPI公開、価格据え置きで性能向上</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-32f9533351a8a685</mlrss:link>
-          <mlrss:summary>中国Z.aiが新モデル「GLM-5.3」のAPI提供を開始した。価格は前モデルGLM-5.2から据え置きながら、コーディングや長時間タスクをこなすエージェント性能が大幅に向上しているという。ベンチマークではTerminal-Bench 3.0のスコアが4.6から28.3に急伸するなど事後学習による伸びが目立ち、GPT-5.6 Solに肉薄する性能とも報じられている。重みの公開も予定されているが、時期は未定。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:35:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:24859f1f1c092fb0bed3a17d3f7269bb56a2458ed767345a403ba831a8c2d91b" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Qwen3.8-27B、Clineのローカルモデルランキングで1位に</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-24859f1f1c092fb0</mlrss:link>
-          <mlrss:summary>Alibabaの新オープンウェイトモデル「Qwen3.8-27B」が、リリースからわずか4日でコーディングツールClineのローカルモデルランキング1位を獲得した。法律分野のHarvey's Legal Agentベンチマークでもオープンウェイトモデルとして首位に立つなど、実務タスクでの有用性が示されている。一方で、実運用のコーディング品質では既存の大型モデルに及ばないとの慎重な見方もあり、ベンチマーク評価と実利用の乖離を指摘する声も出ている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:35:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9bb7cbfa5cecb05953622810fe4a79ef04c2db542a7779858a2019f70f2946ed" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Claude、自律的タンパク質設計で27%のヒット率を達成</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9bb7cbfa5cecb059</mlrss:link>
-          <mlrss:summary>Anthropicは、Claudeを用いた自律的なタンパク質バインダー設計で27%のヒット率を達成したと発表した。従来の人手によるワークフローでの成功率(10〜15%程度)のおよそ2倍にあたる水準で、創薬プロセス初期段階の効率化とコスト削減につながる可能性があるとして注目されている。AIが実験計画から評価までを自律的に担うことで、これまで人手に頼っていた探索作業を大幅に加速できることを示す事例となった。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:35:03+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2fc98123e40ec5b157d03a087ef9c949c24c64e80fc3b34d7ec3949cbed5fd35" source-type="gmail" category="Other" anchor="true">
-          <mlrss:title>Google、破産した米スピリット航空のデータを1000万ドルで購入</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2fc98123e40ec5b1</mlrss:link>
-          <mlrss:summary>経営破綻した米格安航空会社スピリット航空の内部データを、Googleが破産オークションで1000万ドルで落札した。買収対象には匿名化された社内の業務記録やソフトウェア、社内コミュニケーションなどが含まれ、顧客の個人情報やクレジットカード情報は対象外とされている。AI採用スタートアップのMercorによる750万ドルの入札を上回っての落札で、破産法廷の承認を経て正式に成立する見通し。企業の業務履歴データがAI訓練の新たな資産になりつつあることを示す事例として話題を呼んでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T19:32:22+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:6a2167dbb1bb5a88b3c741378b73f375c1821a88630f6077895b429b0e6d7050" source-type="gmail" category="Other" anchor="true">
-          <mlrss:title>メモリ価格高騰「RAMageddon」— DDR5が過去最安値の10倍に</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6a2167dbb1bb5a88</mlrss:link>
-          <mlrss:summary>AI向け需要の急増を背景に、メモリ(DRAM)価格の高騰が続いている。128GBのDDR5メモリキットは過去最安値の10倍の水準に達し、DRAMは重量あたりの価値で金の半分以上に相当するとの指摘も出ている。大手クラウド事業者はすでに2027年分の世界的なDRAM生産能力の大半を前払いで確保したと報じられており、本来は価格低下をもたらすはずのムーアの法則がメモリ分野では事実上逆転している状況だという。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T17:44:52+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fbec936ce53764de620b5250de9a0e7c4e2ff191c1bcd6d838d70861a3515c99" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>OpenRouterがStripeに参加、AIモデル市場を統合</mlrss:title>
-          <mlrss:link>https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/</mlrss:link>
-          <mlrss:summary>AIモデルの利用を仲介するマーケットプレイス「OpenRouter」が、決済インフラ大手Stripeの傘下に入ることを発表した。OpenRouterは400以上のモデルを横断し、1日あたり10兆トークン超を処理、1000万人超の開発者に利用されているという。買収後もモデル間の中立性は維持し、ルーティングはユーザーにとって最適な選択を優先する方針を強調している。Stripeの決済・不正防止インフラと組み合わせることで、AI基盤としての成長を加速させる狙いがある。取引条件の詳細は非公開で、完了は今後数週間を見込む。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T17:32:38+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2f45027a66b7a24a804947608ffcdc29e44f6236384f437d98dc917bb204bbf3" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>テレンス・タオ氏、AI時代の数学のあり方を論考</mlrss:title>
-          <mlrss:link>https://arxiv.org/abs/2608.16753</mlrss:link>
-          <mlrss:summary>数学者テレンス・タオ氏が、AIが研究レベルの数学をこなせるようになった場合に数学界がどう向き合うべきかを論じた小論を発表した。AIに本当にそれができるかを議論する代わりに、その能力が実現するという前提を置いた上で、数学者が研究において本質的に何を大切にしているのかを問い直している。問題解決を題材に、単に解答を自動化するだけでは数学の営みの本質を見失うと指摘し、AIをどう位置づけるべきかについての議論を深める内容となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T15:14:25+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fba9f2b27b319a9376849ba3d351dd6c648f1a97e6e53dffa00d92f5d0cac610" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>ClaudeがGmail送信・Google Drive管理に直接対応</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fba9f2b27b319a93</mlrss:link>
-          <mlrss:summary>Claudeが、Gmailでのメール送信やGoogle Driveのファイル管理に直接対応する新機能を追加した。スレッドへの返信の下書き作成や送信をClaudeに任せられるようになり、どのタイミングでユーザーの承認を必要とするかも設定可能。コネクタメニューからGmailやGoogle Driveを接続することで、すべての有料プランで利用できる。実務でのメール処理やファイル整理の効率化が期待されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T07:34:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a71bfb84c3a325e7a63dc0c5ed601cebed6532e1c06f87012bc9e7224ab16af0" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>Etchedが7億ドル調達、評価額210億ドルでJane Streetに初出荷</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a71bfb84c3a325e7</mlrss:link>
-          <mlrss:summary>AI推論チップを手がけるEtchedが、Jane StreetやSequoiaなどから評価額210億ドルで新たに7億ドルを調達したと発表した。同時に、最初のAIクラスタシステムをJane Streetに出荷したことも明らかにした。Jane Streetは同システムの性能に強い手応えを得て、今回の大型調達を主導したとされる。専用AIチップ市場でのEtchedの存在感がさらに高まっている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T07:34:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:225498317e063f53ae2a14ea4cf482f3d6e80ab491820143fd3b3d56b943334d" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>OpenAI、10代向けChatGPTをグローバル展開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-225498317e063f53</mlrss:link>
-          <mlrss:summary>OpenAIが13〜17歳を対象とした専用版ChatGPTのグローバル展開を開始した。ユーザーが未成年と申告した場合や、システムが年齢を推定した場合に自動的に切り替わり、年齢に応じた安全対策や保護者による制限機能が有効になる。設定時間帯にはデフォルトで学習支援モードが起動し、宿題の答えをそのまま出す代わりに学びを促す設計になっているという。教育現場での適切な活用を後押しする狙いがある。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T07:34:39+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:bf8df43f4979aa41a929afcd3b0523b74076f52009fec79911bb27446d89e73c" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>Anthropic、Claudeの生成文章に電子透かしを導入</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-bf8df43f4979aa41</mlrss:link>
-          <mlrss:summary>AnthropicがClaudeの生成テキストに目に見えない電子透かしを埋め込み、生成ファイルには署名付きの来歴情報を付与する取り組みを開始した。8月2日に発効したEUのAI法が求める透明性ルールへの対応が主な狙いとされる。ただし透かしが検出されてもClaudeが書いた証明にはならず、検出されないことが人間の執筆を証明するものでもないため、AI生成物の判別論争を完全に解決するものではないと指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-19T01:33:42+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
