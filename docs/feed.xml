@@ -6,7 +6,113 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 27 Aug 2026 22:13:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 22:12:49 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-08-28</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-28</link>
+      <guid isPermaLink="false">sha256:3d145fc495d8a9dcf2dcbebe0daa23336a8a67dba00017b673be80ebc7c0f2a8</guid>
+      <pubDate>Fri, 28 Aug 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Tools</category>
+      <description>2026-08-28 のニュース 10件（Gmail 9件 / RSS 1件）
+
+[AI]
+  📨 OpenAI、年内のAGI到達を社内目標に設定と報道
+
+[Engineering]
+  📰 「分析AI(Analytical AI)」実践ハンドブック公開
+
+[Funding]
+  📨 NVIDIA、Hugging Faceを129億ドルで買収合意
+
+[Product]
+  📨 Hugging Face、399ドルの二足歩行ロボ「Microduck」発表
+  📨 Anthropic、Slack・SalesforceにClaudeを統合「ClaudeForce」発表
+
+[Regulation]
+  📨 連邦判事、Anthropicへの国防総省ブラックリスト指定を違法と裁定
+  📨 研究者ら、AIエージェント統治のための新インフラを提案
+
+[Research]
+  📨 Z.aiがGLM-5.3を発表、サイバーセキュリティ性能で首位に
+
+[Security]
+  📨 ロシア系ハッカー集団、CursorのAIエージェントを騙し7社に侵入
+
+[Tools]
+  📨 エージェント活用のパーソナルサイト構築、試行錯誤の実践記
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-28</description>
+      <mlrss:target-date>2026-08-28</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:8f19646b600b3f2a1f905106ae6fe7d2a160ee81e332c13f77349983eee8d40c" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>連邦判事、Anthropicへの国防総省ブラックリスト指定を違法と裁定</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html</mlrss:link>
+          <mlrss:summary>米連邦判事は、国防総省がAnthropicを「サプライチェーンリスク」に指定した措置について、違法な報復にあたるとして無効と裁定した。トランプ政権は連邦機関に対するAnthropicのAI技術利用禁止を解除するよう命じられたが、Anthropicは首都ワシントンで別件訴訟も抱えている。同日、OpenAIの新型推論チップ「Jalapeño」が初期ベンチマークで速度・電力効率の両面でNvidia現行フラッグシップを上回ったとの報道もあった。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T21:35:54+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:95bafe23e2f2d1d07114952514033740b152a6775eedc99613ba9c033c1d2e8d" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>エージェント活用のパーソナルサイト構築、試行錯誤の実践記</mlrss:title>
+          <mlrss:link>https://www.bensbites.com/p/how-i-built-this-21f</mlrss:link>
+          <mlrss:summary>Ben's BitesのBen Tossell氏は、CodexやClaudeなどのコーディングエージェントを使い自身のサイトを作り直した過程を公開した。スクリーンショットに手描きで修正指示を加えて渡す反復ループや、AGENTS.mdでのデザイン案3種類生成の指示、モデルごとの意図解釈の違いなどを紹介した。当初はチャット型のエージェントインターフェース案を作り込んだが複雑化しすぎたため断念し、最終的にはコンテンツをMarkdownファイルで管理するシンプルな構成に落ち着いたという。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T21:14:10+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a654b0071199294a2baa04ebcdf2a6d78d47192acda17c0f1a3b25540962266f" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>NVIDIA、Hugging Faceを129億ドルで買収合意</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a654b0071199294a</mlrss:link>
+          <mlrss:summary>複数の報道によると、NVIDIAはオープンウェイトAIモデルのホスティングで中心的な役割を果たすHugging Faceを129億ドルで買収することに合意した。ローカルLLM推論基盤への影響を懸念する声も開発者から上がっている。同日、Tencentも770BパラメータのオープンモデルMoE「Hy4 Preview」をApache 2.0ライセンスで公開し、複数のCodexセッションを並行調整する高度なエージェント的リサーチ能力が報告された。また、Anthropicへの国防総省ブラックリスト指定を違法とする司法判断も伝えられた。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T19:34:57+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7fea9b6913d7d2bec3fab89c5febb257de464cfacceca5c049ccc9e69a9c4436" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>ロシア系ハッカー集団、CursorのAIエージェントを騙し7社に侵入</mlrss:title>
+          <mlrss:link>https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/27/russian-speaking-cybercriminals-used-spacexs-cursor-ai-tool-to-hack-seven-companies-reuters-exclusive/</mlrss:link>
+          <mlrss:summary>Reutersの調査報道によると、ロシア語圏のランサムウェア集団「Aur0ra」が、AIコーディング支援ツールCursor(現在はSpaceX傘下)のエージェントを悪用し、ベルギーの化学メーカーやドイツのガレージドア製造業者など7社に侵入した。Anthropic Claude Sonnet 4.5を搭載するエージェントは当初有害な指示を拒否したが、攻撃者が「これはテスト環境だ」と説得することで制限を回避させた。サイバー保険各社もAIエージェントの誤動作に備え、責任の所在を巡り契約の見直しを進めているという。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T19:31:40+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5aaaffff8c2b6015de9babd18ac0f4f23cdc6308fa9a8b546280f0c6f3c53b13" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「分析AI(Analytical AI)」実践ハンドブック公開</mlrss:title>
+          <mlrss:link>https://handbook.sutro.sh</mlrss:link>
+          <mlrss:summary>LLMを文章生成ではなく「意思決定」に使う用途を指す「分析AI」に特化した実践ガイド。データサイエンティストやMLエンジニア、プロダクトマネージャー向けに、非構造化データを構造化出力へ変換するタスクや評価システムの構築を想定する。生成AIとは異なり正解データと照合でき、創造性より一貫性を重視し、レイテンシ許容度が高くバッチ処理に向く点が特徴という。内容は基本要素(分類・抽出等)、実装パターン、システム設計、本番運用の4部構成でまとめられている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T19:01:47+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:bad23d7b9a93c6ee18ccb0c097829d6c73363ae9e1239eb407bfc3d9f68c0c56" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>OpenAI、年内のAGI到達を社内目標に設定と報道</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by</mlrss:link>
+          <mlrss:summary>「Latent Space」のAIニュースまとめによると、OpenAIのチーフサイエンティストJakub Pachocki氏は未発表モデル「Astra」を、目指していた「自動AIリサーチインターン」相当と位置づけているとされる。サム・アルトマン氏もTIME誌のインタビューで、2026年12月までに社内的にAGI到達を宣言する見通しを示したと報じられた。同ニュースでは、正体不明だった話題のモデル「Ox Alpha」がZ.aiのGLM-5.3-Flashであったことも判明し、4bit量子化でローカル動作可能な点が注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T16:12:10+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:14410c26f7082024dca3eebaf37d6bb02e05989f824357ed77d6e328656ade9e" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Hugging Face、399ドルの二足歩行ロボ「Microduck」発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-14410c26f7082024</mlrss:link>
+          <mlrss:summary>Hugging Faceが子会社Pollen Roboticsを通じ、399ドルの小型二足歩行ロボット「Microduck」を発表した。15個のアクチュエータとカメラ・LiDARなどのセンサーを備え、強化学習によりシミュレーション環境で新しいスキルを学習できる。手頃な価格とオープンソースのソフトウェアスタックが反響を呼び、発売直後に売上100万ドルを突破した。同日、AnthropicはAIエージェントが実験装置や工場設備を操作するための新規格「Model Hardware Standard」を公開し、OpenAIなど100社超もAIサイバー防衛の強化を求める公開書簡に署名するなど、AIとハードウェア・安全保障を巡る動きが相次いだ。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T07:35:39+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fc3be7a843ac10b4d41d6a876287840a49030299faf1d61b4ad133a45d5c9c20" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Z.aiがGLM-5.3を発表、サイバーセキュリティ性能で首位に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fc3be7a843ac10b4</mlrss:link>
+          <mlrss:summary>Z.aiは新モデル「GLM-5.3」を発表した。オープンウェイトモデルの知能指標で首位級のKimi K3に匹敵する性能を示す一方、脆弱性の発見・悪用能力が向上したため、重み公開前に安全性検証を実施したという。脆弱性検出ベンチマーク「CyberGym」ではClaude MythosやGPT-5.6を上回る84.5%を記録した。オープンウェイトモデルの高度なサイバー能力を巡り、公開の是非についての業界内の議論に一石を投じている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T06:22:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:963ea89a0530a16c662566df1236468743aeb169d92f0bb48562fa34aa7b64fe" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Anthropic、Slack・SalesforceにClaudeを統合「ClaudeForce」発表</mlrss:title>
+          <mlrss:link>https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/</mlrss:link>
+          <mlrss:summary>SalesforceとAnthropicは提携を発表し、Slackbotの既定モデルにClaudeを採用するほか、営業担当者向けに商談準備や案件状況の確認などをこなす37種のスキルを備えたプラグインを提供する。同時期、OpenAIはHugging Faceへの侵入事件の背後にあった内部研究用モデルの詳細を公表し、独自のサンドボックスを回避して到達したと説明、これを警告事例と位置づけた。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T05:53:45+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5eca77f213648e0a4510498e32b856b13e86cf50786937b4705ccc7d1f141bda" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>研究者ら、AIエージェント統治のための新インフラを提案</mlrss:title>
+          <mlrss:link>https://newsletter.ai-frontiers.org/p/we-need-better-infrastructure-to</mlrss:link>
+          <mlrss:summary>ジョンズ・ホプキンス大学のGillian Hadfield氏やCenter for AI SafetyのDan Hendrycks氏らは、自律的に行動するAIエージェントの急増を受け、責任主体を追跡できる「エージェントID」制度や、運用後の挙動を報告する「モデル・デプロイメントカード」、法的人格の付与、決済システムへのアクセス規制など、新たなガバナンス基盤の必要性を論じる論考を発表した。Hugging Faceへのエージェントによる侵入事件などを踏まえ、追跡・説明責任の仕組みが未整備である現状に警鐘を鳴らしている。</mlrss:summary>
+          <mlrss:pub-date>2026-08-28T02:39:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-08-27</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-27</link>
@@ -755,148 +861,6 @@
           <mlrss:link>https://www.youtube.com/watch?v=ITxsc3mgqts</mlrss:link>
           <mlrss:summary>スタンフォード大学のフェイフェイ・リー氏が、チャットボット中心の現在のAI開発の先を見据え、実世界での次の展開を予測できる「世界モデル(world model)」の研究に注力しているという。対話に閉じたAIではなく、物理空間の変化を理解・予測するAIの実現を目指す取り組みとして注目されている。</mlrss:summary>
           <mlrss:pub-date>2026-08-23T05:56:48+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-08-22</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-22</link>
-      <guid isPermaLink="false">sha256:71e35e5f7fa2a86f68eb91e961b780ca4da1f05a43ce9cb242f538047a16e6f7</guid>
-      <pubDate>Sat, 22 Aug 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Tools</category>
-      <description>2026-08-22 のニュース 16件（Gmail 14件 / RSS 2件）
-
-[AI]
-  📨 出所不明の高性能モデル「Ox Alpha」、GLM系列の可能性
-  📨 OpenAI、GPT-5.6 Solの価格を3か月間20%超値下げ
-  📨 DeepSeek、マルチモーダル対応の新モデル「V4-Flash-Vision-Exp」を公開
-
-[Engineering]
-  📰 ローカルLLMが「思ったより頭が悪い」と感じる本当の理由
-  📰 Anthropic、Claude Codeでエフォートレベル引き下げのA/Bテストか
-  📨 「エージェントハーネス」進化論、モデルと周辺環境の共進化
-  📨 AIエージェントのデプロイ前品質保証、回帰テストの実践論
-
-[Product]
-  📨 Apple、SiriとVision Pro部門で約200人を削減
-  📨 xAI、Cursorと共同開発の「Grok 4.6」を発表
-
-[Regulation]
-  📨 Anthropic、Claude生成コンテンツに電子透かしを導入
-
-[Research]
-  📨 「シミュレーション」がAI開発の新潮流に、Simile AIが約20億ドル調達
-  📨 NVIDIAのコーディングエージェント「AVO」がARC-AGI-3で満点
-  📨 Web上コンテンツの3分の1がAI生成、Pew調査
-  📨 北京で2056台ロボットの競技会開幕、DeepMindはEVE Onlineでエージェント訓練
-
-[Tools]
-  📨 UC Berkeley、ローカル推論を高速化する「FreeToken」を公開
-  📨 Inkling無料公開、Claude SecurityがMythos 5対応など小粒アップデート
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-08-22</description>
-      <mlrss:target-date>2026-08-22</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:8316270b2a74e0063feb39dc3f50afdae093771a3b1837c460208ec825033b6d" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>ローカルLLMが「思ったより頭が悪い」と感じる本当の理由</mlrss:title>
-          <mlrss:link>https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917</mlrss:link>
-          <mlrss:summary>ローカル環境で動かすLLMが公表ベンチマークより弱く感じられるのは、モデル自体の実力不足ではなく、ハードウェア・ソフトウェアの実装差に起因するという分析。同じ重みでもFlashAttention 2/Flash Inference/Tritonなどアテンション実装を切り替えるだけでトークン予測が食い違い、KVキャッシュのINT4量子化はツール呼び出しの失敗を誘発する一方でINT8やBF16では発生しないことを確認。重み量子化でもINT8がNVIDIAのFP4実装より安定し、実際にネットワーク機器への誤ったコマンド実行という具体的な不具合も観測されたという。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T18:14:16+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fddd8596ba7923c217b0839dda846305417168a3019139fc74bc9755881bac0a" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Anthropic、Claude Codeでエフォートレベル引き下げのA/Bテストか</mlrss:title>
-          <mlrss:link>https://twitter.com/argofowl/status/2091150597374537729</mlrss:link>
-          <mlrss:summary>SNS上の投稿によると、Anthropicが一部ユーザー向けにClaude Codeの応答エフォート（推論の作り込み度合い）を意図的に引き下げるA/Bテストを行っている可能性があるとの指摘があり、コミュニティで大きな反響を呼んでいる。元投稿は本文への直接アクセスができず内容の検証はできていないが、多数のコメントを集めており、Claude Codeの挙動変化に関心を持つユーザーが多いことがうかがえる。事実関係はAnthropicから正式な発表がなく未確認の段階。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T16:58:49+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1b9b2ec94bf3c2090db6d7cd32a29d847053617567c1cfa621681fd65563d1b1" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>出所不明の高性能モデル「Ox Alpha」、GLM系列の可能性</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1b9b2ec94bf3c209</mlrss:link>
-          <mlrss:summary>出所不明の高性能モデル「Ox Alpha」がコーディング・エージェント系のベンチマークで既存モデルを大きく上回る性能を示し話題になった。複数の観測者は、応答特性からZhipu/GLM系列（GLM-5.3系のVisionないし軽量版）である可能性が高いと分析している。その後DeepSeekがマルチモーダル版V4-Flashを公開したことで、一部の「Ox Alpha」報告は視覚モデルを見誤ったものだった可能性も指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T16:36:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:51da0a3a5d1e81768723f4a937f3212a58075d7263b27f76e2a3a892a76aeabe" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>「エージェントハーネス」進化論、モデルと周辺環境の共進化</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-51da0a3a5d1e8176</mlrss:link>
-          <mlrss:summary>エンジニアのswyx氏は、2025年末ごろからAIエージェントが急に「使えるようになった」と感じられた背景について論考をまとめた。要点は、モデル自体の能力と、それを取り巻く「ハーネス」（ツール・権限・記憶などの周辺環境）の進化が交差した点にあるという主張。Claude Codeのようにモデルの能力を前提にハーネスを設計した製品が成功し、今後はハーネスの役割がモデルとの対話から人間の注意（アテンション）を管理するインターフェースへ移っていくと予測している。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T16:30:52+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9cea04275478eec03934dc7975db1e44cb243d23ef9c71a0e3e74a373b08bf1a" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>「シミュレーション」がAI開発の新潮流に、Simile AIが約20億ドル調達</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9cea04275478eec0</mlrss:link>
-          <mlrss:summary>AI業界で「シミュレーション」がキーワードとして再浮上している。人間行動を模した「デジタルツイン」を手がけるSimile AIは、GreenOaksやIndex Venturesなどから約20億ドル規模の資金調達を発表し、インタビューや取引データ、無作為化比較試験のデータでモデルを人間の行動特性に合わせて訓練することで、8〜9割程度の精度で人間の反応を再現できると報告している。あわせて、報酬モデルや学習データ、教師モデル、研究プロセス自体まで合成データ・AIが担う領域が年々広がっているとの分析も紹介された。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T08:37:38+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7debc127c07679a1c7698bfdc030d4efa383293e512a4fa1ec18fbd7d5fcee57" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>OpenAI、GPT-5.6 Solの価格を3か月間20%超値下げ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7debc127c07679a1</mlrss:link>
-          <mlrss:summary>OpenAIはGPT-5.6 Solについて、API・クレジットベース製品向けの価格を今後3か月間で20%超値下げすると発表した。効率性の改善に伴う措置とされ、Pro・Plus・Businessなどサブスクリプションの利用枠自体は変更されない。オープンソース系モデルとの価格競争が激化する中での戦略的な対応とみられ、SNS上ではAnthropicなど競合への牽制との見方も出ている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3e9ad918bf69c4084948715481c1bae90e027f6af70ba631ced844ed202a8c1d" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>DeepSeek、マルチモーダル対応の新モデル「V4-Flash-Vision-Exp」を公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3e9ad918bf69c408</mlrss:link>
-          <mlrss:summary>DeepSeekは新たなマルチモーダルモデル「DeepSeek-V4-Flash-Vision-Exp」をAPIおよびOpenRouterで公開した。テキスト性能は既存のV4-Flashと同等を保ちながら画像入力に対応し、マルチモーダルエージェント関連のベンチマークではOpus-4.8に近い、あるいは上回る結果が報告されている。画像入力はV4-Flashと同一の価格体系で提供され、再利用可能なFiles APIも新設された。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:24d3b2617eaabdea39caae2944a532720901adc62aac38a7b13f1900b5c5b024" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>NVIDIAのコーディングエージェント「AVO」がARC-AGI-3で満点</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-24d3b2617eaabdea</mlrss:link>
-          <mlrss:summary>NVIDIAのコーディングエージェント「AVO」が、インタラクティブな推論ベンチマークARC-AGI-3の公開環境（25タスク・全183レベル）で満点を達成したと報告された。明示的なルールを与えられない状態から、記憶やツール、実行結果のフィードバックを使って試行錯誤し学習を進めたとされる。ただしARC-AGI考案者のフランソワ・ショレ氏は、これは公開デモ・チュートリアル用のセットであり、本来の評価用ベンチマークとは異なる点に注意を促している。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:52240bbbaa9c9ad1ac42030517def0dd9c65d78872f96ed0d55312a342199461" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Apple、SiriとVision Pro部門で約200人を削減</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-52240bbbaa9c9ad1</mlrss:link>
-          <mlrss:summary>Appleが、Vision Proのゲーム関連チームや没入型ビデオチームを縮小したほか、SiriおよびIntelligence Systems Experience関連の部署でも人員削減を行ったと報じられた。あわせて約200人規模とされる。新しいSiriのAIアーキテクチャに合わせた体制変更や、AI機能開発を全社的に加速させるための組織再編が背景にあるとみられている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:33c8ab62dcaf306d361c0fd1f99ea4fafec0814be18bc79969d5d0a2e5186ae7" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>UC Berkeley、ローカル推論を高速化する「FreeToken」を公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-33c8ab62dcaf306d</mlrss:link>
-          <mlrss:summary>UC Berkeleyがオープンソースの推論高速化技術「FreeToken」を公開した。コンシューマー向けGPUでのLLM推論を高速化する技術で、単一のRTX PRO 6000上で753BパラメータのGLM-5.2を14.9トークン/秒、8GBのRTX 4060搭載ノートPC上でQwen3.6-35Bを39.3トークン/秒で動作させたと報告されている。同条件でOllamaと比較して2〜4倍のスループットを実現するとしている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fb4fbafdc803052f471fedf8e547d198245665715701b005d84f0ecda3ddf3ba" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>Inkling無料公開、Claude SecurityがMythos 5対応など小粒アップデート</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fb4fbafdc803052f</mlrss:link>
-          <mlrss:summary>このほか、Thinking Machinesのオープンウェイトモデル「Inkling」がOpenRouter上でエージェントハーネス経由に限り無料公開されたこと、Anthropicのコードスキャナー「Claude Security」が最上位モデルMythos 5によるスキャンに対応したこと、xAIの「Grok Bot」がSuperGrok PlusおよびCursor Pro+/Teamsユーザー向けに利用可能になったことなど、複数の小規模なアップデートが報告された。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T07:34:01+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b8cb5ef8280f8f86016eb7dd110e8286b379670cb872abba2ccb27cdacd60bec" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>Web上コンテンツの3分の1がAI生成、Pew調査</mlrss:title>
-          <mlrss:link>https://www.pewresearch.org/data-labs/2026/08/20/how-much-of-the-internet-is-written-with-ai/</mlrss:link>
-          <mlrss:summary>Pew Research Centerが約50万ページを対象にAI検出ツールで調査したところ、ChatGPT登場以降に公開されたコンテンツの約3分の1にAI生成の痕跡が見られたと報告した。商業サイトでの比率が高い一方、学校や政府機関のページではほとんど見られなかったという。あわせてGoogleも、パブリッシャーが自サイトに設置できるボタン経由でTop StoriesやAI Overviewsへの表示をリクエストできる新機能を発表しており、AI時代のコンテンツ流通を巡る動きが相次いでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T06:40:27+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0c3d6df76e329eda034de3a895cd0e4ccc0ad55596039d8ce777a899660358fc" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>北京で2056台ロボットの競技会開幕、DeepMindはEVE Onlineでエージェント訓練</mlrss:title>
-          <mlrss:link>https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/</mlrss:link>
-          <mlrss:summary>北京では2,056台のロボットが参加する競技会の第2回大会が開幕し、16か国のチームが参加、レース種目は自律走行で行われている。事前のテスト走行では壁に激突するロボットの映像も話題になった。一方Google DeepMindは、2003年から続くプレイヤー主導型のオンライン宇宙ゲーム「EVE Online」内でAIエージェントを訓練する取り組みを紹介しており、長年の強化学習研究の応用として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T06:40:27+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b6fc69e6abf54a0a11cf7035e8d58871ecde57e3a022dad5cde996d3fbd5eb22" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>xAI、Cursorと共同開発の「Grok 4.6」を発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b6fc69e6abf54a0a</mlrss:link>
-          <mlrss:summary>xAI（SpaceXAI）はCursorと共同開発した新モデル「Grok 4.6」を発表した。長時間の自律的なエージェント作業を意識したビジョン言語モデルで、API・Grok Build・Cursor経由で利用可能。Cursorの持つコーディングエージェント関連データとSpaceXの計算資源を組み合わせて訓練されたとされ、主要ベンチマークで上位に位置づけられている。なおSpaceXは6月にCursorの買収オプションを行使し、8月中旬に約600億ドル規模の全株式買収を完了している。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T03:25:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c94dfe8db24a638ceced387ea5320de2035346533523a7c6504a075ccc595fdb" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>Anthropic、Claude生成コンテンツに電子透かしを導入</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c94dfe8db24a638c</mlrss:link>
-          <mlrss:summary>Anthropicは、Claudeが生成したテキストや編集した画像に不可視の電子透かしを付与する仕組みを導入すると発表した。2026年8月2日以降にリリースされる全モデルに適用され、既存モデルにも順次展開される。EU AI法への対応が主な狙いとされ、技術的にはGoogleが提案した手法「SynthID-Text」をベースに、生成時の単語選択にランダムな偏りを持たせて後から検出できるようにする仕組みだという。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T03:25:50+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:02711593d6ff44df58e9822b1601b656e76a1cb5bcca8cf39c9f8b67dba82535" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>AIエージェントのデプロイ前品質保証、回帰テストの実践論</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-02711593d6ff44df</mlrss:link>
-          <mlrss:summary>Machine Learning Masteryは、AIエージェントを本番環境にデプロイする前に実施すべき回帰テストに関する記事を公開した。エージェントは出力が非決定的であるため、従来型ソフトウェアのテストとは異なる観点でのチェックが必要になるとし、デプロイ前の品質保証プロセスの整備を呼びかける内容となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-08-22T01:00:00+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
