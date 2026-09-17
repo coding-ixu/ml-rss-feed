@@ -6,7 +6,57 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Wed, 16 Sep 2026 22:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 22:08:26 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-09-17</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-17</link>
+      <guid isPermaLink="false">sha256:dcee8217caec9128585c0110475f6b1468f0c38b345a4c34bdfbd293d666b9dd</guid>
+      <pubDate>Thu, 17 Sep 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <description>2026-09-17 のニュース 5件（Gmail 0件 / RSS 5件）
+
+[Engineering]
+  📰 Bend――証明でAIのミスを防ぐプログラミング言語、GPU実行にも対応
+  📰 Zettascale、ASI向けチップ開発のためASIC/FPGAエンジニアを募集
+  📰 Skillsync、AIチャットセッションをエージェント間で持ち運び可能にするツールを発表（YC W26）
+  📰 「mysetup.ai」、エンジニアがAIツールの構成を共有し学び合うコミュニティサイトが公開
+  📰 z.ai（GLM）、自社の推論インフラをどう構築したかを解説する記事を公開
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-17</description>
+      <mlrss:target-date>2026-09-17</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:408b719f592be37a0ada5fb8235e9285437f7b6c5204a65d3dabdc78bd0d1cb2" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Bend――証明でAIのミスを防ぐプログラミング言語、GPU実行にも対応</mlrss:title>
+          <mlrss:link>https://bend-lang.com/</mlrss:link>
+          <mlrss:summary>AIエージェント向けに設計された新言語「Bend」が公開された。型チェッカーが証明チェッカーとして機能し、コンパイルは常に1秒以内で完了するため、AIエージェントがコード変更後すぐに検証できる。スレッドやロックを使わずに処理を自動的に複数コアやGPUへ分散でき、C言語並みの速度でネイティブコードにコンパイルされる。最大の特徴は「LAWS.bend」でルールを宣言し、AIがそのルールを数学的に証明できない限りコードをマージできない仕組みで、禁止された挙動を実装しようとするとコンパイル時にブロックされる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T20:36:13+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1ef744ac7f1075630fb45a93b1ca519c55a9436916ce25ac53fa94ca5e0b57db" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Zettascale、ASI向けチップ開発のためASIC/FPGAエンジニアを募集</mlrss:title>
+          <mlrss:link>https://zscc.ai/careers?job_id=109821</mlrss:link>
+          <mlrss:summary>YC出身のスタートアップZettascaleが、AI向けの独自シリコンチップ「XPU」を開発するASIC/FPGAエンジニアの採用を進めている。同社は「再帰的自己改善と超知性のためのAIシリコン」を掲げ、フロンティア級のAIモデルをより少ない消費電力で推論・学習の両方に対応させることを目指すチップを設計しているという。サンフランシスコを拠点とし、優れた人材であればポートフォリオでの応募も受け付けている。具体的な職務内容の詳細は公開ページには記載されていない。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T17:00:59+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c64fb842766901395d45020f907ab49dd2535fcc45ee210f8ee0c077d5652b20" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Skillsync、AIチャットセッションをエージェント間で持ち運び可能にするツールを発表（YC W26）</mlrss:title>
+          <mlrss:link>https://news.ycombinator.com/item?id=49743049</mlrss:link>
+          <mlrss:summary>YC W26採択のSkillsyncは、Claude CodeやCursor、Codexなど異なるコーディングエージェント間でAIとの会話履歴を移動・共有できるサービスを公開した。エージェントごとに保存形式が異なるため、あるツールで積み上げた会話を別のツールで続けられないという課題を解決する狙い。メッセージだけでなく推論過程やツール呼び出しも含めてセッション全体を移行でき、散在するセッションを一元管理・検索することも可能になる。オープンソースのRustエンジン「txcript」がセッション形式の変換を担い、チーム内での共有機能も備える。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T16:22:15+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:78e98f8e8559207f956103789e4f0f44a3e7946c524bd3ff46fa41e9c14455ce" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「mysetup.ai」、エンジニアがAIツールの構成を共有し学び合うコミュニティサイトが公開</mlrss:title>
+          <mlrss:link>https://mysetup.ai/</mlrss:link>
+          <mlrss:summary>開発者やビルダーが自分のAIツール・エージェント・ワークフローの構成を投稿し、互いに参考にし合うためのコミュニティサイト「mysetup.ai」が公開された。SNS上に散らばっていた「どのエージェントを使っているか」「どんなツールを試して定着させたか」といった情報を一箇所に集約し、閲覧・検索できるようにする狙い。作成者自身もAIセットアップの最適解を模索している最中であり、完成された知見を発信する場ではなく、利用者同士が試行錯誤を共有し合うことを目指しているという。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T13:01:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:97a9dc461670a6311bed392073749286d5db4a09f4a016e371cb372f32020e06" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>z.ai（GLM）、自社の推論インフラをどう構築したかを解説する記事を公開</mlrss:title>
+          <mlrss:link>https://z.ai/blog/glm-built-its-inference-infrastructure</mlrss:link>
+          <mlrss:summary>中国のAI企業z.ai（GLMモデルシリーズの開発元）が、自社の大規模言語モデル向け推論インフラをどのように構築したかを紹介するブログ記事を公開した。Hacker News上で343ポイント・252コメントを集めるなど注目を集めている。本文はJavaScriptレンダリングのため自動取得できず具体的な技術詳細は確認できなかったが、タイトルから推論基盤の設計・運用に関する知見を扱った記事とみられる。詳細は元記事を参照されたい。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T08:27:09+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-09-16</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-16</link>
@@ -680,168 +730,6 @@
           <mlrss:link>https://www.youtube.com/watch?v=IDy2SxjMOFM</mlrss:link>
           <mlrss:summary>NVIDIAのジェンスン・フアン氏は、AIが働き方を再編し各国の経済を支え、人々がより野心的な取り組みに時間を割けるようにすると語り、AIがもたらす「次の産業革命」について語った。同時期に公開されたOpenAI社長Greg Brockman氏の動画では、同社の内部的な成長の課題やAGI実現への道筋、チャットボットの先にある展望が振り返られている。</mlrss:summary>
           <mlrss:pub-date>2026-09-12T01:13:05+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-09-11</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-11</link>
-      <guid isPermaLink="false">sha256:be1f77589522ea7aa6e3143ea1da25d4de07ba09695743612d979a154dd85166</guid>
-      <pubDate>Fri, 11 Sep 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Tools</category>
-      <description>2026-09-11 のニュース 18件（Gmail 15件 / RSS 3件）
-
-[AI]
-  📨 OpenAI、最先端AI開発のペースダウンを検討
-
-[Engineering]
-  📰 数学分野におけるAIの『ミスアライメント』
-  📰 Zep AI（YC W24）、Forward Deployed Engineering責任者を募集
-  📨 複数のAIコーディングエージェントを使い倒したデザインツール開発記
-  📰 Claude、18歳未満向けの年齢確認の仕組みを説明
-  📨 Cursor、長期タスク向け新機能「Projects」を発表
-
-[Funding]
-  📨 SpaceX、月額11億ドル超のAIホスティング契約を締結
-  📨 Microsoft、データセンター容量を2032年までに3倍超に拡大へ
-
-[Product]
-  📨 ユニバーサルミュージックとElevenLabsがAIリミックス基盤で提携
-  📨 OpenAI、ChatGPT Proの新規登録を一時停止
-  📨 OpenAI、金融機関向け「ChatGPT for Financial Services」を発表
-
-[Regulation]
-  📨 カリフォルニア州、SNSの依存誘発機能を禁止する法律成立
-
-[Research]
-  📨 OpenAI、ミレニアム懸賞問題でさらなる進展
-
-[Security]
-  📨 Anthropic、Claudeの悪用事例を詳述した脅威レポートを公開
-  📨 中国AI企業、米国製AIモデルの模倣・蒸留が発覚
-
-[Tools]
-  📨 OpenAI、クラウドAIエージェント構築用「Agents API」を公開ベータ提供
-  📨 OpenAI、双方向音声API「GPT-Live-1」を一般提供開始
-  📨 DeepSeek、視覚対応の新モデル「V4.1 Flash」を公開
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-11</description>
-      <mlrss:target-date>2026-09-11</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:1401a5946f68e97c11f4207587834ac641fb04d63beb1293eb3c024171635820" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>数学分野におけるAIの『ミスアライメント』</mlrss:title>
-          <mlrss:link>https://mathandai.org/</mlrss:link>
-          <mlrss:summary>Hacker Newsで427ポイント・487コメントを集めた記事「A misalignment of AI in mathematics」の紹介。AIモデルが数学の問題を扱う際に生じる、人間の意図や厳密性とのズレ（ミスアライメント）を論じているとみられる。本文の取得に失敗したため詳細は未確認だが、AIによる証明や計算の信頼性を巡る議論として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T17:45:12+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:29edf2943d2019b227231f653135ace0d488c244e986198c94593ae22cbf0437" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Zep AI（YC W24）、Forward Deployed Engineering責任者を募集</mlrss:title>
-          <mlrss:link>https://www.getzep.com/careers/</mlrss:link>
-          <mlrss:summary>AIエージェント向けの記憶基盤「Context Lake」を提供するZep AIが、企業導入を主導する「Head of Forward Deployed Engineering」を募集している。SamsungやZscalerなどの大企業に対し、エージェントが複数の会話をまたいで文脈を参照できる仕組みを提供しており、200ミリ秒以内で数百万件のコンテキストグラフを処理しているという。年俸22万〜27万ドルに加え株式1.20〜1.75%を提示している。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T17:00:17+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c2727cf5fcd9e39996f01782e9eafaac78184072bc4f318fd97bacdf962bbab0" source-type="gmail" category="Engineering" anchor="false">
-          <mlrss:title>複数のAIコーディングエージェントを使い倒したデザインツール開発記</mlrss:title>
-          <mlrss:link>https://www.bensbites.com/p/telling-ai-to-design-is-hard</mlrss:link>
-          <mlrss:summary>「Ben's Bites」の著者は、デザイン初心者でも好みのUIスタイルを選ぶだけでAIエージェント向けの指示文を生成できるツール「Design Words」を開発した経緯を公開した。Fable、Droid、GLMなど複数のAIモデル・エージェントを使い分けてプロトタイピングから本番構築まで進めた過程を紹介しており、2日間で116回のプロンプトと数億トークンを費やしたという。AIエージェントを使った個人開発の実例として参考になる内容。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T13:07:27+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:842c142e772b609e21da5ea19a9f543c1aac3d5d89d382c05a9dc0f6c1885687" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>カリフォルニア州、SNSの依存誘発機能を禁止する法律成立</mlrss:title>
-          <mlrss:link>https://www.reuters.com/legal/litigation/california-enacts-new-curbs-social-media-children-2026-09-11/</mlrss:link>
-          <mlrss:summary>カリフォルニア州で、16歳未満を対象に無限スクロールや自動再生といった依存を誘発するSNS機能を禁止する法律が成立した。米国でこの種の規制としては初めてとされる。あわせてAIコンパニオン・チャットボットに関する新たなルールも盛り込まれており、未成年者とAIチャットボットとの関わり方について規制の枠組みを設ける動きとして注目されている。ギャビン・ニューサム州知事が署名した。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T12:03:54+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7c248d1b0b597948b6527b74bd12742505836a71ce4d10ffe91673610e45f953" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Claude、18歳未満向けの年齢確認の仕組みを説明</mlrss:title>
-          <mlrss:link>https://support.claude.com/en/articles/15171100-age-assurance-on-claude</mlrss:link>
-          <mlrss:summary>Anthropicは、Claudeの一般消費者向け製品が18歳以上のみ利用可能であることを定めたサポート記事を公開した。未成年の利用が疑われる場合は年齢確認を求め、該当が確認されたアカウントは利用停止となる。確認方法には自撮りによる年齢推定、身分証明書の確認、YotiのデジタルID連携があり、Anthropicは身分証や画像自体を受け取らず合否結果のみを受領するとしている。生体情報や書類データはYoti側で検証後直ちに削除される。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:48:00+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f4d56e6e6e7f87a4a799ac49ef2869607f36cbba30f810230475105b807e2dc4" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>OpenAI、最先端AI開発のペースダウンを検討</mlrss:title>
-          <mlrss:link>https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff</mlrss:link>
-          <mlrss:summary>OpenAIのサム・アルトマンCEOは全社集会で、最先端AIモデルの開発ペースを落とす可能性に言及した。他のAI研究所とも協調してペースダウンを図りたい考えを示したが、一部の企業は同調しない可能性もあるとした。AIの進化速度への懸念が背景にあるとみられる一方、実際に開発を減速するかは不透明だとする声も出ている。同時期にOpenAIは電力会社へのサイバー防衛提案など、需要増への対応も並行して進めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:36:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cc18b59d01e59dea0e0ccb8c182b6f1e9e51a7e958dbf64731bf67644df690c2" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>OpenAI、クラウドAIエージェント構築用「Agents API」を公開ベータ提供</mlrss:title>
-          <mlrss:link>https://openai.com/index/introducing-the-agents-api/</mlrss:link>
-          <mlrss:summary>OpenAIは、Codexのハーネスを利用したクラウドエージェントを構築・実行できる「Agents API」を公開ベータとしてリリースした。オーケストレーションや長時間実行セッション、コンテキスト管理をOpenAI側がフルマネージドで提供し、開発者が自前で実行環境を用意する必要がなくなる。ChatGPT Workの内部基盤と同じ仕組みをAPIとして外部提供する形で、数分で利用を始められるという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:36:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:e8b92fd15a774fc1f488b05e629d62eb73a55d42ba13785909c985f0512c1e25" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Cursor、長期タスク向け新機能「Projects」を発表</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-e8b92fd15a774fc1</mlrss:link>
-          <mlrss:summary>AIコードエディタのCursorは、数ヶ月単位の長期タスクに対応する新機能「Projects」を発表した。タスクごとにチャットを作り直すのではなく、単一の永続スレッド上でコーディネーターとなるエージェントが多数のサブエージェントにタスクを委任し、反復作業を自律的に進められる。長期にわたるプロジェクトの文脈を保持したまま開発を継続できる点が特徴で、開発者コミュニティから歓迎の声が上がっている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:36:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2123958c7ebd72720ab18a7eaab71dabe966b52446afb9f0db425735ba37a4c5" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>SpaceX、月額11億ドル超のAIホスティング契約を締結</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2123958c7ebd7272</mlrss:link>
-          <mlrss:summary>SpaceXは、2026年12月1日開始予定の月額約11億1000万ドル規模のAIホスティング契約を締結したことをCFOが明らかにした。契約は今月初めに署名されたが、相手企業の名前は公表されておらず、Microsoftではないかとの臆測がSNS上で飛び交っている。AIインフラをめぐる大規模な投資契約として業界の注目を集めており、計算資源への旺盛な需要を裏付ける事例とみられている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:36:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:43b7af91224dc94b4578939bd9d38bac837fb1864635ee37e83068ac861ec9b4" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>Microsoft、データセンター容量を2032年までに3倍超に拡大へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-43b7af91224dc94b</mlrss:link>
-          <mlrss:summary>Microsoftは、AIとクラウドサービスの需要増に対応するため、2032年までにデータセンターの総容量を現在の約12ギガワットから38ギガワット超へと拡大する計画を明らかにした。これまで計算資源の不足によりAIやクラウド事業の受注を断らざるを得ない場面があったとされ、今回の拡大計画はそうした機会損失の解消を狙ったものとみられる。AIインフラへの投資拡大が続いていることを示す動きの一つ。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:36:28+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2df65b9e6d75e7a04b87f99f07ae2f135b80c5965e993149b4d2b345ecc22e35" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>OpenAI、ミレニアム懸賞問題でさらなる進展</mlrss:title>
-          <mlrss:link>https://openai.com/index/navier-stokes-solution/</mlrss:link>
-          <mlrss:summary>OpenAIは、ナビエ-ストークス方程式に関する提案解とLean形式証明を公表したのに続き、別のミレニアム懸賞問題でも「実質的な進展」があったと明らかにした。約1万体のエージェントを88時間協調させ、複数の証明アプローチを並行探索・検証する手法を採用したという。対象問題は未公表だが、ホッジ予想との観測筋の見方もある。今後は外部数学者による独立検証や形式検証の有無が、成果の信頼性を左右する見通し。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:31:39+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:94954844779f13d69b427c5a5c705cfc24ab523f472275992b15f0ab674603cc" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>ユニバーサルミュージックとElevenLabsがAIリミックス基盤で提携</mlrss:title>
-          <mlrss:link>https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai</mlrss:link>
-          <mlrss:summary>ユニバーサルミュージックグループは、AI音声モデルのElevenLabsと提携し、アーティストの許諾のもとファンが楽曲をリミックスできるライセンス済みAIプラットフォームの開発を進めていると明らかにした。開発中の段階だが、著作権に配慮しつつリミックス文化を一般ユーザーにも広げる狙いがある。同時期には音楽生成AIのSunoも新バージョン「v6」を発表し、旧版比で高速・高精度な楽曲編集機能を打ち出している。</mlrss:summary>
-          <mlrss:pub-date>2026-09-11T10:31:39+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ae5f891e8c2b3c9c2d1afab05420b02fafaa881636b023718be9dc68031edf90" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Anthropic、Claudeの悪用事例を詳述した脅威レポートを公開</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/threat-intelligence-report-september-2026</mlrss:link>
-          <mlrss:summary>Anthropicは、Claudeがサイバー攻撃・監視・影響力工作・生物兵器開発の研究支援などに悪用されそうになった事例をまとめた脅威インテリジェンスレポートを公開した。生物兵器関連では5件の計画を阻止したと説明し、ロシア系グループによるウクライナ攻撃の自動化や、政府機関による監視目的での利用も明らかにした。レポートに記載された事案はすべて対処済みとしており、AI悪用への透明性の高い情報開示として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T22:34:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:897d6eebb27f2cef2d9f3bf2df146d66973159f8cb6b972a7d91b6432b88c394" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>中国AI企業、米国製AIモデルの模倣・蒸留が発覚</mlrss:title>
-          <mlrss:link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a</mlrss:link>
-          <mlrss:summary>Anthropicの脅威レポートにより、中国のAlibabaが1億5000万回超、Moonshot AIが2300万回超にわたりClaudeへのリクエストを密かに転送し、自社モデルの応答として偽装していたことが判明した。米当局も別途、複数の中国AI企業が米国製モデルを不正に模倣・学習に利用したとする勧告を公表している。フロンティアモデルの成果を不正に取り込む「蒸留」行為の規模の大きさが、業界の倫理的課題として改めて浮き彫りになった。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T22:34:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fca26128f6458cf1df71dbd33f60bd068d52e8d7d5034669575c1c3e4ecd9c5c" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>OpenAI、ChatGPT Proの新規登録を一時停止</mlrss:title>
-          <mlrss:link>https://x.com/thsottiaux/status/2098113585683808624</mlrss:link>
-          <mlrss:summary>OpenAIは、最新モデル「GPT-6 Astra」への需要急増を受け、月額200ドルのChatGPT Proプランの新規登録を一時的に停止した。既存ユーザーの利用には影響しないとしている。開発チームは、Proがシステムに最も負荷をかけるプランであるため、幅広いアクセスを維持しつつ負荷を抑えるための最小限の措置だと説明した。再開時期は明らかにされておらず、GPT-6 Astraへの需要の高さが改めて浮き彫りになった。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T22:34:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:586075025ea00db93434dedbc1216935c59ea59647f6a94620e024317e9ee9ca" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>OpenAI、双方向音声API「GPT-Live-1」を一般提供開始</mlrss:title>
-          <mlrss:link>https://openai.com/index/introducing-gpt-live-1-in-the-api/</mlrss:link>
-          <mlrss:summary>OpenAIは、ChatGPT音声機能を支える双方向音声モデル「GPT-Live-1」をAPIとして一般提供開始した。料金は1分あたり0.05ドルで、話しながら聞く、発話中の割り込みや背景ノイズへの対応、トーンや話速の調整、他モデルへの推論やツール利用の受け渡しなどが可能という。すでに10億人規模のユーザーに提供してきた音声基盤と同じ仕組みで、開発者は音声エージェントの構築や既存アプリへの音声機能組み込みに活用できる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T22:34:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:b4ea4a08b91dc63a6a03a124c02a0a4a23c7a004aeeadeacc8bc32037b1b2a84" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>OpenAI、金融機関向け「ChatGPT for Financial Services」を発表</mlrss:title>
-          <mlrss:link>https://openai.com/index/introducing-chatgpt-financial-services/</mlrss:link>
-          <mlrss:summary>OpenAIは、投資銀行やリサーチチーム向けに特化した「ChatGPT for Financial Services」を発表した。最新モデルGPT-6 Astraの推論能力に、組み込みの金融データや引用機能、財務モデリング向けワークフローを組み合わせている。リサーチ資料や顧客向け資料の作成を効率化する狙いがあり、金融業界特化型AIツールの一例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T22:34:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:305065a638604b0d20179f4c7e58aa36e1dbf42dff61af3a757be71292bf360b" source-type="gmail" category="Tools" anchor="false">
-          <mlrss:title>DeepSeek、視覚対応の新モデル「V4.1 Flash」を公開</mlrss:title>
-          <mlrss:link>https://api-docs.deepseek.com/news/news260910/</mlrss:link>
-          <mlrss:summary>中国のDeepSeekは新モデル「V4.1 Flash」を公開した。画像入力に対応し、応答速度とコストの両面で従来モデルを上回るとしている。ソフトウェア工学系ベンチマークのDeepSWEでは競合の大型フロンティアモデルに匹敵・凌駕するスコアを記録したとの報告もあり、低価格ながら高性能なオープンモデルとして注目を集めている。旧フラグシップモデルは今後段階的に提供終了となる見込み。</mlrss:summary>
-          <mlrss:pub-date>2026-09-10T15:17:45+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
