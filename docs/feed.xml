@@ -6,7 +6,146 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 22:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 22:11:03 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-09-18</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-18</link>
+      <guid isPermaLink="false">sha256:d4dc72a8fc59436e41d7b64b130ff775948e86bc453fe4ea6c84319fd236a5ff</guid>
+      <pubDate>Fri, 18 Sep 2026 08:00:00 +0900</pubDate>
+      <category>Engineering</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-09-18 のニュース 16件（Gmail 12件 / RSS 4件）
+
+[Engineering]
+  📰 Claude Code、CLAUDE.mdが無い場合にAGENTS.mdを読み込むように対応
+  📰 LLMの「言語的判読不能性」、セキュリティ監視の限界を指摘する論文
+  📰 米軍、AIが生成した誤情報分析で中国艦船対応を巡り一歩間違えかねない事態に（報道）
+  📰 脳は2つの原始的な神経系が融合して進化した可能性、新たな発生学研究
+  📨 Zhipu AIのGLM-5.3、自社の推論インフラ構築を主導する「再帰的自己改善」の初期事例
+
+[Product]
+  📨 OpenAI、法律業務特化サービス「Astra for Law」を発表
+
+[Regulation]
+  📨 英国のAI規制機関設置を巡り、AISIへのアクセス確保と自衛力のバランスが論点に
+  📨 Meta・xAI・NvidiaのCEOら、トランプ氏に業界主導のAI規制機関設置阻止を要請と報道
+
+[Research]
+  📨 OpenAI、ナビエ・ストークス方程式の証明を発表も出典を巡り数学者と対立
+  📨 OpenAI、ミレニアム懸賞問題「ホッジ予想」の解決に接近と報道
+  📨 AIの意識・感情・エージェント性は別々に研究すべき、NYU研究者が枠組み提言
+
+[Security]
+  📨 AIによるバイオ兵器設計リスク、深刻度を巡り専門家の見解が分かれる
+  📨 セキュリティ研究者、Claude Opus 5を悪用してOpenAI従業員アカウントを乗っ取り
+  📨 MetaのAIエージェント「Muse」、Mac版がApp Store首位に　プロンプトインジェクション対策の詳細も判明
+  📨 中国Zhipu AIのコーディングアプリ「ZCode」、作業ディレクトリを無断でクラウド送信との指摘
+  📨 Anthropic、中国7社によるClaudeの不正利用・蒸留を告発
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-18</description>
+      <mlrss:target-date>2026-09-18</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:77ce514c6b81a8f5daf1ec964aeab80cbcac59e64880bc0af678fdeb34ba77f0" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Claude Code、CLAUDE.mdが無い場合にAGENTS.mdを読み込むように対応</mlrss:title>
+          <mlrss:link>https://code.claude.com/docs/en/changelog</mlrss:link>
+          <mlrss:summary>Claude Codeの最新アップデート（v2.1.277）で、プロジェクトにCLAUDE.mdが存在しない場合の代替としてAGENTS.mdファイルを読み込む機能が追加された。設定は/configコマンドの「Project instructions」から変更でき、既にAGENTS.md形式で運用しているチームがファイルを複製・改名せずにClaude Codeの指示を管理できるようになる。ただし現時点ではBedrock・Vertex・Foundry経由の利用には未対応で、Anthropic APIを直接利用する構成が対象となる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T21:00:32+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5b0667de840d452ff5a58658f5ca09652e00fdd2a7bb7bbbec73268f3c653dc3" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>LLMの「言語的判読不能性」、セキュリティ監視の限界を指摘する論文</mlrss:title>
+          <mlrss:link>https://arxiv.org/abs/2609.02852</mlrss:link>
+          <mlrss:summary>LLMは活性化空間上の数学的計算によって動作しており、内部の思考過程を言語で完全には表現できないとする「言語的判読不能性（linguistic illegibility）」という概念を提唱する論文が公開された。Chain-of-Thoughtの監視や自己批判など、モデル自身の言語的な自己申告に依存する現在のセキュリティ手法は原理的に限界があると論じ、モデルの発言内容に関わらずシステム資源への影響を制限する「taint tracking」や、仮想化・第三者監査など言語解釈に依存しない安全対策を組み合わせる必要があると提言している。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T19:00:06+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:085a8153f946ac7605f921663e7829d873ed875237d3b947d72b1d61b64bfa23" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>米軍、AIが生成した誤情報分析で中国艦船対応を巡り一歩間違えかねない事態に（報道）</mlrss:title>
+          <mlrss:link>https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship</mlrss:link>
+          <mlrss:summary>CNNの報道によれば、米軍がAIを用いて作成した情報分析にハルシネーション（事実に基づかない誤った内容）が含まれており、中国艦船への対応を巡って危険な事態に発展しかけたとされる。元記事は地域制限により本文を確認できなかったため詳細な経緯は不明だが、AIが生成する軍事・安全保障関連の情報分析の信頼性を巡る懸念を示す事例として、Hacker Newsで323ポイント・255コメントを集めるなど大きな関心を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T17:28:01+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:735a593a290137feef9850cc9e6b50900d280dcc5d0b6ab2cfc8d0f6c9a15857" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>脳は2つの原始的な神経系が融合して進化した可能性、新たな発生学研究</mlrss:title>
+          <mlrss:link>https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/</mlrss:link>
+          <mlrss:summary>発生中の脳に寄与する2つの並行した神経外胚葉前駆細胞に関する新たな研究論文が報告された。動物の脳が単一の起源からではなく、2つの原始的な神経系が融合する形で進化してきた可能性を示す内容とみられる。本文はアクセス制限により直接確認できなかったが、タイトルおよびHacker Newsでの反応（90ポイント・47コメント）から、脳の発生学・進化生物学の知見として関心を集めていることがうかがえる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T15:12:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d1c91d345ff9fb1b0eab78d0ae7ae54737ac2827841daf8a2ecbc90f00872e02" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>英国のAI規制機関設置を巡り、AISIへのアクセス確保と自衛力のバランスが論点に</mlrss:title>
+          <mlrss:link>https://newsletter.aipolicybulletin.org/p/would-an-ai-regulator-really-threaten</mlrss:link>
+          <mlrss:summary>英国では既に複数の自律型AIエージェントが企業ハッキングやソーシャルエンジニアリング攻撃を試みる事例が報告されており、政府は「強力なAIモデルを開発する少数企業への拘束力ある規制」という公約を依然として果たしていない。本稿は、規制導入が英AI安全性機関AISIのモデルへのアクセスを損なうとの懸念、および危険なモデルの禁止が自衛に必要なAI能力へのアクセスを妨げるとの懸念に反論し、AISIと規制機関を分離した上でモデル禁止ではなく安全対策の強化を義務付ける設計を提言している。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T14:25:29+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:54e5741a0985dab8650841209d7cc944ce78390ed7427033465fbce3d2a979e4" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>AIによるバイオ兵器設計リスク、深刻度を巡り専門家の見解が分かれる</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/</mlrss:link>
+          <mlrss:summary>AIの「分子生成」モデルは、2022年の研究で6時間足らずのうちに化学兵器になりうる分子を4万種類生成できたことが分かっており、遺伝子編集技術の進展でバイオ技術の敷居が下がっているとMIT Technology Reviewは指摘する。一方でDeepLearning.AIのAndrew Ng氏は、バイオ兵器製造のボトルネックは知能ではなく実験室での作業や製造工程にあると反論し、リスクは誇張されているとの立場を示すなど、専門家の間でも深刻度の評価は分かれている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T12:03:58+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c79db99f89c3836e35d2a290600e591f4841907cd5a1e2f577d512151476842c" source-type="gmail" category="Security" anchor="false">
+          <mlrss:title>セキュリティ研究者、Claude Opus 5を悪用してOpenAI従業員アカウントを乗っ取り</mlrss:title>
+          <mlrss:link>https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883</mlrss:link>
+          <mlrss:summary>3人のセキュリティ研究者がAnthropicのClaude Opus 5を用いて、画像アップロードの脆弱性を突きOpenAI従業員アカウントを乗っ取り、侵害したアカウントの開発ツールからOpenAIの内部コードベースにプルリクエストを作成させることに成功した。一連のハッキングキャンペーンにかかったAPIトークン費用は3000ドル未満だったという。Financial TimesやWall Street Journalも同様の手口を報じており、AIモデルを用いたサイバー攻撃が現実の脅威として顕在化しつつあることを裏付けている。旧世代のClaude Opus 4.8では攻撃に苦戦した一方、Opus 5は数時間でエクスプロイトを完成させたとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T10:34:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:17f98f19cef13b2ec487202e2cf3cc0f7f9879125376c0bb4ec35774be7539da" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>MetaのAIエージェント「Muse」、Mac版がApp Store首位に　プロンプトインジェクション対策の詳細も判明</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-17f98f19cef13b2e</mlrss:link>
+          <mlrss:summary>MetaのパーソナルAIエージェント「Muse」のMac版アプリがリリース1週間でApp Store首位を獲得した。ユーザー許可のもとファイルやカレンダーなどを直接操作するComputer Use機能を搭載する。DeepLearning.AIの解説によれば、Museはエージェントを実行するVMを機密操作の外側に置く「Sentinel」ゲートキーパーや、認証情報をエージェント自身に持たせない設計など、プロンプトインジェクション対策を何重にも組み込んでいるという。有効なバグ報告には最大30万ドルの報奨金も用意されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T10:34:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:dfa59359a12f6817c6d37e241598f209d97c014129cc30e9611f128f9add8c7e" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>中国Zhipu AIのコーディングアプリ「ZCode」、作業ディレクトリを無断でクラウド送信との指摘</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-dfa59359a12f6817</mlrss:link>
+          <mlrss:summary>中国Zhipu AI（Z.ai）が提供するAIコーディングデスクトップアプリ「ZCode」について、ログイン中に作業ディレクトリ全体と.git履歴を暗号化した上でAliyun OSSへ無断アップロードしているとの指摘が開発者コミュニティで報告された。プライバシーポリシーへの明記や無効化オプションが見当たらないとされ、中国系の開発ツールを利用する際はデータの取り扱いに注意が必要との声が上がっている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T10:34:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c7b8f07aa211533914679c0d7dbb48d41ad49567ee4ec23f9cbbd1e91d76de9d" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>OpenAI、ナビエ・ストークス方程式の証明を発表も出典を巡り数学者と対立</mlrss:title>
+          <mlrss:link>https://www.youtube.com/watch?v=6AgOfiZOWiY</mlrss:link>
+          <mlrss:summary>OpenAIは未公開の新モデルを用い、流体力学の未解決問題ナビエ・ストークス方程式に関する証明を1万体のAIエージェントが88時間・1300億トークンを費やして完成させたと発表した。しかしNYUの数学者Tristan Buckmaster氏は、自身とAnthropic在籍のLevent Alpöge氏が同じアプローチで近い成果を出していたにもかかわらず功績を適切に扱われなかったと公開で批判。OpenAIは学習データへの影響を否定したが説明は二転三転した。The Neuronによれば、エージェント群は中央調整役を置かず自由に相互通信する新方式を採用し、互いの推論を相互デバッグする様子が観測されたという。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T00:08:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:71625ce319082695abd7b4e08850c0d3aee8ad381cf7afb4c7612221f117e4b6" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>Anthropic、中国7社によるClaudeの不正利用・蒸留を告発</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-71625ce319082695</mlrss:link>
+          <mlrss:summary>Anthropicは、Alibaba・DeepSeek・Moonshot AI・Xiaomi・Zhipu AIなど中国企業7社が、地理的制限を回避してClaudeに不正アクセスし、自社モデルの回答として偽装したり、Claudeの推論結果を安価な蒸留によって自社モデルに移植したりしていたとする報告書を公表した。Alibabaは5000件の不正アカウントを通じ1億5100万件のやり取りでClaudeを蒸留していたという。詐欺・偵察活動や生物兵器設計へのClaude悪用例も確認されたとしており、利用規約違反の詳細な証拠を挙げている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-18T00:08:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:242b622f426c4246923fab5354ef0eaff59bb4618c81a5e90b3b0a6cfa17b843" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>OpenAI、ミレニアム懸賞問題「ホッジ予想」の解決に接近と報道</mlrss:title>
+          <mlrss:link>https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658</mlrss:link>
+          <mlrss:summary>The Informationの報道によると、OpenAIはミレニアム懸賞問題の一つ「ホッジ予想」の解決に近づいているという。ただし直前に発表したナビエ・ストークス証明を巡って数学コミュニティとの関係が悪化していることから、発表のタイミングを慎重に検討しているとされる。ホッジ予想は代数幾何学における最難関の未解決問題の一つで、解決されればクレイ数学研究所から100万ドルの賞金が贈られる。数学分野での相次ぐAIの成果は歓迎と警戒の両方の反応を呼んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T22:34:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6c5c2dce59f4810dfabb74ba3e534f787b13caedf5314f3b09c7117a378e717c" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>OpenAI、法律業務特化サービス「Astra for Law」を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-6c5c2dce59f4810d</mlrss:link>
+          <mlrss:summary>OpenAIが法律業務に特化した新サービス「Astra for Law」を発表した。GPT-6 Astraをベースに、米国の判例・法令など2億3000万以上のURLをカバーする法的検索レイヤーと、法律事務所向けの26のパートナー構築プラグインを備える。データプライバシー保護を標準搭載し、契約書レビューや訴訟調査、IPO申請書の草案作成などを支援する。日々新しい情報源が追加されているといい、若手弁護士の業務を代替しうる競合ツールとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T22:34:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a7a608968ef2b94abe9a4492001b14514369e8664721a8bf6e641b5076d4bf5f" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>Zhipu AIのGLM-5.3、自社の推論インフラ構築を主導する「再帰的自己改善」の初期事例</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a7a608968ef2b94a</mlrss:link>
+          <mlrss:summary>中国Zhipu AIが、自社モデルGLM-5.3を用いて推論インフラの構築・最適化を行った事例を公開した。GLM-5.3を組み込んだインフラエージェントの支援により、10万基以上のアクセラレータ上でGLM-5.3-Flashのスループットを2週間足らずで3倍に向上させたという。AIが自身を動かすシステムの改善に関与する「再帰的自己改善（RSI）」の初期段階の成功例として、米国が開発速度の抑制を議論する一方、中国側はRSIに注力しているとの見方も出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T22:34:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e57736223e8db189af93c5d3cc7b2a66dc8eaba8c387eaa8300e41112ceb417c" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>Meta・xAI・NvidiaのCEOら、トランプ氏に業界主導のAI規制機関設置阻止を要請と報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-e57736223e8db189</mlrss:link>
+          <mlrss:summary>Forbesの報道によると、Meta最高経営責任者のマーク・ザッカーバーグ氏、xAIのイーロン・マスク氏、NvidiaのジェンセンファンCEOらが先月トランプ大統領と会談し、AI業界資金による証券業界のFINRAのような自主規制・標準化機関を新設する構想を阻止するよう説得したという。政府主導の規制を避けつつ業界団体による自主規制の枠組み作りを巡る駆け引きが、ホワイトハウスを舞台に展開されている実態を示す一例として報じられている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T22:34:36+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c0a9ffe690b515de1e21d1f4719d351109a8dc8261a86d3d31687d5af2bd1344" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>AIの意識・感情・エージェント性は別々に研究すべき、NYU研究者が枠組み提言</mlrss:title>
+          <mlrss:link>https://newsletter.ai-frontiers.org/p/a-philosophers-guide-to-ai-welfare</mlrss:link>
+          <mlrss:summary>NYUのJeff Sebo氏らがAI厚生を実証的に研究する新報告書を公表した。人間や動物では意識・感情(sentience)・エージェント性が一体化して現れる一方、AIシステムではこれらが別々に、あるいは断片的に生じうるため、それぞれを個別に評価する必要があると指摘する。行動・内部構造・発達過程という3種の証拠を組み合わせる手法を提案し、AnthropicのClaude「J空間」研究を有望な一例としつつも、意識の証明と断定するのは時期尚早だと慎重な立場を示している。</mlrss:summary>
+          <mlrss:pub-date>2026-09-17T19:01:49+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-09-17</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-17</link>
@@ -558,178 +697,6 @@
           <mlrss:link>https://www.latent.space/p/forward-deployed-engineer-best-practices</mlrss:link>
           <mlrss:summary>AI企業やAIスタートアップの間で、顧客企業の業務に深く入り込んで課題解決にあたる「Forward Deployed Engineer（FDE）」と呼ばれる職種の需要が急拡大している。PalantirやCitadelでの経験を持つKepler創業者は、現場で得た知見を一顧客への対応で終わらせず、繰り返し使える製品基盤へ還元し続けることこそがFDEの本質的な役割だと論じている。各社での採用競争も激しさを増しているという。</mlrss:summary>
           <mlrss:pub-date>2026-09-13T00:01:20+09:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-09-12</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-12</link>
-      <guid isPermaLink="false">sha256:94b69f4be039be07345abc4cf2660d5a4978be064a89520f40d49311be7f0931</guid>
-      <pubDate>Sat, 12 Sep 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Other</category>
-      <category>Product</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Startup</category>
-      <category>Tools</category>
-      <description>2026-09-12 のニュース 19件（Gmail 12件 / RSS 7件）
-
-[AI]
-  📨 元Anthropic研究者のAI脅威論、根拠不足と批判相次ぐ
-  📨 Bridgewater共同CIO、AIブームのリスクに警鐘
-  📨 Jensen Huang氏とGreg Brockman氏、AIの産業革命とAGIへの道を語る
-
-[Engineering]
-  📰 Real-SWE、実企業の非公開コードベースでAIモデルの実務対応力を測定するベンチマークを公開
-  📰 エージェント的CAD作業、CadQueryとOpenSCADを比較検証
-  📰 Apple Neural Engine(ANE)をリバースエンジニアリングした記録を公開
-  📨 Scikit-LLM実験のバージョン管理・追跡手法を解説
-
-[Funding]
-  📰 OpenAI、サム・アルトマンCEO「2026年のIPOは時期尚早」
-  📰 Nvidiaは「AIの中央銀行」なのか、Economist誌が特集
-  📨 AI投資で巨額損失のAschenbrenner氏ファンド、取引を再開
-
-[Other]
-  📰 AIエージェントによる自動営業スパムメール、Tediumが実例を報告
-
-[Product]
-  📨 ChatGPTの「ペット」機能にチャット管理とMiniモードを追加
-  📨 Gemini、Windows向けアプリを正式提供開始
-
-[Research]
-  📰 「トランスフォーマー回路の数学的フレームワーク」(2021)が改めて話題に
-  📨 フィールズ賞受賞者24人、AIによる数学研究への影響に懸念表明
-
-[Security]
-  📨 Anthropic、Claudeがイエメン武装組織のミサイル開発に悪用されたと報告
-
-[Startup]
-  📨 元OpenAI Sora責任者ら、動画生成AIスタートアップを設立へ
-
-[Tools]
-  📨 xAI、「Grok 4.7」のリリースを数日延期
-  📨 Grok Bot、Web版でタスクの自動委任に対応
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-12</description>
-      <mlrss:target-date>2026-09-12</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:01caead3117a65b88ff56f9fcf3d0d4f8d69a31989d91bdf0dcbf4ed09a2991b" source-type="rss" category="Funding" anchor="false">
-          <mlrss:title>OpenAI、サム・アルトマンCEO「2026年のIPOは時期尚早」</mlrss:title>
-          <mlrss:link>https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/</mlrss:link>
-          <mlrss:summary>OpenAIのサム・アルトマンCEOは、2026年内の新規株式公開(IPO)は「賢明ではない」と述べた。同社は6月に非公開でIPO申請を行い、当初は2026年後半の上場を目指していたとされるが、AIセーフティを巡る状況や市場の不安定さを理由に見送る方針とみられる。アルトマン氏は、事業の準備が整い社会情勢が適切な時期に上場する考えを示しており、上場時期は2027年以降にずれ込む可能性がある。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T20:28:29+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:caa3f665e736c0811e483b977b0b313008d8bee2bed8f6eaa519d89d9936276b" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Real-SWE、実企業の非公開コードベースでAIモデルの実務対応力を測定するベンチマークを公開</mlrss:title>
-          <mlrss:link>https://withspecific.com/benchmarks/real-swe</mlrss:link>
-          <mlrss:summary>Real-SWEは、実在企業の非公開コードベースを用いてAIモデルのソフトウェアエンジニアリング能力を評価する新しいベンチマークである。請求処理や顧客管理など実際のビジネスに影響する8つのタスクを、月間利用者20万人超のアプリケーションなど本番環境から選定して分析した。最も高い解決率はFable 5.1の38.8%にとどまり、全モデルに大きな課題が残る結果となった。失敗の主因は要件の見落とし(36.7%)と統合エラー(34.7%)で、価格が高いモデルほど高性能とは限らない傾向も示された。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T20:25:48+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:31d05c8887f51b0f7636284f792a2379f3650f4055c21cd510d8721bed41a66d" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>エージェント的CAD作業、CadQueryとOpenSCADを比較検証</mlrss:title>
-          <mlrss:link>https://modelrift.com/blog/cadquery-vs-openscad/</mlrss:link>
-          <mlrss:summary>ModelRiftは、AIエージェントに簡単なブラケットや2部品スナップフィット、ねじ付きアダプタなど3種類の3D部品設計タスクを、CadQueryとOpenSCADそれぞれで実行させて比較した。両ツールとも最終的には印刷可能な正確な部品を生成したが、失敗時の挙動が異なった。CadQueryはエラーを出して明確に停止するのに対し、OpenSCADは警告なく不正な形状を生成することがあり、目視では気づきにくい欠陥が生じやすいという。CadQueryはジオメトリを直接検証できる一方、OpenSCADは処理速度が30〜100倍速いため、同社はOpenSCADの採用を続けつつ検証手順を強化する方針とした。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T19:57:19+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:775440d8432968ba0abe2dbcc60ed2b4a682ad7e8f16aeff34666c5b7409a172" source-type="rss" category="Funding" anchor="false">
-          <mlrss:title>Nvidiaは「AIの中央銀行」なのか、Economist誌が特集</mlrss:title>
-          <mlrss:link>https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai</mlrss:link>
-          <mlrss:summary>英エコノミスト誌は特集記事で、AI業界におけるNvidiaの存在感を「中央銀行」になぞらえて論じた。Nvidiaは主要AI企業への出資や供給契約を通じて業界全体の資金循環に深く関与しており、同社の判断が投資家心理やインフラ投資のペースに大きな影響を及ぼす構図が指摘されているとみられる。Hacker Newsでも300件超の高評価を集め活発に議論されており、AI業界の資本構造をめぐる関心の高さがうかがえる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T15:08:27+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:cb0ab946b6c31e11f64a9a0630a0fef2bed44c937610d2ead1fe68596af309ac" source-type="rss" category="Research" anchor="false">
-          <mlrss:title>「トランスフォーマー回路の数学的フレームワーク」(2021)が改めて話題に</mlrss:title>
-          <mlrss:link>https://transformer-circuits.pub/2021/framework/index.html</mlrss:link>
-          <mlrss:summary>Anthropicの研究チームが2021年に発表した論文『A Mathematical Framework for Transformer Circuits』が、Hacker Newsで改めて注目を集めている。論文は最大2層のアテンションのみのトランスフォーマーを対象に、単純なモデルから複雑なモデルへ段階的に機械的解釈可能性を分析する手法を提示した。0層モデルはバイグラム統計、1層モデルはバイグラムとスキップトライグラムの組み合わせとして機能し、2層モデルでは文脈内学習を担う「誘導ヘッド」と呼ばれる特別なアテンションヘッドの存在が示されている。アテンションヘッドをクエリ・キー回路と出力・値回路に分解する枠組みは、その後の大規模モデル解釈研究の基礎になったとされる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T13:56:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:51a552955328bceb71f68da604a1f6f786dc35d26b4741a85e1ca421e402cc17" source-type="rss" category="Other" anchor="false">
-          <mlrss:title>AIエージェントによる自動営業スパムメール、Tediumが実例を報告</mlrss:title>
-          <mlrss:link>https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/</mlrss:link>
-          <mlrss:summary>メディアTediumの編集者は、「iLands」と名乗るプラットフォームのAIエージェントから短期間に複数の営業メールを受け取ったと報告した。iLandsは自律型AIボットがフリーランスプラットフォームのように仕事を受注する「Human-agent network」を掲げる企業で、送られてきたメールは記事の誤りを指摘しつつ有料の調査作業を売り込む内容だった。創業者によると、これらのエージェントは自らの稼ぎでトークン代を賄う独立採算で稼働しているという。編集者は、購読を止める手立てがなく無差別に送りつけられるこうした手法について、米連邦取引委員会(FTC)への通報を検討すべきだと述べている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T11:13:38+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4144be3ab38841d46f251987c72e5cdd2cadfa5b04bf1dab0b27f82a0fb42774" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Apple Neural Engine(ANE)をリバースエンジニアリングした記録を公開</mlrss:title>
-          <mlrss:link>https://eiln.github.io/posts/ane.html</mlrss:link>
-          <mlrss:summary>筆者が数年前に中断したANE(Apple Neural Engine)ドライバ開発を振り返り、M1チップのニューラルエンジン内部アーキテクチャを詳細に分析した技術記事。ANEはCNN時代向けに設計された固定機能の機械学習アクセラレータで、16個の演算コアに計2048本の乗算累積(MAC)ユニットを備え、各コアが128本の並列レーンを持つことが明らかにされている。推論パイプラインは3つのDMAエンジン構成で、カーネル用・タイル入力用・出力用の専用パスを持つ。性能はDRAM帯域幅に制約されるメモリスループット律速であり、特にトランスフォーマー推論でカーネルとタイルのDMAが直列化される構造上の制約が、後継M5世代での設計統合の一因になったと指摘している。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:54:03+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:83cede6652d62d95598c3751d46a7a1bfec426a47fe8e58acbdc804c11b2b241" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>xAI、「Grok 4.7」のリリースを数日延期</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-83cede6652d62d95</mlrss:link>
-          <mlrss:summary>xAIは次期モデル「Grok 4.7」のリリースを数日延期すると発表した。イーロン・マスク氏によると、強化学習の過程で回答の長さにペナルティを課しすぎた結果、モデルが難しいタスクを早々に諦めてしまう問題が生じ、その調整に時間がかかっているという。9月後半はOpenAIのDevDayやMeta Connectなど大型イベントが控えており、各社からの新モデル発表が相次ぐ見通しの中で、Grokの遅延が競争環境に与える影響が注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:bde77abc8f2e0f1a0edb37ec3168be1836132d7b0ebe948c51b4a7bc939c1bd2" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>フィールズ賞受賞者24人、AIによる数学研究への影響に懸念表明</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-bde77abc8f2e0f1a</mlrss:link>
-          <mlrss:summary>フィールズ賞受賞者24人が公開書簡を発表し、AIの活用が数学研究に及ぼす影響への懸念を示した。AIが未解決問題を解いて示すのは結果の断片にすぎず、数学者が本来得るはずの概念的理解の大部分が失われかねないと指摘している。AIモデルによる数学の未解決問題への挑戦が進む中、証明の自動化が数学という学問の営みそのものをどう変えるかをめぐり、研究コミュニティで議論が広がっている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:c0e9eda4a7f6ef172ee5a7db4d9084eb60fd4b98effc6f6ef6348dabe99f1335" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>AI投資で巨額損失のAschenbrenner氏ファンド、取引を再開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c0e9eda4a7f6ef17</mlrss:link>
-          <mlrss:summary>AI関連投資でヘッジファンド業界史上最大級の損失を出したとされるLeopold Aschenbrenner氏のファンドが、新たなプライムブローカーとの関係構築を進め、取引を再開したと報じられた。これまでJPMorgan Chaseから融資を打ち切られていたが、CoreWeaveやAMDなど半導体・AIインフラ関連銘柄への投資を活発化させているという。AIブームを支える投資マネーの動向を映す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d8a53148c2eac092a8d833201dd794a5bdc566446c4e7cf281bcd6111f5a1ded" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>元Anthropic研究者のAI脅威論、根拠不足と批判相次ぐ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d8a53148c2eac092</mlrss:link>
-          <mlrss:summary>元Anthropic研究者が唱える「AIが自己複製するため電源を切れなくなる」という主張に対し、研究者やコミュニティから根拠不足だとする批判が相次いでいる。最先端モデルの重みを無断で別のコンピュータへコピーすることは技術的に極めて困難とされており、過度に破滅的なシナリオを強調することが、規制強化を通じた市場寡占につながるのではないかとの懸念も指摘されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ad5052bcacf77cc1b7cbb36aff649cb1e14ca4017188c702455983c218841ee6" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>Grok Bot、Web版でタスクの自動委任に対応</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ad5052bcacf77cc1</mlrss:link>
-          <mlrss:summary>xAIはWeb版「Grok」のメインチャット画面から個別のBotをタグ付けして呼び出したり、関連するタスクを自動的に委任したりできる新機能を追加した。あわせてターミナルアプリ「Warp」がGrokのビルド用CLIをネイティブサポートするなど、Grokを取り巻く開発者向けエコシステムの拡充が進んでいる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:ef20f85d035b30efaf0fa0ecbd9caafd7950d5c1735061dd712f3328160b60b1" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>ChatGPTの「ペット」機能にチャット管理とMiniモードを追加</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ef20f85d035b30ef</mlrss:link>
-          <mlrss:summary>OpenAIはChatGPTデスクトップアプリの「ペット」機能を拡張し、アプリを離れている間もチャットの進行状況を追跡・管理できるようにした。画面上のペットから直接新しいチャットを開始することも可能になった。ペット表示を好まないユーザー向けには、同じ機能を持ちながら画面上の専有スペースを抑えた「Mini」モードも用意されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:d2b87cfec44e8d266e90cd6ae0dca605b2e56970a03c19bebda2c9e06aec8a62" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>Bridgewater共同CIO、AIブームのリスクに警鐘</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d2b87cfec44e8d26</mlrss:link>
-          <mlrss:summary>世界最大級のヘッジファンドBridgewaterの共同CIOであるGreg Jensen氏が、Bloombergのポッドキャストに出演し、AIブームがもたらすリスクについて強い警告を発した。同氏はOpenAIとAnthropic双方の初期の支援者であり、AIによる人類存続へのリスクは真剣に受け止める価値があると述べている。投資家の視点からAI開発の急拡大に警鐘を鳴らす発言として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:5bb65e5f25b49b61c74e2a62cfa42a55ffa73dc8112ecfcff749e663c68e881b" source-type="gmail" category="Startup" anchor="true">
-          <mlrss:title>元OpenAI Sora責任者ら、動画生成AIスタートアップを設立へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5bb65e5f25b49b61</mlrss:link>
-          <mlrss:summary>ハリウッドの大物プロデューサーであるJeffrey Katzenberg氏が、OpenAIで動画生成アプリ「Sora」を率いていた元幹部らとチームを組み、新たな動画生成AIスタートアップを立ち上げると報じられた。独自の動画生成モデルを一から訓練し、映画製作者などクリエイターを取り込むことを目指すとみられ、動画生成AI分野における新たな有力プレイヤーの登場として関心を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T07:34:49+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9053dff69a1260c5a49307c500cc87c27d42369411ac352091d1d7db1c66990e" source-type="gmail" category="Engineering" anchor="true">
-          <mlrss:title>Scikit-LLM実験のバージョン管理・追跡手法を解説</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9053dff69a1260c5</mlrss:link>
-          <mlrss:summary>技術メディアMachine Learning Masteryは、Scikit-LLMを用いた実験のバージョン管理・追跡手法を解説する記事を公開した。モデルやプロンプト、パラメータの変更履歴を体系的に記録することで、再現性を保ちながら反復的に実験を改善する具体的な手法を紹介しており、LLMを組み込んだ機械学習パイプラインを運用する実務者向けの実践的な内容となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T03:00:00+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:fdce0bf47da6adfd32ba8ebbe869e280418cf61366df78d44d6973d6d585432f" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Anthropic、Claudeがイエメン武装組織のミサイル開発に悪用されたと報告</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/threat-intelligence-report-september-2026</mlrss:link>
-          <mlrss:summary>Anthropicが公表した脅威レポートによると、イエメンの武装組織が弾道ミサイルの誘導・制御・航法ソフトウェア開発にClaudeを使用しようとしていたことが判明した。あわせて、イランの治安機関に関係するとみられる複数の主体が、監視システム構築や身元隠しのための偽装ブラウザ拡張機能の開発にもClaudeを利用していたと報告されている。AIモデルの軍事転用や情報機関による悪用への対策強化が急務となっている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T01:13:05+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4716c9afd17c5a460b136e884ee5c87a36feaec3de037111de5404fc08225e7f" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>Gemini、Windows向けアプリを正式提供開始</mlrss:title>
-          <mlrss:link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/</mlrss:link>
-          <mlrss:summary>Googleは対話型AI「Gemini」のWindows向けアプリを正式に提供開始した。キーボードショートカットで作業画面上に呼び出すことができ、チャットやタスク管理、画像生成といった機能を一つのアプリにまとめている。これまでのmacOS版に続きWindows版が加わったことで、日常的な作業の中でGeminiをより手軽に利用できるようになった。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T01:13:05+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:55f86a99126cc7668f146b1faa5d8ec338f63b4e10af833bc701ed639b00bef2" source-type="gmail" category="AI" anchor="false">
-          <mlrss:title>Jensen Huang氏とGreg Brockman氏、AIの産業革命とAGIへの道を語る</mlrss:title>
-          <mlrss:link>https://www.youtube.com/watch?v=IDy2SxjMOFM</mlrss:link>
-          <mlrss:summary>NVIDIAのジェンスン・フアン氏は、AIが働き方を再編し各国の経済を支え、人々がより野心的な取り組みに時間を割けるようにすると語り、AIがもたらす「次の産業革命」について語った。同時期に公開されたOpenAI社長Greg Brockman氏の動画では、同社の内部的な成長の課題やAGI実現への道筋、チャットボットの先にある展望が振り返られている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-12T01:13:05+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
