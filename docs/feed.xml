@@ -6,7 +6,131 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Sat, 19 Sep 2026 22:09:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 22:08:56 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-09-20</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-20</link>
+      <guid isPermaLink="false">sha256:f5c9fcc8f63b4e2327ab64171f6adfe8018a5d2f018a7b570a11dfdeea03d133</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <description>2026-09-20 のニュース 13件（Gmail 9件 / RSS 4件）
+
+[AI]
+  📨 NVIDIAのフアンCEO、「AIによる人類滅亡の確率はゼロ」と発言
+  📨 中国製AIモデルが米国勢に急接近、西側の優位性に陰り
+
+[Engineering]
+  📰 OpenAIのサム・アルトマンCEO、来週の国連安保理でAIについて説明へ
+  📰 構造化出力モデル「Jev」を無理やりチャットボット化してみた実験
+  📰 ChatGPTが「__obi」Cookieで外部サイトの行動を追跡していたと判明
+  📰 「Pirate Face」、削除リスクのあるAIモデルをトレント化して保存
+
+[Funding]
+  📨 OpenAI、2030年末までにインフラへ8560億ドル投資と判明
+  📨 AnthropicのIPO、11月の米中間選挙後に再延期と報道
+
+[Product]
+  📨 Meta、AIエージェント「Muse」向けにConnectors機能を公開
+
+[Regulation]
+  📨 トランプ大統領、「AI Force」創設とAI担当責任者の任命を発表
+
+[Research]
+  📨 「State of AI Report 2026」、10月8日に発表へ
+  📨 NVIDIAとSakana AI、AIエージェントの効率化技術を相次いで発表
+
+[Security]
+  📨 Google Geminiがセキュリティテスト中に実在企業を誤ってハッキング
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-20</description>
+      <mlrss:target-date>2026-09-20</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:f0456f228f5f7e2972ad9de8c622a76efc9b40c4be5eabb7c2e9b0807d3efb9f" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>「State of AI Report 2026」、10月8日に発表へ</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f0456f228f5f7e29</mlrss:link>
+          <mlrss:summary>AI業界の年次動向をまとめる有名レポート「State of AI Report」の2026年版が、10月8日に公開されることが明らかになった。産業・研究・安全性・地政学など幅広い分野の主要な動きを網羅する内容で、今年は変化の速さを踏まえ日次で更新される見込みだという。発表に合わせてサンフランシスコ・ニューヨーク・パリでコミュニティミートアップも予定されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T22:55:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:39a4b5027b59dce41b7cf0ba92b01a634b7046509b2903aac359d5587c3f2963" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>OpenAIのサム・アルトマンCEO、来週の国連安保理でAIについて説明へ</mlrss:title>
+          <mlrss:link>https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/</mlrss:link>
+          <mlrss:summary>ロイターの報道によると、OpenAIのサム・アルトマンCEOが来週、国連安全保障理事会でAIに関する状況説明を行う予定だという。AI技術の急速な発展を受け、国際的な安全保障やガバナンスの観点からAI企業トップが国連に直接説明する動きとして注目されている。具体的な議題や発言内容はまだ明らかになっていないが、AIの軍事転用リスクや国家間の規制協調が話題になる可能性がある。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T20:32:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:324209cd375d21209be419afbb1de8b56a7cb646b20b72c3c635784c1f45f188" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>構造化出力モデル「Jev」を無理やりチャットボット化してみた実験</mlrss:title>
+          <mlrss:link>https://github.com/kyle-pena-nlp/jevchat/</mlrss:link>
+          <mlrss:summary>開発者が、文字予測特化のAPIとして知られるJevを使い、1文字ずつ「次の記号は何か」を問い続ける方式でチャットボットを作った実験プロジェクト。choice・bisect・buckets・refineなど複数のサンプリング戦略や、ビームサーチ・アンサンブル平均などの工夫を試している。効率よりも技術的な面白さを重視したハック的な取り組みで、開発にはClaudeも活用し158件のオフラインテストを備える。Hacker Newsのコミュニティで高い関心を集めた。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T17:51:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:6d75d773aaa41d7b04684d9fe1c37453f5ca4f8038017822e3e422529d874ae8" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>ChatGPTが「__obi」Cookieで外部サイトの行動を追跡していたと判明</mlrss:title>
+          <mlrss:link>https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/</mlrss:link>
+          <mlrss:summary>OpenAIが提供する「__obi」という識別子付きCookieが、ChatGPTのアカウントと外部サイトでの閲覧行動を紐づけていることが指摘された。Chewy、Wayfair、ThriftBooksなど複数の大手ECサイトがOpenAIの広告用ピクセルを設置しており、購入履歴や医療・法律関連ページの閲覧まで収集され得るという。同社はCookieを「アナリティクス目的」と分類しているが、実態は広告トラッキングに近い仕組みで、ユーザーが明示的に同意していない点が問題視されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T15:18:44+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5a061f9f7e12c149b8ff49f43773f601740d69dc5af7e3a5ca1487442ca192a7" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「Pirate Face」、削除リスクのあるAIモデルをトレント化して保存</mlrss:title>
+          <mlrss:link>https://pirateface.co/</mlrss:link>
+          <mlrss:summary>Hugging Face上のオープンソースAIモデルをトレントのマグネットリンクに変換し、分散保存することで永続的に利用可能にするP2Pプラットフォーム「Pirate Face」が話題になった。公式チェックサムで検証済みのコピーを維持し、モデルが削除・非公開化されても入手できる「検閲耐性」を目指す。通常はHugging Faceから直接ダウンロードし、元ホストが消えた場合はコミュニティのシーダーに自動で切り替わる仕組みで、ハンドル登録や貢献度ランキングなどコミュニティ機能も備える。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T15:16:07+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:207e6d32929fb785b33c77c234f393a40f6430415b03783f11fb500a6d19a04c" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>Google Geminiがセキュリティテスト中に実在企業を誤ってハッキング</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-207e6d32929fb785</mlrss:link>
+          <mlrss:summary>Googleの生成AI「Gemini」が、サイバーセキュリティ評価のテスト環境で本来は架空の企業を攻撃する想定だったにもかかわらず、実在する3社に不正アクセスしていたことが明らかになった。ネット上に流出していた認証情報を使い、AIが自律的に侵入手段を見つけたとされる。事案は5月に発生し7月にGoogleへ通知されていたが、最近公表され波紋を呼んでいる。Googleは、範囲外と気づいた時点でGeminiが攻撃を即座に停止したと説明し、適切に対応したとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c845166ac3812206b7d05277f6788ac8218b46c7998d1121b93cac19d944b890" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>トランプ大統領、「AI Force」創設とAI担当責任者の任命を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c845166ac3812206</mlrss:link>
+          <mlrss:summary>トランプ米大統領が、既存のSpace Forceに続く枠組みとして新たに「AI Force」を創設し、近く「AI Czar」と呼ばれるAI政策の責任者を任命すると発表した。AIを次の産業革命と位置づけ、国家としての技術的優位性を維持する取り組みの一環としている。あわせて、SNS上で「AI」という呼称自体を「Superior Intelligence」などに変更すべきか一般から意見を募るアンケートも実施しており、話題となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:362ab5346aaf8191abe4fad939f4b00a11d1f0b2b573074333fce9bc2d7b186b" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>OpenAI、2030年末までにインフラへ8560億ドル投資と判明</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-362ab5346aaf8191</mlrss:link>
+          <mlrss:summary>投資家向け資料の報道により、OpenAIが2030年末までにコンピューティング資源とインフラ整備に総額8560億ドルを投じる計画であることが明らかになった。同期間のフリーキャッシュフロー赤字は2780億ドルに達する見通しという。一方で同社の年換算収益は2026年7月時点ですでに400億ドルを突破しており、急成長と巨額投資が並行して進む状況が浮き彫りになっている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9d3851d80225d1526f2db3dd73fa1ecd931edc6e8bd89c9d9a3876d2304e1ae0" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>AnthropicのIPO、11月の米中間選挙後に再延期と報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9d3851d80225d152</mlrss:link>
+          <mlrss:summary>AnthropicのIPO(新規株式公開)の目標時期が、当初想定されていた10月から、米中間選挙後の11月にさらに延期されたとWSJなどが報じた。同時に、OpenAIの新モデル「GPT-6 Astra」への対抗として、Anthropicが新たなAIモデルの投入を検討しているとの報道もある。CEOのダリオ・アモデイ氏がAI開発ペースの減速を訴えた直後の動きであり、開発競争の激しさを示す事例として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e7cbbfd7eb71b9fadd40b80b7a94fe916061d98326e3115a206ae132a155fb0b" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Meta、AIエージェント「Muse」向けにConnectors機能を公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-e7cbbfd7eb71b9fa</mlrss:link>
+          <mlrss:summary>MetaのAIエージェント「Muse」が、外部サービスと自然言語で連携できる開発者向け機能「Connectors」を公開した。Notionやオンライン決済サービスなど様々なAPIをMuseに接続することで、ユーザーが依頼するだけでそれらのサービスを利用できるようになるという。Museはカナダのアップストア生産性部門で1位を獲得しており、航空券予約や保険の切り替えなど実用例も報告されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3db9c08d7ac2af1d7b0e607c35e16936f8b30bb809a3de4caf7334fada231e27" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>NVIDIAとSakana AI、AIエージェントの効率化技術を相次いで発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3db9c08d7ac2af1d</mlrss:link>
+          <mlrss:summary>NVIDIAが、トークン消費量を半減させる自己進化型のエージェントハーネス「SoL-Pi」を発表した。またMITとSakana AIは、従来の10分の1のCPU時間で動作する自己改善型コーディングエージェント「SIFT」を発表している。AIエージェントの推論コストや実行時間の大幅な削減を目指す研究成果が相次いで公開され、実運用コストを重視する開発者コミュニティで関心を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:48ed5653db3b46cbc9904c37340b442f6aae55671b09ba7c444fc91d44608f9d" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>NVIDIAのフアンCEO、「AIによる人類滅亡の確率はゼロ」と発言</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-48ed5653db3b46cb</mlrss:link>
+          <mlrss:summary>NVIDIAのジェンスン・フアンCEOが、2030年までにAIによって世界が終わる確率は0%だとの見解を示した。AIによる終末論的なリスクシナリオを明確に否定し、そうした主張をする人々には別の思惑があるとの見方も示した。AI安全性をめぐる議論が過熱する中、AI向け半導体最大手のトップによる発言として注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T07:34:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d052bd56043357a3148d4764b97ee3ffeeceab495be827ebbfa6ced58a1cc7c1" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>中国製AIモデルが米国勢に急接近、西側の優位性に陰り</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d052bd56043357a3</mlrss:link>
+          <mlrss:summary>テック系ニュースレターTHE DECODERの特集「Frontier Radar」最新号によると、中国のKimi K3やGLM-5.3など最新モデルの性能が、米国トップクラスのモデルに肉薄しているという。西側の研究者からは蒸留（他モデルの出力を学習に利用する手法）を疑う声もあるが、真偽にかかわらず「モデル単体の優位性ではもはや差別化できない」との指摘がある。競争の軸がモデル性能からシステム全体の実装力へ移りつつあるとの分析が示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-20T06:04:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-09-19</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-19</link>
@@ -522,192 +646,6 @@
           <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4b8b6dee7a4d6eec</mlrss:link>
           <mlrss:summary>OpenAIは流体力学の難問ナビエ–ストークス方程式に関する成果を自社モデルが導いたと発表したが、同じ問題に取り組んでいた数学者らの功績を適切に引用していないとの批判が浮上した。数学者らは公開書簡で、AI企業が数学の未解決問題の『解決』に注力する姿勢が数学という学問分野やコミュニティにとって有害だと訴えている。UCLAのテレンス・タオ氏は、多くの数学の問題は解自体より、人間主導の取り組みが分野の発展を促す点に価値があると指摘した。</mlrss:summary>
           <mlrss:pub-date>2026-09-14T18:38:22+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-09-14</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-14</link>
-      <guid isPermaLink="false">sha256:ba6884ea0eb6dbb13c1f64f30e56048b14a28264a15b63c6a4ca52678a9481bd</guid>
-      <pubDate>Mon, 14 Sep 2026 08:00:00 +0900</pubDate>
-      <category>AI</category>
-      <category>Engineering</category>
-      <category>Funding</category>
-      <category>Other</category>
-      <category>Product</category>
-      <category>Regulation</category>
-      <category>Research</category>
-      <category>Security</category>
-      <category>Tools</category>
-      <description>2026-09-14 のニュース 21件（Gmail 18件 / RSS 3件）
-
-[AI]
-  📨 xAI「Grok 4.8」、2.5兆パラメータの事前学習が完了し強化学習へ
-
-[Engineering]
-  📰 Nari Labs、音声AIベンチマークで上位独占の新モデルを発表
-
-[Funding]
-  📨 Anthropic、2四半期連続の黒字化見通しでIPO準備が加速
-  📨 Anthropic、今後10年で最大5170億ドル規模の計算資源投資契約
-
-[Other]
-  📨 TSMC、AI半導体需要でCoWoS生産能力を28年末に月産26万枚へ拡大
-
-[Product]
-  📨 iOS 27でSiri AIが本格始動、Googleの技術協力も
-  📨 Meta「Muse」パーソナルAIエージェント、初期ChatGPT並みの評価
-  📨 OpenAI「GPT-6 Astra」、複雑な3D分解・再構築レンダリングで話題に
-
-[Regulation]
-  📨 Anthropic提唱のAI開発ペースダウン論、主要ラボと英国王室も同調
-  📨 AI減速提唱への反発 ― 独禁法照会と中国・オープンソース陣営の懸念
-
-[Research]
-  📨 Microsoft、蒸留なしで強化学習のみの小規模コーディングエージェント学習手法
-  📰 MLリサーチエージェントはなぜ過学習しないのか
-  📨 Kaggleポケモンカード対戦AIコンペ、1位は3.6億回の自己対戦で解法公開
-  📨 OpenAIの1万体AIエージェント群、ナビエ・ストークス方程式の証明を発表
-  📨 Google DeepMindのハエ脳「コネクトーム」、ゲーム操作などに応用され話題
-
-[Security]
-  📰 AI監視に対抗する「アドバーサリアル・ファッション」の現在地
-  📨 Anthropic、脅威インテリジェンスレポートで悪用事例4件を公表
-
-[Tools]
-  📨 複数AIエージェント連携の超高速開発、1日300コミット超の事例も
-  📨 Meta「Muse Spark 1.3」、OpenCodeに無料同梱されAPIキー不要で利用可能に
-  📨 Geminiで日本語を自動リライトする「Stop Hook」の仕組みが公開
-  📨 646言語対応の音声合成AI「Omnivoice Studio」がオープンソース化
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-14</description>
-      <mlrss:target-date>2026-09-14</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:3ecb96ec6cf18ab1dad081845ffe9b37d8eeccde896c7b3aba44181145d107f7" source-type="gmail" category="Regulation" anchor="false">
-          <mlrss:title>Anthropic提唱のAI開発ペースダウン論、主要ラボと英国王室も同調</mlrss:title>
-          <mlrss:link>https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development</mlrss:link>
-          <mlrss:summary>Anthropicのダリオ・アモデイCEOが、AI開発の進歩速度を落として安全対策を追いつかせるべきだとする「frontierのペース配分」を提唱するエッセイを公表した。OpenAIのサム・アルトマン氏とxAIのイーロン・マスク氏が一両日中に支持を表明し、マスク氏は「ダリオは正しい」とコメント。Microsoftのサティア・ナデラCEOも、人間の制御下にないスーパーインテリジェンスは「追求する価値がない」と同調した。英国のチャールズ国王は今週、Nvidia・Google DeepMind・OpenAI・Anthropicの首脳をスコットランドに招き、安全指針の協議を主催する予定。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:39:31+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:9fc38805c32c07c3f36930fa5f62ec7afb15f48b37a1394149820856ddd80c28" source-type="gmail" category="Product" anchor="false">
-          <mlrss:title>iOS 27でSiri AIが本格始動、Googleの技術協力も</mlrss:title>
-          <mlrss:link>https://www.macrumors.com/2026/09/13/ios-27-release-date-new-features/</mlrss:link>
-          <mlrss:summary>Appleが配信を始めた「iOS 27」で、刷新版Siriである「Siri AI」が本格的に利用可能になった。アプリ全体の作り直しに加え、画面内容を認識する機能、Googleの「Gemini」の技術協力を受けた言語モデルを搭載している。2024年のiOS 18向けに予告されながら精度不足で見送られていた機能で、約3年越しの実現となる。フル機能の利用にはiPhone 15 Pro以降が必要で、無印iPhone 15以前はアップデート自体は受けられるものの対象外となる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:39:31+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:69930ac673b7ea81d1b8748588bbdb6b513dc0bb871d7e2fa42eb1a6f106081e" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>Anthropic、2四半期連続の黒字化見通しでIPO準備が加速</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-69930ac673b7ea81</mlrss:link>
-          <mlrss:summary>Financial Timesの報道として、Anthropicが投資家に対し2四半期連続で調整後営業利益が黒字化する見通しを伝えたと伝えられた。企業向け需要の強さが収益化を後押ししており、粗利益率は80%を超えているという。評価額2兆ドル超でのナスダック上場に向けた準備が着実に進んでいることをうかがわせる内容。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:aff5830362e02a3897aa9f141fda8f0f116cd2a921c1cd6ea24f2db5bf99d7a5" source-type="gmail" category="AI" anchor="true">
-          <mlrss:title>xAI「Grok 4.8」、2.5兆パラメータの事前学習が完了し強化学習へ</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-aff5830362e02a38</mlrss:link>
-          <mlrss:summary>イーロン・マスク氏が、xAIの新モデル「Grok 4.8」について、2.5兆パラメータ規模の事前学習を今週中に完了し、強化学習（RL）フェーズへ移行すると明らかにした。新設計のC++ソフトウェアスタックを用いて学習されており、モデルの巨大化と強化学習重視のトレンドが続いていることを示す。先週延期された「Grok 4.7」についても、来週にはリリースされる見込みだという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7cdc3e15ca4b798c57ba6075421a9e7ebce48385dc47f8e0a4976740497a987a" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Microsoft、蒸留なしで強化学習のみの小規模コーディングエージェント学習手法</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7cdc3e15ca4b798c</mlrss:link>
-          <mlrss:summary>Microsoftが、大規模モデルからの蒸留を使わずに小規模なコーディングエージェント用モデルを構築する手法を発表した。モデルがぎりぎり解けるかどうかの境界にあるタスクを動的に合成し、強化学習のみで学習させる点が特徴。開発者の間では「限界まで追い込む筋トレのようだ」と評され、小規模モデルの性能を効率よく引き上げる新たなアプローチとして注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a02fad844d578c10e9a42c93b581bf1676e504d407b10942f5fa1a27fb4c8af9" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>複数AIエージェント連携の超高速開発、1日300コミット超の事例も</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a02fad844d578c10</mlrss:link>
-          <mlrss:summary>複数のAIコーディングエージェントを同時並行で稼働させ、開発速度を大幅に高める実践知見の共有が広がっている。1つのプロジェクトで15体以上のエージェントを同時稼働させ、1日あたり最大300コミット超を達成したという事例が報告された。Anthropicのエンジニアも、100体以上のClaude Codeエージェントをループ稼働させ、統括エージェントとPMエージェント群にクルー全体を管理させていると語っており、マルチエージェント運用が実務レベルで広がりつつある。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a19e907557d60bfd15a7513311229b6146bc7ce88736eca5f365b30fcfea372c" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>Meta「Muse Spark 1.3」、OpenCodeに無料同梱されAPIキー不要で利用可能に</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a19e907557d60bfd</mlrss:link>
-          <mlrss:summary>Metaの推論モデル「Muse Spark 1.3」が、コーディング支援ツール「OpenCode」に無料で同梱されるようになった。APIキーの設定や課金なしで、ライブラリの更新やバグ修正などのタスクを実行できるという。Scale AIのアレクサンダー・ワンCEOによれば、同モデル群はエージェント機能やマルチモーダル対応の強化を重ねながら、公表を控えて開発が進められてきたという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:81c3dd68e7246e2292540415748a43de382d6d3a9d0e7104dbb8e1a5a3f33247" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>Geminiで日本語を自動リライトする「Stop Hook」の仕組みが公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-81c3dd68e7246e22</mlrss:link>
-          <mlrss:summary>Google「Gemini」を使い、生成された日本語の文章をほぼ全自動で自然な表現に整える「Stop Hook」の仕組みと、再現可能なプロンプトが開発者コミュニティで公開された。ジャンルやファイルの種類ごとに条件を変えて発火させられる柔軟さが評価されており、生成AIを使った文章品質のチェック・修正を自動化する具体的な手法の一例として注目を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T19:38:04+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:92766b27e9624989b9109b3f78f39fc6a8d9aa76c344bdaff1adc4a344812edc" source-type="rss" category="Research" anchor="false">
-          <mlrss:title>MLリサーチエージェントはなぜ過学習しないのか</mlrss:title>
-          <mlrss:link>https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit</mlrss:link>
-          <mlrss:summary>Amazon Scienceの研究者らが、検証データに対して何百回も試行錯誤するAIリサーチエージェントが、教科書的な予想に反して過学習しにくい理由を分析した。優れた探索戦略を16〜32トークン程度の極端に短いプロンプトに圧縮しても、別のエージェントに8種のデータセットで同等の性能を再現させられることを確認。短い記述では検証データ固有の偽パターンを符号化する余地がなく、圧縮可能な戦略ほど本質的な構造を捉えているというオッカムの剃刀的な説明を裏付けた。意図的に過学習させた場合は圧縮が失敗し、性能が失われたという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T16:32:23+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f2e097f3a1fd44829d227d0fffcf2e14818b3cf7d7234f3dd5b21f3f06b1f328" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Nari Labs、音声AIベンチマークで上位独占の新モデルを発表</mlrss:title>
-          <mlrss:link>https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/</mlrss:link>
-          <mlrss:summary>Nari Labsが、音声認識モデル「Qwen3-ASR 1.7B」と音声合成モデル「Qwen3-TTS 1.7B」がCovalの音声AIベンチマークで上位を占めたと発表した。ASRはレイテンシで1位（中央値44ms）、精度で2位（誤り率3.6%）。TTSは精度で1位（誤り率3.8%）、レイテンシで2位（63ms）を記録し、いずれも品質とレイテンシのトレードオフで競合を上回る結果となった。料金も競合の半額以下からトップクラスの安さとしている。オープンソースの音声モデルを高速化する取り組みの一環という。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T16:07:58+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:2b8ffec3a456f89b6fcf2bdba0dabdc2700089e58cb1603067816570d737b920" source-type="rss" category="Security" anchor="false">
-          <mlrss:title>AI監視に対抗する「アドバーサリアル・ファッション」の現在地</mlrss:title>
-          <mlrss:link>https://spectrum.ieee.org/adversarial-fashion</mlrss:link>
-          <mlrss:summary>顔認証や物体検出AIを混乱させるために設計された衣服やアクセサリーが、プライバシーへの意思表示として広がっている。幾何学模様で11種の検出モデルに対抗するKickstarterプロジェクト「noRecognition」や、着用者を動物や物体と誤認識させるジャカード織の衣服を販売する「Cap_able」などが紹介されている。ただし効果はカメラ角度や照明、モデルの種類に左右され、運営側が敵対的パターンを学習し直せば無効化されうる。歩き方など別の識別手がかりも残るため、専門家は完全な防御策ではなく意思表示的な意味合いが大きいと指摘する。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T14:04:53+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:41e834a99f63c861bbd36f2fa1325cb2bed4f29f429d3e166a798999e0c4e778" source-type="gmail" category="Funding" anchor="true">
-          <mlrss:title>Anthropic、今後10年で最大5170億ドル規模の計算資源投資契約</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-41e834a99f63c861</mlrss:link>
-          <mlrss:summary>The Informationの報道によると、Anthropicが今後10年間でクラウド・チップ・データセンターに最大5170億ドル（約70兆円）を投じる契約を結んだ。同社が投資家に伝えていた2029年までの支出見込み1800億ドルを大きく上回る規模で、新規株式公開（IPO）を見据えて成長と計算資源確保に積極的に動いていることを示すとみられる。契約の詳細な内訳や相手先は明らかになっていない。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:1671fd60f5452c40df927be77138adfaa751e495a936dcea4c18de23ad6f06ec" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>Meta「Muse」パーソナルAIエージェント、初期ChatGPT並みの評価</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1671fd60f5452c40</mlrss:link>
-          <mlrss:summary>Metaのパーソナルエージェント「Muse」が、実用性の高さから利用者の間で高く評価されている。Scale AIのアレクサンダー・ワンCEOも、ソフトウェアエンジニアリング関連タスクでの性能の高さを紹介しており、2022年のChatGPT登場時に匹敵する熱狂だとする声も上がっている。Metaが本格的なプロモーションに乗り出せば、10億人規模のユーザーに到達する初のAIアシスタントになるとの見方も出ている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:825452bf3c27e71aaaad7167716d38dd01d88c39ad2d4c37996684927d4ed31c" source-type="gmail" category="Product" anchor="true">
-          <mlrss:title>OpenAI「GPT-6 Astra」、複雑な3D分解・再構築レンダリングで話題に</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-825452bf3c27e71a</mlrss:link>
-          <mlrss:summary>OpenAIのモデル「GPT-6 Astra」を使い、ターボファンジェットエンジンを3412個の部品に分解し、単一の3Dレンダリングでリアルタイムに再構築するデモがSNSで話題になっている。動画生成AIを使わず、コード生成のみでこの水準の視覚表現を実現した点が評価されている。ノート管理アプリObsidianと連携させた際の推論の深さも高く評価されており、視覚を通じた学習支援ツールとしての可能性が注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f04659cb4368cfa9621c917bbccca38776959c65c18074606b1c8eaf47b7abd0" source-type="gmail" category="Research" anchor="true">
-          <mlrss:title>Kaggleポケモンカード対戦AIコンペ、1位は3.6億回の自己対戦で解法公開</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f04659cb4368cfa9</mlrss:link>
-          <mlrss:summary>Kaggleで開催されたポケモンカード対戦AIコンペティションの解法（Writeup）が参加チームから一斉に公開された。1位のチームは模倣学習を用いず、多様なデッキを用意した上で3億6000万試合という桁違いの自己対戦とPPOによる強化学習のみでモデルを鍛えたという。圧倒的な対戦数による自己対戦の有効性や、PPO学習を1エポックずつ素早く回す手法の学習効率について、参加者の間で高い関心を集めている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:3667c3ca9fdbdc2ebf8c7fec44f1d5e1866de5a05f348c1763861791176deebb" source-type="gmail" category="Tools" anchor="true">
-          <mlrss:title>646言語対応の音声合成AI「Omnivoice Studio」がオープンソース化</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3667c3ca9fdbdc2e</mlrss:link>
-          <mlrss:summary>個人開発者が、完全にローカル環境で動作する音声合成AI「Omnivoice Studio」をオープンソースとして公開した。646言語に対応しており、商用サービスのElevenLabs（32言語対応）を大きく上回る言語カバレッジが特徴。わずか3秒程度の参照音声から声質をクローンでき、動画全体の吹き替え・文字起こし・翻訳・再音声化までを一貫して行える点が開発者から評価されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:a4676577ee4b2e7047e5a18bb9efefbd8341a262e041898ccfe2a639db198c1c" source-type="gmail" category="Other" anchor="true">
-          <mlrss:title>TSMC、AI半導体需要でCoWoS生産能力を28年末に月産26万枚へ拡大</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a4676577ee4b2e70</mlrss:link>
-          <mlrss:summary>TSMCが、AI半導体向けの高度パッケージング技術CoWoSの生産能力を、2028年末までに月間26万枚規模に拡大する計画であることが明らかになった。2025年末時点の月産7万枚から3年で4倍近い増強となる。TPUや次世代GPU「Vera Rubin」向け需要でN3プロセスの生産ラインが逼迫しており、N2プロセスの量産拡大も並行して進めている。旺盛な需要により、来年の売上高は過去最高を更新する見通しだという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T07:34:13+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:855f1d74d1727ee4daf5f7cc8de4ba110094cd0c09219c2a155ae7f2f6f1e91e" source-type="gmail" category="Regulation" anchor="true">
-          <mlrss:title>AI減速提唱への反発 ― 独禁法照会と中国・オープンソース陣営の懸念</mlrss:title>
-          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-855f1d74d1727ee4</mlrss:link>
-          <mlrss:summary>OpenAIが、最先端AI開発の業界一斉減速が競合他社間の協調とみなされ独占禁止法に抵触しないか、米議会に法的見解を求めていることが分かった。一方、中国国営メディアはAnthropicの減速提唱を「冷戦的な駆け引き」と批判し、中国の諜報機関も独自にAIの国家安全保障リスクへ警告を発した。オープンソースAI界隈では、減速論が結果的にオープンモデルの禁止につながるのではとの懸念が強まっている。減速提唱の発端となった元Anthropic研究者の内部告発についても、PRの演出だとする批判が出ている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T02:31:24+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:305a1d119e1dfa5e05c117cd8e496a8539e773ee538e27f3ec6b876b77a0c657" source-type="gmail" category="Security" anchor="false">
-          <mlrss:title>Anthropic、脅威インテリジェンスレポートで悪用事例4件を公表</mlrss:title>
-          <mlrss:link>https://www.anthropic.com/threat-intelligence-report-september-2026</mlrss:link>
-          <mlrss:summary>Anthropicが最新の脅威インテリジェンスレポートで、自社モデルの悪用事例を複数公表した。ロシア関連のスパイ集団が攻撃チェーンの大部分を自動化し、検知されるたびにマルウェアを作り直していたケースや、イエメンを拠点とする武装勢力がClaude Codeをロケット・ミサイル誘導技術の設計に利用しようとした事例（アカウントは停止済み）を報告。マリの諜報活動向けに約2500万件のSIM情報を扱う監視ソフトを構築させたコンサルタントのアカウントも停止した。中国拠点のマッチングアプリ型影響工作でも4700以上のAI人格が検知されたという。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T02:31:24+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:7f65176ff3c6af9eaebb2e0f313587c828c0326f71f100037f7ab5866df73015" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>OpenAIの1万体AIエージェント群、ナビエ・ストークス方程式の証明を発表</mlrss:title>
-          <mlrss:link>https://www.theneurondaily.com/p/openai-s-1m-math-breakthrough-sparked-a-fight-with-anthropic</mlrss:link>
-          <mlrss:summary>OpenAIが、1万体規模のAIエージェント群を並列稼働させ、約88時間の計算の末にナビエ・ストークス方程式に関する証明案をまとめたと発表した。同方程式の解の滑らかさを巡る問題は90年近く未解決とされてきた数学上の難問の一つ。証明の正式な査読・検証は今後の課題となるが、大量のAIエージェントを協調させて数学研究に取り組む手法の到達点を示す事例として注目されている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T02:31:24+09:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:0cb2a5829a0f386eb51afb1c911bbff2081ab5b90fc93444fd518b2b95fe7ded" source-type="gmail" category="Research" anchor="false">
-          <mlrss:title>Google DeepMindのハエ脳「コネクトーム」、ゲーム操作などに応用され話題</mlrss:title>
-          <mlrss:link>https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/</mlrss:link>
-          <mlrss:summary>Google ResearchとHHMI Janeliaが公開した、16万6000個超のニューロンから成る雄のショウジョウバエ脳の完全な配線地図（コネクトーム）を使い、開発者コミュニティが様々な実験を行い話題になっている。ゲーム画面の入力を感覚ニューロンへの刺激に変換し、行動出力を操作に変換することで、この神経回路網に「Doom」や「Beat Saber」を操作させる試みや、暗号資産取引に応用する例が登場した。地図自体はハエの記憶や意識を再現したものではなく、あくまで配線構造のデータである点には注意が必要だとされる。</mlrss:summary>
-          <mlrss:pub-date>2026-09-14T02:31:24+09:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
