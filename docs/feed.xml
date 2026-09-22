@@ -6,7 +6,169 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Mon, 21 Sep 2026 22:07:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 22:22:56 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-09-22</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-22</link>
+      <guid isPermaLink="false">sha256:fd08217eccdf30e4167ad1a04e3a0ee98659a0bfb2d71491e2aefc3b2379370e</guid>
+      <pubDate>Tue, 22 Sep 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Other</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Tools</category>
+      <description>2026-09-22 のニュース 18件（Gmail 11件 / RSS 7件）
+
+[AI]
+  📨 Xiaomiのオープンモデル「MiMo-V2.6-Pro」が性能トップに
+  📨 xAIが新モデル「Grok 4.7」をリリース、評価は賛否両論
+
+[Engineering]
+  📨 AIエージェント時代、データ基盤の鮮度と権限管理が課題に
+  📰 新しいLLMベンチマークサイト「AssBench」が話題に
+  📰 米国防総省、イランの学校への誤爆でAIへの過信を一因と認める
+  📰 OpenAI、新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表
+  📰 Claude Opus 5.5、Intelligence Indexで212モデル中首位に
+  📰 Anthropic、新フラッグシップ「Claude Opus 5.5」を発表 コストは4割減
+  📰 「OpenAIはJevの牙城を崩せるか」との分析記事
+  📰 OpenAIの「GPT-6 Astra」、2005年から未解読だったエニグマ暗号を解読
+
+[Other]
+  📨 AMDが時価総額1兆ドル突破、AI半導体・電力需要が過熱
+
+[Product]
+  📨 OpenAI、Grok BotやMuseに対抗する常時稼働エージェント「Aeon」を開発中か
+  📨 Meta「Muse」、Amazonが買い物代行をブロック Shopifyとは提携
+
+[Regulation]
+  📨 22カ国がAI国際監督機関の新設を要求、識者は誇大宣伝に警鐘
+
+[Research]
+  📨 OpenAI、数学の独立諮問委を新設 未解決問題100件解決の噂も
+  📨 AI国境監視タワー、移民110人超の死亡地点近くで機能せず
+
+[Security]
+  📨 OpenAIとAnthropic、相互ストレステスト協定を交渉していたと判明
+
+[Tools]
+  📨 意思決定モデル「Jev」の活用がLangSmithやClaude Codeに拡大
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-22</description>
+      <mlrss:target-date>2026-09-22</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:0439b9dc5fdcd7a7638db43ecc9b949c7ee103bf4883bb6e4832224d5306402f" source-type="gmail" category="Engineering" anchor="false">
+          <mlrss:title>AIエージェント時代、データ基盤の鮮度と権限管理が課題に</mlrss:title>
+          <mlrss:link>https://gradientflow.substack.com/p/your-ai-might-be-fine-but-your-data</mlrss:link>
+          <mlrss:summary>データ分析基盤に関する論考で、AIエージェントが人間に代わってデータを直接読み取り行動する時代には、鮮度の低いデータや定義の曖昧さが「分析ミス」ではなく「誤った業務操作」に直結すると指摘されている。ある実験では、データモデルの整備とドキュメント改善だけで分析エージェントの信頼性が約40%から90%まで向上したという。権限管理も含め、AI活用にはデータ基盤自体の信頼性強化が欠かせないとの論考。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T22:02:34+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ccfe6b1bf6ec5c3cadda6fe10d668bd45cc55330ee97fc83b6070d3ae51432a3" source-type="gmail" category="Other" anchor="false">
+          <mlrss:title>AMDが時価総額1兆ドル突破、AI半導体・電力需要が過熱</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/09/21/amd-stock-1-trillion-value.html</mlrss:link>
+          <mlrss:summary>半導体大手AMDの株価が上昇し、時価総額が初めて1兆ドルを突破、AI需要の恩恵を受ける12社目の兆ドル企業となった。背景にはAIデータセンター向け需要の急増があり、Samsungは次世代HBM対応に向け4nm・2nm生産ラインの拡張を検討していると報じられている。Google(Alphabet)もデータセンターの電力確保のため、米ジョージア州の原子力発電所の容量増強に資金提供することで合意した。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T21:04:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5ce0e78fef9398b1c28256bc9464e13a8a9dda6b62ff24bbb1aa11f794d5fd95" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>22カ国がAI国際監督機関の新設を要求、識者は誇大宣伝に警鐘</mlrss:title>
+          <mlrss:link>https://www.politico.eu/article/20-countries-urge-to-strenghten-oversight-of-ai-to-keep-it-under-human-control/</mlrss:link>
+          <mlrss:summary>国連関連の会合に合わせ、22カ国がAIの事前配備テストや共通の安全基準を求める新たな国際監督機関の設立を呼びかけた(米中は不参加)。OpenAIも独自の国際的な技術基準を提案し、米国が主導すべきだと訴えている。一方、研究者のTimnit Gebru氏とEmily Bender氏は寄稿で、ハッキングや数学的発見をめぐる誇大な発表の裏には商業的思惑があると指摘し、AIの熱狂的な報道に懐疑的な目を向けるよう呼びかけた。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T21:04:28+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b98df4c8aa21e63fe4cc1ff4fd78a6581373d3cc2a10b5095520ebe1aa817498" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>新しいLLMベンチマークサイト「AssBench」が話題に</mlrss:title>
+          <mlrss:link>https://www.assbench.com/</mlrss:link>
+          <mlrss:summary>Hacker Newsで新しいLLM評価用ベンチマークサイト「AssBench」が取り上げられた。サイト自体の解説はごく限られており具体的な評価指標や結果は公開情報からは確認できなかったが、コミュニティ内で議論を呼び98ポイント・30件のコメントを集めている。詳細な手法や結果は今後の続報が待たれる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T20:34:19+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3ee7caabaddfea344dc2b71dbd6a61846b8001b2024004fc9ed1d0116991e022" source-type="gmail" category="Tools" anchor="false">
+          <mlrss:title>意思決定モデル「Jev」の活用がLangSmithやClaude Codeに拡大</mlrss:title>
+          <mlrss:link>https://typesafe.ai/blog/introducing-system-one-models-and-jev</mlrss:link>
+          <mlrss:summary>意思決定に特化した軽量モデル「Jev」の活用が急拡大している。Claude Code向けにタスクの難易度を判断してモデルを自動選択する「jev-model-router」が登場したほか、LangChainはLangSmithにJevを組み込み、対抗するオープンソースモデル「SemIf」も無料公開された。低コスト・低遅延で分類やルーティングを担う「システム1」型モデルとして、開発者の関心が高まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T19:35:27+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:b8395ccbe47219b7d09d7a98664a78bfdbabd328a119bf6f9a7351e2f2a5b61c" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>OpenAI、Grok BotやMuseに対抗する常時稼働エージェント「Aeon」を開発中か</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-b8395ccbe47219b7</mlrss:link>
+          <mlrss:summary>OpenAIは、xAIの常時稼働型エージェント「Grok Bot」やMetaの「Muse」に対抗する、新たな常時稼働型パーソナルAIエージェントを開発中と報じられた。社内コードからは「Aeon」という名称が見つかっており、数時間から数日にわたりバックグラウンドで様々な業務ソフトを横断してタスクをこなす機能が検討されているという。既存のエージェント技術を再構成し、消費者向け市場での競争力強化を狙う動きとみられる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T19:35:27+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:483b86443957bdbeed9073c7dec8484f936e0496c595e5cb6477c36c522438f6" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Meta「Muse」、Amazonが買い物代行をブロック Shopifyとは提携</mlrss:title>
+          <mlrss:link>https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/</mlrss:link>
+          <mlrss:summary>MetaのパーソナルAIエージェント「Muse」がApp Storeの無料アプリ首位を獲得し、ダウンロード数・利用者数ともに初期のChatGPTを上回る勢いで成長している。だがAmazonは、Museが許可なくサイトへアクセスし利用者に正体を明示していないとして、自社サイトでの買い物代行をブロックした。一方Shopifyは逆に提携を発表し、Shop Payを使ったエージェント経由の決済に対応する。AIエージェントに買い物を任せるには各サイトの許可という新たな壁があることが浮き彫りになった。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T19:31:55+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:026df0437aa55020a800f59b5c1141e5ee862f1d41dfa20b65ae103a3dbdf2b1" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>米国防総省、イランの学校への誤爆でAIへの過信を一因と認める</mlrss:title>
+          <mlrss:link>https://www.bloomberg.com/graphics/2026-iran-school-attack/</mlrss:link>
+          <mlrss:summary>Bloombergの報道によると、米国防総省はイランの学校を誤って標的にしたミサイル攻撃について、AIシステムへの過度な依存が一因になったと認めたという。記事本文への直接アクセスができなかったため、被害状況や関与したAIシステムの詳細は確認できていないが、軍事的な意思決定にAIを組み込むリスクを示す事例としてHacker Newsでも大きな議論を呼んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T19:03:38+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a016ffeeb66666e8cb2c7838b401f43ea9a53ee0f916e8fdb1c7b9de28639e90" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>OpenAI、新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表</mlrss:title>
+          <mlrss:link>https://openai.com/index/introducing-gpt-6-sol-and-luna/</mlrss:link>
+          <mlrss:summary>OpenAIが新世代モデル「GPT-6 Sol」と「GPT-6 Luna」を公式発表した。以前からSNSや社内コードのリークで噂されていた2モデル同時投入が現実になった形で、AnthropicのClaude Opus 5.5とほぼ同時期の発表となった。公式発表ページへの直接アクセスができなかったため、価格や具体的な性能向上幅など詳細情報は続報を待ちたい。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T18:00:34+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:874704ce6b7560bca36187633ba3bd0b0b7bcb56857220657e7ceeb0bc3c402b" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Claude Opus 5.5、Intelligence Indexで212モデル中首位に</mlrss:title>
+          <mlrss:link>https://artificialanalysis.ai/models/claude-opus-5-5</mlrss:link>
+          <mlrss:summary>分析サイトArtificial AnalysisによるとClaude Opus 5.5は、同社のIntelligence Indexで評価対象212モデル中トップのスコア58を記録し、中央値25を大きく上回った。一方で価格は入力100万トークンあたり4ドル・出力20ドルとやや高めで、出力トークン数も中央値より大幅に多く冗長な傾向があるという。コスト対性能では93位にとどまるが、100万トークンの文脈長と高い推論力により、エンタープライズ向け高難度タスクに強みを持つとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T16:51:31+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:615afe874430f06786201580d24b205528b16b8531827c655c56bc0ccc658976" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Anthropic、新フラッグシップ「Claude Opus 5.5」を発表 コストは4割減</mlrss:title>
+          <mlrss:link>https://www.anthropic.com/claude-opus-5-5</mlrss:link>
+          <mlrss:summary>AnthropicがOpus 5の後継モデル「Claude Opus 5.5」を発表した。上位モデルFable 5.1相当の性能を、稼働コストは前モデルよりおよそ4割低く抑えつつ実現したとしている。エージェント型コーディング能力や、サイバーセキュリティ・生物分野での安全性対策が強化され、応答速度もOpus 5比で3割以上向上した。価格は入力100万トークンあたり4ドル、出力20ドルで、AWS・Google Cloud・Azure上で即日利用可能となっている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T16:29:05+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:72ae044c928cba8ac5fbebb1c33227d36854e1feecf3458a7eedb79b1552e77e" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>Xiaomiのオープンモデル「MiMo-V2.6-Pro」が性能トップに</mlrss:title>
+          <mlrss:link>https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b</mlrss:link>
+          <mlrss:summary>スマートフォンメーカーのXiaomiが、オープンウェイトの新モデル「MiMo-V2.6-Pro」と軽量版「Flash」を発表した。総パラメータ約1兆(アクティブ420億)ながらArtificial Analysis Intelligence Indexでオープンモデル首位となり、Claude OpusやGPT-5.6 Solに匹敵する性能とコスト効率を示す。強化学習の環境や学習コードも公開予定で、最終トレーニングから1週間足らずでの公開という開発の透明性・速さも注目を集めている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T15:30:57+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7e10c418fdfad39c0f984ec14cd323eaf6bf5552f1d56f78761c0743920c9f32" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>「OpenAIはJevの牙城を崩せるか」との分析記事</mlrss:title>
+          <mlrss:link>https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/</mlrss:link>
+          <mlrss:summary>ブログ記事は、決定モデル「Jev」を手がけるTypeSafe社について、OpenAIが比較的容易に追随・凌駕できる可能性があると論じている。Jevはトークン確率分布を使った分類という従来型のLLM技術を応用したものであり、OpenAIは自社モデルに同様の分類機能を組み込むことで、より速く安価な推論を実現できると指摘する。TypeSafeの本当の強みは学習データや独自の強化学習手法にあり、それが模倣困難かどうかが今後を左右するとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T14:42:59+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7d8e7caaa314511b3ee5b83424b3f1ecc1fbc1cae505c1c215d1c271022b4911" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>OpenAIの「GPT-6 Astra」、2005年から未解読だったエニグマ暗号を解読</mlrss:title>
+          <mlrss:link>https://www.cryptocellar.org/bgac/the-mvueh-break.html</mlrss:link>
+          <mlrss:summary>AIシステム「GPT-6 Astra」が、1941年7月10日付のドイツ陸軍エニグマ暗号メッセージ「MVUEH」を解読した。同メッセージは2005年以降解読されずに残っていたものだった。AIは暗号研究サイト上の未解読メッセージを自律的に分析してMVUEHを有望な対象に選び、独自にエニグマのシミュレーションソフトを開発、繰り返し出現する地名「ROSENOW」を手がかりに鍵と平文を復元した。人間の暗号解読者なら数週間から数カ月かかる作業を2日で終えたことになる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T13:52:15+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:84fbb5c0b3330f9c377995219c09f0e88cc5e80e160b78822367a5911e8ae429" source-type="gmail" category="AI" anchor="false">
+          <mlrss:title>xAIが新モデル「Grok 4.7」をリリース、評価は賛否両論</mlrss:title>
+          <mlrss:link>https://x.ai/news/grok-4-7</mlrss:link>
+          <mlrss:summary>xAIが新モデル「Grok 4.7」をリリースした。API価格は前バージョンのGrok 4.6から据え置きだが、CursorBenchやVals Indexなどのベンチマーク評価は割れており、コーディングや電気工学タスクでの性能向上が報告される一方、キャッシュヒット率の低下によりタスクあたりの実質コストが1.5〜3倍に増加したとの指摘も出ている。Devin、Cursor、v0など主要な開発ツールへの統合も進んでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T07:35:27+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c7394187f46ca28cd277de38dba6e399338dd79d8f2cb91e34a840b97ea4702b" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>OpenAI、数学の独立諮問委を新設 未解決問題100件解決の噂も</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c7394187f46ca28c</mlrss:link>
+          <mlrss:summary>OpenAIは、自社AIによる数学分野での進展を責任を持って発表するため、独立した数学者による諮問グループを新設したと発表した。背景には、同社の内部モデルが未解決の数学問題を100件以上解決したとの未検証の噂が数学コミュニティに広がったことがある。諮問グループは成果の評価方法や公表基準について助言する立場で、OpenAIから独立して運営されるとしている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T07:35:27+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:de27dd24c08b58d9b9e01545d4de276312d0604ac0217a1becaacf64ed78b79d" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>OpenAIとAnthropic、相互ストレステスト協定を交渉していたと判明</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-de27dd24c08b58d9</mlrss:link>
+          <mlrss:summary>報道によると、OpenAIとAnthropicは互いの商用AIモデルの脆弱性や安全性上のリスクを検証し合う、法的拘束力のある相互ストレステスト協定の締結に向けて交渉していたという。合意には、双方が相手のデータを保持できないようにする安全策も含まれるとされる。一連のAI関連セキュリティインシデントへの懸念の高まりを背景に、競合する大手ラボ同士が安全性で協力を模索する動きとして注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T07:35:27+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ca1d02a77ea302964c4a6c7f189a6a32c64d51ff8f5313b65ce2e3c02d43c924" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>AI国境監視タワー、移民110人超の死亡地点近くで機能せず</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ca1d02a77ea30296</mlrss:link>
+          <mlrss:summary>MIT Technology Reviewの調査報道によると、米国が25年かけて整備してきたAI搭載の国境監視タワー網(800基超)の周辺で、少なくとも110人の移民が死亡していたことが判明した。取材班は約4000件の移民死亡事例の位置情報とタワーの設置場所を照合し、検知に失敗した例や検知後も現場対応が間に合わなかった例があったと指摘。当局は遺体発見時に監視技術の有効性を正式に検証していないという。AIへの過信が監督体制を緩めるリスクを浮き彫りにした。</mlrss:summary>
+          <mlrss:pub-date>2026-09-22T02:00:24+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-09-21</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-21</link>
@@ -505,49 +667,6 @@
           <mlrss:link>https://z.ai/blog/glm-built-its-inference-infrastructure</mlrss:link>
           <mlrss:summary>中国のAI企業z.ai（GLMモデルシリーズの開発元）が、自社の大規模言語モデル向け推論インフラをどのように構築したかを紹介するブログ記事を公開した。Hacker News上で343ポイント・252コメントを集めるなど注目を集めている。本文はJavaScriptレンダリングのため自動取得できず具体的な技術詳細は確認できなかったが、タイトルから推論基盤の設計・運用に関する知見を扱った記事とみられる。詳細は元記事を参照されたい。</mlrss:summary>
           <mlrss:pub-date>2026-09-17T08:27:09+00:00</mlrss:pub-date>
-        </mlrss:story>
-      </mlrss:stories>
-    </item>
-    <item>
-      <title>ML &amp; RSS Digest 2026-09-16</title>
-      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-16</link>
-      <guid isPermaLink="false">sha256:ecb03fe24eaa012327b23c7065db69d5d9ee76b77fccf392ab3866080c8f3020</guid>
-      <pubDate>Wed, 16 Sep 2026 08:00:00 +0900</pubDate>
-      <category>Engineering</category>
-      <description>2026-09-16 のニュース 4件（Gmail 0件 / RSS 4件）
-
-[Engineering]
-  📰 Linum、テキスト画像生成モデルを3.6倍高速化する新手法「JiT-DDT」を発表
-  📰 ClaudeのCoworkとチャットが統合、Claude DocsとSlidesも新登場
-  📰 Google DeepMind、AGIの社会的影響を議論する「DeepMind Institute」を設立
-  📰 MistralとMozilla、プライバシー重視の多言語AIブラウジングで提携
-
-詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-09-16</description>
-      <mlrss:target-date>2026-09-16</mlrss:target-date>
-      <mlrss:stories>
-        <mlrss:story uid-hash="sha256:f3104bbede1328f90d6fddf43763f04e4eb8d96bd273e8105a05c8a23f64f6e4" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Linum、テキスト画像生成モデルを3.6倍高速化する新手法「JiT-DDT」を発表</mlrss:title>
-          <mlrss:link>https://www.linum.ai/field-notes/jit-ddt</mlrss:link>
-          <mlrss:summary>AIスタートアップのLinumが、テキストから画像を生成する拡散モデル向けの新アーキテクチャ「JiT-DDT」を発表した。従来のVAEベース潜在拡散モデルに代えてピクセル空間のエンコーダー・デコーダーを採用し、高次元入力で学習が難しくなるv-predictionではなくx-predictionを用いることで、モデル内で積極的な圧縮を可能にした。エンコーダーが64×64の低解像度構造を学習し、デコーダーが512×512のフル解像度で細部を復元する仕組みで、従来モデルの4倍のピクセル解像度の画像を、より少ないGPU時間で生成できるとしている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-16T16:58:13+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:f0bc68a3c5886f75824def02261765740f2a274bc3384a409c4b564828f3c1d3" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>ClaudeのCoworkとチャットが統合、Claude DocsとSlidesも新登場</mlrss:title>
-          <mlrss:link>https://claude.com/blog/cowork-is-now-claude</mlrss:link>
-          <mlrss:summary>AnthropicはClaudeのCoworkとチャット機能を単一の製品に統合したと発表した。従来はタスクをどちらの画面で行うか選ぶ必要があったが、統合により一つの会話からレポート作成やスライド作成など複雑なプロジェクトを任せられるようになり、必要なツールをClaude自身が判断して使い分ける。新たに会話に直接組み込まれる「Claude Docs」と、ベータ版の「Claude Slides」も追加され、既存の「Claude Design」と並んで利用できる。展開はまずProおよびMaxプランから始まり、数週間かけて他のプランにも拡大される予定。</mlrss:summary>
-          <mlrss:pub-date>2026-09-16T16:26:25+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:4c35f050466188856dd81755b0fbf19d87fa8bea77fc3f422aee1593f62f4f62" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>Google DeepMind、AGIの社会的影響を議論する「DeepMind Institute」を設立</mlrss:title>
-          <mlrss:link>https://institute.deepmind.com/</mlrss:link>
-          <mlrss:summary>GoogleとGoogle DeepMindの研究者らが、汎用人工知能(AGI)とその社会的影響についてのアイデアを発信・議論する新プラットフォーム「DeepMind Institute(DMI)」を立ち上げた。推論の透明性や経済政策、AGI開発における倫理的枠組みといった学際的なテーマを扱う。掲載されるエッセイは公式な企業見解ではなく議論のきっかけと位置付けられており、AI安全性や経済的混乱の可能性、責任あるAGI推進の原則などを取り上げる。社会がAGIの実現に近づく中で、建設的な対話を促すことを目的としている。</mlrss:summary>
-          <mlrss:pub-date>2026-09-16T14:32:11+00:00</mlrss:pub-date>
-        </mlrss:story>
-        <mlrss:story uid-hash="sha256:437a363e3643f0a0a288a7dc68226afae3607e24e030410637e2d673abe6c72e" source-type="rss" category="Engineering" anchor="false">
-          <mlrss:title>MistralとMozilla、プライバシー重視の多言語AIブラウジングで提携</mlrss:title>
-          <mlrss:link>https://mistral.ai/news/mistral-x-mozilla/</mlrss:link>
-          <mlrss:summary>Mistral AIとMozillaが提携し、Firefoxに搭載するAIブラウジング支援機能「Smart Window」(ベータ版)を発表した。複雑な検索の整理や重要情報の保持、開いているタブからの情報収集を支援する。地域の言語や方言に最適化したMistralの多言語モデルを使用し、まずフランスと北米で提供を開始、その後英国とドイツにも展開予定。両社は「プライバシー、コントロール、選択の自由」を重視し、Mozilla側のサーバーでは会話内容をデフォルトで保持しないとしており、オープンソース技術とユーザーの主権を尊重する姿勢を反映している。</mlrss:summary>
-          <mlrss:pub-date>2026-09-16T08:08:57+00:00</mlrss:pub-date>
         </mlrss:story>
       </mlrss:stories>
     </item>
