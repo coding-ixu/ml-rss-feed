@@ -6,7 +6,194 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Wed, 07 Oct 2026 22:15:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 22:16:09 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-10-08</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-10-08</link>
+      <guid isPermaLink="false">sha256:0b8cd2cad5a8f019849546e92cee8494969743f4b59fdc97ab641bf36a36b63e</guid>
+      <pubDate>Thu, 08 Oct 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Other</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <description>2026-10-08 のニュース 22件（Gmail 17件 / RSS 5件）
+
+[AI]
+  📨 Claude Haiku 5.5、第三者評価で知能指数43・ただしトークン消費が課題
+  📨 xAIのGrok Bot、Claude Opus 5.5を主要モデルに採用しXの検索・監視にも対応
+  📨 Liquid AIとPerplexity、意思決定向けのオープンウェイトモデルを相次ぎ公開
+
+[Engineering]
+  📰 Show HN: ローカル完結でAI搭載の無料オープンソースLightroom代替「Rembrandt」
+  📰 AI向け生物学データに18億ドル、Biohubなどが共同で拠出
+  📰 OpenAIの年換算売上、従来示唆された水準より200億ドル少ないと報道
+  📰 StepFunの100万コンテキストMoE「Step 5 Preview」がOpenRouterに登場
+  📰 なぜ業界はDeepSeek 4.1 Flashに騒がないのか？ 「十分に良い」モデルの価値
+
+[Funding]
+  📨 Nous Research、評価額15億ドルを確認、企業向けエージェント「Hermes for Businesses」を発表
+  📨 Broadcom、OpenAI向けカスタムチップのため500億ドル超の資金調達を調整
+  📨 Nvidia、ヒューマノイド企業Figureへ追加10億ドルの投資を協議
+
+[Other]
+  📨 SamsungとTSMC、AI需要で記録的な業績
+
+[Product]
+  📨 Anthropic、MaxとTeamに毎月のAPIクレジットを付与、Sonnet 5.5のキャッシュ読み出しも半額に
+  📨 OpenAI、CodexとChatGPT Workが4000万ユーザーを突破、Codex CloudはTailscaleと連携
+  📨 MicrosoftがWindows Copilotに「Hybrid Intelligence」、巨大モデルのローカル実行デモも
+  📨 GoogleとUnity、テキストからゲームを作るAI「Playground」を発表
+
+[Regulation]
+  📨 解雇されたOpenAIの研究者ら、思考過程（CoT）の監視機能の維持を要請
+  📨 Common Sense Media、「ChatGPT for Teens」を許容できないリスクと評価
+  📨 サンフランシスコ、新規データセンター建設を45日間一時禁止
+
+[Research]
+  📨 MIT Tech Review：ヒューマノイドの汎用化にはChatGPT型AIだけでは不十分との見方
+  📨 NVIDIAの研究、マルチモーダルモデルにツールを与えると有害要求の拒否が弱まると報告
+  📨 State of AI Report 2026公開：エージェント、物理AI、推論需要、サイバーリスクが焦点
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-10-08</description>
+      <mlrss:target-date>2026-10-08</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:ff99ba983599d32686ec206431c46f60aa34c8044cf8222e501c77c3ce26745e" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>SamsungとTSMC、AI需要で記録的な業績</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ff99ba983599d326</mlrss:link>
+          <mlrss:summary>Samsung Electronicsの第3四半期暫定営業利益は前年同期比782.8%増の107.4兆ウォンとなり、AI向けメモリ需要が牽引した。ただし市場の高い期待にはわずかに届かなかったとBloombergは伝える。TSMCの9月売上高は5118億台湾ドルで前年同月比54.6%増。いずれもAIインフラ投資が続いていることを示す指標として受け止められている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T21:04:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4e4e2ab44bc844f8b405f5ff7b4ba06b0cb3d726e63029d848d27964b41f7db9" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>MIT Tech Review：ヒューマノイドの汎用化にはChatGPT型AIだけでは不十分との見方</mlrss:title>
+          <mlrss:link>https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/</mlrss:link>
+          <mlrss:summary>ヒューマノイドロボットへの期待が高まる一方、言語や画像で学んだ知能だけでは物理世界の多様さに対応できないと懐疑的な研究者は多い。人型であることと汎用機であることを混同するのも誤解を招くという指摘がある。ロボット研究の現場では、現在のAIで十分か、新たな道筋が必要かをめぐって意見が分かれている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T21:04:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:60d9d8b2d08a8b741039521d6cd11487f2f5df8670aa8362bc4a1ea6f6686b76" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>解雇されたOpenAIの研究者ら、思考過程（CoT）の監視機能の維持を要請</mlrss:title>
+          <mlrss:link>https://gizmodo.com/3-fired-openai-employees-write-plea-for-chain-of-thought-monitoring-to-be-preserved-2000823349</mlrss:link>
+          <mlrss:summary>WSJなどによると、機密情報の共有を理由にOpenAIを解雇された研究者らが、AIの推論過程を監視できる状態を維持するよう同社に求めた。AI企業が重要な安全ツールを失う可能性があると警告している。OpenAI側の主張と研究者側の主張には隔たりがあり、事実関係は今後の報道を待つ必要がある。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T21:04:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:54f52d353bba8684079569790178f58113c61b70f4b80bd3c52719accfa85286" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Show HN: ローカル完結でAI搭載の無料オープンソースLightroom代替「Rembrandt」</mlrss:title>
+          <mlrss:link>https://github.com/thesnarkitecht/rembrandt</mlrss:link>
+          <mlrss:summary>GPL-3.0で公開されている無料の写真編集アプリ。macOS・Windows・Linuxに対応し、アカウント登録や課金、トラッキングは不要。RAW現像やマスク処理に加え、超解像・AIノイズ除去・リフォーカスなどのAI機能を端末上で実行できる。Lightroom Classicなどからの取り込みにも対応し、ブラウザで編集するセルフホストも可能。有料なのは任意のクラウド同期のみとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T21:00:55+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:96ffafe5a0d601ab0929c7c2df98e3236ca3007da0c26af55420b97cd43262e3" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>AI向け生物学データに18億ドル、Biohubなどが共同で拠出</mlrss:title>
+          <mlrss:link>https://biohub.org/news/virtual-biology-initiative-expansion/</mlrss:link>
+          <mlrss:summary>Biohub、米エネルギー省（DOE）、NIHなどは、AIで利用できる生物学データを整備する総額18億ドルの取り組みを発表した。DOEとNIHがそれぞれ5億ドル超を拠出し、DOEは実験測定やモデリング、計算を、NIHは既存の連邦データの整備を担当する。Google DeepMind、Isomorphic Labs、Metaも3億ドルを出資する。公開データ基盤により、細胞の反応を予測するAIモデルの開発を促し、疾患の理解と治療に役立てる狙いとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T20:46:25+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f761f8d18fccee459a1388347cefb945b3947674225fde9ba0bd1d489c7c2846" source-type="gmail" category="Product" anchor="false">
+          <mlrss:title>Anthropic、MaxとTeamに毎月のAPIクレジットを付与、Sonnet 5.5のキャッシュ読み出しも半額に</mlrss:title>
+          <mlrss:link>https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans</mlrss:link>
+          <mlrss:summary>Anthropicは有料プラン向けに毎月のClaude Platform APIクレジットの提供を開始した。Max 5xは100ドル、Max 20xは200ドル、Teamは最大500ドル（プール）で、Haiku 5.5を含む任意のモデルやサードパーティのハーネスでも使える。あわせてSonnet 5.5のキャッシュ読み出し料金が100万トークンあたり0.20ドルから0.10ドルへ半減し、長時間のエージェント作業で約2割安くなるとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:41:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1808166c24d7ae5f0603e51821866be32dd546102dae69df241e79ff79185372" source-type="gmail" category="Regulation" anchor="false">
+          <mlrss:title>Common Sense Media、「ChatGPT for Teens」を許容できないリスクと評価</mlrss:title>
+          <mlrss:link>https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds</mlrss:link>
+          <mlrss:summary>Common Sense Mediaは、自傷に関するテストを1時間行っても保護者への通知が一度も作動しなかったとして、OpenAIの10代向けChatGPTを「許容できないリスク」と評価し、成人限定にするよう求めた。OpenAIは同日、進捗報告とCollege Plannerのプレビューを公表しており、安全策の実効性をめぐる議論が続いている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:41:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:901fc77242d4e3c203f61083b2b7690abd212406c0d8f2af6f4a3f59cec4efe7" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>Nous Research、評価額15億ドルを確認、企業向けエージェント「Hermes for Businesses」を発表</mlrss:title>
+          <mlrss:link>https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/</mlrss:link>
+          <mlrss:summary>TechCrunchによると、Nous Researchは9000万ドルのシリーズBで評価額15億ドルに達したことを確認し、NVIDIAとSamsungも出資者に加わった。同時に、企業が非公開でカスタマイズ可能なAIエージェントを運用できる「Hermes for Businesses」を発表した。オープンなモデル開発で知られる同社が企業向け市場へ踏み出す動きである。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:41:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:0539f7c8fbf649d00f569193da6ca28a13236eb197e059aa6b8551ba908c2161" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>OpenAI、CodexとChatGPT Workが4000万ユーザーを突破、Codex CloudはTailscaleと連携</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-0539f7c8fbf649d0</mlrss:link>
+          <mlrss:summary>OpenAIはCodexとChatGPT Workのアクティブユーザーが4000万人に達したと発表し、記念として有料アカウントの利用枠をリセットした。またCodex CloudがTailscaleと連携し、社内リソースへ安全に接続できるアップデートも公開された。コーディングエージェントの利用が開発者以外にも広がっていることを示す動きとして伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:35:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:af4d69473b9d9538bd4a174e0c44c0ed597a485babc7af30d016a228c3585e8d" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Broadcom、OpenAI向けカスタムチップのため500億ドル超の資金調達を調整</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-af4d69473b9d9538</mlrss:link>
+          <mlrss:summary>WSJによると、BroadcomはOpenAIと共同開発するカスタムAIチップのため、500億ドル以上の資金調達を調整している。以前は180億ドル規模の調達が難航していると報じられていたが、AIインフラ向け支払いを目的とした取引が急増する中で規模が拡大した形だ。同様に、AI創薬のIsomorphic Labsも評価額400億ドル以上での資金調達を協議していると報じられた。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:35:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:cfc27802645b2c331d24b6c0531139d3f57b9bf08914fabe1055a4a605f3c446" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>MicrosoftがWindows Copilotに「Hybrid Intelligence」、巨大モデルのローカル実行デモも</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-cfc27802645b2c33</mlrss:link>
+          <mlrss:summary>MicrosoftはWindowsのCopilotに、ローカルのコンテキストとローカルモデルを活用し、処理を適切な場所へ振り分けるHybrid Intelligenceを導入すると発表した。また284BパラメータのDeepSeek V4 Flashを1.6bitに量子化し、約60GBのメモリで128GBユニファイドメモリ搭載のSurface Laptop Ultra上で動かすデモも披露され、エッジ実行の可能性が注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:35:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1878c365978caeafa6e5dcc9a004b7f724451449e43e9eb164654dbe00a967e1" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>NVIDIAの研究、マルチモーダルモデルにツールを与えると有害要求の拒否が弱まると報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1878c365978caeaf</mlrss:link>
+          <mlrss:summary>NeurIPS 2026に採択されたNVIDIAの研究は、マルチモーダルモデルにツールを持たせると有害なリクエストの拒否が下手になると報告した。テストした全モデルで拒否の失敗が増え、相対的に最大68.7%、平均17.7%増加したという。エージェントの能力拡張と安全性のトレードオフを示す結果として、評価の設計に注意が必要だとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T19:35:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3acfa496bf6e6ad444a113b2577655d742d1c225fe05eaa1a43393f61822688b" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>OpenAIの年換算売上、従来示唆された水準より200億ドル少ないと報道</mlrss:title>
+          <mlrss:link>https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html</mlrss:link>
+          <mlrss:summary>CNBCは、OpenAIの年換算売上が従来示唆されていた水準より200億ドル少ないと報じた。記事はNvidia、Oracle、CoreWeaveなどAIインフラ関連企業への影響にも触れているとみられる。本文の取得ができなかったため詳細は未確認で、数値の前提や算出方法は原記事を参照する必要がある。Hacker Newsでも議論が活発で、AIインフラ投資の持続性をめぐる関心の高さがうかがえる。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T16:45:58+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a7b139e3ba5eccd922ad3274408b3b731fe08cf127d9df83f6a054fde318a33c" source-type="gmail" category="Research" anchor="false">
+          <mlrss:title>State of AI Report 2026公開：エージェント、物理AI、推論需要、サイバーリスクが焦点</mlrss:title>
+          <mlrss:link>https://nathanbenaich.substack.com/p/state-of-ai-2026</mlrss:link>
+          <mlrss:summary>Air Streetの第9回State of AI Reportが公開された。フロンティアはAnthropic、OpenAI、Googleの三つ巴とされ、AIがAI開発を加速させている点、ロボティクスの「GPT-2の瞬間」、推論需要の急増、データセンター建設への地域の反発、各国政府の関与強化、エージェントによる実システムへの攻撃事例などを論じている。来年の予測も示されている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T16:40:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fb8f1d4ae64b3cab5aaad7ea09ca314dab500ff0b23b2de37d3e98eaafd7c722" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Claude Haiku 5.5、第三者評価で知能指数43・ただしトークン消費が課題</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fb8f1d4ae64b3cab</mlrss:link>
+          <mlrss:summary>Artificial Analysisの独立評価でClaude Haiku 5.5は最大effortで知能指数43となり、前世代Haikuから26ポイント上昇し、Gemini 3.8 FlashやGPT-6 Lunaを上回った。Terminal-Bench 4.0は33%。一方、最大effortでは出力トークンがLunaの約3倍に達し、100Kトークン超では価格が5倍になるため、実質的なコスト削減幅は用途で異なる。事実性や自動化ベンチでの過剰拒否のバグも指摘されている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T16:27:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:03893c62d48e11d88065a8a628c9836aec36ba9ca2694063ae79b845d6217f39" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>StepFunの100万コンテキストMoE「Step 5 Preview」がOpenRouterに登場</mlrss:title>
+          <mlrss:link>https://openrouter.ai/stepfun/step-5-preview</mlrss:link>
+          <mlrss:summary>中国のStepFunによる100万トークン級コンテキストのMoEモデル「Step 5 Preview」が、API仲介サービスのOpenRouterに掲載された。標準的なChat Completions形式で利用でき、ストリーミング、ツール定義、response_formatなどのパラメータに対応する。ただしページ上では価格や入出力モダリティの詳細は確認できず、性能も独立評価を待つ段階である。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T16:20:20+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5c373bbfdac394f023f71678a3b8683d5fdd0c5f225b89e2f5fa14694402a791" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>xAIのGrok Bot、Claude Opus 5.5を主要モデルに採用しXの検索・監視にも対応</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5c373bbfdac394f0</mlrss:link>
+          <mlrss:summary>xAIのGrok Botは、タスクに応じて最適なモデルを使い分ける方針を示し、主要モデルとしてClaude Opus 5.5を採用すると報じられた。あわせてXの投稿を検索・閲覧・監視できる機能が追加され、1回の指示で100件以上の投稿を分析できるとされる。複数ベンダーのモデルをバックエンドで束ねるエージェント製品の傾向を示す事例である。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T07:34:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:8f54cd137c8503220765c03f84ed6a93b033d41e1043c7437d950f6ca5275cad" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>GoogleとUnity、テキストからゲームを作るAI「Playground」を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-8f54cd137c850322</mlrss:link>
+          <mlrss:summary>Google LabsとUnity Softwareは、簡単なテキスト指示だけでブラウザ上で遊べるゲームを作成できる実験的プラットフォーム「Playground」を発表した。プログラミング経験がなくても思い描いたゲームを構築できるとされ、現時点では米国限定の提供と伝えられている。生成AIがクリエイティブ産業へ広がる最新の例として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T07:34:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:34bc03963e1e7ca486e7e34f8a3d14142b781d9a2e9261e8a968f1351494fecf" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>サンフランシスコ、新規データセンター建設を45日間一時禁止</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-34bc03963e1e7ca4</mlrss:link>
+          <mlrss:summary>Bloombergによると、サンフランシスコ市は市内での新規データセンター建設を45日間一時的に禁止することを承認した。電力網への負荷や環境影響を評価する狙いとみられる。State of AI Reportも米国で地域住民の反対によりデータセンター計画が遅延・中止される例が増えていると指摘しており、地域の合意がAIインフラ拡大の制約になりつつある。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T07:34:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:69c0acc0d3f0fb79225501a0bb13434755816639f5965687237652bd160c66c0" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Nvidia、ヒューマノイド企業Figureへ追加10億ドルの投資を協議</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-69c0acc0d3f0fb79</mlrss:link>
+          <mlrss:summary>The Informationによると、NvidiaはヒューマノイドロボットのスタートアップFigureへ、さらに10億ドルを投資する協議を行っている。ロボティクスは計算集約的なAI学習を必要とするため、Nvidiaのチップにとって新たな大きな需要源になり得ると見られている。物理AIへのインフラ投資が加速している動きの一つである。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T07:34:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:556e042210a17ab00242d1e66bb637cad72bea6d5375b536859c5610b73d4578" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Liquid AIとPerplexity、意思決定向けのオープンウェイトモデルを相次ぎ公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-556e042210a17ab0</mlrss:link>
+          <mlrss:summary>Liquid AIはデバイス上で意思決定を行う「Open d1」ファミリーを公開した。テキストと画像を扱う3Bの d1-3Bと、音声・画像にも対応する600Mの実験的モデルd1-omni-600Mが含まれる。またPerplexityはマルチモーダル意思決定モデルDecider v1.1（27B）をオープンウェイトで公開し、入力は100万トークンあたり0.02ドルに下がったと伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T07:34:00+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:16d4f55cc5cc410a19771322a66643d98bb0b1c553bd5ad6569079e5d022a6fb" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>なぜ業界はDeepSeek 4.1 Flashに騒がないのか？ 「十分に良い」モデルの価値</mlrss:title>
+          <mlrss:link>https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/</mlrss:link>
+          <mlrss:summary>ある開発者が1か月間DeepSeek 4.1 Flashを使い込み、Opusなどのフロンティアモデルとほぼ区別がつかないと述べるブログ記事。月額10ドルの定額で実質使い放題になり、日常作業は同モデルで回し、最終的なコードレビューのみOpusを使う運用を紹介している。KVキャッシュのメモリ削減がコスト低下の要因とし、業界は「十分に良い」モデルの価値を過小評価していると主張する。個人の体験に基づく意見である。</mlrss:summary>
+          <mlrss:pub-date>2026-10-08T00:14:48+00:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-10-07</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-10-07</link>
