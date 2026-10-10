@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "last_run_at": "2026-10-09T22:15:40.364182+00:00",
-  "last_success_at": "2026-10-09T22:15:40.364189+00:00",
-  "target_date": "2026-10-09",
+  "last_run_at": "2026-10-10T22:14:55.842478+00:00",
+  "last_success_at": "2026-10-10T22:14:55.842487+00:00",
+  "target_date": "2026-10-10",
   "gmail_status": "ok",
   "failed_sources": [],
   "counts": {
-    "scanned_gmail": 15,
+    "scanned_gmail": 16,
     "scanned_rss": 4,
-    "in_window_gmail": 15,
+    "in_window_gmail": 16,
     "in_window_rss": 4,
-    "new_stories": 19,
+    "new_stories": 20,
     "digests_in_feed": 6
   },
   "success": true
