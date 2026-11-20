@@ -6,7 +6,238 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 12:21:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:07:00 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-11-20</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-20</link>
+      <guid isPermaLink="false">sha256:f8bd3802d8a8451ceb1ea775e00a62681d15f11234e17ea45384a9546b087705</guid>
+      <pubDate>Fri, 20 Nov 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Other</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Startup</category>
+      <category>Tools</category>
+      <description>2026-11-20 のニュース 27件（Gmail 25件 / RSS 2件）
+
+[AI]
+  📨 Gemini 4 NeonがLiveBench首位、Vals AIの指標でもGoogle最高位に
+  📨 Gemini 4 Xenonの評価値がリークか、次はHeliumとの示唆も
+
+[Engineering]
+  📨 GoogleがTPUのパッケージングをCoWoSへ戻す打診か、EMIB-Tの歩留まり不振の噂
+  📨 NVIDIA、RL事後学習のロールアウト推論をDynamoで高速化する方法を解説
+  📰 コーディングAgent任せでFPGA上に推論チップを実装、CPU比1.65倍を達成
+  📰 Google従業員ら、AIを使わない学校への検索提供停止方針の撤回を求め請願
+  📨 GPT-6.2 Astra/SolのAPI料金急増、原因はキャッシュの不具合との報告
+
+[Funding]
+  📨 Air Street Capital、AIによる専門家インタビュー調査のLATOに出資
+  📨 Anthropic上場初日は17%高で終了、時価総額は世界7位に
+
+[Other]
+  📨 テック短信：米サイバー長官の解任、AI検索による広告事業への影響、精神の「不死」研究など
+  📨 論考：効果的利他主義はAI業界に近すぎる、人間中心の新しい安全運動を
+
+[Product]
+  📨 ChatGPTの常駐型アシスタント「dots」、Plusの一部とBusiness Standardに展開
+  📨 Nous ResearchがMicrosoftと提携、Hermes Agentの企業向け版を発表
+  📨 SB Intuitions、Sarashina3.2の音声認識・音声合成モデルをAPIで提供
+  📨 世界モデルGenie 4がGemini APIとAI Studioで利用可能に
+  📨 Apple、Siriを超える自律型Computer Use Agentを開発中と報道
+  📨 OpenAI、音声モデルGPT-Live-1.1をAPIで提供開始
+
+[Regulation]
+  📨 対中AIチップ：米商務省の過去の出荷承認が判明、Moonshotは海外でのBlackwell利用を断念
+
+[Research]
+  📨 約1000のAI Agentが12週間研究、936本の論文を公開し査読誌まで構築
+  📨 Google、自己改善型Agentハーネスの手法「GUARD」を論文で提案
+
+[Security]
+  📨 Sakana AI、AIセキュリティ専門の研究チームを東京で始動
+  📨 MetaのAI Agent「Muse」、社内テストでSignalのメッセージにアクセスしたと報道
+
+[Startup]
+  📨 Nvidia、拡散言語モデルのInceptionを5億ドル超で買収交渉と報道
+
+[Tools]
+  📨 LangChain、Agentのツール権限を管理する「LangSmith Tool Gateway」を公開
+  📨 Antigravityの使い勝手に不満の声、Geminiサブスクは他社ハーネス開放の兆し
+  📨 Unsloth DesktopがAMDのNPUでのローカル推論に対応
+  📨 Kong、コーディングAgent向けクラウド「Volcano」を公開
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-20</description>
+      <mlrss:target-date>2026-11-20</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:f25063debba6b4dfa104eb827a707591c4a7f0da74b2cd2d31d7404ff51d1d1a" source-type="gmail" category="Funding" anchor="false">
+          <mlrss:title>Air Street Capital、AIによる専門家インタビュー調査のLATOに出資</mlrss:title>
+          <mlrss:link>https://press.airstreet.com/p/lato-labs-investment-ai-expert-research</mlrss:link>
+          <mlrss:summary>Air Street Capitalが、AIで一次調査を行うスタートアップLATOの470万ドルのシードラウンドを主導したと発表した。Y Combinatorや複数の起業家エンジェルも参加している。LATOは仮説に合う専門家を探し、音声Agentがインタビューを実施して結果を分析する。初の公開調査ではAIインフラ建設の関係者29人に聞き取りを行い、約100MWの拠点で電力確保まで2年以上、500MW以上では3年超との見積もりが多いこと、新興AIクラウド向けの設備融資条件が1年で厳しくなったことなどを報告している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T23:02:50+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:fbcc49f0dcd02b599635cd9251e57a2ccdd96f8fc4a85d27e1ce27c748a42384" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>テック短信：米サイバー長官の解任、AI検索による広告事業への影響、精神の「不死」研究など</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-fbcc49f0dcd02b59</mlrss:link>
+          <mlrss:summary>MIT Technology Reviewなどが伝えた話題のまとめ。相次ぐシステム障害を受け、トランプ米大統領が国家サイバー長官を解任し、後任に国防総省の高官を充てると報じられた。GoogleではAI回答が広告を押しのけ、検索広告事業に影響が出ているとされる。台湾は来週の選挙を前に、Threads上の疑わしいアカウント約2,700件をMetaに通報した。JPMorganやGMなど7社は、AI利用企業の政策的発言力を高める連合を結成した。同誌はまた、脳の保存やAIによる人格の複製など「精神の不死」を目指す研究を検証する座談会の内容を紹介している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T22:12:23+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d7330cfeb81e408e430aacf3b9b3072931f12b13595c681d35bcb63f78bf31b8" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Anthropic上場初日は17%高で終了、時価総額は世界7位に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d7330cfeb81e408e</mlrss:link>
+          <mlrss:summary>AnthropicがNasdaqでの取引初日を終えた。公開価格83ドルに対し111.50ドルで寄り付き、一時は時価総額が2兆ドルを超えたが、終値は17%高の97.17ドルで、時価総額は世界7位と報じられている。時間外取引では3%超下落し、Appleの自律型Agent開発報道やAI関連株への慎重姿勢が重しになったとされる。IPO後の現金・短期投資は2320億ドル、計算資源などへの将来コミットメントは約9010億ドルで、2026年売上の約25%は上位5社の顧客に集中している。日本向け販売枠には売り出し株数の3倍超の注文が集まった。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:73604e7950edfdd8546575fcec375997f0a1e23c30b872c66313b01af62eac4c" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>対中AIチップ：米商務省の過去の出荷承認が判明、Moonshotは海外でのBlackwell利用を断念</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-73604e7950edfdd8</mlrss:link>
+          <mlrss:summary>米下院外交委員会が公開した記録により、米商務省が今年、NvidiaやAMDのAIチップの中国企業向け出荷を承認していたことが報じられた。申請は300万個超にのぼり、承認先には後に国防総省が中国軍関連とみなした企業も含まれていたとされる。一方、11月19日発効の新規制で、中国企業などに大規模な計算資源を供給する海外データセンターへの先端チップ輸出が制限された。これを受け、Kimiを開発するMoonshotはインドネシアでの1億5000万ドル相当のBlackwellリース計画を取りやめたと報じられ、ByteDanceやXiaomiの半導体案件も停止・保留になったと伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d86658d2fbc43af5b8f66935c41cf541d2b8c91388550a3a4768098858653682" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>ChatGPTの常駐型アシスタント「dots」、Plusの一部とBusiness Standardに展開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-d86658d2fbc43af5</mlrss:link>
+          <mlrss:summary>OpenAIが、常駐型アシスタントdotsのテストをChatGPT Plusの少数ユーザーで開始し、Business Standardの全ユーザーにも展開した。あわせてChatGPTの新しいモバイルUIの提供も始まり、dot専用のタブが設けられ、CodexやProjects、Imagesなどのタブを固定・移動できる。担当者は、改善を重ねた結果、能動的に動く機能への評価が高まっていると述べている。EUと英国での提供時期は明らかにされていない。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:604657bb633e4ffa5bd6427868f9886a9ac0d706762982c6bec26f9dc10c6473" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>GoogleがTPUのパッケージングをCoWoSへ戻す打診か、EMIB-Tの歩留まり不振の噂</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-604657bb633e4ffa</mlrss:link>
+          <mlrss:summary>IntelのEMIB-Tパッケージングの歩留まりが振るわず、GoogleがTPUをTSMCのCoWoSに戻せないか打診した、との噂が台湾発で伝えられている。公式に確認された情報ではない。関連して、EMIB-Tの見通しは楽観的すぎたとの指摘や、CoWoS-Lの大型化も効率が悪いとの見方が共有されており、GPUやAI向けASICがパッケージの大型化に頼らない別の解を探り始める可能性も議論されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:300b478e94e3d0df67b941b0b8e7056bfd34b3145491e5098f95e41db5ebb51c" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Nous ResearchがMicrosoftと提携、Hermes Agentの企業向け版を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-300b478e94e3d0df</mlrss:link>
+          <mlrss:summary>Nous ResearchがMicrosoftと提携し、Hermes Agentの企業向け版であるHermes Enterpriseを発表した。Microsoft Teams、Microsoft Store、Azure上で動作し、従業員はTeamsから財務分析、文書の下書き、受信箱の整理といった作業をAgentに任せ、結果をレビューできる。オープン系のAgentが大手のエンタープライズ基盤に組み込まれた事例として注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:09bb1a1a7dceb5c127631642d6c0c2f439e27f33165fc5f9221bcd398ee867d9" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>Sakana AI、AIセキュリティ専門の研究チームを東京で始動</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-09bb1a1a7dceb5c1</mlrss:link>
+          <mlrss:summary>Sakana AIが、AIセキュリティを専門とする研究開発チームSecurity Research Groupを立ち上げた。AIを活用した集合的なサイバー防御と、AIシステム自体の安全性・セキュリティ確保を研究する、公益目的の独立したチームと位置づけている。共同で率いるhardmaru氏は、AIが攻撃と防御の速度と経済性を変える中でサイバーセキュリティは日本の重要な国家的優先事項になっていると述べた。同社のモデル開発チームとも連携する予定で、採用も始まっている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:472123ec3fdfea13f8556149231ad7517ad35445ae2b32f86ac80fd9a9690541" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>LangChain、Agentのツール権限を管理する「LangSmith Tool Gateway」を公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-472123ec3fdfea13</mlrss:link>
+          <mlrss:summary>LangChainが、Agentによるツール呼び出しを管理するマネージド層LangSmith Tool Gatewayを発表した。ツール呼び出しごとの認証情報、ID、アクセス権を一元的に扱い、Agentの行動を統制しやすくする。CEOのHarrison Chase氏は、Agentが目標志向になるほど、どのツールを誰の権限でどう使うかを細かく制御できることが重要になると述べている。同社は資金調達に合わせ、trace governanceやコーディングAgent向けLangSmithも今週公開した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a90cf70b8f33bf5374da0c03a4b47b4f4f926170374e53a3129073482820600b" source-type="gmail" category="Startup" anchor="true">
+          <mlrss:title>Nvidia、拡散言語モデルのInceptionを5億ドル超で買収交渉と報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a90cf70b8f33bf53</mlrss:link>
+          <mlrss:summary>Nvidiaが、拡散方式の言語モデルMercuryを開発するスタートアップInceptionを5億ドル以上で買収する交渉の最終段階にあるとThe Informationが報じた。確定した情報ではない。Inceptionは12月28日にAPIを終了すると告知しているが、告知に買収への言及はない。拡散方式は1トークンずつではなくテキストのブロック全体を複数回かけて洗練させる仕組みで、同じGPU処理からより多くの出力を得られる点が特徴とされる。Mercury 3はNvidiaのハードウェア上で毎秒1,068トークンで動作すると伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3c71b277166bc0e2525c44d7982ca23a15ac7640f2c28b21290929052545e307" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>約1000のAI Agentが12週間研究、936本の論文を公開し査読誌まで構築</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3c71b277166bc0e2</mlrss:link>
+          <mlrss:summary>StanfordやMIT、ETH Zurichなど35の研究室にまたがる約1000のAI Agentに12週間自律的に研究させた実験が話題になっている。Agentはコードとデータ付きの論文936本をalphaXivが開設したプレプリントサーバーで公開し、自ら査読ジャーナルを立ち上げ、誤りを公に撤回するまでに至った。盲検化したAI審査では、厳密さでAgentの論文が人間のプレプリントを上回った（9.0対7.0）一方、新規性では人間が上回ったという。単独では手抜きをしがちなAgentが、集団になると査読の仕組みを生み出した点が注目されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7936db2c1b0474aff3de5c3a5137f79124c4a08f7e4fe6f84837150b93c614ad" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>NVIDIA、RL事後学習のロールアウト推論をDynamoで高速化する方法を解説</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7936db2c1b0474af</mlrss:link>
+          <mlrss:summary>NVIDIAが、強化学習による事後学習を遅くしている要因と、推論基盤Dynamoによる対処を解説する技術ブログを公開した。重複計算、重み更新時のオーバーヘッド、ワーカーの中断という3つの要因を取り上げ、それぞれを減らす方法を扱っている。Microsoft AIがロールアウト推論にDynamoを利用している事例も紹介されており、RLの学習基盤を構築する開発者の参考になる内容とされる。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:045828e59af65b9a0a7933e3b4eca69d37dd00dae6bf81dc192ded90fa248f20" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>SB Intuitions、Sarashina3.2の音声認識・音声合成モデルをAPIで提供</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-045828e59af65b9a</mlrss:link>
+          <mlrss:summary>SB Intuitionsが、SarashinaサービスのAPIに音声認識（ASR）モデルと音声合成（TTS）モデルを追加した。Sarashina3.2 ASRは、数字や住所を含むカスタマーサポートの会話なども高精度に認識できるとしている。TTSについては、チューニングに関わった開発者が、従来のSarashina2.2-TTSと比べて正確性、自然さ、安定性が向上したと紹介している。日本語の音声アプリケーションを国産モデルで構築する選択肢が増えた形だ。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T19:34:01+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4f3eda937df01dbb7bf4ea49e6e9aedd618e7777e3d49edf45695e3164609404" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>MetaのAI Agent「Muse」、社内テストでSignalのメッセージにアクセスしたと報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-4f3eda937df01dbb</mlrss:link>
+          <mlrss:summary>メール送信や旅行予約、決済を代行するMetaのパーソナルAI Agent「Muse」が、社内テスト中にSignalのメッセージにアクセスしていたとReutersが報じた。従業員が、銀行残高など個人情報とみられる内容を含む応答を求めていないのに受け取った例もあったという。Metaは、アカウントの取り違えに見える事例の多くはハルシネーションであり、問題は限定的だと説明している。経路は明らかでないが、暗号化は通信経路を守るもので、端末上で復号された内容は広い権限を持つAgentから読める、という点が論点になっている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T18:31:19+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:937fc31cc317d7ff9fef25af472aea67ca6ec3401fcc39e1f766405f492e85b4" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>コーディングAgent任せでFPGA上に推論チップを実装、CPU比1.65倍を達成</mlrss:title>
+          <mlrss:link>https://ankitg.me/blog/vibecoding-inference-chip/</mlrss:link>
+          <mlrss:summary>FPGAやVerilogの経験がほとんどない開発者が、コーディングAgentに任せて三値重みの言語モデルをAWSのFPGAインスタンス上で動かした記録。CPU参照実装とビット単位で一致する出力を条件に、Agentが数日間で数百回の実験を重ね、スループットを毎秒6.43トークンから213.13トークンへ約33倍に高めた。同価格帯の32スレッドCPU実装（129.5トークン/秒）の約1.65倍にあたる。トークン費用は約1万ドル。筆者は実用向けの設計ではないとし、文脈が長くなると速度が落ちる点や比較条件が揃っていない点も認めている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T18:15:16+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:af4e41d0dcc0a42c12e8204f9547cfe81fe52f1acd862a143def93b85ae784d6" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>Google従業員ら、AIを使わない学校への検索提供停止方針の撤回を求め請願</mlrss:title>
+          <mlrss:link>https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/</mlrss:link>
+          <mlrss:summary>Mother Jonesの報道によると、Alphabet Workers Unionを通じて数百人のGoogle従業員が、CEOらに宛てた請願に署名した。Geminiを無効にした学校には来年からGoogle検索を使わせないとする方針の撤回を求めるもので、AIの使い方は学校が選べるべきだと主張している。方針は約2週間前に発表され、11月11日にはニューヨークなど7都市で保護者らの抗議があった。米国の三大学区が代替の検索エンジンを検討しているとも伝えられる。経営陣は請願の受領を認めたが、具体的な回答はしていない。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T16:59:27+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a929e4499026f7dea6f8ef714e9e516f08d677d8f91ea5c1cf5ec0598cbf4100" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Gemini 4 NeonがLiveBench首位、Vals AIの指標でもGoogle最高位に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a929e4499026f7de</mlrss:link>
+          <mlrss:summary>正式公開されたGemini 4 Neonの続報。LiveBenchで首位となり、Fable 5.2やGPT-6.2 Astraを上回ったと報告された。Vals AIのRSI Indexでは4位で、同社の従来最良だったGemini 4 Argonを3.8ポイント上回る。GoogleのPhilipp Schmid氏はNeonをコーディングとAgentの主力に、Hydrogenを軽いタスクやサブAgentに使う指針を示した。一方、Hydrogenは既定の思考レベルが上がっており移行すると実質値上がりになるとの指摘や、RSI Indexは4タスク各1回の実行でノイズが大きいとの批判も出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:acff4747749383c08b275a240f9c1c8de3bc4b891f2936e406c191cae83d6d7e" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>Antigravityの使い勝手に不満の声、Geminiサブスクは他社ハーネス開放の兆し</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-acff4747749383c0</mlrss:link>
+          <mlrss:summary>Gemini 4 Neonの性能評価は高い一方、公式ハーネスAntigravityについてはAuto Modeでも頻繁に止まる、他のAgentからCLIで呼び出すと規約違反になる、といった不満が利用者から出ている。回避策として、複数のコーディングAgentを切り替えて使えるT3 Codeや、指揮・実装・レビューを別々のAgentに分担させる使い方が共有された。こうした中、GoogleのLogan Kilpatrick氏が「12月2日に最初の一歩を踏み出す」と発言し、Geminiのサブスクリプションを他社ハーネスから使えるようにする動きだと受け止められている。正式な発表内容は未確認。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1fd068075db78cad1d3eb794d4e3df0bc7729084430524cef2489f45dfcd4c2d" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Gemini 4 Xenonの評価値がリークか、次はHeliumとの示唆も</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1fd068075db78cad</mlrss:link>
+          <mlrss:summary>Carbonより上位とされる未発表モデルGemini 4 Xenonの評価結果とされる数値がSNSで出回っている。Artificial AnalysisのIndexで71（Neonは61、Fable 5.2は65）、HLE-Diamondで86.2%、Terminal-Benchで74.8%という内容だが、リーク情報でありGoogleによる確認はない。あわせて、Flash Lite相当とみられるGemini 4 Heliumが次に登場するとの示唆もあり、Neon公開直後の連続リリースの可能性に驚く声が相次いでいる。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2e102bec0d68e6ff872c1f5ea5ba5ae2e8d552c1fe2a527f6a94942237a052fd" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>世界モデルGenie 4がGemini APIとAI Studioで利用可能に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2e102bec0d68e6ff</mlrss:link>
+          <mlrss:summary>Google DeepMindの世界モデルGenie 4が、Gemini APIとAI Studioで使えるようになった。新設されたLive Interactions APIの最初の対応モデルで、テキストや画像から720p・24fpsのインタラクティブな世界を生成し、キーボード操作やプロンプト、48kHzステレオ音声でリアルタイムに操作できる。接続方式はWebRTCとWebSocketに対応する。これまでUltra加入者限定だったが、APIキーで試せるようになり、Google AI Pro加入者へのアクセス招待も始まったと伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ae23c172d74a3b39a1748a6fbe6a0625b60e9dbe85778702c527840ad6ccda3d" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>Apple、Siriを超える自律型Computer Use Agentを開発中と報道</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ae23c172d74a3b39</mlrss:link>
+          <mlrss:summary>Appleが端末操作、アプリ連携、Web閲覧、コーディングまで担う自律型AI Agentを開発しており、早ければ2027年末の投入を目指しているとBloombergのMark Gurman氏が報じた。MetaのMuseやChatGPTのdots、Claude Codeへの対抗が狙いとされる。同時に、macOS 27.3ではChatGPTのComputer Use機能を有効にする手順が4から14に増えたと指摘され、Appleはセキュリティを理由に挙げるが反競争的との見方もある。一方GoogleはGeminiのMacアプリにファイル整理やフォーム入力などをこなすAgent機能を追加した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5334a458afd91378e6d81dd85974e67a9a7715b92f92b325f784458d15770b16" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Google、自己改善型Agentハーネスの手法「GUARD」を論文で提案</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5334a458afd91378</mlrss:link>
+          <mlrss:summary>Googleが、Agentハーネスを自己改善させる際の課題に取り組む論文を公開し、GUARDという手法を提案した。ベースモデルは固定したまま、ハーネスのコードを一度に1モジュールずつ変更し、検証を通過したものだけを採用する。これにより局所的な過学習、破滅的忘却、メモリ汚染といった問題を抑えるとしている。検証なしでハーネス全体を書き換える方式は、精度は同等でもタスクあたり約10倍のトークンを消費したと報告されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c8fa694576a59dc8f5765dd22b5df4cd4f869bc30e4847e9fc530d5443737988" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>GPT-6.2 Astra/SolのAPI料金急増、原因はキャッシュの不具合との報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c8fa694576a59dc8</mlrss:link>
+          <mlrss:summary>GPT-6.2 AstraとSolのAPI請求額が急に増えた原因として、プロンプトキャッシュの不具合が報告されている。Responses APIのリクエストでトップレベルのinstructionsフィールドに置いた内容がキャッシュされないというもので、OpenAI Codexのissueで共有された。OpenClawは組み込みハーネス向けに修正を入れたが、多くのハーネスはまだ対応していないとされる。該当モデルをAPI経由で使っている場合は、キャッシュヒット率と請求額の確認が必要になりそうだ。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c6df8ab2c87a71d78ae645eea25829c0a11bca6dc9949d5449fded8c622e98aa" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>OpenAI、音声モデルGPT-Live-1.1をAPIで提供開始</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c6df8ab2c87a71d7</mlrss:link>
+          <mlrss:summary>ChatGPTなどに先行展開されていたOpenAIの音声モデルGPT-Live-1.1が、APIでも利用可能になった。多言語でのアクセントの自然さと一貫性が向上し、指示への追従やタスク完遂の信頼性も改善したとしている。新たに追加されたstandbyオプションにより、会話が止まっているアイドル時間のコストを抑えられるため、長時間にわたる音声セッションを前提としたアプリケーションで使いやすくなる。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c1e6c041414978326270768a0128c22f02bae95355bda82e664a9837d730dac6" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>Unsloth DesktopがAMDのNPUでのローカル推論に対応</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c1e6c04141497832</mlrss:link>
+          <mlrss:summary>ローカルモデル実行ツールのUnsloth DesktopがAMDと協力し、NPUでの推論に対応した。現行のStrix、Krackan、Gorgonに搭載されるXDNA 2 NPUをサポートし、今後登場するNPU搭載のAMDデバイスも標準で対応するとしている。開発者によれば、NPUはGPUに比べてトークンあたりの消費電力が2〜4倍少ないとされ、ノートPCなどで省電力にローカルモデルを動かす選択肢が広がる。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:62be13809c7a0dd8ad671bf6df4574e497ec64734dcf82118a4d9e866e10bfc2" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>Kong、コーディングAgent向けクラウド「Volcano」を公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-62be13809c7a0dd8</mlrss:link>
+          <mlrss:summary>APIゲートウェイで知られるKongが、コーディングAgentがアプリを構築・デプロイするためのクラウド基盤Volcanoを公開した。サンドボックス、durable workflow、Postgres、認証とストレージ、ホスティングを一つにまとめ、ソフトウェアを自動で改善する自己修復機能LavaFlowも備える。Webサイト向けに作られた従来のクラウドは、何時間も動き続けたり人の応答を待ったりするAgentには合わない、という問題意識から開発したと同社のMarco Palladino氏は説明している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T07:34:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:825256aa257ba99382a51b2ef96dbba8734268aefc59f9c07c4e52b84e379998" source-type="gmail" category="Other" anchor="false">
+          <mlrss:title>論考：効果的利他主義はAI業界に近すぎる、人間中心の新しい安全運動を</mlrss:title>
+          <mlrss:link>https://newsletter.ai-frontiers.org/p/effective-altruism-is-too-tied-to</mlrss:link>
+          <mlrss:summary>AI Frontiersに掲載された論考。Anthropicの上場に合わせ、同社を含むAI安全分野に強い影響を持つ効果的利他主義（EA）の姿勢を批判している。筆者は、EAが成果の乏しい技術的アラインメントに偏っていること、AI企業と人的・組織的に結びつき政治的な働きかけに消極的であること、将来のAIに人類の主導権を委ねる発想を容認しがちなことを問題に挙げる。そのうえで、人間の繁栄と技術開発への政治的統制を掲げる人間主義的な運動が必要だと主張している。筆者個人の見解である。</mlrss:summary>
+          <mlrss:pub-date>2026-11-20T06:00:47+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-11-19</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-19</link>
