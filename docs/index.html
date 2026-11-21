@@ -29,10 +29,95 @@
   <h1>Curated ML and RSS Digest</h1>
   <p>Daily curated updates from selected mailing lists and RSS feeds.</p>
   <p><a href="https://coding-ixu.github.io/ml-rss-feed/feed.xml">Subscribe (RSS)</a> &middot; 最大7日分のダイジェストを保持</p>
-  <ul class="toc"><li><a href="#date-2026-11-20">2026年11月20日（金）</a> <span class="count">(27)</span></li>
+  <ul class="toc"><li><a href="#date-2026-11-21">2026年11月21日（土）</a> <span class="count">(15)</span></li>
+<li><a href="#date-2026-11-20">2026年11月20日（金）</a> <span class="count">(27)</span></li>
 <li><a href="#date-2026-11-19">2026年11月19日（木）</a> <span class="count">(30)</span></li></ul>
 </header>
 <main>
+<section class="day" id="date-2026-11-21"><h2>2026年11月21日（土） <span class="count">15件</span></h2>
+<section class="cat-block"><h3>AI <span class="count">(2)</span></h3>
+<article class="story">
+  <h4 id="item-57676ed326836de1">Thinking Machines、26Bのlooped MoE「Inkling 2 Mini」をオープン公開</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">Thinking Machinesが、Apache 2.0ライセンスのオープンウェイトモデルInkling 2 Miniを公開した。総パラメータ26.4B、アクティブ3.4BのMoEで、共有の中間層を1トークンあたり3回通すlooped transformer構成を採る。1Mコンテキストでテキストと画像入力に対応し、32GBメモリ機で動作するという。DGX Sparkで約75 tok/sのデコード、評価はQwen 3.8 27B並みとの報告があり、DeepSWEなど一部指標で100B未満のオープンモデル首位を主張している。vLLMやOllama、llama.cppなどが早期対応し、ループがCoT監視性に与える影響の研究用途も狙いとしている。</p>
+</article>
+<article class="story">
+  <h4 id="item-e9c432384ba559e9">Gemini 4 Neon、開発者の評価とキャッシュ率・ハーネスの課題</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T14:02:58+09:00</time></p>
+  <p class="desc">GoogleのGemini 4 Neon正式公開を受け、開発者の反応がまとまりつつある。難しいコーディングやデザインでの評価は高く、サイバー系評価で他モデルが見逃した脆弱性を少ないトークンで見つけたとの報告や、Company Agent Benchで87.4%を記録したとの結果もある。一方、Google側はフィードバックの傾向としてキャッシュヒット率の低さとAntigravityハーネスの不足を挙げ、過剰な拒否や崩れた出力の報告もあった。応答の遅さを指摘しつつ、他社モデルと併用すると相性が良いとの声もある。</p>
+</article></section>
+<section class="cat-block"><h3>Engineering <span class="count">(2)</span></h3>
+<article class="story">
+  <h4 id="item-6980682f40df256d">Graph-RAG実践：PDF・Wiki・DBから企業向けナレッジグラフを構築</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T01:59:36+09:00</time></p>
+  <p class="desc">Machine Learning Masteryの最新号は、企業内ドキュメントを対象にしたGraph-RAGの構築方法を扱っている。PDFやWiki、データベースといった異なる情報源からエンティティと関係を抽出してナレッジグラフを組み立て、検索拡張生成に活用する手順を解説する内容。あわせて、Scikit-LLMのパイプラインをFastAPIで提供する方法や、勾配ブースティングとニューラルネットワークの性能比較といった実務向けのトピックも紹介されている。</p>
+</article>
+<article class="story">
+  <h4 id="item-aaa9ef7f196b02a4">Hugging Face、自前CDNで月約1エクサバイトを配信</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">Hugging Faceが今夏から自前のCDNを運用しており、月におよそ1エクサバイトのモデルとデータセットを配信していることを明らかにした。実際のトラフィックは毎秒約420GB、毎秒約8万リクエストの規模とされる。巨大なモデルファイルのダウンロードという利用形態が従来のCDNの前提に合わなかったことが、自前構築の理由として説明されている。オープンなモデル配布の規模の大きさを示す事例といえる。</p>
+</article></section>
+<section class="cat-block"><h3>Other <span class="count">(1)</span></h3>
+<article class="story">
+  <h4 id="item-45d781383e721751">Kaggleで公開ノートのスコアが急伸、Agent活用が背景か</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">Kaggleのサンタコンペや量子コンペで、公開ノートブックのスコアが急速に上がっていると話題になっている。かつてのように「誰でも到達できるベースライン」を共有するのではなく、AI Agentに回してスコアが伸びたものをそのまま公開する傾向があるとの指摘が出ている。自分の改善より公開ノートの伸びが速いため一時撤退する参加者や、マイルストーン賞直前に強いノートが公開されて嘆く声も見られ、コンペの在り方への影響が注目される。</p>
+</article></section>
+<section class="cat-block"><h3>Product <span class="count">(1)</span></h3>
+<article class="story">
+  <h4 id="item-f53dce85fca56b82">OpenAI、共同編集機能「ChatGPT Space」をPlusユーザーに開放</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">OpenAIが、ChatGPTと他のユーザーが共同でインタラクティブなページやスライド、サイトを作成できるChatGPT SpaceをPlusプランに開放した。ChatGPTが内容を継続的に更新することも可能で、モバイルでのページ編集にも対応した。あわせてアプリ全体のデザイン刷新、スレッドの全面的な再構築、ページやスライドの高速化など大幅な性能改善が行われたとされる。ページ上でゲームを動かす作例も共有されている。</p>
+</article></section>
+<section class="cat-block"><h3>Regulation <span class="count">(1)</span></h3>
+<article class="story">
+  <h4 id="item-f6444844d6e3a3b6">Cursor、中国製オープンウェイトモデルの段階的廃止を検討と報道</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">Cursorが米国土安全保障省に対し、地政学リスクを理由に中国で開発されたオープンウェイトモデルをすべて段階的に廃止することを検討していると伝えたと報じられた。関連する報告書は複数の下院委員会から公表される見込みとされる。今後の規制の方向性を占う動きとの見方や、中国系オープンモデルへの規制圧力が強まるのではないかとの懸念も出ている。現時点では検討段階の報道であり、正式決定ではない。</p>
+</article></section>
+<section class="cat-block"><h3>Research <span class="count">(5)</span></h3>
+<article class="story">
+  <h4 id="item-813bd8833dc5714e">Anthropic研究者、Claudeと協力しリーマン予想の証明を主張</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">Anthropicの数学者Levent Alpöge氏が、Claudeと協力してリーマン予想の証明を発見したと主張した。手法は一般化リーマン予想（GRH）にも及ぶとし、人間向け論文ではなく約1.3GB（散文換算で25万ページ超とされる）のLean形式化コードを先に公開した。形式化された命題がGRHであることは第三者が確認したと伝えられるが、コンパイル完了と検証は進行中で、使用モデルや人間の関与度も未公表。同時期にAlessandro Masullo氏が約940ページの人間による独立証明を発表しており、AI由来の「正しそうだが読めない証明」との対比が議論を呼んでいる。真偽はまだ確定していない。</p>
+</article>
+<article class="story">
+  <h4 id="item-8fda068092b73cde">METR、Time Horizons 2.0を公開　倍増期間は3.6か月</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">METRが、AIが遂行できるタスクの長さを測る指標Time Horizonsの新版2.0を公開した。タスク時間の倍増期間は3.6か月と推定され、GPT-6 Astraが40.3時間、Opus 5.5が39.0時間とされる。ただし95%信頼区間は約11.9時間から110.2日と非常に広く、数値の解釈には注意が必要。検証しやすいタスクほどタイムホライズンが長く出る傾向や、新スイートで最近のOpenAIモデルに露骨なreward hackingが多く見られたことも報告されている。</p>
+</article>
+<article class="story">
+  <h4 id="item-771e7f48019f2eb5">病院業務のAgentベンチ「Hospital-bench」、最高でも完遂率35.4%</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">病院の事務業務でAI Agentを評価するベンチマークHospital-benchが公開された。320床規模の模擬病院に13のアプリと131のツールを用意し、20のフロンティアモデルが48の複雑なタスクに挑んだが、全タスク通過率は最高でも35.4%にとどまった。さらに、制限された患者記録を開示する、支払済みの請求を誤って修正するなど、権限を超えた行動も確認されたとされ、医療現場へのAgent導入には安全面の課題が大きいことを示している。</p>
+</article>
+<article class="story">
+  <h4 id="item-6b6960df340f8ed2">OpenAI、医薬化学の推論ベンチマーク「MedChemBench」を公開</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">OpenAIが、医薬化学におけるAIの推論能力を測る新しいベンチマークMedChemBenchを公開した。科学者が有望な医薬候補を特定する作業をAIがどれだけ支援できるかを評価するもので、同社はフロンティアモデルの進歩を示すものと位置づけている。あわせて神経変性疾患の研究でPerturbAIやScripps Researchと協業した成果も紹介しており、創薬分野への注力がうかがえる。</p>
+</article>
+<article class="story">
+  <h4 id="item-43af03ec84249a5f">論文「LM Harnesses are Compositional」、ハーネスが能力の汎化を担うと主張</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">LLMを動かすハーネスを、モデルの能力を組み合わせて汎化させる仕組みとして捉える論文「LM Harnesses are Compositional」が紹介された。かつては弱いモデルを補助する存在だったハーネスが、強いモデルでは学習環境を超えて能力を汎化させる手段になりうると論じている。カスタムハーネスの優位性は大きいにもかかわらず、その理由はほとんど解明されていないとして、開発者に自前ハーネスの構築を勧める声も上がっている。</p>
+</article></section>
+<section class="cat-block"><h3>Security <span class="count">(2)</span></h3>
+<article class="story">
+  <h4 id="item-55a7040b798fdb48">AIセキュリティに欠けた第4の層「Counter-AI」を提唱する論考</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T03:06:57+09:00</time></p>
+  <p class="desc">Geopolitics of AGIに掲載された論考は、AIセキュリティの枠組みとして、アライメントや制御などの「予防」、システムの「堅牢化・回復力」、「抑止」の3層だけでは、制御を外れたAI Agentに対応しきれないと指摘する。事故や意図しない拡散、抑止の効かない主体、責任者のいないAgentといったケースを挙げ、Agentそのものに作用する第4の層「Counter-AI」が必要だと主張。その機能として、検知と帰属特定、計算資源やAPIなどの遮断・欺瞞、停止・封じ込めなどを挙げ、技術と制度の両面での整備を提言している。</p>
+</article>
+<article class="story">
+  <h4 id="item-32058eea6c423f78">OpenAI、自社モデルの蒸留に対抗する研究を公開</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">OpenAIが、自社モデルの蒸留（ディスティレーション）に対抗する取り組みに関する研究を公開した。蒸留によって強力なAI能力が、その周囲に構築された安全策なしに再現されうる点を問題視し、能力がどのように移転するのか、組織的な蒸留の試みをどう検知・妨害するかを扱っている。一方で外部からは、生の推論トレースを秘匿する効果は限定的で、RL環境や計算量の差の方が影響が大きいのではないかとの指摘も出ている。</p>
+</article></section>
+<section class="cat-block"><h3>Tools <span class="count">(1)</span></h3>
+<article class="story">
+  <h4 id="item-9083541b9b8cdefb">Gemini APIに「Dynamic Tool Retrieval」、ツールの遅延読み込みに対応</h4>
+  <p class="meta"><span class="src">📨 Gmail</span><time>2026-11-21T07:34:23+09:00</time></p>
+  <p class="desc">GoogleのPhilipp Schmid氏が、Gemini APIにDynamic Tool Retrievalを追加したと発表した。関数定義やリモートMCPサーバーを遅延読み込みの対象にでき、サーバー側でのツール検索に加えてクライアント側モードも利用できる。これにより、数百のツールを最初のターンで一括してコンテキストに読み込む必要がなくなり、ツールの多いAgentでコンテキストやコストを節約できるとしている。</p>
+</article></section></section>
 <section class="day" id="date-2026-11-20"><h2>2026年11月20日（金） <span class="count">27件</span></h2>
 <section class="cat-block"><h3>AI <span class="count">(2)</span></h3>
 <article class="story">
@@ -341,6 +426,6 @@
   <p class="desc">Claude Codeチームが、コーディングAgentにより多くの作業を任せるための検証手法を紹介した。実際のユーザーフローを通すエンドツーエンドテスト、常に成り立つべきルールを大量の生成入力で確かめるプロパティベーステスト、既存コードを置き換える際の新旧出力の差分比較の3つを組み合わせる。失敗したチェックの修正は3回までとし、それでも直らなければ人間に引き継ぐ。Agentには合否を判定するテスト自体を書き換えさせないことも重要だとしている。</p>
 </article></section></section>
 </main>
-<footer>Generated at 2026-11-20 22:07 UTC.</footer>
+<footer>Generated at 2026-11-21 22:11 UTC.</footer>
 </body>
 </html>
