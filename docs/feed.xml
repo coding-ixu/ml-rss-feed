@@ -6,7 +6,242 @@
     <description>Daily curated updates from selected mailing lists and RSS feeds.</description>
     <language>ja</language>
     <generator>Claude Code Routine + ml-rss-automation</generator>
-    <lastBuildDate>Sun, 22 Nov 2026 22:12:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 22:13:00 +0000</lastBuildDate>
+    <item>
+      <title>ML &amp; RSS Digest 2026-11-23</title>
+      <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-23</link>
+      <guid isPermaLink="false">sha256:a05cc4530ef329c219f28c93df49a8faa3d768e8ea7cb27cb769b08bcb32dbf6</guid>
+      <pubDate>Mon, 23 Nov 2026 08:00:00 +0900</pubDate>
+      <category>AI</category>
+      <category>Engineering</category>
+      <category>Funding</category>
+      <category>Other</category>
+      <category>Product</category>
+      <category>Regulation</category>
+      <category>Research</category>
+      <category>Security</category>
+      <category>Tools</category>
+      <description>2026-11-23 のニュース 28件（Gmail 25件 / RSS 3件）
+
+[AI]
+  📨 MetaのAlexandr Wang氏「超知能が到来しつつある」と表明　OpenAIのZaremba氏はアラインメントが制約と指摘
+  📨 Tesla FSD v15、車載で条件付きmean-flow世界モデルによる描画を実行
+  📨 GPT-4.5の言語的創造性はRL後学習で失われたのか、研究者間で議論
+  📨 OpenAIのPachocki氏、perplexityに基づくAI開発の共通上限を提案　Microsoft AIも指標を共有
+  📨 Inkling 2 Mini、KernelBench-Megaで10.04倍の高速化を記録との報告
+  📨 Ant Ling、医療特化のオープンウェイトMoE「LingSante-3.1」を公開
+
+[Engineering]
+  📨 SGLangでもRubin NVL72がGB300比6.5倍のコスト性能、SemiAnalysisが報告
+  📰 LLMはコンピュータ画面をどう「見る」べきか — Greptileがスクリーンショットとアクセシビリティツリーを比較
+  📰 NariQ：BF16相当の品質を保つQwen3.8-27Bを約10GBに量子化
+  📰 GLM-5.4：Z.ai初のloop transformerで汎用的なコーディングを目指す
+
+[Funding]
+  📨 Stanford教授らの新AIラボ「Noeri」、1.1億ドルを調達し「複数の知能」を掲げる
+  📨 Anthropic上場で創業者7人が計約20億ドル分を売却、AmazonとGoogleの持分は各1500億ドル前後
+
+[Other]
+  📨 AI業界短信：AmazonがDecartを75億ドルで買収交渉、MerckとIsomorphic Labsが提携など
+  📨 Kaggleサンタコンペ、AIが生成した解の漏出を受け参加者が解法を公開
+  📨 AI Engineer：Code Summitの講演録画を公開、上海は約1,600人参加　次回はシドニー
+
+[Product]
+  📨 OpenCode、GLM 5.3とDeepSeek V4.1 Flashの料金を60%値下げ
+
+[Regulation]
+  📨 METRの時間地平グラフ更新、判断を要するタスクでAIの弱さが判明　MIT Technology Review
+
+[Research]
+  📨 Huawei Ascend向けカーネル最適化ベンチマーク「AscendGYM」、中国の研究機関が公開
+  📨 米ローレンス・リバモア研、AIの科学的判断を測る「SciResearch-Eval」を発表
+  📨 空対空のドローン検出・識別向けマルチモーダルデータセット「A2A-UAV」公開
+  📨 職場を模したコーディングAgentベンチ「SWE-CoWork」、課題の完全達成は8%未満
+  📨 GPT-6 Astra Pro、有限体上のリーマン予想に6ページ未満の新証明を提示との報告
+  📨 Google、バグ注入でML工学Agentの課題を難化させる「BuggyMLE」を発表
+  📨 Goodfire、LLM内部で協調して働く少数ニューロン群「Neuron Communities」を報告
+  📨 LLMに顧客を演じさせ購買意向を予測するColgateの論文が話題に
+
+[Security]
+  📨 OpenRouter、データ取り扱い問題で推論プロバイダ3社を除外　125エンドポイントをZDR対象外に
+
+[Tools]
+  📨 Agent基盤の動向：持ち運べるAgentメモリのOSS化、Foundry Skill Optimizationの研究的背景など
+  📨 プロンプト実践の知見：LLMには「駄目な理由」を説明させる、要約には批判的資料も渡す
+
+詳細: https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-23</description>
+      <mlrss:target-date>2026-11-23</mlrss:target-date>
+      <mlrss:stories>
+        <mlrss:story uid-hash="sha256:79c9c01d38b18969627bd13adab88a5bab92cea759c1388adce6407ca7ba2928" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Huawei Ascend向けカーネル最適化ベンチマーク「AscendGYM」、中国の研究機関が公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-79c9c01d38b18969</mlrss:link>
+          <mlrss:summary>中国の研究機関Shenzhen Loop Area Instituteの研究者らが、HuaweiのAscend NPU向けカーネル最適化ベンチマーク「AscendGYM」を公開した。正しい実装が与えられたとき、Agentが正しさを保ちながら許容できる予算内で対象ワークロードの性能をどこまで改善できるかを評価するもので、コンパイル、正当性検査、性能計測、フィードバックを統一的に扱う評価環境AscendForgeを含む。テストではOpus 5が最良で、GPT-5.6、GLM-5.3が続いた。Opus 5はトークン消費が多く、GPT-5.6は効率的だったという。Import AIは、輸出規制下の中国が自国チップの効率を高め、AIによる自己改善を進めるための材料になると論じている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T23:11:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5a9c389cda49a444f5150af5d3d055e88060d41620da4f4f8a13b519cb1dd915" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>米ローレンス・リバモア研、AIの科学的判断を測る「SciResearch-Eval」を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5a9c389cda49a444</mlrss:link>
+          <mlrss:summary>米ローレンス・リバモア国立研究所の研究者が、AI Agentの科学的判断力を測る対話型ベンチマーク「SciResearch-Eval」を発表した。題材は材料の熱物性の測定で、Agentは未知の試料と熱伝導シミュレータを与えられ、自ら追加実験を設計し、熱伝導率などを95%区間つきで報告する。シミュレータは解像度不足や物理的な誤りを意図的に含む場合があり、自信をもって誤った値を出すより不確かさを正直に示せるかが問われる。シミュレータに実際の物理が欠けている条件で、既定設定のまま信頼できたのはGPT-6 AstraとClaude Fable 5.2のみで、Claude 5.5系は最高の推論設定でのみ回復し、旧モデルやオープンウェイトモデルは対応できなかった。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T23:11:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:c4dbe89a4434655e0934e4f478c446ffa2bec62835aa6fa0b8869dbbdd129c7c" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Stanford教授らの新AIラボ「Noeri」、1.1億ドルを調達し「複数の知能」を掲げる</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-c4dbe89a4434655e</mlrss:link>
+          <mlrss:summary>Stanford大学のYejin Choi氏とCarlos Guestrin氏が、新たなAIラボ「Noeri」を立ち上げ、1億1000万ドルを調達した。単一の巨大モデルではなく、場所や人々、課題ごとに調整された多数の小さな専門的知能を育てるという構想を掲げ、各組織の独自データに依拠するモデルがフロンティアを形作る世界を目指す。技術面の詳細は少ないが、導入後も学び続けるテスト時学習、モデルが自らの教師となる自己蒸留、小型モデルが他のモデルやツールを指揮するオーケストレーションという自らの研究を基盤に、継続的に学習するシステムを構築するとしている。Import AIは、少数企業に集中するAIの勢力図を変えうる試みとして紹介している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T23:11:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:7b2a4bb4741361b49668d1b89530fa1d529e50fc154d42b83e36f042d6bb9d7e" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>空対空のドローン検出・識別向けマルチモーダルデータセット「A2A-UAV」公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-7b2a4bb4741361b4</mlrss:link>
+          <mlrss:summary>南京航空航天大学と香港科技大学の研究者が、空対空でのUAV検出・識別を目的としたマルチモーダルデータセット「A2A-UAV」を公開した。105,263サンプルを収録し、運動場・公園・庭園の3地点、昼夜でほぼ均等に構成される。各サンプルにはRGB画像とパノラマ画像に加え、熱画像、RF時間周波数画像、レーダー点群、メタデータが含まれ、バウンディングボックスはRGBとパノラマにのみ付与されている。対象は13機種15機の市販ドローンで、総容量は約2.5TB。ドローン搭載の自律センシングの研究に使える一方、民生と軍事の両用性がある点も指摘されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T23:11:18+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:2381524bcd86a9cb552fafd4adf46a7ac7efac556ad72d9adb7f6c737c1f9eeb" source-type="gmail" category="Regulation" anchor="true">
+          <mlrss:title>METRの時間地平グラフ更新、判断を要するタスクでAIの弱さが判明　MIT Technology Review</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-2381524bcd86a9cb</mlrss:link>
+          <mlrss:summary>MIT Technology Reviewは、AI評価の非営利団体METRが時間地平（time horizon）の図を更新した報告を取り上げた。新版はAI評価の設計や哲学的議論の採点など開放的なタスクを加えており、一部の能力は指数関数的に伸びる一方、判断を要するタスクではコーディングほどの性能が出ていないという。これらは研究開発の自動化に重要になり得る。同誌の注目記事欄では、自律型致死兵器の国際ルール作りがロシア、米国、イスラエルなどの反対で停滞し協議が2028年まで続くこと、Trump大統領が米企業による国外でのデータセンター建設を禁じる考えを示したこと、FBIの犯罪情報データベースへの不正侵入が報じられたことも紹介された。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T22:11:57+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:1eb5a2e6a0e4071b65a43fef0124d3be1d9df0114aa53f43dd2adeca0170163d" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>職場を模したコーディングAgentベンチ「SWE-CoWork」、課題の完全達成は8%未満</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-1eb5a2e6a0e4071b</mlrss:link>
+          <mlrss:summary>コーディングAgentを新入社員のように扱うベンチマーク「SWE-CoWork」が紹介された。101件の課題は短い引き継ぎだけで始まり、実際の要件は26人の模擬的な同僚や社内記録に分散し、一部は互いに矛盾する。11モデルの評価で、上位2モデルは主要テストの約63%を通過したが、課題を完全に達成できたのは8%未満で、Agentが完了と報告した要件の31%がテストに失敗した。全要件を最初に渡すとテスト得点は2モデルで約16ポイント上がったが、完全達成率は変わらなかった。著者らは、質問から実装、確認、引き継ぎまでを通じた要件の追跡が難所だと指摘している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:51:44+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:59bf9f29762a656dd3db9113f3ded4da304894de1645f8c57f814f9583fa2c58" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>AI業界短信：AmazonがDecartを75億ドルで買収交渉、MerckとIsomorphic Labsが提携など</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-59bf9f29762a656d</mlrss:link>
+          <mlrss:summary>The Neuronが伝えた業界の動き。Financial Timesによると、AmazonはAI動画スタートアップDecartを75億ドルで買収する交渉の最終段階にある。MerckはIsomorphic Labsと提携し、自社データとAIでがん治療薬候補を設計する。Axiosは50人超のAI・セキュリティ関係者が今後18か月でサイバー攻撃の高度化を見込んでいると報じた。Ethan Mollick氏は、フリーランス型の業務をAIが専門家水準で完了した割合がOpus 4.5の3.75%からFable 5.2で41.25%に伸びたとする図を紹介。ゲーム「The Binding of Isaac」では楽曲からSunoのメタデータが見つかり、開発元がAI生成音楽を削除した。ニューヨーク州は大学研究者向けAI計算センターの建設に着工した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:51:44+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5238ddc240f9748c399dde95accc6c2798375ba679d3b78ba9daba626a9d4716" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>MetaのAlexandr Wang氏「超知能が到来しつつある」と表明　OpenAIのZaremba氏はアラインメントが制約と指摘</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-5238ddc240f9748c</mlrss:link>
+          <mlrss:summary>MetaのChief AI OfficerであるAlexandr Wang氏が「Superintelligence is Arriving」と題した文章を公開した。AIがAI研究全体を自動化できるほど賢くなり自己改善で超人的になるとし、今後1年の人類の行動がどの未来に行き着くかを決めると論じている。批判を受けて同氏は、この道は不可避ではなくリーダーシップが重要だと補足した。一方、OpenAIのWojciech Zaremba氏は、現行モデルが散発的に自己脱獄し不誠実に振る舞う以上、人間の理解を超えるシステムの自律開発を任せるのは馬鹿げているとし、アラインメントが再帰的自己改善のボトルネックになるとの見方を示した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9f8804f38b16279d4b4083e264f50a23e64d761165e5474540861a52c6a9775e" source-type="gmail" category="Engineering" anchor="true">
+          <mlrss:title>SGLangでもRubin NVL72がGB300比6.5倍のコスト性能、SemiAnalysisが報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9f8804f38b16279d</mlrss:link>
+          <mlrss:summary>SemiAnalysisによるNVIDIA Rubin NVL72の推論性能検証の続報。vLLMでの初期結果に続き、SGLangを用いた提出結果でもGB300 NVL72比で6.5倍のperformance per dollarを記録したと報告された。計測は、公開から3週間未満で総パラメータ2.8Tを超えるオープンモデルKimi K3.1 Proのアーキテクチャで行われている。あわせて同社は、CerebrasがKimi K3.1で主張するユーザーあたり毎秒2000トークンという出力速度について、デモを見る限りプロンプトが100トークン未満の短い文脈に限った数値だと指摘した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:9be5b4ce19cf43dab836c9ad8c479ecc822f24e15505e34e92303253ffa914c5" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Tesla FSD v15、車載で条件付きmean-flow世界モデルによる描画を実行</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-9be5b4ce19cf43da</mlrss:link>
+          <mlrss:summary>TeslaのFSD v15で導入された「Reality View」が、車載チップ上でリアルタイムに描画モデルを動かしていると話題になっている。Elon Musk氏によれば、同社は合成データ生成に使うほぼピクセル完璧な世界モデルを昨年から保有しており、車載版はそれよりはるかに小さい条件付きmean-flowモデルで、Tesla Universal Vision Encoder（UVE）の系列に基づくという。車載チップAI4上では、カメラ映像を特徴量に変換するUVE、運転操作を決める3Bモデル、画面映像を生成する1Bモデルの3つが動いているとの整理も共有されている。後者は外部の解説者による整理である。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:abf688983135882a8ada4c062c5e45e844b59d08e837bae3b45c7284ae742398" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>Kaggleサンタコンペ、AIが生成した解の漏出を受け参加者が解法を公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-abf688983135882a</mlrss:link>
+          <mlrss:summary>Kaggleのサンタコンペで、ある参加者が運用するAIが生成した解が意図せず外部に漏れていたことが報告された。本人は金メダル圏に入るまで非公開で進める予定だったが、公平性を保つため、その解を含むソリューションを公開ノートブックとして共有し、自身の順位は28位に上がったという。コンペ初期の出来事だったため、公開ノートブックの最高スコアが少し伸びる程度の影響で済んだが、終盤であればコンペそのものを壊しかねなかったと振り返っている。AI Agentを使った競技参加における成果物管理の難しさを示す事例である。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a5ff9bb8c721621434d067e791ebdebb29cb9ab5ae2e341ea983af9e6d9b0096" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>Agent基盤の動向：持ち運べるAgentメモリのOSS化、Foundry Skill Optimizationの研究的背景など</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a5ff9bb8c7216214</mlrss:link>
+          <mlrss:summary>Agent基盤に関する話題が複数出ている。HarnessRouterには、ユーザー自身がメモリを所有する「Harness Memory」がオープンソースで追加され、Claude Codeで学習された内容がCodexに切り替えると失われるといったハーネス間の断絶の解消を狙う。Microsoft FoundryがIgnite 2026で発表したSkill Optimizationは、Trace2Skill、ACE、EvoSkillに加え、PromptWizard、Trace、SkillOptなど複数の研究成果を基に製品化されたと解説されている。またLangChainのHarrison Chase氏は、2027年のAgentプラットフォーム像を描いた記事に対し、ランタイムは一部にすぎず、可観測性・評価とガバナンスが欠けていると指摘した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f4fdcf52ce9828637d5e3cfc4d3789660efc1b8634be861772bc9583b36be87b" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>GPT-4.5の言語的創造性はRL後学習で失われたのか、研究者間で議論</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f4fdcf52ce982863</mlrss:link>
+          <mlrss:summary>GPT-4.5の言語的創造性には5系・6系のどのモデルも及ばない、という議論が研究者の間で起きている。Lucas Beyer氏は、科学やコーディング向けの強化学習による後学習が言語的創造性を損なっており、4.5はその影響がずっと少なかったためではないかとの推測を示した。Hidenori Tanaka氏も、最近の推論モデルはSTEM研究者的な意味で賢い一方、4.5には洞察の密度が高い短文を生み出す独特の力があり、それはベンチマーク化が難しいと述べている。いずれも個人の印象に基づく仮説であり、定量的な検証が示されたわけではない。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:bd7688dfd45752631992dea39ebb6494987927b4ee7f6d9c4ed2dc1996ecbb45" source-type="gmail" category="Tools" anchor="true">
+          <mlrss:title>プロンプト実践の知見：LLMには「駄目な理由」を説明させる、要約には批判的資料も渡す</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-bd7688dfd4575263</mlrss:link>
+          <mlrss:summary>LLMの使い方に関する実践知が複数共有されている。行動の良し悪しをLLMに判断させず、駄目だと決めつけたうえで理由を説明させると、迎合を避けたまともな改善点が出てくるという指摘がある。論文や記事をポッドキャスト化する自作ツールでは、ソースを褒めがちになる偏りへの対策として、背景の調査や批判的な解説を別途生成して一緒に渡すと客観的になったという。企業での活用例としては、作業前にAIから一問ずつ質問させて要件を固める、CFOと顧客など立場の異なる2つの視点で資料を批評させる、長いメールのやり取りを論点・影響・現状・未決事項の意思決定メモに変換する、といった方法が紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T19:34:03+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:5b7c8d725da74b339db0d1510d3510811d7be73f03d4ddff149865ffb76dda8f" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>LLMはコンピュータ画面をどう「見る」べきか — Greptileがスクリーンショットとアクセシビリティツリーを比較</mlrss:title>
+          <mlrss:link>https://www.greptile.com/blog/trex-computer-use</mlrss:link>
+          <mlrss:summary>コードレビューのGreptileが、Computer Use Agentへの画面の渡し方を比較した検証結果を公開した。OSWorldの172タスクで、スクリーンショットのみ、アクセシビリティツリー併用で座標クリック、ツリー併用で要素IDクリックの3方式を試したところ、GPT-4.1は5.4%から29.3%、GPT-5.2は15.8%から52.8%へとスコアが大きく伸びた。一方、GPT-6.1 Solは83.8%、82.7%、82.1%と有意差がなく、強いモデルは画像だけで十分だった。ツリーはゲームやFigmaのようなcanvasアプリでは情報が得られず、文字のはみ出しなどの視覚的不具合も捉えられない。同社のQA Agent「TREX」は毎ステップ画像を使い、可能な場合はIDでクリックし、それ以外は座標に切り替える設計を採用している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T17:19:25+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:4bd4da1f010ccb914bcb26cce4d37a8145e9392f77d41dc6268b42954f9ddc47" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>NariQ：BF16相当の品質を保つQwen3.8-27Bを約10GBに量子化</mlrss:title>
+          <mlrss:link>https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF</mlrss:link>
+          <mlrss:summary>Nari Labsが、27Bパラメータの視覚言語モデルQwen3.8-27Bを3ビット以下に量子化したGGUF「NariQ」を公開した。QTIPを基にしたトレリス符号化の事後量子化で、コーディングAgentの実トレースで較正している。サイズはBF16の53.8GBに対し、3.0bpwが10.12GB、2.5bpwが8.44GB、2.0bpwが6.75GB。3ビット版はDeepSWE 41.0%、Terminal-Bench 2.1 63.8%、AIME 98.3%とBF16と同等以上で、2ビット版は明確に劣化する。実行には同社のllama.cppフォークが必要で、標準のllama.cppやOllama、LM Studioでは読み込めない。RTX PRO 6000などの新しいGPU向けに最適化されており、AMD・Intel製GPUは非対応。ライセンスはApache-2.0。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T13:42:38+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:d0a8db7ba991c9d200671ae5ce8ea816cb892794b66b509cdd202e6f92863588" source-type="rss" category="Engineering" anchor="false">
+          <mlrss:title>GLM-5.4：Z.ai初のloop transformerで汎用的なコーディングを目指す</mlrss:title>
+          <mlrss:link>https://z.ai/blog/glm-5.4</mlrss:link>
+          <mlrss:summary>Z.aiが新モデルGLM-5.4を発表した。記事題によれば同社初のloop transformerを採用し、汎用的なコーディング能力を志向するモデルである。SNS上の同社関係者の投稿によると、GLM Coding Planの全ユーザーと公式APIで利用可能になり、視覚機能の追加とコーディング性能の強化が図られ、週次クォータはGLM-5.3比で50%増える。外部からは約700Bパラメータのlooped transformerで技術レポートは後日公開との情報や、KingBench 4で7位とオープンモデル最上位だったという評価が出ている。一方で、1つのプロンプトが1時間以上終わらなかったとして実用上の速度を疑問視する利用者の声もある。本文は取得できなかったため、詳細な数値は元記事を参照。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T10:06:43+00:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:a21c895b062ffcf5479a6d9de983ab528ed406c07247c385ff6df0f5f24ebf6e" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>OpenAIのPachocki氏、perplexityに基づくAI開発の共通上限を提案　Microsoft AIも指標を共有</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-a21c895b062ffcf5</mlrss:link>
+          <mlrss:summary>OpenAIチーフサイエンティストのJakub Pachocki氏が文章「Perplexity and Intelligence」を公開し、モデルの監視・理解の手法が一定の水準に達するまで、フロンティア各社が能力の共通上限に合意すべきだと提案した。指標には事前学習終了時のlog-perplexityを用い、同社内部データではGPT-3.5が約0.99、GPT-4が約0.91、0.8を下回るとサイバーや数学で変革的な能力が現れ始めたとする。0.68〜0.7で次の変化を見込むが内容は不明とし、早ければ2027年に研究の急加速があり得るとも述べた。ラボ間比較の難しさや推論による能力向上を捉えられない点は本人も認めている。Microsoft AIのSuleyman氏は支持を表明し、2社目として指標を共有した。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:afdc462102e5f19d3d6a825f7e483062fda598477800326044b033b6e2082810" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>GPT-6 Astra Pro、有限体上のリーマン予想に6ページ未満の新証明を提示との報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-afdc462102e5f19d</mlrss:link>
+          <mlrss:summary>AnthropicのLevent Alpöge氏がClaudeと共に主張したリーマン予想証明をめぐる続報。GPT-6 Astra Proが有限体上のリーマン予想について、エタールコホモロジーの形式と弱Lefschetz定理を前提に6ページ未満で済む新しい証明を提案し、2つのClaudeモデルで確認されたとSNS上で報告されている。使う評価はCauchy–Schwarz不等式のみとされ、Stanfordの数学教授も公に認めたという。Alpöge氏の証明を短くする試みも始まり、すでに47%圧縮されたとの報告がある。報道ベースでは2つのグループが独立に証明を検証したとされ、LeanとMathlibのメンテナーも証明に信頼を示す一方、最終的な主張一致の確認は継続中と伝えられている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:ab0d2234ae01c1c0781cf7fa58259266b6f273db5bf29e87f66913af039e40cc" source-type="gmail" category="Security" anchor="true">
+          <mlrss:title>OpenRouter、データ取り扱い問題で推論プロバイダ3社を除外　125エンドポイントをZDR対象外に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-ab0d2234ae01c1c0</mlrss:link>
+          <mlrss:summary>OpenRouter上の一部プロバイダが推論を別事業者へ転送していた問題の続報。同社はセキュリティ研究者の指摘を受け、問題のあった3プロバイダを除外し、125のエンドポイントをZero Data Retention（ZDR）の対象から外したうえで、影響を受けたユーザーに通知した。OpenRouter自体のシステムへの侵害はなかったと説明している。業界からは、推論スタックはどの層の問題も上位層の安全性を損なうため、トークンの供給網全体を精査すべきだとの指摘や、セキュリティの弱い推論プロバイダやneocloudは淘汰されるとの見方が出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:e1a25dbc9c67dbd36955039de3dd181848edab9b4a19e7bc1a3216820c045303" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Inkling 2 Mini、KernelBench-Megaで10.04倍の高速化を記録との報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-e1a25dbc9c67dbd3</mlrss:link>
+          <mlrss:summary>Thinking Machinesのlooped MoEモデル「Inkling 2 Mini」に関する続報。RTX PRO 6000単体でのローカル実行で、カーネル最適化ベンチマークKernelBench-Megaにおいて10.04倍の高速化を達成したと報告された。同じGPU上での比較ではGrok 4.7が6.34倍、GPT-6.1-Solが4.96倍、DeepSeek-V4-Flashが4.32倍、Claude Sonnet 5が3.92倍とされ、アクティブ3.4Bの小型モデルとしては目立つ結果である。PyTorch共同作者のSoumith Chintala氏も、カーネル生成の用途でここまで良い結果が出るとは思わなかったと驚きを示している。第三者による報告であり、公式ベンチマーク結果ではない点に留意。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:08e9d56803257a3e79bc2d7a810ef33f2a6ff24597e34a74c02ff4233a369dc1" source-type="gmail" category="Product" anchor="true">
+          <mlrss:title>OpenCode、GLM 5.3とDeepSeek V4.1 Flashの料金を60%値下げ</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-08e9d56803257a3e</mlrss:link>
+          <mlrss:summary>コーディングAgentのOpenCodeが、提供するGLM 5.3とDeepSeek V4.1 Flashの料金を60%引き下げた。100万トークンあたりGLM 5.3は入力0.56ドル・出力1.76ドル（従来1.40ドル・4.40ドル）、DeepSeek V4.1 Flashは入力0.12ドル・出力0.48ドル（従来0.30ドル・1.20ドル）になるとされる。同社は自社GPUでホストしており、FireworksやBasetenより60%安いと主張している。GPU供給が逼迫する中でのオープンモデルの価格競争を歓迎する声が研究者から出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:f8a94fffe2000b10bdddaa973cee9a79caf1851ae8ea0fd451799bee3e90183e" source-type="gmail" category="AI" anchor="true">
+          <mlrss:title>Ant Ling、医療特化のオープンウェイトMoE「LingSante-3.1」を公開</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-f8a94fffe2000b10</mlrss:link>
+          <mlrss:summary>Ant Lingが医療向けのオープンウェイトモデル「LingSante-3.1-flash」と「LingSante-3.1-air-VL」を公開した。flashは総パラメータ560B・トークンあたりアクティブ25BのMoEで、1Mコンテキスト、MITライセンス。複雑な医療推論や長期ワークフロー実行を統合し、医療・ヘルスケアのベンチマークでGPT-6 Astraに匹敵、HLEやBrowseCompなど非医療タスクでも競争力があるとしている。air-VLは総124B・アクティブ5.5Bのネイティブマルチモーダル版で、医療画像理解やレポート生成に対応する。いずれも開発元の発表に基づく数値で、Opus 5.5と競る評価に驚く声も出ている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:3672a97daf29a4dde68316a88204d1ad2f41c962f13c0c7c7d8cc241ab926c72" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Google、バグ注入でML工学Agentの課題を難化させる「BuggyMLE」を発表</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-3672a97daf29a4dd</mlrss:link>
+          <mlrss:summary>GoogleによるML engineering Agentの論文「BuggyMLE」が開発者向けの注目論文として紹介されている。リポジトリ単位のコーディングベンチマークが飽和しつつある状況を踏まえ、Agent自身にバグを注入させることで意図的にタスクを難しくし、ML工学の課題を大量に生成できるようにする手法である。人手で難問を作り続けるのではなく、既存の正しい実装から難度の高い修正タスクをスケールさせる発想で、評価と学習の両面に使える可能性がある。Agentを構築する開発者は押さえておくべき内容だと紹介者は評価している。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:80be6494cb93607785000e793774e4e5f7d976ef0ccbaee63053465fc6421dd5" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>Goodfire、LLM内部で協調して働く少数ニューロン群「Neuron Communities」を報告</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-80be6494cb936077</mlrss:link>
+          <mlrss:summary>解釈可能性研究のGoodfireが、LLM内部で協調して働くニューロンの集まり「Neuron Communities」に関する研究を発表した。算術、全大文字化、日付の想起といった一般的な振る舞いが、驚くほど少数のニューロンの協調で実行されているとし、三角関数はわずか3ニューロンで担われているという。単一ニューロンが単一の役割を持つという見方を補う発見で、教師なしで網羅的に探索できる点が特徴。文法に関わる群は18層以降、検索や計算は17〜22層付近に多いなど、モデル編集や監視に応用しやすい知見として紹介されている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:18f14f73ccef655b14eef1301d68a63f0ee0fed00a40d82f3812cb377f0cedca" source-type="gmail" category="Research" anchor="true">
+          <mlrss:title>LLMに顧客を演じさせ購買意向を予測するColgateの論文が話題に</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-18f14f73ccef655b</mlrss:link>
+          <mlrss:summary>LLMに顧客をロールプレイさせることで実際の購買意向を予測できるとする、Colgateの研究者による論文がSNSで話題になっている。「市場調査業界を葬った」といった紹介は誇張気味との指摘があるものの、プロンプト上の小さな工夫でLLMによる疑似A/Bテストの精度を高める手法として注目されている。低コストなモデルで大量に試行を回し、ゲームのUIやデザインの検証に使おうと、Agentのスキルに組み込んで試す動きも出ている。実際の消費者調査をどこまで代替できるかは、論文本文の条件を確認したうえで判断する必要がある。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T07:33:53+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:286ffb1594b7ceaa700185333b8af0ff526a07dde9c5a02919dda707800543bf" source-type="gmail" category="Funding" anchor="true">
+          <mlrss:title>Anthropic上場で創業者7人が計約20億ドル分を売却、AmazonとGoogleの持分は各1500億ドル前後</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-286ffb1594b7ceaa</mlrss:link>
+          <mlrss:summary>Nasdaqに上場したAnthropicのIPO（1株83ドル）で、創業者7人がそれぞれ約2億8000万ドル分の株式を売却したと報じられた。各創業者はなおIPO価格で約200億ドル相当の株式を保有し、個人保有分の80%を慈善活動に充てると誓約しているが、法的拘束力はない。開示された持分はAmazonが約1610億ドル、Googleが約1470億ドル相当で、いずれも議決権のない株式である。Anthropicは2026年5月から2036年4月にかけてAmazonに少なくとも1100億ドルを支出する契約も結んでおり、両社は出資と計算資源の供給の両面で利益を得る構図になっている。引受金融機関の手数料は5億5000万ドルとされる。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T04:34:50+09:00</mlrss:pub-date>
+        </mlrss:story>
+        <mlrss:story uid-hash="sha256:98fcebecaf027131c1737dafa4f67b7e0ab6863c35f6e3bc80e78e564d90bd7b" source-type="gmail" category="Other" anchor="true">
+          <mlrss:title>AI Engineer：Code Summitの講演録画を公開、上海は約1,600人参加　次回はシドニー</mlrss:title>
+          <mlrss:link>https://coding-ixu.github.io/ml-rss-feed/#item-98fcebecaf027131</mlrss:link>
+          <mlrss:summary>AI Engineerが、サンフランシスコで開催したCode Summitの講演録画、読み物版、タイムスタンプ付き書き起こし、写真を公開した。11月5〜6日に初めて中国で開いた上海のカンファレンスは、登録約1,700人、参加約1,600人、登壇者と司会が58人と定員を超える盛況だったと報告している。今後の予定として、12月7〜8日にシドニー（9日はワークショップ）、2027年2月17〜19日にロンドンのExCeLで12トラック構成のAI Engineer Europe、4月26〜27日にマイアミでの開催を案内しており、Europeは登壇者の公募も始まっている。2027〜2028年に各都市で独自開催する主催者の募集も行っている。</mlrss:summary>
+          <mlrss:pub-date>2026-11-23T03:26:30+09:00</mlrss:pub-date>
+        </mlrss:story>
+      </mlrss:stories>
+    </item>
     <item>
       <title>ML &amp; RSS Digest 2026-11-22</title>
       <link>https://coding-ixu.github.io/ml-rss-feed/#date-2026-11-22</link>
